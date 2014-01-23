@@ -1,0 +1,26 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:drinkadvior="http://localhost:9000/drinkadvisor#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:rating="http://www.tvblob.com/ratings/#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:nt="http://ns.inria.fr/nicetag/2009/09/25/voc#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <drinkadvior:Bar rdf:about="http://localhost:9000/newtemplatebars?name=Broc+Café">
+    <rating:value>0.0</rating:value>
+    <drinkadvior:hasbeer>
+      <drinkadvior:beer rdf:about="http://localhost:9000/drinkadvisor#beer/kronenbourg">
+        <geo:location>Bascharage</geo:location>
+        <foaf:name>kronenbourg</foaf:name>
+      </drinkadvior:beer>
+    </drinkadvior:hasbeer>
+    <vcard:ADR>2 Boulevard Henri IV, 34090 Montpellier, France</vcard:ADR>
+    <foaf:phone></foaf:phone>
+    <foaf:homepage></foaf:homepage>
+    <geo:lat>43.6126696</geo:lat>
+    <geo:lon>3.8727257</geo:lon>
+    <rdfs:label>Broc Café</rdfs:label>
+  </drinkadvior:Bar>
+</rdf:RDF>

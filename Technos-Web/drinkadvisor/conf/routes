@@ -1,0 +1,66 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index()
+
+GET		/drink			controllers.Application.drinktemplate(name)
+POST 	/bar/updateDrink		controllers.DrinkSite.updateDrink()
+
+
+GET		/bar			controllers.Application.bartemplate(name)
+GET		/rdfBar						controllers.Routing.rdfBar(name)
+GET		/rdfDrink						controllers.Routing.rdfDrink(name)
+
+GET		/jsonBar					controllers.Routing.jsonBar(name)
+GET		/jsonDrink						controllers.Routing.jsonDrink(name)
+GET		/jsonUser						controllers.Routing.jsonuser(name)
+
+
+POST	/bar			controllers.BarSite.addbartobeer(barname)
+POST	/bar/sparqlresult			controllers.BarSite.saveSparqlResult(barname)
+
+POST 	/bar/addComment		controllers.BarSite.addComment()
+POST 	/bar/updateBar		controllers.BarSite.updateBar()
+
+POST 	/bars/addBar		controllers.BarList.addBar()
+
+GET		/bars					    controllers.BarList.BarsFromOSM()
+
+GET 	/bar/sendNote   controllers.Routing.sendNote(userid,barname)
+GET 	/updatBeerinBar 				controllers.Routing.updatBeerinBar(barname,beername,newprice)
+GET 	/rdfAllbar 				controllers.Routing.rdfAllBar(barlist)
+GET 	/jsonAllbar 				controllers.Routing.jsonAllBar(barlist)
+
+
+GET /adduser	controllers.Routing.addUser(idFacebook,name,username,birthday,gender,email,hometown,location,link,friendidstring)
+GET /addinfouser controllers.Routing.addinfouser(idvar)
+GET	/infouser	controllers.BarList.Application2(idvar)
+
+
+
+GET		/addLike					controllers.Routing.addLike(barname, userid)
+
+GET    /assets/javascripts/routes   controllers.Routing.javascriptRoutes()
+
+
+GET 	/newtemplatebeers 			controllers.BeerInfo.addBeer()
+GET		/infobeers					controllers.BeerInfo.listBeers(name)
+
+GET		/sparql					controllers.SparqlController.creatsiteempty()
+GET		/sparqlresult					controllers.SparqlController.creatsite()
+
+
+POST	/sparql					controllers.SparqlController.submitRequete()
+
+
+POST	/infobeers					controllers.BeerInfo.submitBeers()
+POST	/infobeers					controllers.BeerInfo.submitBeer(name)
+
+
+ 
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+GET     /files/:file           controllers.FileService.getFile(file: String)

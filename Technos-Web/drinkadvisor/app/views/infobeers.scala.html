@@ -1,0 +1,49 @@
+@(beers: List[Drink], message1: String, beerform: Form[Drink], test1: String)
+
+
+@main("Bars") {
+
+    <h1>@message1</h1>
+	<h2>@test1</h2>
+	
+	<h2>Test Sparql </h2>
+	
+
+	@helper.form(action = routes.BeerInfo.submitBeers()) {
+	
+	
+	@helper.inputText(beerform("nom"))
+	
+	<input type="submit" class="btn primary" value="Chercher info !!!">
+	
+	}
+
+	
+	
+	
+	<table class="table table-striped">
+	
+		<tr>
+			<td>numéro</td>
+			<td>Nom</td>
+			<td>Location</td>
+			<td>Abstract</td>
+			<td>Ressource</td>
+			
+			
+		</tr>
+		
+	@for((beer, i) <- beers.zipWithIndex) {
+		<tr>
+			<td>@(i+1)</td>
+			<td>@beer.label</td>
+			<td>@beer.city</td>
+			<td>@beer.description</td>
+			<td>@beer.country</td>
+			
+		</tr>
+	}
+	</table>
+	
+
+}

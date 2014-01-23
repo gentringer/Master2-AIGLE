@@ -1,0 +1,4779 @@
+{ 
+  "http://localhost:9000/bar?name=Antirouille" : { 
+    "http://localhost:9000/hasdrink" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/drink?name=Guinness"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/drink?name=Paulaner"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/drink?name=Kronenbourg"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : "gilles.entringer@gmail.com"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : "06666666"
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6053875"
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8759222"
+    }
+     ] ,
+    "http://localhost:9000/hasComment" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Antirouille#comment0"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "1.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : "gillesentringer.com"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Antirouille"
+    }
+     ] ,
+    "http://localhost:9000/hasLike" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/infouser?idvar=798294398"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "10 Rue Anatole France, 34000 Montpellier"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Barakajeu" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6036264"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.9181088"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Barakajeu"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "Allée Ulysse, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=L'Opéra" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6061653"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8634051"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "L'Opéra"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "80 Rue du Faubourg Figuerolles, 34070 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=La+Taverne+du+Perroquet" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6131223"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8794820"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "La Taverne du Perroquet"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "1-9 Rue du Pila Saint Gély, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Petit+Ness" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6097586"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8779837"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Petit Ness"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "6 Place Jean Jaurès, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Tram" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6321265"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8549164"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Tram"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "1501 Rue du Professeur Joseph Anglada, 34090 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Bar+du+Musée" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6111883"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8793137"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Bar du Musée"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "1-11 Rue du Collège, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=O'Sullivan" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6069119"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8961615"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "O'Sullivan"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "Place Aphrodite, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://www.geonames.org/ontology#Montpellier, France" : { 
+    "http://www.geonames.org/ontology#location" : [ { 
+      "type" : "literal" ,
+      "value" : "Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Mi+Barrio" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6080219"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8758201"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Mi Barrio"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "8-14 Rue du Plan d'Agde, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Merle+Blanc" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6102239"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8757058"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Merle Blanc"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "22 Rue Saint-Firmin, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Café+Teo" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6117433"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8742437"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Café Teo"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "5 Rue de la Canourgue, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/drink?name=Guinness" : { 
+    "http://www.w3.org/2003/01/geo/wgs84_pos#locationCity" : [ { 
+      "type" : "literal" ,
+      "value" : "Dublin"
+    }
+     ] ,
+    "http://localhost:9000/country" : [ { 
+      "type" : "literal" ,
+      "value" : "Irlande"
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#locationCountry" : [ { 
+      "type" : "literal" ,
+      "value" : "Irlande"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ { 
+      "type" : "literal" ,
+      "value" : "Un stout est une bière brassée à partir d&#x27;un moût caractérisé par sa teneur en grains hautement torréfiés. La présence de ces grains bien grillés dans la recette confère la couleur foncée à la bière ainsi qu&#x27;un goût de café ou de cacao. Cette bière est devenue une spécialité irlandaise. Son origine première est cependant anglaise de par sa filiation avec la Porter. La Guinness est le stout le plus répandu dans le monde. Il existe d&#x27;autres marques irlandaises brassant du stout comme Beamish, Murphy ou Caffrey. Cette bière est aussi brassée à différents endroits du monde."
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Brune"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Guinness"
+    }
+     ] ,
+    "http://localhost:9000/city" : [ { 
+      "type" : "literal" ,
+      "value" : "Dublin"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Rebuffy" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6106997"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8754476"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Rebuffy"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "3-7 Rue Rebuffy, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Times" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6086521"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8754151"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Times"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "1-3 Rue des Teissiers, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Tire+Bouchon" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6146653"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8292553"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Tire Bouchon"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "20 Route de Lodève, 34080 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Forcys" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6136576"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8791115"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Forcys"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "12 Rue des Écoles Laïques, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Histoire2" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6053798"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8889170"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Histoire2"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "60 Avenue du Pont Juvénal, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Cubanito+Café" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6072962"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8806897"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Cubanito Café"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "13 Rue de Verdun, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Riad" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6141402"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8811261"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Riad"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "13 Rue du Faubourg de Nîmes, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Carnot" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6032467"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8822270"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Carnot"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "22-24 Rue des Aiguerelles, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Café+Latitude" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6118637"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8743349"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Café Latitude"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "5 Rue de la Canourgue, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Cave+à+vin" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6248630"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8995952"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Cave à vin"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "512-560 Route de la Pompignane, 34170 Castelnau-le-Lez, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=turtle+café" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6008042"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8846603"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "turtle café"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "48 Rue Frédéric Bazille, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=La+Belle+Époque" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6145930"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8791660"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "La Belle Époque"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "4 Boulevard Louis Blanc, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Mistral" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6027783"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8708219"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Mistral"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "40 Avenue Georges Clemenceau, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Barberousse" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6085046"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8804528"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Barberousse"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "2-6 Rue Boussairolles, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=testbar" : { 
+    "http://localhost:9000/hasdrink" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/drink?name=Kronenbourg"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : "gilles.entringer@gmail.com"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : "0646405042"
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.63181483876492"
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8604487218831025"
+    }
+     ] ,
+    "http://localhost:9000/hasComment" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/testbar#comment0"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "1.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : "gillesentringer.com"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "testbar"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "1-2 Place Eugène Bataillon, 34090 Montpellier, France"
+    }
+     ] ,
+    "http://localhost:9000/hasLike" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/infouser?idvar=798294398"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=The+Egg" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6079999"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8759685"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "The Egg"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "11 Rue du Plan d'Agde, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=La+Pleine+Lune" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6075994"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8669690"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "La Pleine Lune"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "00026 Rue du Faubourg Figuerolles, 34070 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=L'Étincelle" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6136898"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8303026"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "L'Étincelle"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "20 Allée Antonin Chauliac, 34080 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Ayers+Rock" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6074463"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8962066"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Ayers Rock"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "00108 Rue de Rhodes, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Broc+Café" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6126696"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8727257"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Broc Café"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "2 Boulevard Henri IV, 34090 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Charlie's+Beer" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6064588"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8823876"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Charlie's Beer"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "22 Rue Aristide Ollivier, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=The+Shakespeare" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6105855"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8784429"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "The Shakespeare"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "1-9 Rue de la Petite Loge, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=L'Alternatif" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6198723"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8731730"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "L'Alternatif"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "2 Rue Moquin Tandon, 34090 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Player" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6023967"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8701171"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Player"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "50 Avenue Georges Clemenceau, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Printemps" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6035738"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8746843"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Printemps"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "12-14 Rue Rondelet, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Les+Bistronomes" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6085529"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8880326"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Les Bistronomes"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "17 Place du Nombre d'Or, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Irish+Corner" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6046556"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.9000391"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Irish Corner"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "147 Avenue de Boirargues, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Brasserie+Le+Bastide" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6276818"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8646195"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Brasserie Le Bastide"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "3 Avenue Emile Bertin Sans, 34090 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Corto" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6129499"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8752475"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Corto"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "12 Rue de Candolle, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Triskell+4" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6128827"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8757058"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Triskell 4"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "20 Rue de Candolle, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Les+3+bocks" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6027400"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8712381"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Les 3 bocks"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "37 Avenue Georges Clemenceau, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Les+Andalouses" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6059905"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8632817"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Les Andalouses"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "69 Rue du Faubourg Figuerolles, 34070 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/testbar#comment0" : { 
+    "http://rdfs.org/sioc/ns#has_creator" : [ { 
+      "type" : "literal" ,
+      "value" : "gilles.entringer"
+    }
+     ] ,
+    "http://rdfs.org/sioc/ns#topic" : [ { 
+      "type" : "literal" ,
+      "value" : "testbar"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ { 
+      "type" : "literal" ,
+      "value" : "Test de commentaire"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Comment"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Irish+Tavern" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6166089"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8796233"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Irish Tavern"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "15 Rue Lunaret, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=El+Caliente" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6141676"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8812012"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "El Caliente"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "15 Rue du Faubourg de Nîmes, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/infouser?idvar=798294398" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : "gilles.entringer@hotmail.fr"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/nick" : [ { 
+      "type" : "literal" ,
+      "value" : "gilles.entringer"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/accountName" : [ { 
+      "type" : "literal" ,
+      "value" : "https://www.facebook.com/gilles.entringer"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/name" : [ { 
+      "type" : "literal" ,
+      "value" : "Gilles Entringer"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/birthday" : [ { 
+      "type" : "literal" ,
+      "value" : "04/26/1987"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/gender" : [ { 
+      "type" : "literal" ,
+      "value" : "male"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/based_near" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.geonames.org/ontology#Montpellier, France"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/User"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/user"
+    }
+     ] ,
+    "http://rdfs.org/sioc/ns#id" : [ { 
+      "type" : "literal" ,
+      "value" : "798294398"
+    }
+     ] ,
+    "http://www.geonames.org/ontology#hometown" : [ { 
+      "type" : "literal" ,
+      "value" : "Bettange-sur-Mess"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/knows" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/infouser?idvar=123"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/infouser?idvar=789"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/infouser?idvar=456"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Café+des+arts" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6100155"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8761554"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Café des arts"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "3-4 Place Castellane, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://www.geonames.org/ontology#locationtest" : { 
+    "http://www.geonames.org/ontology#location" : [ { 
+      "type" : "literal" ,
+      "value" : "locationtest"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=W" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6044115"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8977807"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "W"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "2-78 Rue des États Généraux, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=L'Envers+Bodega" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6098031"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8780144"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "L'Envers Bodega"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "4-6 Place Jean Jaurès, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Las+Vegas+PMU" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6218870"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8166118"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Las Vegas PMU"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "100-328 Le Grand Mail, 34080 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Brasserie+Le+Fontenoy" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6278781"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8643458"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Brasserie Le Fontenoy"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "9 Avenue Emile Bertin Sans, 34090 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Au+Petit+Lucullus" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.5955850"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8880815"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Au Petit Lucullus"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "85 Avenue de Palavas, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Au+Petit+Relais" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6141690"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8893669"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Au Petit Relais"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "129 Rue de la Pépinière, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/Antirouille#comment0" : { 
+    "http://rdfs.org/sioc/ns#has_creator" : [ { 
+      "type" : "literal" ,
+      "value" : "gilles.entringer"
+    }
+     ] ,
+    "http://rdfs.org/sioc/ns#topic" : [ { 
+      "type" : "literal" ,
+      "value" : "Antirouille"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ { 
+      "type" : "literal" ,
+      "value" : "Commentaire pour le bar antirouille"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Comment"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Hortus" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6078122"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8897802"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Hortus"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "Place de Marathon, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Aero+Bar" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6132310"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8797343"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Aero Bar"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "2-10 Rue du Pila Saint Gély, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Mojo+Matic" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6116747"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8762811"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Mojo Matic"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "2-16 Rue de Ratte, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Indian+Café" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6084148"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8869677"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Indian Café"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "17 Place du Nombre d'Or, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Macadam" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6052067"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8823519"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Macadam"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "1 Rue des 2 Ponts, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Greyhound" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6084777"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8802186"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Greyhound"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "12-16 Place de la Comédie, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/drink?name=Paulaner" : { 
+    "http://www.w3.org/2003/01/geo/wgs84_pos#locationCity" : [ { 
+      "type" : "literal" ,
+      "value" : "Munich"
+    }
+     ] ,
+    "http://localhost:9000/country" : [ { 
+      "type" : "literal" ,
+      "value" : "Allemagne"
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#locationCountry" : [ { 
+      "type" : "literal" ,
+      "value" : "Allemagne"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ { 
+      "type" : "literal" ,
+      "value" : "Paulaner est une bière et une brasserie allemande, établie au début du XVII siècle à Munich par les moines du monastère &quot;Neudeck ob der Au&quot;. L&#x27;ordre monastique et la brasserie sont baptisés du nom de François de Paule."
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Blonde"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Paulaner"
+    }
+     ] ,
+    "http://localhost:9000/city" : [ { 
+      "type" : "literal" ,
+      "value" : "Munich"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/drink?name=Kronenbourg" : { 
+    "http://www.w3.org/2003/01/geo/wgs84_pos#locationCity" : [ { 
+      "type" : "literal" ,
+      "value" : "Strasbourg"
+    }
+     ] ,
+    "http://localhost:9000/country" : [ { 
+      "type" : "literal" ,
+      "value" : "France"
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#locationCountry" : [ { 
+      "type" : "literal" ,
+      "value" : "France"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ { 
+      "type" : "literal" ,
+      "value" : "La bière Kronenbourg est la marque phare des Brasseries Kronenbourg basée à Strasbourg en Alsace et filiale du groupe danois Carlsberg. Elle est la bière la plus consommée en France, une bière sur cinq vendue en France étant une Kronenbourg. Elle est produite à Obernai en Alsace."
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Blonde"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Kronenbourg"
+    }
+     ] ,
+    "http://localhost:9000/city" : [ { 
+      "type" : "literal" ,
+      "value" : "Strasbourg"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/infouser?idvar=123" : { 
+    "http://xmlns.com/foaf/0.1/nick" : [ { 
+      "type" : "literal" ,
+      "value" : "testUsername1"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : "test@test.fr"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/name" : [ { 
+      "type" : "literal" ,
+      "value" : "testname1"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/accountName" : [ { 
+      "type" : "literal" ,
+      "value" : "linktest"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/birthday" : [ { 
+      "type" : "literal" ,
+      "value" : "00/00/0000"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/gender" : [ { 
+      "type" : "literal" ,
+      "value" : "female"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/based_near" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.geonames.org/ontology#locationtest"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/User"
+    }
+     ] ,
+    "http://rdfs.org/sioc/ns#id" : [ { 
+      "type" : "literal" ,
+      "value" : "123"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/knows" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/infouser?idvar=798294398"
+    }
+     ] ,
+    "http://www.geonames.org/ontology#hometown" : [ { 
+      "type" : "literal" ,
+      "value" : "hometest"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=La+Citadelle" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6102450"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8790867"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "La Citadelle"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "20 Rue Fabre, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/infouser?idvar=456" : { 
+    "http://xmlns.com/foaf/0.1/nick" : [ { 
+      "type" : "literal" ,
+      "value" : "testUsername2"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : "test@test.fr"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/name" : [ { 
+      "type" : "literal" ,
+      "value" : "testname2"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/accountName" : [ { 
+      "type" : "literal" ,
+      "value" : "linktest"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/birthday" : [ { 
+      "type" : "literal" ,
+      "value" : "00/00/0000"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/gender" : [ { 
+      "type" : "literal" ,
+      "value" : "female"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/based_near" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.geonames.org/ontology#locationtest"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/User"
+    }
+     ] ,
+    "http://rdfs.org/sioc/ns#id" : [ { 
+      "type" : "literal" ,
+      "value" : "456"
+    }
+     ] ,
+    "http://www.geonames.org/ontology#hometown" : [ { 
+      "type" : "literal" ,
+      "value" : "hometest"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/knows" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/infouser?idvar=798294398"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/infouser?idvar=789" : { 
+    "http://xmlns.com/foaf/0.1/nick" : [ { 
+      "type" : "literal" ,
+      "value" : "testUsername3"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : "test@test.fr"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/name" : [ { 
+      "type" : "literal" ,
+      "value" : "testname3"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/accountName" : [ { 
+      "type" : "literal" ,
+      "value" : "linktest"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/birthday" : [ { 
+      "type" : "literal" ,
+      "value" : "00/00/0000"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/gender" : [ { 
+      "type" : "literal" ,
+      "value" : "female"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/based_near" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.geonames.org/ontology#locationtest"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/User"
+    }
+     ] ,
+    "http://rdfs.org/sioc/ns#id" : [ { 
+      "type" : "literal" ,
+      "value" : "789"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/knows" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/infouser?idvar=798294398"
+    }
+     ] ,
+    "http://www.geonames.org/ontology#hometown" : [ { 
+      "type" : "literal" ,
+      "value" : "hometest"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Spot" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6159058"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8814863"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Spot"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "6 Place des Beaux Arts, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Chez+Paul(e)" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6086112"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8873729"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Chez Paul(e)"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "17 Place du Nombre d'Or, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Red+Turtle" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6008484"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8845874"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Red Turtle"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "44 Avenue de Palavas, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Fitzpatrick's" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6082512"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8765453"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Fitzpatrick's"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "7 Rue Saint-Côme, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Saphir" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6043346"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8823961"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Saphir"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "16 Rue Henri René, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Comptoir" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6088803"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8748881"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Comptoir"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "17 Rue des Sœurs Noires, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Circus+Bar" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6100222"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8783915"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Circus Bar"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "1-3 Rue Collot, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=La+Distillerie" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6130285"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8792185"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "La Distillerie"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "74 Rue de l'Aiguillerie, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Novelty" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6102060"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8761263"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Novelty"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "10 Rue Saint-Guilhem, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Bar+du+Carré+du+Roi" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6131115"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8691846"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Bar du Carré du Roi"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "18 Rue Richer de Belleval, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Vodka+Bar" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6114105"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8760715"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Vodka Bar"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "5 Place Chabaneau, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+P'tit+Mas" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6223352"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8664213"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le P'tit Mas"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "9-13 Rue Emmanuel Hedon, 34090 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=The+Black+Sheep" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6146991"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8799090"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "The Black Sheep"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "21 Boulevard Louis Blanc, 34090 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Couleur+de+Bières" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6172793"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8677602"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Couleur de Bières"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "48 Rue du Faubourg Saint-Jaumes, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Bla+Bla+Bar" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6128968"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8747971"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Bla Bla Bar"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "2-4 Rue de Candolle, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=L'atelier" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6106109"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8755810"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "L'atelier"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "3-7 Rue Rebuffy, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Wine+Not+Bar" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6094110"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8767019"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Wine Not Bar"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "2-14 Rue du Trésorier de la Bourse, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=The+Temple+Bar" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6064286"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8824990"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "The Temple Bar"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "74 Rue du Guesclin, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Rockstore" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6062418"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8813648"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Rockstore"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "20 Rue de Verdun, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Comptoir+de+l'Arc" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6115022"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8745600"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Comptoir de l'Arc"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "2 Rue de l'Hôtel de ville, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Baretto" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6113818"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8755027"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Baretto"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "25-27 Rue du Palais des Guilhem, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=The+O'liver" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6037655"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.9185507"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "The O'liver"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "Allée Ulysse, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Sound+Station" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6054674"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8825337"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Sound Station"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "4 Rue de la Méditerranée, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Scarabée" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6075670"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8763022"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Scarabée"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "12 Rue en Gondeau, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=O'+Carolans" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6103997"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8745903"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "O' Carolans"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "1 Rue Philippy, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Robin+Hood" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6062818"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8763580"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Robin Hood"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "9 Place Alexandre Laissac, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Chez+Félix" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6081532"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8804547"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Chez Félix"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "1-3 Rue Vanneau, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Up+&+Down" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6131731"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8795125"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Up & Down"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "1-9 Rue du Pila Saint Gély, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=The+Beehive" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6078518"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8759749"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "The Beehive"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "15 Rue du Plan d'Agde, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Chab" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6114561"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8762614"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Chab"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "9 Place Chabaneau, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Le+Saint-Roch" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6077462"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8758738"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Le Saint-Roch"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "6 Rue de la Fontaine, 34000 Montpellier, France"
+    }
+     ]
+  }
+}

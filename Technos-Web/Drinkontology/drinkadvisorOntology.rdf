@@ -1,0 +1,171 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#AlcoolFort">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Boisson"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Brune">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Biere"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Blonde">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Biere"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://rdfs.org/sioc/ns#POST"/>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Biere">
+    <rdfs:subClassOf rdf:resource="http://localhost:9000/drinkadvisor#Boisson"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Vin">
+    <rdfs:subClassOf rdf:resource="http://localhost:9000/drinkadvisor#Boisson"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Blanc">
+    <rdfs:subClassOf rdf:resource="http://localhost:9000/drinkadvisor#Boisson"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Rousse">
+    <rdfs:subClassOf rdf:resource="http://localhost:9000/drinkadvisor#Biere"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.tvblob.com/ratings/#Rating"/>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#SansAlcool">
+    <rdfs:subClassOf rdf:resource="http://localhost:9000/drinkadvisor#Boisson"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#User">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Rouge">
+    <rdfs:subClassOf rdf:resource="http://localhost:9000/drinkadvisor#Boisson"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Like">
+    <rdfs:subClassOf rdf:resource="http://www.tvblob.com/ratings/#Rating"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Comment">
+    <rdfs:subClassOf rdf:resource="http://rdfs.org/sioc/ns#POST"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/TR/xmlschema-2/#String"/>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Drink"/>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Rose">
+    <rdfs:subClassOf rdf:resource="http://localhost:9000/drinkadvisor#Boisson"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://localhost:9000/drinkadvisor#Bar">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </rdfs:Class>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/nick">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/birthday">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Bar"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://rdfs.org/sioc/ns#topic">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Comment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+    <rdfs:subPropertyOf>
+      <rdf:Property rdf:about="http://localhost:9000/drinkadvisor#hasComment"/>
+    </rdfs:subPropertyOf>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lon">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Bar"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.tvblob.com/ratings/#value">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Bar"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/based_near">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/homepage">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Bar"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Bar"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://rdfs.org/sioc/ns#id">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/knows">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+    <rdfs:range rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/mbox">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Bar"/>
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/name">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Drink"/>
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#locationCountry">
+    <rdfs:range rdf:resource="http://localhost:9000/drinkadvisor#Boisson"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.dbpedia.org/ontology/locationCity">
+    <rdfs:range rdf:resource="http://localhost:9000/drinkadvisor#Boisson"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#labellabel">
+    <rdfs:range rdf:resource="http://localhost:9000/drinkadvisor#Boisson"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#location">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Bar"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.geonames.org/ontology#hometown">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#commentcomment">
+    <rdfs:range rdf:resource="http://localhost:9000/drinkadvisor#Boisson"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://localhost:9000/drinkadvisor#hasComment">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Bar"/>
+    <rdfs:range rdf:resource="http://localhost:9000/drinkadvisor#Comment"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://localhost:9000/drinkadvisor#hasLike">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Bar"/>
+    <rdfs:range rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/accountName">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://rdfs.org/sioc/ns#has_creator">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Comment"/>
+    <rdfs:range rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost:9000/drinkadvisor#hasComment"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/phone">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Bar"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/gender">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#User"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://localhost:9000/drinkadvisor#hasdrink">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Bar"/>
+    <rdfs:range rdf:resource="http://localhost:9000/drinkadvisor#Drink"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2001/vcard-rdf/3.0#ADR">
+    <rdfs:domain rdf:resource="http://localhost:9000/drinkadvisor#Bar"/>
+    <rdfs:range rdf:resource="http://www.w3.org/TR/xmlschema-2/#String"/>
+  </rdf:Property>
+</rdf:RDF>

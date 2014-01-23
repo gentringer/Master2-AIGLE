@@ -1,0 +1,36 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:drink="http://localhost/drinkadvisor#"
+    xmlns:rating="http://www.tvblob.com/ratings/#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:nt="http://ns.inria.fr/nicetag/2009/09/25/voc#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <drink:Bar rdf:about="http://localhost:9000/newtemplatebars?name=Le Times">
+    <drink:hasbeer>
+      <drink:Comment rdf:about="http://localhost/drinkadvisor#beer/battin">
+        <geo:location>Bascharage</geo:location>
+        <foaf:name>battin</foaf:name>
+      </drink:Comment>
+    </drink:hasbeer>
+    <foaf:phone></foaf:phone>
+    <geo:lon>3.8754151</geo:lon>
+    <geo:lat>43.6086521</geo:lat>
+    <rating:value>0.0</rating:value>
+    <foaf:homepage></foaf:homepage>
+    <drink:hasbeer>
+      <drink:Comment rdf:about="http://localhost/drinkadvisor#beer/kronenbourg">
+        <geo:location>Bascharage</geo:location>
+        <foaf:name>kronenbourg</foaf:name>
+      </drink:Comment>
+    </drink:hasbeer>
+    <rdfs:label>Le Times</rdfs:label>
+    <drink:hasbeer>
+      <drink:Comment rdf:about="http://localhost/drinkadvisor#beer/heineken">
+        <geo:location>Bascharage</geo:location>
+        <foaf:name>heineken</foaf:name>
+      </drink:Comment>
+    </drink:hasbeer>
+  </drink:Bar>
+</rdf:RDF>

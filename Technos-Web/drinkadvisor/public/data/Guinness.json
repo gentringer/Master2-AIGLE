@@ -1,0 +1,39 @@
+{ 
+  "http://localhost:9000/drink?name=Guinness" : { 
+    "http://www.w3.org/2003/01/geo/wgs84_pos#locationCity" : [ { 
+      "type" : "literal" ,
+      "value" : "Dublin"
+    }
+     ] ,
+    "http://localhost:9000/country" : [ { 
+      "type" : "literal" ,
+      "value" : "Irlande"
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#locationCountry" : [ { 
+      "type" : "literal" ,
+      "value" : "Irlande"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ { 
+      "type" : "literal" ,
+      "value" : "Un stout est une bière brassée à partir d&#x27;un moût caractérisé par sa teneur en grains hautement torréfiés. La présence de ces grains bien grillés dans la recette confère la couleur foncée à la bière ainsi qu&#x27;un goût de café ou de cacao. Cette bière est devenue une spécialité irlandaise. Son origine première est cependant anglaise de par sa filiation avec la Porter. La Guinness est le stout le plus répandu dans le monde. Il existe d&#x27;autres marques irlandaises brassant du stout comme Beamish, Murphy ou Caffrey. Cette bière est aussi brassée à différents endroits du monde."
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Brune"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Guinness"
+    }
+     ] ,
+    "http://localhost:9000/city" : [ { 
+      "type" : "literal" ,
+      "value" : "Dublin"
+    }
+     ]
+  }
+}

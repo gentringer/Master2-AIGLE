@@ -1,0 +1,147 @@
+select ?s where { ?s rdf:type drinkadvisor:Bar }
+
+select ?s ?nom where { ?s rdf:type drinkadvisor:Bar . ?s rdfs:label ?nom }
+
+select ?s ?nom ?lat where { ?s rdf:type drinkadvisor:Bar . ?s rdfs:label ?nom . ?s geo:lat ?lat}
+
+select ?s ?nom ?lat ?lon where { ?s rdf:type drinkadvisor:Bar . ?s rdfs:label ?nom . ?s geo:lat ?lat . ?s geo:lon ?lon}
+
+select ?s ?nom ?lat ?lon where { ?s rdf:type drinkadvisor:Bar . ?s rdfs:label ?nom . ?s geo:lat ?lat . ?s geo:lon ?lon}
+
+
+select ?s ?beername ?comment ?person where {
+	
+	?s drinkadvisor:hasComment ?comm .
+	?s drinkadvisor:hasbeer ?beer .
+	?comm drinkadvisor:message ?comment .
+	?comm sioc:has_creator ?person .
+	?beer foaf:name ?beername .
+}
+
+select distinct ?s ?beername  where {
+	
+	?s drinkadvisor:hasComment ?comm .
+	?s drinkadvisor:hasbeer ?beer .
+	?comm drinkadvisor:message ?comment .
+	?beer foaf:name ?beername .
+}
+
+
+select ?s ?nom ?lat ?lon where { 
+
+
+?s rdfs:label ?nom . 
+
+?s geo:lat ?lat . 
+
+?s geo:lon ?lon}
+
+
+
+select ?s ?gender where{
+
+?s foaf:gender ?gender
+}
+
+
+select ?s ?name where{
+ ?s sioc:id ?name
+}
+
+
+select ?s ?account where {
+	
+	?s foaf:accountName ?account
+}
+
+select ?s ?name ?friend where{
+ ?s foaf:knows ?friend .
+
+}
+
+
+
+select distinct ?s ?comm  ?beername where {
+	
+	?s drinkadvisor:hasComment ?comm .
+	?s drinkadvisor:hasdrink ?beer . 
+        ?s rdfs:label ?beername
+}
+
+
+
+// Commentaires et boissons de toutes les bars
+select distinct ?comment  ?barname ?beername where {
+	
+	?s drinkadvisor:hasComment ?comm .
+	?s drinkadvisor:hasdrink ?beer . 
+        ?s rdfs:label ?barname .
+        ?beer rdfs:label ?beername .
+        ?comm rdfs:comment ?comment
+
+}
+
+
+// Bar qui sont "likés " par des utilisateurs et noms des utilisateurs
+select distinct ?s  ?barname ?like ?username where {
+	
+	?s drinkadvisor:hasLike ?like . 
+	?like foaf:name ?username .
+	?s rdfs:label ?barname .
+
+}
+
+// Longitude / Latitude des bars + nom 
+
+select ?s ?nom ?lat ?lon where { 
+	?s rdf:type drinkadvisor:Bar . 
+	?s rdfs:label ?nom . 
+	?s geo:lat ?lat . 
+	?s geo:lon ?lon}
+
+
+
+//Note des bars
+select ?s ?nom ?value where { 
+	?s rdf:type drinkadvisor:Bar . 
+	?s rdfs:label ?nom . 
+	?s rating:value ?value .
+	}
+
+
+//Toutes les bières blondes :
+select ?s ?blonde where {
+	
+	?s rdf:type drinkadvisor:Blonde .
+	?s rdfs:label ?blonde
+
+}
+
+
+//Tous les utilisateurs :
+select ?s ?username where {
+	
+	?s rdf:type drinkadvisor:User .
+	?s foaf:name ?username
+
+}
+
+
+//Description des boissons de chaque bar
+select distinct ?s ?description ?drinkname where {
+	
+	?s drinkadvisor:hasdrink ?drink .
+	?drink rdfs:label ?drinkname .
+	?drink rdfs:comment ?description
+
+}
+
+
+//Description des boissons de chaque bar
+select distinct ?s ?description ?drinkname where {
+	
+	?s drinkadvisor:hasdrink ?drink .
+	?drink rdfs:label ?drinkname .
+	?drink rdfs:comment ?description
+
+}

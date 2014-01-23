@@ -1,0 +1,84 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:rating="http://www.tvblob.com/ratings/#"
+    xmlns:drinkadvior="http://localhost/drinkadvisor#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:nt="http://ns.inria.fr/nicetag/2009/09/25/voc#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <drinkadvior:Bar rdf:about="http://localhost:9000/newtemplatebars?name=Mi+Barrio">
+    <foaf:homepage>gillesentringer.com</foaf:homepage>
+    <drinkadvior:hasComment>
+      <drinkadvior:Comment rdf:about="http://localhost/drinkadvisor#Mi+Barrio/comment1">
+        <drinkadvior:message>truizrturtuuet</drinkadvior:message>
+        <sioc:topic>Mi Barrio</sioc:topic>
+        <sioc:has_creator>gilles.entringer</sioc:has_creator>
+      </drinkadvior:Comment>
+    </drinkadvior:hasComment>
+    <drinkadvior:hasbeer>
+      <drinkadvior:beer rdf:about="http://localhost/drinkadvisor#beer/testttt">
+        <geo:location>Bascharage</geo:location>
+        <foaf:name>testttt</foaf:name>
+      </drinkadvior:beer>
+    </drinkadvior:hasbeer>
+    <drinkadvior:hasbeer>
+      <drinkadvior:beer rdf:about="http://localhost/drinkadvisor#beer/heineken">
+        <geo:location>Bascharage</geo:location>
+        <foaf:name>heineken</foaf:name>
+      </drinkadvior:beer>
+    </drinkadvior:hasbeer>
+    <drinkadvior:hasComment>
+      <drinkadvior:Comment rdf:about="http://localhost/drinkadvisor#Mi+Barrio/comment3">
+        <drinkadvior:message>test4</drinkadvior:message>
+        <sioc:topic>Mi Barrio</sioc:topic>
+        <sioc:has_creator>gilles.entringer</sioc:has_creator>
+      </drinkadvior:Comment>
+    </drinkadvior:hasComment>
+    <vcard:ADR>8-14 Rue du Plan d'Agde, 34000 Montpellier, France</vcard:ADR>
+    <drinkadvior:hasComment>
+      <drinkadvior:Comment rdf:about="http://localhost/drinkadvisor#Mi+Barrio/comment4">
+        <drinkadvior:message>Nouveau commentaire</drinkadvior:message>
+        <sioc:topic>Mi Barrio</sioc:topic>
+        <sioc:has_creator>gilles.entringer</sioc:has_creator>
+      </drinkadvior:Comment>
+    </drinkadvior:hasComment>
+    <foaf:phone>06666666</foaf:phone>
+    <rating:value>26.0</rating:value>
+    <geo:lon>3.8758201</geo:lon>
+    <drinkadvior:hasLike>
+      <drinkadvior:Like rdf:about="http://localhost/drinkadvisor#Mi+Barrio/like0">
+        <foaf:name>Gilles Entringer</foaf:name>
+      </drinkadvior:Like>
+    </drinkadvior:hasLike>
+    <drinkadvior:hasComment>
+      <drinkadvior:Comment rdf:about="http://localhost/drinkadvisor#Mi+Barrio/comment0">
+        <drinkadvior:message>gaergdf</drinkadvior:message>
+        <sioc:topic>Mi Barrio</sioc:topic>
+        <sioc:has_creator>gilles.entringer</sioc:has_creator>
+      </drinkadvior:Comment>
+    </drinkadvior:hasComment>
+    <drinkadvior:hasbeer>
+      <drinkadvior:beer rdf:about="http://localhost/drinkadvisor#beer/battin">
+        <geo:location>Bascharage</geo:location>
+        <foaf:name>battin</foaf:name>
+      </drinkadvior:beer>
+    </drinkadvior:hasbeer>
+    <rdfs:label>Mi Barrio</rdfs:label>
+    <geo:lat>43.6080219</geo:lat>
+    <drinkadvior:hasbeer>
+      <drinkadvior:beer rdf:about="http://localhost/drinkadvisor#beer/kronenbourg">
+        <geo:location>Bascharage</geo:location>
+        <foaf:name>kronenbourg</foaf:name>
+      </drinkadvior:beer>
+    </drinkadvior:hasbeer>
+    <drinkadvior:hasComment>
+      <drinkadvior:Comment rdf:about="http://localhost/drinkadvisor#Mi+Barrio/comment2">
+        <drinkadvior:message>test comment</drinkadvior:message>
+        <sioc:topic>Mi Barrio</sioc:topic>
+        <sioc:has_creator>gilles.entringer</sioc:has_creator>
+      </drinkadvior:Comment>
+    </drinkadvior:hasComment>
+  </drinkadvior:Bar>
+</rdf:RDF>

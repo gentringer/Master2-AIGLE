@@ -1,0 +1,114 @@
+{ 
+  "http://localhost:9000/infouser?idvar=798294398" : { 
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : "gilles.entringer@hotmail.fr"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/nick" : [ { 
+      "type" : "literal" ,
+      "value" : "gilles.entringer"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/accountName" : [ { 
+      "type" : "literal" ,
+      "value" : "https://www.facebook.com/gilles.entringer"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/name" : [ { 
+      "type" : "literal" ,
+      "value" : "Gilles Entringer"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/birthday" : [ { 
+      "type" : "literal" ,
+      "value" : "04/26/1987"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/gender" : [ { 
+      "type" : "literal" ,
+      "value" : "male"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/based_near" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.geonames.org/ontology#Montpellier, France"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/User"
+    }
+     ] ,
+    "http://rdfs.org/sioc/ns#id" : [ { 
+      "type" : "literal" ,
+      "value" : "798294398"
+    }
+     ] ,
+    "http://www.geonames.org/ontology#hometown" : [ { 
+      "type" : "literal" ,
+      "value" : "Bettange-sur-Mess"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/knows" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/infouser?idvar=123"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/infouser?idvar=789"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/infouser?idvar=456"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/infouser?idvar=789" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/User"
+    }
+     ] ,
+    "http://rdfs.org/sioc/ns#id" : [ { 
+      "type" : "literal" ,
+      "value" : "789"
+    }
+     ]
+  }
+   ,
+  "http://www.geonames.org/ontology#Montpellier, France" : { 
+    "http://www.geonames.org/ontology#location" : [ { 
+      "type" : "literal" ,
+      "value" : "Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/infouser?idvar=456" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/User"
+    }
+     ] ,
+    "http://rdfs.org/sioc/ns#id" : [ { 
+      "type" : "literal" ,
+      "value" : "456"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/infouser?idvar=123" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/User"
+    }
+     ] ,
+    "http://rdfs.org/sioc/ns#id" : [ { 
+      "type" : "literal" ,
+      "value" : "123"
+    }
+     ]
+  }
+}

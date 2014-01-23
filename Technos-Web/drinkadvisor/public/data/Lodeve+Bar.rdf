@@ -1,0 +1,22 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:drinkadvisor="http://localhost:9000/"
+    xmlns:dbpedia="http://www.dbpedia.org/ontology/"
+    xmlns:rating="http://www.tvblob.com/ratings/#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:nt="http://ns.inria.fr/nicetag/2009/09/25/voc#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Lodeve+Bar">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>100 Avenue de Lodève, 34070 Montpellier, France</vcard:ADR>
+    <foaf:mbox>gilles.entringer@gmail.com</foaf:mbox>
+    <foaf:phone>06666666</foaf:phone>
+    <foaf:homepage>gillesentringer.com</foaf:homepage>
+    <geo:lat>43.61031633567191</geo:lat>
+    <geo:lon>3.8520373144123368</geo:lon>
+    <rdfs:label>Lodeve Bar</rdfs:label>
+  </drinkadvisor:Bar>
+</rdf:RDF>

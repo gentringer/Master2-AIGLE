@@ -1,0 +1,62 @@
+{ 
+  "http://localhost:9000/bar?name=Ayers+Rock" : { 
+    "http://localhost:9000/hasdrink" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/drink?name=Chardonnay"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6074463"
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8962066"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "0.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : ""
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Ayers Rock"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "00108 Rue de Rhodes, 34000 Montpellier, France"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/drink?name=Chardonnay" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Blanc"
+    }
+     ]
+  }
+}

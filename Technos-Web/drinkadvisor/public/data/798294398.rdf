@@ -1,0 +1,40 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:FOAF="http://xmlns.com/foaf/0.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:drinkadvisor="http://localhost:9000/"
+    xmlns:GEO="http://www.geonames.org/ontology#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:SIOC="http://rdfs.org/sioc/ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <drinkadvisor:User rdf:about="http://localhost:9000/infouser?idvar=798294398">
+    <FOAF:knows>
+      <drinkadvisor:User rdf:about="http://localhost:9000/infouser?idvar=123">
+        <SIOC:id>123</SIOC:id>
+      </drinkadvisor:User>
+    </FOAF:knows>
+    <FOAF:birthday>04/26/1987</FOAF:birthday>
+    <FOAF:nick>gilles.entringer</FOAF:nick>
+    <FOAF:knows>
+      <drinkadvisor:User rdf:about="http://localhost:9000/infouser?idvar=789">
+        <SIOC:id>789</SIOC:id>
+      </drinkadvisor:User>
+    </FOAF:knows>
+    <FOAF:name>Gilles Entringer</FOAF:name>
+    <GEO:hometown>Bettange-sur-Mess</GEO:hometown>
+    <FOAF:accountName>https://www.facebook.com/gilles.entringer</FOAF:accountName>
+    <SIOC:id>798294398</SIOC:id>
+    <FOAF:knows>
+      <drinkadvisor:User rdf:about="http://localhost:9000/infouser?idvar=456">
+        <SIOC:id>456</SIOC:id>
+      </drinkadvisor:User>
+    </FOAF:knows>
+    <FOAF:mbox>gilles.entringer@hotmail.fr</FOAF:mbox>
+    <FOAF:based_near>
+      <rdf:Description rdf:about="http://www.geonames.org/ontology#Montpellier, France">
+        <GEO:location>Montpellier, France</GEO:location>
+      </rdf:Description>
+    </FOAF:based_near>
+    <FOAF:gender>male</FOAF:gender>
+  </drinkadvisor:User>
+</rdf:RDF>

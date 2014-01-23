@@ -1,0 +1,50 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:drinkadvior="http://localhost:9000/"
+    xmlns:rating="http://www.tvblob.com/ratings/#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:nt="http://ns.inria.fr/nicetag/2009/09/25/voc#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <drinkadvior:Bar rdf:about="http://localhost:9000/bar?name=Aero+Bar">
+    <vcard:ADR>2-10 Rue du Pila Saint Gély, 34000 Montpellier, France</vcard:ADR>
+    <geo:lat>43.6132310</geo:lat>
+    <drinkadvior:hasLike>
+      <drinkadvior:user rdf:about="http://localhost:9000/user?id=798294398"/>
+    </drinkadvior:hasLike>
+    <drinkadvior:hasdrink>
+      <drinkadvior:drink rdf:about="http://localhost:9000/drink/Bofferding">
+        <geo:location>Bascharage</geo:location>
+        <foaf:name>Bofferding</foaf:name>
+      </drinkadvior:drink>
+    </drinkadvior:hasdrink>
+    <foaf:homepage>gillesentringer.com</foaf:homepage>
+    <drinkadvior:hasComment>
+      <drinkadvior:Comment rdf:about="http://localhost:9000/bar?name=Aero+Bar#comment0">
+        <rdfs:comment>Blablab</rdfs:comment>
+        <sioc:topic>Aero Bar</sioc:topic>
+        <sioc:has_creator>gilles.entringer</sioc:has_creator>
+      </drinkadvior:Comment>
+    </drinkadvior:hasComment>
+    <drinkadvior:hasComment>
+      <drinkadvior:Comment rdf:about="http://localhost:9000/bar?name=Aero+Bar#comment1">
+        <rdfs:comment>test commentaire&#xD;
+</rdfs:comment>
+        <sioc:topic>Aero Bar</sioc:topic>
+        <sioc:has_creator>gilles.entringer</sioc:has_creator>
+      </drinkadvior:Comment>
+    </drinkadvior:hasComment>
+    <drinkadvior:hasdrink>
+      <drinkadvior:drink rdf:about="http://localhost:9000/drink/kronenbourg">
+        <geo:location>Bascharage</geo:location>
+        <foaf:name>kronenbourg</foaf:name>
+      </drinkadvior:drink>
+    </drinkadvior:hasdrink>
+    <geo:lon>3.8797343</geo:lon>
+    <rating:value>1.0</rating:value>
+    <rdfs:label>Aero Bar</rdfs:label>
+    <foaf:phone>06666666</foaf:phone>
+  </drinkadvior:Bar>
+</rdf:RDF>

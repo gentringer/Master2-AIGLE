@@ -1,0 +1,938 @@
+@(message1: String, barinfo: Bar, barform: Form[Drink], beerlist:Map[String, Integer], beerinbar: List[BeerInBar], plusone: List[String], result : List[String]) 
+@import helper._ 
+@import java.util.List 
+@import controllers.routes.javascript._
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Drinkadvisor - @message1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script> 
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>  
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap-editable/css/bootstrap-editable.css" rel="stylesheet"/>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.at("css/tablesorting.css")">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap-editable/js/bootstrap-editable.min.js"></script>
+    <script type="text/javascript" src="@routes.Routing.javascriptRoutes"></script>
+
+    <script  src="@routes.Assets.at("js/main.js")" type="text/javascript"></script>
+    <script class="jsbin" src="http://datatables.net/download/build/jquery.dataTables.nightly.js"></script>
+    <!-- main.js -->
+  </head>
+
+  <body>
+
+
+
+    <div id="fb-root"></div>
+    <script type="text/javascript">
+      
+
+      
+      // You probably don't want to use globals, but this is just example code
+      var fbAppId = '237824306373643';
+      var objectToLike = 'http://4d63736e.ngrok.com/templatebars?name=Rebuffy';
+      var userid ;
+
+      var beerChangeprice="";
+      var newprice ="";
+      var barname = '@message1';
+
+
+
+      function updateprice() {
+      
+      jsRoutes.controllers.Routing.updatBeerinBar(barname,beerChangeprice,newprice).ajax({
+      
+
+      })
+      };
+
+      function sendinfo(id, nom,location,email,birthday,gender, friendidstring) {
+      
+      jsRoutes.controllers.Routing.addUser(id, nom,location,email,birthday,gender,friendidstring).ajax({
+      
+      })
+      };
+
+
+      function generaterdf() {
+      var barname = '@message1';
+
+      jsRoutes.controllers.Routing.rdfBar(barname).ajax({
+      
+      })
+
+
+      
+      };
+
+
+      function generateJson(){
+
+         var barname = '@message1';
+
+      jsRoutes.controllers.Routing.jsonBar(barname).ajax({
+      
+      })
+      }
+      
+
+      function sendNote() {
+      var barname = '@message1';
+
+
+      jsRoutes.controllers.Routing.sendNote(userid,barname).ajax({
+      
+      })
+      var note = +"@barinfo.note";
+      note += 1;
+      document.getElementById("note").innerHTML= note + " personnes recommandent ce bar";
+
+      $("#plusone").attr("disabled", true);
+
+      };
+
+      
+      window.fbAsyncInit = function() {
+      FB.init({
+      appId      : '237824306373643', // Set YOUR APP ID
+      channelUrl : 'http://localhost:9000//bars', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      xfbml      : true  // parse XFBML
+      });
+      
+      
+      FB.Event.subscribe('edge.create', function(response) {
+      var barname = '@message1';
+      
+      jsRoutes.controllers.Routing.addLike(barname,userid).ajax({
+      
+      })
+      });
+      // Code to detect clicking unlike
+      FB.Event.subscribe('edge.remove', function(href) {
+      });
+
+      
+      FB.getLoginStatus(function(response) {
+      if (response.status === 'connected') {
+      // the user is logged in and has authenticated your
+      // app, and response.authResponse supplies
+      // the user's ID, a valid access token, a signed
+      // request, and the time the access token 
+      // and signed request each expire
+      var uid = response.authResponse.userID;
+      var accessToken = response.authResponse.accessToken;
+      // document.getElementById("connectBoutton").style.visibility='hidden'; 
+      // document.getElementById("connectBoutton").innerHTML="hello"; 
+      $('#connectBoutton').remove();
+      getUserInfo();
+
+      getUserStar();
+      } else if (response.status === 'not_authorized') {
+      
+      // the user is logged in to Facebook, 
+      // but has not authenticated your app
+      } else {
+      // the user isn't logged in to Facebook.
+      }
+      });
+      
+      FB.Event.subscribe('auth.authResponseChange', function(response)
+      {
+      if (response.status === 'connected')
+      {
+      //document.getElementById("message").innerHTML +=  "<br>Connected to Facebook";
+      //SUCCESS
+      
+      }   
+      else if (response.status === 'not_authorized')
+      {
+      document.getElementById("message").innerHTML +=  "<br>Failed to Connect";
+      
+      //FAILED
+      } else
+      {
+      document.getElementById("message").innerHTML +=  "<br>Logged Out";
+      
+      //UNKNOWN ERROR
+      }
+      });
+      
+      };
+      
+      function Login()
+      {
+      
+      FB.login(function(response) {
+      if (response.authResponse)
+      {
+      getUserInfo();
+      
+      // the user is logged in and has authenticated your
+      // app, and response.authResponse supplies
+      // the user's ID, a valid access token, a signed
+      // request, and the time the access token 
+      // and signed request each expire
+      document.getElementById("connectBoutton").style.visibility='hidden'; 
+      document.getElementById("connectBoutton").innerHTML="hello"; 
+      getUserInfo();
+      getUserStar();
+      
+      } else
+      {
+      console.log('User cancelled login or did not fully authorize.');
+      }
+      },{scope: 'user_birthday,email,user_photos,read_friendlists,friends_photos,read_stream,user_location ,user_hometown,user_about_me'});
+      
+      }
+      
+      function getUserInfo() {
+      FB.api('/me', function(response) {
+      
+      var str="<b>Name</b> : "+response.name+"<br>";
+      str +="<b>Link: </b>"+response.link+"<br>";
+      userid = response.id;
+
+      @for((plus, i) <- plusone.zipWithIndex) {
+      			var user = @plus;
+      			if(user=userid){
+      			$("#plusone").attr("disabled", true);
+
+      			}
+			}
+			str +="<b>Username:</b> "+response.username+"<br>";
+			str +="<b>id: </b>"+response.id+"<br>";
+			str +="<b>Email:</b> "+response.email+"<br>";
+			str +="<b>gender:</b> "+response.gender+"<br>"; 
+
+			str +="<b>hometown:</b> "+response.hometown.name+"<br>"; 
+			str +="<b>location:</b> "+response.location.name+"<br>"; 
+			str +="<b>birthday:</b> "+response.birthday+"<br>"; 
+			str +="<input type='button' value='Get Photo' onclick='getPhoto();'/>";
+			str +="<input type='button' value='Logout' onclick='Logout();'/>";
+			sendinfo(response.id,response.name,response.username,response.birthday,response.gender,response.email,response.hometown.name,response.location.name,response.link);
+			//document.getElementById("status").innerHTML=str;
+			
+			//(idFacebook,name,username,birthday,gender,email,hometown,location,link) 
+			});
+			}
+			
+			function getUserStar() {
+			FB.api('/me', function(response) {
+
+
+			
+			var str="<li style=\"color:#fff\"><b>Hello </b> <a href=\"#\">"+response.name+"</a>&nbsp;&nbsp;<input type='button' value='Logout' onclick='Logout();'/></li>";
+			//str +="<b>Your Username:</b> "+response.username+"<br>";
+			//   str +="<input type='button' value='Get Photo' onclick='getPhoto();'/>";
+			
+			var append_data = '  <input type="text" style="visibility:hidden" name="userid" value=\"'+response.id+'\"/> ';
+			var append_dataname = '  <input type="text" style="visibility:hidden" name="username" value=\"'+response.username+'\"/> ';
+
+			$("#form1").append(append_data); //append new select options in main 
+			$("#form1").append(append_dataname); //append new select options in main 
+
+			//getPhoto();
+			document.getElementById("connected").innerHTML=str;
+
+			});
+			}
+			
+			function getPhoto()
+			{
+			FB.api('/me/picture?type=normal', function(response) {
+			
+			var str="<img src='"+response.data.url+"'/>";
+			document.getElementById("connected").innerHTML+=str;
+			
+			});
+			
+			}
+			function Logout()
+			{
+			FB.logout(function(){document.location.reload();});
+			}
+			
+
+			
+			// Load the SDK Asynchronously
+			(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js";
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+
+			
+
+			function postLike() {
+			
+			
+			FB.api(
+			'me/og.likes',
+			'post',
+			{    object: "http://4d63736e.ngrok.com/templatebars?name=@message1",
+			privacy: {'value': 'SELF'}
+			},
+			function(response) {
+			if (!response) {
+			alert('Error occurred.');
+			} else if (response.error) {
+			document.getElementById('result').innerHTML =
+			'Error: ' + response.error.message;
+			} else {
+			document.getElementById('result').innerHTML =
+			'<a href=\"https://www.facebook.com/me/activity/' +
+				   response.id + '\">' +
+			'Story created.  ID is ' +
+			response.id + '</a>';
+			}
+			}
+			);
+			}
+			
+			
+			</script>
+
+
+    <div id="status"></div>
+    <div class="container-fluid">
+      <div class="row-fluid">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="navbar-inner">
+	    <ul class="nav">
+              <li class="brand"><i class="icon-glass icon-white"></i>
+		DrinkAdvisor</li>
+              <li class="divider-vertical"></li>
+              <li><a href="http://localhost:9000/bars"><i class="icon-home icon-white"></i>
+		  Accueil</a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="#"><i class="icon-info-sign icon-white"></i>
+		  A propos</a></li>
+              <li class="divider-vertical"></li>
+              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+              <li class="divider-vertical"></li>
+              <li><a href="#" id="connectBoutton" onclick="Login()"></i>Se
+connecter avec Facebook</a></li>
+<li id="connected" style="text-decoration: none;"></li>
+</ul>
+
+</div>
+</nav>
+</div>
+
+<br/><br/><br/>
+
+
+
+
+
+<div class="row-fluid show-grid">
+
+  <div class="span9 well">
+
+    
+
+    <div class="row-fluid show-grid">
+      <div class="span11">
+
+	<h3 id="note">@barinfo.note personnes recommandent ce bar </h3>
+	<h1>@message1</h1>
+      </div>
+      <div class="span1">
+	<button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#modalEdit">
+
+	  <span class="icon-edit icon-black"></span>Edit
+	</button>
+
+
+
+      </div>
+    </div>
+    <h3>@barinfo.adresse</h3>
+
+    <address>
+      <strong>Adresse : </strong> @barinfo.adresse<br> <strong>Email
+	: </strong> @barinfo.mail<br> <strong>Site web : </strong>
+      @barinfo.website<br> <strong>Telephone : </strong>
+      @barinfo.telephone<br>
+
+    </address>
+
+  </div>
+
+  <div class="span3">
+    
+    <div>
+      <button id="plusone" type="button" onclick="sendNote()" class="btn btn-default btn-lg" >
+
+	<span class="icon-arrow-up icon-black"></span>+1 for this bar
+	
+      </button>
+      <br/>
+    </div>
+    <div>
+      <br/>
+      <!--  <br/>
+	    <input type="button"
+		   class="btn btn-primary btn-lg active"
+		   value="Recommander ce bar sur facebook"
+		   onclick="postLike();">
+    </div>
+
+    <br/> -->
+
+      <div class="fb-share-button" data-href="http://4d63736e.ngrok.com/templatebars?name=@message1" data-type="button_count">
+	
+      </div>
+      <br/>
+      <br/>
+
+      <div class="fb-like"
+	   data-href="http://4d63736e.ngrok.com/templatebars?name=@message1"
+	   data-layout="button_count" data-action="like" data-show-faces="true"
+	   data-share="false">
+      </div>
+      <br/>
+
+      <div class="fb-login-button" data-show-faces="true"
+	   data-width="200" data-max-rows="1" data-scope="publish_actions">
+      </div>
+
+
+      <div id="result"></div>
+    </div>
+
+  </div>
+
+
+  <div class="row-fluid show-grid">
+
+    <div class="span6 well">
+      <!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#beerModal">
+	   Ajouter Bière au Bars
+	   </button> -->
+
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#beerModal">
+
+	<span class="icon-plus icon-black"></span> Ajouter Boisson
+      </button>
+
+      
+
+      <br/><br/>
+      <!--<table id="mytable" class="table table-condensed">-->
+      <table cellpadding="0" cellspacing="0" border="0" class="table table-condensed" id="mytable">
+        <thead>
+          <tr>
+	    <th>Nom de la bière</th>
+	    <th>Prix </th> 
+	    <th>Catégorie </th> 
+
+	    <th><span class="icon-pencil" style="cursor: pointer"> </span></th> 
+          </tr>
+	</thead>
+	<tbody>
+
+          @for((beer,i) <- beerinbar.zipWithIndex){
+			   <tr>
+			     <!-- <form class="form-inline" role="form" action="..." method="post/get"> -->
+
+			     <td> <a href="drink?name=@beer.drinkname" id="beername">@beer.drinkname</a></td>
+			     <td> @beer.prix</td>
+			     <td> @beer.categorie</td>
+
+			     <td></td>
+			     <!--"<a href="javascript:void(0)" onclick="myFun(event)" class="edit" id="beerprice">
+			       -->  
+			     
+			   </tr>
+			   }
+        <tbody>
+          
+      </table>
+    </div> 
+
+
+    
+    <div class="span6 well">
+      <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	<span class="icon-plus icon-black"></span> Ajouter Commentaire
+      </button>
+      <br/><br/>
+
+      <table class="table table-condensed">
+	<th>Liste des commentaires</th>
+
+	<th>Utilisateur</th> 
+	@for((comment, i) <- barinfo.comments.zipWithIndex) {
+			     <tr>
+			       <td>@comment.comment</td>
+			       <td>@comment.username</td>
+
+			     </tr>
+
+			     }
+      </table>
+
+      
+    </div>
+
+  </div>
+
+
+
+  <div class="modal hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+	<div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"  href="#">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">Ajouter commentaire au bar @barinfo.name</h4>
+	</div>
+	<div class="modal-body">
+	  
+	  <form class="form-horizontal"  name="form1" id="form1" method="post" action="@routes.BarSite.addComment()">
+	    
+	    <textarea name="commentaire" class="field span12" rows="4"></textarea>
+	    <input type="hidden" name="barname" value="@barinfo.name" /> 
+	    
+	    <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Commenter</button>
+	    </div>
+	  </form>	
+	</div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+
+
+  <div class="modal hide fade" id="modalEdit"  role="dialog" aria-labelledby="selectlabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+	<div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"  href="#">&times;</button>
+          <h4 class="modal-title" id="selectlabel">Mettre à jour le bar @barinfo.name</h4>
+	</div>
+	<div class="modal-body">
+	  
+          <form class="form-horizontal" id="form2" method="post" action="@routes.BarSite.updateBar()">
+            
+	    <label class="control-label" for="inputName">Nom : </label>
+	    <div class="controls">
+	      <input type="text"  name="inputName" id="inputName" value="@barinfo.name">
+	    </div>
+
+	    <label class="control-label" for="inputadress">Adresse : </label>
+	    <div class="controls">
+	      <input type="text" name="inputadresse" id="inputadress" placeholder="@barinfo.adresse">
+	    </div>
+
+	    <label class="control-label" for="inputmail">Email : </label>
+	    <div class="controls">
+	      <input type="email" name="inputmail" id="inputmail" placeholder="@barinfo.mail">
+	    </div>
+
+	    <label class="control-label" for="inputwebsite">Site web : </label>
+	    <div class="controls">
+	      <input type="text" name="inputwebsite" id="inputwebsite" placeholder="@barinfo.website">
+	    </div>
+
+	    <label class="control-label" for="inpputtelephone">Téléphone : </label>
+	    <div class="controls">
+	      <input type="text" name="inpputtelephone" id="inpputtelephone" placeholder="@barinfo.telephone">
+	    </div>
+
+	    <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+              <button type="submit" class="btn btn-primary">Enregistrer</button>
+	    </div>
+	  </form>
+	</div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->        
+
+
+   <div class="modal hide fade" id="modalSparql"  role="dialog" aria-labelledby="sparqlLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"  href="#">&times;</button>
+          <h4 class="modal-title" id="sparqlLabel">Vérifier résultat Sparql</h4>
+  </div>
+  <div class="modal-body">
+    
+          <form class="form-horizontal" id="formsparql" method="post" action="@routes.BarSite.saveSparqlResult(barinfo.name)">
+            
+      <label class="control-label" for="sparqlName">Nom : </label>
+      <div class="controls">
+        <input type="text"  name="sparqlName" id="sparqlName" value="">
+      </div>
+      <input type="hidden" name="barname" value="@barinfo.name" /> 
+
+      <label class="control-label" for="sparqlPrix">Prix : </label>
+      <div class="controls">
+        <input type="text"  name="sparqlPrix" id="sparqlPrix" value="">
+      </div>
+
+      <label class="control-label" for="sparqlDescription">Description : </label>
+      <div class="controls">
+        <input type="text"  name="sparqlDescription" id="sparqlDescription" value="">
+      </div>
+
+      <label class="control-label" for="sparqlCategorie">Catégorie : </label>
+      <div class="controls">
+        <input type="text"  name="sparqlCategorie" id="sparqlCategorie" value="">
+      </div>
+
+      <label class="control-label" for="sparqlType">Type : </label>
+      <div class="controls">
+        <input type="text"  name="sparqlType" id="sparqlType" value="">
+      </div>
+
+      
+
+      <label class="control-label" for="sparqlPays">Pays : </label>
+      <div class="controls">
+        <input type="text"  name="sparqlPays" id="sparqlPays" value="">
+      </div>
+
+      <label class="control-label" for="sparqlVille">Ville : </label>
+      <div class="controls">
+        <input type="text"  name="sparqlVille" id="sparqlVille" value="">
+      </div>
+      
+
+      <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+              <button type="submit" class="btn btn-primary">Valider </button>
+      </div>
+    </form>
+  </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->  
+
+
+  <div class="modal hide fade" id="beerModal" tabindex="-1" role="dialog" aria-labelledby="selectlabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+	<div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true" href="#">&times;</button>
+          <h4 class="modal-title" id="beerModal">Ajouter boisson au bar @barinfo.name</h4>
+	</div>
+	<div class="modal-body">
+
+      <label id="labeladd" class="control-label" for="iconplus">Add new beer : </label>
+            <div class="controls">
+
+	              <span id="iconplus" class="icon-plus-sign" style="cursor: pointer;  line-height: 1;"> </span>
+                </div>  
+
+          <form class="form-horizontal" id="form2" method="post" action="@routes.BarSite.addbartobeer(message1)">
+
+
+            <div class="showorhide2">
+              <label class="control-label" for="selectname">Nom : </label>
+	      <div class="controls">
+		<select  id="selectedname" name="selectedname">
+		  @for((key, value) <- beerlist) {
+				       <option value="@key">@key</option>
+				       }
+		</select> 
+	      </div>
+
+	      <label class="control-label" for="selectprix">Prix : </label>
+              <div class="controls">
+		<input type="text" name="selectprix" id="selectprix" >
+              </div>
+
+	      
+
+	    </div>
+
+
+   
+
+
+	    <div class="showorhide">
+
+	      <label class="control-label" for="categoriename">Categorie : </label>
+              <div class="controls">
+
+		<select id="categoriename" name="categoriename">
+        <option selected="selected" value="">-- select one -- </option>
+		  <option value="Biere">Biere</option>
+		  <option value="Vin">Vin</option>
+		  <option value="Alcools forts">Alcools forts</option>
+		  <option value="Sans alcool">Sans alcool</option>
+
+		</select> 
+	      </div>
+        <label class="control-label" for="drinktype">Type : </label>
+
+              <div class="controls">
+
+        <select id="drinktype" name="drinktype">
+    <option selected="selected" value="">-- select one -- </option>
+</select>
+        </div>
+
+
+              <label class="control-label" for="drinkname">Nom : </label>
+              <div class="controls">
+		<input type="text" name="drinkname" id="drinkname" >
+              </div>
+
+              <label class="control-label" for="drinkprix">Prix : </label>
+              <div class="controls">
+		<input type="text" name="drinkprix" id="drinkprix" >
+              </div>
+
+          <!--    <label class="control-label" for="drinkdescription">Description : </label>
+              <div class="controls">
+		<input type="text" name="drinkdescription" id="drinkdescription" >
+              </div>
+
+              <label class="control-label" for="drinktype">Type : </label>
+              <div class="controls">
+		<input type="text" name="drinktype" id="drinktype" >
+              </div>
+
+              <label class="control-label" for="drinkcountry">Pays : </label>
+              <div class="controls">
+		<input type="text" name="drinkcountry" id="drinkcountry" >
+              </div>
+
+              <label class="control-label" for="drinkcity">Ville : </label>
+              <div class="controls">
+		<input type="text" name="drinkcity" id="drinkcity" >
+              </div>-->
+
+	    </div>
+	    
+
+	    <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+              <button type="submit" class="btn btn-primary">Enregistrer</button>
+	    </div>
+
+
+
+	  </form>
+	</div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->    
+
+  <hr class="bs-docs-separator">
+  <nav id="foot" class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="navbar-inner">
+      <ul class="nav">
+        <li style="float:left">
+          <a id="link" onclick="return generaterdf();"  >RDF/XML</a>
+        </li>
+         <li style="float:left">
+          <a id="linkjson" onclick="return generateJson();"  >RDF/JSON</a>
+        </li>
+        <li style="float:center">
+          <a>&copy; DrinkAdvisor 2013 - All Rights Reserved </a>  
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- href="@routes.Assets.at("data/test.rdf")"-->
+  <script>
+    
+    $(document).ready(function(){
+
+      var size = '@result.size';
+
+      if(size>0){
+
+          @for(ind <- 0 until result.size){
+            var nom = '@result(0)';
+             var nameinput = document.getElementById ("sparqlName");
+            nameinput.value = nom;
+
+             var prixinput = document.getElementById ("sparqlPrix");
+            prixinput.value = '@result(1)';
+            
+
+            var descr = '@result(2)';
+
+            var descrinput = document.getElementById ("sparqlDescription");
+            descrinput.value = descr;
+
+            var categorieinput = document.getElementById ("sparqlCategorie");
+            categorieinput.value = '@result(3)';
+
+            var typeinput = document.getElementById ("sparqlType");
+            typeinput.value = '@result(4)';
+
+            var paysinput = document.getElementById ("sparqlPays");
+            paysinput.value = '@result(5)';
+
+            var villeinput = document.getElementById ("sparqlVille");
+            villeinput.value = '@result(6)';
+
+
+          }
+
+                    $('#modalSparql').modal('show');
+
+
+      }
+
+
+       $("#categoriename").change(function() {
+        var val = $(this).val();
+        if(val=='Biere'){
+         var options = "<option value='blonde'>Blonde</option><option value='brune'>Brune</option><option value='blanche'>Blanche</option><option value='rousse'>Rousse</option>";
+        $("#drinktype").html(options);
+
+        }
+        else if (val=='Vin'){
+var options = "<option value='rouge'>Rouge</option><option value='blanc'>Blanc</option><option value='rose'>Rose</option>";
+        $("#drinktype").html(options);
+
+        }
+        else {
+          var options = "<option value='blonde'>"+val+"</option>";
+         $("#drinktype").html(options);
+
+        }
+    });
+
+
+   
+
+
+    $('#mytable').dataTable({
+
+    "oLanguage": {
+    "sSearch": "Rechercher Boisson",
+    "sLengthMenu": "Nombre",
+    "sInfo": "_TOTAL_ boissons enregistrées",
+    },
+    "aLengthMenu": [[10, 20, 50, -1], [10, 20, 50, "All"]],
+
+
+    "sDom": "<'span12 well'<'span5'l><'span5'f>t<'span5'i><'span5'p>>"
+      
+      
+      });
+
+      $.extend( $.fn.dataTableExt.oStdClasses, {
+      "sWrapper": "dataTables_wrapper form-inline"
+      } );
+      var barname = '@message1';
+      barname= barname.replace(/ /g,"+");
+      //var strLink ="/assets/data/"+barname+".rdf";
+      var strLink ="/files/"+barname+".rdf";
+
+      document.getElementById("link").setAttribute("href",strLink);
+
+          var strLinkjson ="/files/"+barname+".json";
+
+      document.getElementById("linkjson").setAttribute("href",strLinkjson);
+
+
+      $(".showorhide").hide();
+
+      });
+
+      $(".icon-plus-sign").click(function(){
+      $(this).toggleClass('icon-minus-sign');
+      $(".showorhide").slideToggle();
+      $(".showorhide2").slideToggle();
+      cursor:pointer; 
+      });
+
+      $(".icon-plus-sign").click(function(){
+      $(this).toggleClass('icon-minus-sign');
+      $(".showorhide").slideToggle();
+      $(".showorhide2").slideToggle();
+      cursor:pointer; 
+      });
+
+      
+
+      $(".icon-pencil").click(function(){
+      $.fn.editable.defaults.mode = 'inline'; 
+
+      $('#mytable tbody td:nth-child(2)').each(function(index) {
+      $(this).addClass('hover');
+      var text = $(this).text();
+      var link = $('<a href="javascript:void(0)" onclick="myFun(event)" class="edit" id="beerprice" />').text(text).bind('click', function(){
+      
+      });
+      $(this).html(link);
+      });
+
+      $('.edit').editable({
+      
+      validate: function(value) {
+      //alert(value);
+      newprice=value;
+      updateprice();
+      }
+
+
+
+      });
+
+
+
+
+
+      // $.each($(cell), function(){
+      //        	var text = $(cell).text();
+      // 		alert(text);
+      
+      // var link = $('<a />').text(text).bind('click', function(){
+      //     // your code here
+      
+      //  });
+      // $(cell).html(link);
+
+      // });
+
+
+      $("#mytable tr").click(function(event) {
+      var i=0;
+      $.each(this.cells, function(){
+      if(i<1){
+             beerChangeprice=$(this).text();
+             i++;
+             }
+	     });
+	     });
+
+	     }) ;
+
+
+
+
+
+	     </script>
+</body>
+</html>
+
+
+</body>
+</html>

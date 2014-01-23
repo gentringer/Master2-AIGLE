@@ -1,0 +1,31 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:drinkadvisor="http://localhost:9000/"
+    xmlns:dbpedia="http://www.dbpedia.org/ontology/"
+    xmlns:rating="http://www.tvblob.com/ratings/#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:nt="http://ns.inria.fr/nicetag/2009/09/25/voc#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Triskell+4">
+    <rating:value>1.0</rating:value>
+    <geo:lon>3.8757058</geo:lon>
+    <drinkadvisor:hasLike>
+      <drinkadvisor:user rdf:about="http://localhost:9000/infouser?idvar=798294398"/>
+    </drinkadvisor:hasLike>
+    <foaf:mbox></foaf:mbox>
+    <foaf:homepage></foaf:homepage>
+    <vcard:ADR>20 Rue de Candolle, 34000 Montpellier, France</vcard:ADR>
+    <foaf:phone></foaf:phone>
+    <rdfs:label>Triskell 4</rdfs:label>
+    <drinkadvisor:hasdrink>
+      <drinkadvisor:Blonde rdf:about="http://localhost:9000/drink?name=Kronenbourg"/>
+    </drinkadvisor:hasdrink>
+    <drinkadvisor:hasdrink>
+      <drinkadvisor:Blonde rdf:about="http://localhost:9000/drink?name=Leffe"/>
+    </drinkadvisor:hasdrink>
+    <geo:lat>43.6128827</geo:lat>
+  </drinkadvisor:Bar>
+</rdf:RDF>

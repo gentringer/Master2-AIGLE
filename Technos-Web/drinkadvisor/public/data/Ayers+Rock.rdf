@@ -1,0 +1,18 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:drink="http://localhost/drinkadvisor#"
+    xmlns:rating="http://www.tvblob.com/ratings/#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:nt="http://ns.inria.fr/nicetag/2009/09/25/voc#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <drink:Bar rdf:about="http://localhost:9000/newtemplatebars?name=Ayers Rock">
+    <rating:value>0.0</rating:value>
+    <foaf:phone></foaf:phone>
+    <foaf:homepage></foaf:homepage>
+    <geo:lat>43.6074463</geo:lat>
+    <geo:lon>3.8962066</geo:lon>
+    <rdfs:label>Ayers Rock</rdfs:label>
+  </drink:Bar>
+</rdf:RDF>

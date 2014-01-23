@@ -1,0 +1,33 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:drinkadvisor="http://localhost:9000/"
+    xmlns:rating="http://www.tvblob.com/ratings/#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:nt="http://ns.inria.fr/nicetag/2009/09/25/voc#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=testbar">
+    <geo:lat>43.63181483876492</geo:lat>
+    <drinkadvisor:hasLike>
+      <drinkadvisor:user rdf:about="http://localhost:9000/infouser?id=798294398"/>
+    </drinkadvisor:hasLike>
+    <rdfs:label>testbar</rdfs:label>
+    <drinkadvisor:hasComment>
+      <drinkadvisor:Comment rdf:about="http://localhost:9000/bar?name=testbar#comment0">
+        <rdfs:comment>Test de commentaire</rdfs:comment>
+        <sioc:topic>testbar</sioc:topic>
+        <sioc:has_creator>gilles.entringer</sioc:has_creator>
+      </drinkadvisor:Comment>
+    </drinkadvisor:hasComment>
+    <geo:lon>3.8604487218831025</geo:lon>
+    <vcard:ADR>1-2 Place Eugène Bataillon, 34090 Montpellier, France</vcard:ADR>
+    <foaf:phone>0646405042</foaf:phone>
+    <foaf:homepage>gillesentringer.com</foaf:homepage>
+    <drinkadvisor:hasdrink>
+      <drinkadvisor:Blonde rdf:about="http://localhost:9000/drink?name=Kronenbourg"/>
+    </drinkadvisor:hasdrink>
+    <rating:value>1.0</rating:value>
+  </drinkadvisor:Bar>
+</rdf:RDF>

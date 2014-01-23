@@ -1,0 +1,845 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:FOAF="http://xmlns.com/foaf/0.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:drinkadvisor="http://localhost:9000/"
+    xmlns:GEO="http://www.geonames.org/ontology#"
+    xmlns:rating="http://www.tvblob.com/ratings/#"
+    xmlns:SIOC="http://rdfs.org/sioc/ns#"
+    xmlns:nt="http://ns.inria.fr/nicetag/2009/09/25/voc#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Broc+Café">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>2 Boulevard Henri IV, 34090 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6126696</geo:lat>
+    <geo:lon>3.8727257</geo:lon>
+    <rdfs:label>Broc Café</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Rebuffy">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>3-7 Rue Rebuffy, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6106997</geo:lat>
+    <geo:lon>3.8754476</geo:lon>
+    <rdfs:label>Rebuffy</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Bla+Bla+Bar">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>2-4 Rue de Candolle, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6128968</geo:lat>
+    <geo:lon>3.8747971</geo:lon>
+    <rdfs:label>Bla Bla Bar</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Triskell+4">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>20 Rue de Candolle, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6128827</geo:lat>
+    <geo:lon>3.8757058</geo:lon>
+    <rdfs:label>Triskell 4</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Mistral">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>40 Avenue Georges Clemenceau, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6027783</geo:lat>
+    <geo:lon>3.8708219</geo:lon>
+    <rdfs:label>Le Mistral</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Aero+Bar">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>2-10 Rue du Pila Saint Gély, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6132310</geo:lat>
+    <geo:lon>3.8797343</geo:lon>
+    <rdfs:label>Aero Bar</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Sound+Station">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>4 Rue de la Méditerranée, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6054674</geo:lat>
+    <geo:lon>3.8825337</geo:lon>
+    <rdfs:label>Sound Station</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Les+3+bocks">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>37 Avenue Georges Clemenceau, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6027400</geo:lat>
+    <geo:lon>3.8712381</geo:lon>
+    <rdfs:label>Les 3 bocks</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=La+Distillerie">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>74 Rue de l'Aiguillerie, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6130285</geo:lat>
+    <geo:lon>3.8792185</geo:lon>
+    <rdfs:label>La Distillerie</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Chab">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>9 Place Chabaneau, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6114561</geo:lat>
+    <geo:lon>3.8762614</geo:lon>
+    <rdfs:label>Le Chab</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Bar+du+Carré+du+Roi">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>18 Rue Richer de Belleval, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6131115</geo:lat>
+    <geo:lon>3.8691846</geo:lon>
+    <rdfs:label>Bar du Carré du Roi</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Forcys">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>12 Rue des Écoles Laïques, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6136576</geo:lat>
+    <geo:lon>3.8791115</geo:lon>
+    <rdfs:label>Forcys</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Robin+Hood">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>9 Place Alexandre Laissac, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6062818</geo:lat>
+    <geo:lon>3.8763580</geo:lon>
+    <rdfs:label>Robin Hood</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Indian+Café">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>17 Place du Nombre d'Or, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6084148</geo:lat>
+    <geo:lon>3.8869677</geo:lon>
+    <rdfs:label>Indian Café</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Hortus">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>Place de Marathon, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6078122</geo:lat>
+    <geo:lon>3.8897802</geo:lon>
+    <rdfs:label>Hortus</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Café+Latitude">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>5 Rue de la Canourgue, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6118637</geo:lat>
+    <geo:lon>3.8743349</geo:lon>
+    <rdfs:label>Café Latitude</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Mi+Barrio">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>8-14 Rue du Plan d'Agde, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6080219</geo:lat>
+    <geo:lon>3.8758201</geo:lon>
+    <rdfs:label>Mi Barrio</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Les+Andalouses">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>69 Rue du Faubourg Figuerolles, 34070 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6059905</geo:lat>
+    <geo:lon>3.8632817</geo:lon>
+    <rdfs:label>Les Andalouses</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=O&apos;Sullivan">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>Place Aphrodite, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6069119</geo:lat>
+    <geo:lon>3.8961615</geo:lon>
+    <rdfs:label>O'Sullivan</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=L&apos;Alternatif">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>2 Rue Moquin Tandon, 34090 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6198723</geo:lat>
+    <geo:lon>3.8731730</geo:lon>
+    <rdfs:label>L'Alternatif</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=La+Belle+Époque">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>4 Boulevard Louis Blanc, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6145930</geo:lat>
+    <geo:lon>3.8791660</geo:lon>
+    <rdfs:label>La Belle Époque</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Player">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>50 Avenue Georges Clemenceau, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6023967</geo:lat>
+    <geo:lon>3.8701171</geo:lon>
+    <rdfs:label>Le Player</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Saint-Roch">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>6 Rue de la Fontaine, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6077462</geo:lat>
+    <geo:lon>3.8758738</geo:lon>
+    <rdfs:label>Le Saint-Roch</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=The+O&apos;liver">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>Allée Ulysse, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6037655</geo:lat>
+    <geo:lon>3.9185507</geo:lon>
+    <rdfs:label>The O'liver</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Tram">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>1501 Rue du Professeur Joseph Anglada, 34090 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6321265</geo:lat>
+    <geo:lon>3.8549164</geo:lon>
+    <rdfs:label>Le Tram</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=The+Shakespeare">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>1-9 Rue de la Petite Loge, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6105855</geo:lat>
+    <geo:lon>3.8784429</geo:lon>
+    <rdfs:label>The Shakespeare</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Carnot">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>22-24 Rue des Aiguerelles, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6032467</geo:lat>
+    <geo:lon>3.8822270</geo:lon>
+    <rdfs:label>Le Carnot</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Corto">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>12 Rue de Candolle, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6129499</geo:lat>
+    <geo:lon>3.8752475</geo:lon>
+    <rdfs:label>Le Corto</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Comptoir+de+l&apos;Arc">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>2 Rue de l'Hôtel de ville, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6115022</geo:lat>
+    <geo:lon>3.8745600</geo:lon>
+    <rdfs:label>Comptoir de l'Arc</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Macadam">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>1 Rue des 2 Ponts, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6052067</geo:lat>
+    <geo:lon>3.8823519</geo:lon>
+    <rdfs:label>Macadam</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Cubanito+Café">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>13 Rue de Verdun, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6072962</geo:lat>
+    <geo:lon>3.8806897</geo:lon>
+    <rdfs:label>Cubanito Café</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=L&apos;Opéra">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>80 Rue du Faubourg Figuerolles, 34070 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6061653</geo:lat>
+    <geo:lon>3.8634051</geo:lon>
+    <rdfs:label>L'Opéra</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Up+&amp;+Down">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>1-9 Rue du Pila Saint Gély, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6131731</geo:lat>
+    <geo:lon>3.8795125</geo:lon>
+    <rdfs:label>Up &amp; Down</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Spot">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>6 Place des Beaux Arts, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6159058</geo:lat>
+    <geo:lon>3.8814863</geo:lon>
+    <rdfs:label>Le Spot</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Cave+à+vin">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>512-560 Route de la Pompignane, 34170 Castelnau-le-Lez, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6248630</geo:lat>
+    <geo:lon>3.8995952</geo:lon>
+    <rdfs:label>Cave à vin</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Chez+Félix">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>1-3 Rue Vanneau, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6081532</geo:lat>
+    <geo:lon>3.8804547</geo:lon>
+    <rdfs:label>Chez Félix</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Irish+Tavern">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>15 Rue Lunaret, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6166089</geo:lat>
+    <geo:lon>3.8796233</geo:lon>
+    <rdfs:label>Irish Tavern</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Baretto">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>25-27 Rue du Palais des Guilhem, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6113818</geo:lat>
+    <geo:lon>3.8755027</geo:lon>
+    <rdfs:label>Le Baretto</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Riad">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>13 Rue du Faubourg de Nîmes, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6141402</geo:lat>
+    <geo:lon>3.8811261</geo:lon>
+    <rdfs:label>Le Riad</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=L&apos;Étincelle">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>20 Allée Antonin Chauliac, 34080 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6136898</geo:lat>
+    <geo:lon>3.8303026</geo:lon>
+    <rdfs:label>L'Étincelle</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Wine+Not+Bar">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>2-14 Rue du Trésorier de la Bourse, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6094110</geo:lat>
+    <geo:lon>3.8767019</geo:lon>
+    <rdfs:label>Wine Not Bar</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Saphir">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>16 Rue Henri René, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6043346</geo:lat>
+    <geo:lon>3.8823961</geo:lon>
+    <rdfs:label>Le Saphir</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Irish+Corner">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>147 Avenue de Boirargues, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6046556</geo:lat>
+    <geo:lon>3.9000391</geo:lon>
+    <rdfs:label>Irish Corner</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=The+Temple+Bar">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>74 Rue du Guesclin, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6064286</geo:lat>
+    <geo:lon>3.8824990</geo:lon>
+    <rdfs:label>The Temple Bar</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=The+Black+Sheep">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>21 Boulevard Louis Blanc, 34090 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6146991</geo:lat>
+    <geo:lon>3.8799090</geo:lon>
+    <rdfs:label>The Black Sheep</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=La+Taverne+du+Perroquet">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>1-9 Rue du Pila Saint Gély, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6131223</geo:lat>
+    <geo:lon>3.8794820</geo:lon>
+    <rdfs:label>La Taverne du Perroquet</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Ayers+Rock">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>00108 Rue de Rhodes, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6074463</geo:lat>
+    <geo:lon>3.8962066</geo:lon>
+    <rdfs:label>Ayers Rock</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Chez+Paul(e)">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>17 Place du Nombre d'Or, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6086112</geo:lat>
+    <geo:lon>3.8873729</geo:lon>
+    <rdfs:label>Chez Paul(e)</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Histoire2">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>60 Avenue du Pont Juvénal, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6053798</geo:lat>
+    <geo:lon>3.8889170</geo:lon>
+    <rdfs:label>Histoire2</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Petit+Ness">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>6 Place Jean Jaurès, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6097586</geo:lat>
+    <geo:lon>3.8779837</geo:lon>
+    <rdfs:label>Le Petit Ness</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Brasserie+Le+Bastide">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>3 Avenue Emile Bertin Sans, 34090 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6276818</geo:lat>
+    <geo:lon>3.8646195</geo:lon>
+    <rdfs:label>Brasserie Le Bastide</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:User rdf:about="http://localhost:9000/infouser?idvar=123">
+    <drinkadvisor:knowsDA>
+      <drinkadvisor:User rdf:about="http://localhost:9000/infouser?idvar=798294398">
+        <FOAF:accountName>linktest</FOAF:accountName>
+      </drinkadvisor:User>
+    </drinkadvisor:knowsDA>
+    <SIOC:id>123</SIOC:id>
+    <FOAF:gender>female</FOAF:gender>
+    <FOAF:mbox>test@test.fr</FOAF:mbox>
+    <GEO:hometown>hometest</GEO:hometown>
+    <FOAF:accountName>linktest</FOAF:accountName>
+    <FOAF:nick>testUsername1</FOAF:nick>
+    <FOAF:based_near>
+      <rdf:Description rdf:about="http://www.geonames.org/ontology#locationtest">
+        <GEO:location>locationtest</GEO:location>
+      </rdf:Description>
+    </FOAF:based_near>
+    <FOAF:name>testname1</FOAF:name>
+    <FOAF:birthday>00/00/0000</FOAF:birthday>
+  </drinkadvisor:User>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=La+Pleine+Lune">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>00026 Rue du Faubourg Figuerolles, 34070 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6075994</geo:lat>
+    <geo:lon>3.8669690</geo:lon>
+    <rdfs:label>La Pleine Lune</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Circus+Bar">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>1-3 Rue Collot, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6100222</geo:lat>
+    <geo:lon>3.8783915</geo:lon>
+    <rdfs:label>Circus Bar</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=turtle+café">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>48 Rue Frédéric Bazille, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6008042</geo:lat>
+    <geo:lon>3.8846603</geo:lon>
+    <rdfs:label>turtle café</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=La+Citadelle">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>20 Rue Fabre, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6102450</geo:lat>
+    <geo:lon>3.8790867</geo:lon>
+    <rdfs:label>La Citadelle</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Rockstore">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>20 Rue de Verdun, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6062418</geo:lat>
+    <geo:lon>3.8813648</geo:lon>
+    <rdfs:label>Rockstore</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Couleur+de+Bières">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>48 Rue du Faubourg Saint-Jaumes, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6172793</geo:lat>
+    <geo:lon>3.8677602</geo:lon>
+    <rdfs:label>Couleur de Bières</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Bar+du+Musée">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>1-11 Rue du Collège, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6111883</geo:lat>
+    <geo:lon>3.8793137</geo:lon>
+    <rdfs:label>Bar du Musée</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=L&apos;atelier">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>3-7 Rue Rebuffy, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6106109</geo:lat>
+    <geo:lon>3.8755810</geo:lon>
+    <rdfs:label>L'atelier</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Comptoir">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>17 Rue des Sœurs Noires, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6088803</geo:lat>
+    <geo:lon>3.8748881</geo:lon>
+    <rdfs:label>Le Comptoir</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Charlie&apos;s+Beer">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>22 Rue Aristide Ollivier, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6064588</geo:lat>
+    <geo:lon>3.8823876</geo:lon>
+    <rdfs:label>Charlie's Beer</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Au+Petit+Lucullus">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>85 Avenue de Palavas, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.5955850</geo:lat>
+    <geo:lon>3.8880815</geo:lon>
+    <rdfs:label>Au Petit Lucullus</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Les+Bistronomes">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>17 Place du Nombre d'Or, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6085529</geo:lat>
+    <geo:lon>3.8880326</geo:lon>
+    <rdfs:label>Les Bistronomes</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Vodka+Bar">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>5 Place Chabaneau, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6114105</geo:lat>
+    <geo:lon>3.8760715</geo:lon>
+    <rdfs:label>Vodka Bar</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Brasserie+Le+Fontenoy">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>9 Avenue Emile Bertin Sans, 34090 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6278781</geo:lat>
+    <geo:lon>3.8643458</geo:lon>
+    <rdfs:label>Brasserie Le Fontenoy</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Scarabée">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>12 Rue en Gondeau, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6075670</geo:lat>
+    <geo:lon>3.8763022</geo:lon>
+    <rdfs:label>Le Scarabée</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Merle+Blanc">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>22 Rue Saint-Firmin, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6102239</geo:lat>
+    <geo:lon>3.8757058</geo:lon>
+    <rdfs:label>Le Merle Blanc</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Barberousse">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>2-6 Rue Boussairolles, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6085046</geo:lat>
+    <geo:lon>3.8804528</geo:lon>
+    <rdfs:label>Barberousse</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=W">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>2-78 Rue des États Généraux, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6044115</geo:lat>
+    <geo:lon>3.8977807</geo:lon>
+    <rdfs:label>W</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Greyhound">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>12-16 Place de la Comédie, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6084777</geo:lat>
+    <geo:lon>3.8802186</geo:lon>
+    <rdfs:label>Greyhound</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Café+des+arts">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>3-4 Place Castellane, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6100155</geo:lat>
+    <geo:lon>3.8761554</geo:lon>
+    <rdfs:label>Café des arts</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Tire+Bouchon">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>20 Route de Lodève, 34080 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6146653</geo:lat>
+    <geo:lon>3.8292553</geo:lon>
+    <rdfs:label>Tire Bouchon</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=O&apos;+Carolans">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>1 Rue Philippy, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6103997</geo:lat>
+    <geo:lon>3.8745903</geo:lon>
+    <rdfs:label>O' Carolans</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Novelty">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>10 Rue Saint-Guilhem, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6102060</geo:lat>
+    <geo:lon>3.8761263</geo:lon>
+    <rdfs:label>Le Novelty</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=L&apos;Envers+Bodega">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>4-6 Place Jean Jaurès, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6098031</geo:lat>
+    <geo:lon>3.8780144</geo:lon>
+    <rdfs:label>L'Envers Bodega</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Antirouille">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>10-12 Rue Anatole France, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6053875</geo:lat>
+    <geo:lon>3.8759222</geo:lon>
+    <rdfs:label>Antirouille</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Barakajeu">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>Allée Ulysse, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6036264</geo:lat>
+    <geo:lon>3.9181088</geo:lon>
+    <rdfs:label>Barakajeu</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=The+Beehive">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>15 Rue du Plan d'Agde, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6078518</geo:lat>
+    <geo:lon>3.8759749</geo:lon>
+    <rdfs:label>The Beehive</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Fitzpatrick&apos;s">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>7 Rue Saint-Côme, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6082512</geo:lat>
+    <geo:lon>3.8765453</geo:lon>
+    <rdfs:label>Fitzpatrick's</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:User rdf:about="http://localhost:9000/infouser?idvar=456">
+    <FOAF:based_near rdf:resource="http://www.geonames.org/ontology#locationtest"/>
+    <SIOC:id>456</SIOC:id>
+    <FOAF:gender>female</FOAF:gender>
+    <FOAF:birthday>00/00/0000</FOAF:birthday>
+    <FOAF:accountName>linktest</FOAF:accountName>
+    <drinkadvisor:knowsDA rdf:resource="http://localhost:9000/infouser?idvar=798294398"/>
+    <FOAF:name>testname2</FOAF:name>
+    <FOAF:mbox>test@test.fr</FOAF:mbox>
+    <GEO:hometown>hometest</GEO:hometown>
+    <FOAF:nick>testUsername2</FOAF:nick>
+  </drinkadvisor:User>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Café+Teo">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>5 Rue de la Canourgue, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6117433</geo:lat>
+    <geo:lon>3.8742437</geo:lon>
+    <rdfs:label>Café Teo</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Las+Vegas+PMU">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>100-328 Le Grand Mail, 34080 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6218870</geo:lat>
+    <geo:lon>3.8166118</geo:lon>
+    <rdfs:label>Las Vegas PMU</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+P&apos;tit+Mas">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>9-13 Rue Emmanuel Hedon, 34090 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6223352</geo:lat>
+    <geo:lon>3.8664213</geo:lon>
+    <rdfs:label>Le P'tit Mas</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=The+Egg">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>11 Rue du Plan d'Agde, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6079999</geo:lat>
+    <geo:lon>3.8759685</geo:lon>
+    <rdfs:label>The Egg</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=El+Caliente">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>15 Rue du Faubourg de Nîmes, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6141676</geo:lat>
+    <geo:lon>3.8812012</geo:lon>
+    <rdfs:label>El Caliente</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Mojo+Matic">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>2-16 Rue de Ratte, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6116747</geo:lat>
+    <geo:lon>3.8762811</geo:lon>
+    <rdfs:label>Le Mojo Matic</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Printemps">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>12-14 Rue Rondelet, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6035738</geo:lat>
+    <geo:lon>3.8746843</geo:lon>
+    <rdfs:label>Le Printemps</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Au+Petit+Relais">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>129 Rue de la Pépinière, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6141690</geo:lat>
+    <geo:lon>3.8893669</geo:lon>
+    <rdfs:label>Au Petit Relais</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Le+Times">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>1-3 Rue des Teissiers, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6086521</geo:lat>
+    <geo:lon>3.8754151</geo:lon>
+    <rdfs:label>Le Times</rdfs:label>
+  </drinkadvisor:Bar>
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Red+Turtle">
+    <rating:value>0.0</rating:value>
+    <vcard:ADR>44 Avenue de Palavas, 34000 Montpellier, France</vcard:ADR>
+    <FOAF:phone></FOAF:phone>
+    <FOAF:homepage></FOAF:homepage>
+    <geo:lat>43.6008484</geo:lat>
+    <geo:lon>3.8845874</geo:lon>
+    <rdfs:label>Red Turtle</rdfs:label>
+  </drinkadvisor:Bar>
+</rdf:RDF>

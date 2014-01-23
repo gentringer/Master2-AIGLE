@@ -1,0 +1,37 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:drinkadvisor="http://localhost:9000/"
+    xmlns:rating="http://www.tvblob.com/ratings/#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:nt="http://ns.inria.fr/nicetag/2009/09/25/voc#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <drinkadvisor:Bar rdf:about="http://localhost:9000/bar?name=Antirouille">
+    <rdfs:label>Antirouille</rdfs:label>
+    <drinkadvisor:hasLike>
+      <drinkadvisor:user rdf:about="http://localhost:9000/infouser?id=798294398"/>
+    </drinkadvisor:hasLike>
+    <foaf:mbox>gilles.entringer@gmail.com</foaf:mbox>
+    <geo:lon>3.8759222</geo:lon>
+    <geo:lat>43.6053875</geo:lat>
+    <vcard:ADR>10 Rue Anatole France, 34000 Montpellier</vcard:ADR>
+    <drinkadvisor:hasdrink>
+      <drinkadvisor:Blonde rdf:about="http://localhost:9000/drink?name=Kronenbourg"/>
+    </drinkadvisor:hasdrink>
+    <foaf:homepage>gillesentringer.com</foaf:homepage>
+    <rating:value>1.0</rating:value>
+    <drinkadvisor:hasComment>
+      <drinkadvisor:Comment rdf:about="http://localhost:9000/bar?name=Antirouille#comment0">
+        <rdfs:comment>Commentaire pour le bar antirouille</rdfs:comment>
+        <sioc:topic>Antirouille</sioc:topic>
+        <sioc:has_creator>gilles.entringer</sioc:has_creator>
+      </drinkadvisor:Comment>
+    </drinkadvisor:hasComment>
+    <foaf:phone>06666666</foaf:phone>
+    <drinkadvisor:hasdrink>
+      <drinkadvisor:Blonde rdf:about="http://localhost:9000/drink?name=Paulaner"/>
+    </drinkadvisor:hasdrink>
+  </drinkadvisor:Bar>
+</rdf:RDF>

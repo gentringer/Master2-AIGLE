@@ -1,0 +1,313 @@
+  @(id: String, name: String, username: String, birthday: String, gender: String, email: String, hometown: String, location: String, link: String, userFriendsDA : List[User])
+
+  <html>
+          <head>
+              <title>DrinkAdvisor - @username</title>
+              <link rel="stylesheet" media="screen" href="@routes.Assets.at("css/bootstrap.css")">
+                <link rel="stylesheet" media="screen" href="@routes.Assets.at("css/bootstrap-responsive.css")">
+                <link rel="stylesheet" media="screen" href="@routes.Assets.at("css/social-buttons.css")">
+                     <script src="@routes.Assets.at("javascripts/bootstrap.js")" type="text/javascript"></script>
+               <script type="text/javascript" src="@routes.Routing.javascriptRoutes"></script>
+                     <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
+             <script src="@routes.Assets.at("js/bootstrap.min.js")" type="text/javascript"></script>
+                 <script src="@routes.Assets.at("js/jquery-latest.js")" type="text/javascript"></script> 
+              <script src="@routes.Assets.at("javascripts/OpenLayers.js")" type="text/javascript"></script>
+          <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+          </head>
+                <script type="text/javascript">     
+$(document).ready(function()
+{
+  var idface = '@id';
+              function generateUserRdf() {
+                  
+                  jsRoutes.controllers.Routing.addinfouser(idface).ajax({
+                        
+                        })
+                    };
+                  var strLink = "/files/"+idface+".rdf";
+                  document.getElementById("linkID").setAttribute("href",strLink);
+
+
+
+                  var strLinkjson = "/files/"+idface+".json";
+                  document.getElementById("linkIDjson").setAttribute("href",strLinkjson);
+});
+            
+            </script>
+
+            <script type="text/javascript"> 
+
+             function generateUserJSON() {
+                    var idface = '@id';
+
+                  jsRoutes.controllers.Routing.jsonuser(idface).ajax({
+                        
+                        })
+                    };
+                    
+              window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '237824306373643', // Set YOUR APP ID
+          channelUrl : 'http://localhost:9000//bars', // Channel File
+          status     : true, // check login status
+          cookie     : true, // enable cookies to allow the server to access the session
+          xfbml      : true  // parse XFBML
+        });
+        
+        
+        
+        FB.getLoginStatus(function(response) {
+            if (response.status === 'connected') {
+              // the user is logged in and has authenticated your
+              // app, and response.authResponse supplies
+              // the user's ID, a valid access token, a signed
+              // request, and the time the access token 
+              // and signed request each expire
+              var uid = response.authResponse.userID;
+              var accessToken = response.authResponse.accessToken;
+              // document.getElementById("connectBoutton").style.visibility='hidden'; 
+              // document.getElementById("connectBoutton").innerHTML="hello"; 
+               $('#connectBoutton').remove();
+               getUserInfo();
+
+               getUserStar();
+            } else if (response.status === 'not_authorized') {
+              
+              // the user is logged in to Facebook, 
+              // but has not authenticated your app
+            } else {
+              // the user isn't logged in to Facebook.
+            }
+           });
+     
+        FB.Event.subscribe('auth.authResponseChange', function(response)
+        {
+         if (response.status === 'connected')
+        {
+            //document.getElementById("message").innerHTML +=  "<br>Connected to Facebook";
+            //SUCCESS
+     
+        }   
+        else if (response.status === 'not_authorized')
+        {
+            document.getElementById("message").innerHTML +=  "<br>Failed to Connect";
+     
+            //FAILED
+        } else
+        {
+            document.getElementById("message").innerHTML +=  "<br>Logged Out";
+     
+            //UNKNOWN ERROR
+        }
+        });
+     
+        };
+     
+        function Login()
+        {
+     
+            FB.login(function(response) {
+               if (response.authResponse)
+               {
+                    getUserInfo();
+                   
+                        // the user is logged in and has authenticated your
+                        // app, and response.authResponse supplies
+                        // the user's ID, a valid access token, a signed
+                        // request, and the time the access token 
+                        // and signed request each expire
+                         document.getElementById("connectBoutton").style.visibility='hidden'; 
+                         document.getElementById("connectBoutton").innerHTML="hello"; 
+                 getUserInfo();
+                         getUserStar();
+                     
+                } else
+                {
+                 console.log('User cancelled login or did not fully authorize.');
+                }
+             },{scope: 'user_birthday,email,user_photos,read_friendlists,friends_photos,read_stream,user_location ,user_hometown,user_about_me'});
+     
+        }
+     
+      function getUserInfo() {
+            FB.api('/me', function(response) {
+           var str="<b>Name</b> : "+response.name+"<br>";
+              str +="<b>Link: </b>"+response.link+"<br>";
+              str +="<b>Username:</b> "+response.username+"<br>";
+              str +="<b>id: </b>"+response.id+"<br>";
+              str +="<b>Email:</b> "+response.email+"<br>";
+              str +="<b>gender:</b> "+response.gender+"<br>"; 
+
+              str +="<b>hometown:</b> "+response.hometown.name+"<br>"; 
+              str +="<b>location:</b> "+response.location.name+"<br>"; 
+              str +="<b>birthday:</b> "+response.birthday+"<br>"; 
+              str +="<input type='button' value='Get Photo' onclick='getPhoto();'/>";
+              str +="<input type='button' value='Logout' onclick='Logout();'/>";
+              getFriends(response.id, response.name, response.username, response.birthday, response.gender, response.email, response.hometown.name, response.location.name,response.link);
+              //document.getElementById("status").innerHTML=str;
+     
+             //(idFacebook,name,username,birthday,gender,email,hometown,location,link) 
+        });
+        }
+
+    function getFriends(id,name,username,birthday,gender,email,hometown,location,link){
+      var friendsid = new Array();
+      var friendsname = new Array();
+      var friendidstring= '';
+      FB.api('/me/friends',function(response) {
+        var friends = response.data;
+        for(var i= 0; i < friends.length; i++){
+          friendsid.push(friends[i].id);
+          friendsname.push(friends[i].name);
+          friendidstring += friends[i].id;
+          var end = friends.length -1;
+          if(i !=end){
+          friendidstring += ',';
+        }
+        }
+            sendinfo(id,name,username,birthday,gender,email,hometown,location,link,friendidstring);
+
+    });
+    }
+
+      function route(respond){
+        //alert("gello");
+        jsRoutes.controllers.Routing.addinfouser(respond).ajax({
+            
+          })
+        
+      }
+      function getUserStar() {
+          FB.api('/me', function(response) {
+
+
+            var str="<li style=\"color:#fff\"><b>Hello </b> <a href=\"/infouser?idvar="+response.id+"\" onclick=\"return route("+response.id+")\">"+response.name+"</a> &nbsp;&nbsp;<input type='button' value='Logout' onclick='Logout();'/></li>";
+
+         //str+="<li style=\"color:#fff\"><b>Hello </b> <a href=\"#\">"+response.name+"</a>&nbsp;&nbsp;<input type='button' value='Logout' onclick='Logout();'/></li>";
+            //str +="<b>Your Username:</b> "+response.username+"<br>";
+         //   str +="<input type='button' value='Get Photo' onclick='getPhoto();'/>";
+           /* str +="<b>Name</b> : "+response.name+"<br>";
+            str +="<b>Link: </b>"+response.link+"<br>";
+            str +="<b>Username:</b> "+response.username+"<br>";
+            str +="<b>id: </b>"+response.id+"<br>";
+            str +="<b>Email:</b> "+response.email+"<br>";
+            str +="<b>gender:</b> "+response.gender+"<br>"; 
+            str +="<b>hometown:</b> "+response.hometown.name+"<br>";
+            str +="<b>location:</b> "+response.location.name+"<br>"; 
+            str +="<b>birthday:</b> "+response.birthday+"<br>"; */
+
+            //getPhoto();
+            document.getElementById("connected").innerHTML=str;
+
+      });
+      }
+      
+        function getPhoto()
+        {
+          FB.api('/me/picture?type=normal', function(response) {
+     
+            var str="<img src='"+response.data.url+"'/>";
+              document.getElementById("connected").innerHTML+=str;
+     
+        });
+     
+        }
+        function Logout()
+        {
+            FB.logout(function(){document.location.reload();});
+        }
+     
+      // Load the SDK asynchronously
+      (function(d){
+         var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement('script'); js.id = id; js.async = true;
+         js.src = "//connect.facebook.net/en_US/all.js";
+         ref.parentNode.insertBefore(js, ref);
+       }(document));
+     
+      
+      
+    </script>
+
+            </script>
+ <body onload="init()">
+  <div id="status"></div>
+          <div class="container-fluid">
+            <div class="row-fluid">          
+                  <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="navbar-inner">
+                      <ul class="nav">
+                          <li class="brand"><i class="icon-glass icon-white"></i> DrinkAdvisor</li>
+                          <li class="divider-vertical"></li>
+                          <li><a href="/bars"><i class="icon-home icon-white"></i> Accueil</a></li>
+                          <li class="divider-vertical"></li>
+                          <li><a href="#"><i class="icon-info-sign icon-white"></i> A propos</a></li>
+                          <li class="divider-vertical"></li>
+                          <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                          <li class="divider-vertical"></li>
+                          <li><a href="#" id="connectBoutton" onclick="Login()"></i>Se connecter avec Facebook</a></li>
+                          <li id="connected" style="text-decoration:none;">  </li>
+                      </ul>
+
+                    </div>
+                 </nav>
+               </div>
+
+               
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+
+               <div class="row">
+                <div class="span6 offset4 well">
+                            
+              
+                	<br>
+                  <h3>@name</h3>
+
+                  <strong>Username :</strong> @username<br>
+                  <strong>Anniversaire :</strong> @birthday<br>
+                  <strong>Sexe :</strong> @gender<br>
+                  <strong>E-mail :</strong> @email<br>
+                  <strong>Lieu de naissance :</strong> @hometown<br>
+                  <strong>Lieu de résidence :</strong> @location<br>
+                  <strong>Lien Facebook :</strong> <a href="@link">@link</a>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="span6 offset4 well" style="overflow:auto">
+                  <table class="table table-striped table-bordered table-condensed">
+                  
+                    <thead>
+                        <tr>
+                            <th style="text-align:center;">Tes amis FB utilisateurs de DA</th>
+                        </tr>
+                    </thead>
+                    
+                    @for((user, i) <- userFriendsDA.zipWithIndex) {
+                      <tr>
+                        <td><h4>@user.name</h4></td>
+                      </tr>
+                    }
+                  </table>
+                </div>
+              </div>
+
+          <div id="footer" class="container-fluid">
+            <div class="row-fluid">
+              <nav class="navbar navbar-inverse navbar-fixed-bottom">
+                  <div class="navbar-inner navbar-content-center">
+                      <p style="text-align:center;color:gray"class="text-muted credit"><strong>&copy; DrinkAdvisor 2013 - All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;</strong><a id="linkID" onclick="return generateUserRdf('@id')">RDF/XML</a></strong><a id="linkIDjson" onclick="return generateUserJSON('@id')">RDF/JSON</a>      </p>
+                  </div>
+              </nav>
+            </div>
+        </div>
+
+          </div>
+          </body>
+      </html>

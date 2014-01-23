@@ -1,0 +1,127 @@
+{ 
+  "http://localhost:9000/infouser?idvar=798294398" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/user"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/drink?name=Paulaner" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Blonde"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Antirouille#comment0" : { 
+    "http://rdfs.org/sioc/ns#has_creator" : [ { 
+      "type" : "literal" ,
+      "value" : "gilles.entringer"
+    }
+     ] ,
+    "http://rdfs.org/sioc/ns#topic" : [ { 
+      "type" : "literal" ,
+      "value" : "Antirouille"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#comment" : [ { 
+      "type" : "literal" ,
+      "value" : "Commentaire pour le bar antirouille"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Comment"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/drink?name=Kronenbourg" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Blonde"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/drink?name=Guinness" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Brune"
+    }
+     ]
+  }
+   ,
+  "http://localhost:9000/bar?name=Antirouille" : { 
+    "http://localhost:9000/hasdrink" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/drink?name=Guinness"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/drink?name=Paulaner"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/drink?name=Kronenbourg"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/mbox" : [ { 
+      "type" : "literal" ,
+      "value" : "gilles.entringer@gmail.com"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "literal" ,
+      "value" : "06666666"
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ { 
+      "type" : "literal" ,
+      "value" : "43.6053875"
+    }
+     ] ,
+    "http://www.w3.org/2003/01/geo/wgs84_pos#lon" : [ { 
+      "type" : "literal" ,
+      "value" : "3.8759222"
+    }
+     ] ,
+    "http://localhost:9000/hasComment" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/bar?name=Antirouille#comment0"
+    }
+     ] ,
+    "http://www.tvblob.com/ratings/#value" : [ { 
+      "type" : "literal" ,
+      "value" : "1.0"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/Bar"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "literal" ,
+      "value" : "gillesentringer.com"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Antirouille"
+    }
+     ] ,
+    "http://localhost:9000/hasLike" : [ { 
+      "type" : "uri" ,
+      "value" : "http://localhost:9000/infouser?idvar=798294398"
+    }
+     ] ,
+    "http://www.w3.org/2001/vcard-rdf/3.0#ADR" : [ { 
+      "type" : "literal" ,
+      "value" : "10 Rue Anatole France, 34000 Montpellier"
+    }
+     ]
+  }
+}

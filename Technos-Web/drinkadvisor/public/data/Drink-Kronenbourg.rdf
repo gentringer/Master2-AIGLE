@@ -1,0 +1,14 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:drinkadvisor="http://localhost:9000/"
+    xmlns:rating="http://www.tvblob.com/ratings/#"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:nt="http://ns.inria.fr/nicetag/2009/09/25/voc#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <drinkadvisor:Blonde rdf:about="http://localhost:9000/drink?name=Kronenbourg">
+    <drinkadvisor:city>Strasbourg</drinkadvisor:city>
+    <drinkadvisor:country>France</drinkadvisor:country>
+    <foaf:name>Kronenbourg</foaf:name>
+  </drinkadvisor:Blonde>
+</rdf:RDF>

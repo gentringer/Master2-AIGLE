@@ -1,0 +1,51 @@
+@(message: String)
+ 
+@import helper._
+@import controllers.routes.javascript._
+ 
+@main("Welcome to Play 2.0") {
+ 
+  <script type="text/javascript" src="@routes.Routing.javascriptRoutes"></script>
+ 
+  <input type='text' id='num1'/>
+  <input type='text' id='num2'/>
+  </br>
+  <input type='button' value='+' id='plusBtn' />
+  <input type='button' value='-' id='minusBtn' />
+  <br />
+  <div id="result" />
+ 
+  <script type="text/javascript" charset="utf-8">
+    var plus = function() {
+      var num1 = $('#num1').val();
+      var num2 = $('#num2').val();
+ 
+      jsRoutes.controllers.Application.plus(num1,num2).ajax({
+        success: function(data) {
+          $("#result").html(data);
+        },
+        error: function() {
+          alert("Error!")
+        }
+      })
+    };
+ 
+    var minus = function() {
+      var num1 = $('#num1').val();
+      var num2 = $('#num2').val();
+ 
+      jsRoutes.controllers.Application.minus(num1,num2).ajax({
+        success: function(data) {
+          $("#result").html(data);
+        },
+        error: function() {
+          alert("Error!")
+        }
+      })
+    };
+ 
+    $('#plusBtn').click(plus);
+    $('#minusBtn').click(minus);
+  </script>
+ 
+}
