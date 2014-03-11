@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/arrondissements-90-2011.rdf">
+		<dc:title xml:lang="fr">Arrondissements du département de Territoire de Belfort (90)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Arrondissement rdf:about="ARR_901">
+		<geo:code_arrondissement>901</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Belfort</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_90010"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9001">
+				<geo:code_canton>9001</geo:code_canton>
+				<geo:nom xml:lang="fr">Belfort-Centre</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9002">
+				<geo:code_canton>9002</geo:code_canton>
+				<geo:nom xml:lang="fr">Delle</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9003">
+				<geo:code_canton>9003</geo:code_canton>
+				<geo:nom xml:lang="fr">Fontaine</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9004">
+				<geo:code_canton>9004</geo:code_canton>
+				<geo:nom xml:lang="fr">Giromagny</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9005">
+				<geo:code_canton>9005</geo:code_canton>
+				<geo:nom xml:lang="fr">Rougemont-le-Château</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9006">
+				<geo:code_canton>9006</geo:code_canton>
+				<geo:nom xml:lang="fr">Valdoie</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9007">
+				<geo:code_canton>9007</geo:code_canton>
+				<geo:nom xml:lang="fr">Belfort-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9008">
+				<geo:code_canton>9008</geo:code_canton>
+				<geo:nom xml:lang="fr">Belfort-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9009">
+				<geo:code_canton>9009</geo:code_canton>
+				<geo:nom xml:lang="fr">Belfort-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9010">
+				<geo:code_canton>9010</geo:code_canton>
+				<geo:nom xml:lang="fr">Châtenois-les-Forges</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9011">
+				<geo:code_canton>9011</geo:code_canton>
+				<geo:nom xml:lang="fr">Danjoutin</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9012">
+				<geo:code_canton>9012</geo:code_canton>
+				<geo:nom xml:lang="fr">Beaucourt</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9013">
+				<geo:code_canton>9013</geo:code_canton>
+				<geo:nom xml:lang="fr">Grandvillars</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9014">
+				<geo:code_canton>9014</geo:code_canton>
+				<geo:nom xml:lang="fr">Belfort-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9015">
+				<geo:code_canton>9015</geo:code_canton>
+				<geo:nom xml:lang="fr">Offemont</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90001">
+				<geo:code_commune>90001</geo:code_commune>
+				<geo:nom xml:lang="fr">Andelnans</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90002">
+				<geo:code_commune>90002</geo:code_commune>
+				<geo:nom xml:lang="fr">Angeot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90003">
+				<geo:code_commune>90003</geo:code_commune>
+				<geo:nom xml:lang="fr">Anjoutey</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90004">
+				<geo:code_commune>90004</geo:code_commune>
+				<geo:nom xml:lang="fr">Argiésans</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90005">
+				<geo:code_commune>90005</geo:code_commune>
+				<geo:nom xml:lang="fr">Auxelles-Bas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90006">
+				<geo:code_commune>90006</geo:code_commune>
+				<geo:nom xml:lang="fr">Auxelles-Haut</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90007">
+				<geo:code_commune>90007</geo:code_commune>
+				<geo:nom xml:lang="fr">Banvillars</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90008">
+				<geo:code_commune>90008</geo:code_commune>
+				<geo:nom xml:lang="fr">Bavilliers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90009">
+				<geo:code_commune>90009</geo:code_commune>
+				<geo:nom xml:lang="fr">Beaucourt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90010">
+				<geo:code_commune>90010</geo:code_commune>
+				<geo:nom xml:lang="fr">Belfort</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90011">
+				<geo:code_commune>90011</geo:code_commune>
+				<geo:nom xml:lang="fr">Bermont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90012">
+				<geo:code_commune>90012</geo:code_commune>
+				<geo:nom xml:lang="fr">Bessoncourt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90013">
+				<geo:code_commune>90013</geo:code_commune>
+				<geo:nom xml:lang="fr">Bethonvilliers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90014">
+				<geo:code_commune>90014</geo:code_commune>
+				<geo:nom xml:lang="fr">Boron</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90015">
+				<geo:code_commune>90015</geo:code_commune>
+				<geo:nom xml:lang="fr">Botans</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90016">
+				<geo:code_commune>90016</geo:code_commune>
+				<geo:nom xml:lang="fr">Bourg-sous-Châtelet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90017">
+				<geo:code_commune>90017</geo:code_commune>
+				<geo:nom xml:lang="fr">Bourogne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90018">
+				<geo:code_commune>90018</geo:code_commune>
+				<geo:nom xml:lang="fr">Brebotte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90019">
+				<geo:code_commune>90019</geo:code_commune>
+				<geo:nom xml:lang="fr">Bretagne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90020">
+				<geo:code_commune>90020</geo:code_commune>
+				<geo:nom xml:lang="fr">Buc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90021">
+				<geo:code_commune>90021</geo:code_commune>
+				<geo:nom xml:lang="fr">Charmois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90022">
+				<geo:code_commune>90022</geo:code_commune>
+				<geo:nom xml:lang="fr">Châtenois-les-Forges</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90023">
+				<geo:code_commune>90023</geo:code_commune>
+				<geo:nom xml:lang="fr">Chaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90024">
+				<geo:code_commune>90024</geo:code_commune>
+				<geo:nom xml:lang="fr">Chavanatte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90025">
+				<geo:code_commune>90025</geo:code_commune>
+				<geo:nom xml:lang="fr">Chavannes-les-Grands</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90026">
+				<geo:code_commune>90026</geo:code_commune>
+				<geo:nom xml:lang="fr">Chèvremont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90027">
+				<geo:code_commune>90027</geo:code_commune>
+				<geo:nom xml:lang="fr">Courcelles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90028">
+				<geo:code_commune>90028</geo:code_commune>
+				<geo:nom xml:lang="fr">Courtelevant</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90029">
+				<geo:code_commune>90029</geo:code_commune>
+				<geo:nom xml:lang="fr">Cravanche</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90030">
+				<geo:code_commune>90030</geo:code_commune>
+				<geo:nom xml:lang="fr">Croix</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90031">
+				<geo:code_commune>90031</geo:code_commune>
+				<geo:nom xml:lang="fr">Cunelières</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90032">
+				<geo:code_commune>90032</geo:code_commune>
+				<geo:nom xml:lang="fr">Danjoutin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90033">
+				<geo:code_commune>90033</geo:code_commune>
+				<geo:nom xml:lang="fr">Delle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90034">
+				<geo:code_commune>90034</geo:code_commune>
+				<geo:nom xml:lang="fr">Denney</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90035">
+				<geo:code_commune>90035</geo:code_commune>
+				<geo:nom xml:lang="fr">Dorans</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90036">
+				<geo:code_commune>90036</geo:code_commune>
+				<geo:nom xml:lang="fr">Eguenigue</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90037">
+				<geo:code_commune>90037</geo:code_commune>
+				<geo:nom xml:lang="fr">Éloie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90039">
+				<geo:code_commune>90039</geo:code_commune>
+				<geo:nom xml:lang="fr">Essert</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90041">
+				<geo:code_commune>90041</geo:code_commune>
+				<geo:nom xml:lang="fr">Étueffont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90042">
+				<geo:code_commune>90042</geo:code_commune>
+				<geo:nom xml:lang="fr">Évette-Salbert</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90043">
+				<geo:code_commune>90043</geo:code_commune>
+				<geo:nom xml:lang="fr">Faverois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90044">
+				<geo:code_commune>90044</geo:code_commune>
+				<geo:nom xml:lang="fr">Felon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90045">
+				<geo:code_commune>90045</geo:code_commune>
+				<geo:nom xml:lang="fr">Fêche-l'Église</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90046">
+				<geo:code_commune>90046</geo:code_commune>
+				<geo:nom xml:lang="fr">Florimont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90047">
+				<geo:code_commune>90047</geo:code_commune>
+				<geo:nom xml:lang="fr">Fontaine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90048">
+				<geo:code_commune>90048</geo:code_commune>
+				<geo:nom xml:lang="fr">Fontenelle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90049">
+				<geo:code_commune>90049</geo:code_commune>
+				<geo:nom xml:lang="fr">Foussemagne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90050">
+				<geo:code_commune>90050</geo:code_commune>
+				<geo:nom xml:lang="fr">Frais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90051">
+				<geo:code_commune>90051</geo:code_commune>
+				<geo:nom xml:lang="fr">Froidefontaine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90052">
+				<geo:code_commune>90052</geo:code_commune>
+				<geo:nom xml:lang="fr">Giromagny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90053">
+				<geo:code_commune>90053</geo:code_commune>
+				<geo:nom xml:lang="fr">Grandvillars</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90054">
+				<geo:code_commune>90054</geo:code_commune>
+				<geo:nom xml:lang="fr">Grosmagny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90055">
+				<geo:code_commune>90055</geo:code_commune>
+				<geo:nom xml:lang="fr">Grosne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90056">
+				<geo:code_commune>90056</geo:code_commune>
+				<geo:nom xml:lang="fr">Joncherey</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90057">
+				<geo:code_commune>90057</geo:code_commune>
+				<geo:nom xml:lang="fr">Lachapelle-sous-Chaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90058">
+				<geo:code_commune>90058</geo:code_commune>
+				<geo:nom xml:lang="fr">Lachapelle-sous-Rougemont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90059">
+				<geo:code_commune>90059</geo:code_commune>
+				<geo:nom xml:lang="fr">Lacollonge</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90060">
+				<geo:code_commune>90060</geo:code_commune>
+				<geo:nom xml:lang="fr">Lagrange</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90061">
+				<geo:code_commune>90061</geo:code_commune>
+				<geo:nom xml:lang="fr">Lamadeleine-Val-des-Anges</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90062">
+				<geo:code_commune>90062</geo:code_commune>
+				<geo:nom xml:lang="fr">Larivière</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90063">
+				<geo:code_commune>90063</geo:code_commune>
+				<geo:nom xml:lang="fr">Lebetain</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90064">
+				<geo:code_commune>90064</geo:code_commune>
+				<geo:nom xml:lang="fr">Lepuix-Neuf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90065">
+				<geo:code_commune>90065</geo:code_commune>
+				<geo:nom xml:lang="fr">Lepuix</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90066">
+				<geo:code_commune>90066</geo:code_commune>
+				<geo:nom xml:lang="fr">Leval</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90067">
+				<geo:code_commune>90067</geo:code_commune>
+				<geo:nom xml:lang="fr">Menoncourt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90068">
+				<geo:code_commune>90068</geo:code_commune>
+				<geo:nom xml:lang="fr">Meroux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90069">
+				<geo:code_commune>90069</geo:code_commune>
+				<geo:nom xml:lang="fr">Méziré</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90070">
+				<geo:code_commune>90070</geo:code_commune>
+				<geo:nom xml:lang="fr">Montbouton</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90071">
+				<geo:code_commune>90071</geo:code_commune>
+				<geo:nom xml:lang="fr">Montreux-Château</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90072">
+				<geo:code_commune>90072</geo:code_commune>
+				<geo:nom xml:lang="fr">Morvillars</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90073">
+				<geo:code_commune>90073</geo:code_commune>
+				<geo:nom xml:lang="fr">Moval</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90074">
+				<geo:code_commune>90074</geo:code_commune>
+				<geo:nom xml:lang="fr">Novillard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90075">
+				<geo:code_commune>90075</geo:code_commune>
+				<geo:nom xml:lang="fr">Offemont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90076">
+				<geo:code_commune>90076</geo:code_commune>
+				<geo:nom xml:lang="fr">Pérouse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90077">
+				<geo:code_commune>90077</geo:code_commune>
+				<geo:nom xml:lang="fr">Petit-Croix</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90078">
+				<geo:code_commune>90078</geo:code_commune>
+				<geo:nom xml:lang="fr">Petitefontaine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90079">
+				<geo:code_commune>90079</geo:code_commune>
+				<geo:nom xml:lang="fr">Petitmagny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90080">
+				<geo:code_commune>90080</geo:code_commune>
+				<geo:nom xml:lang="fr">Phaffans</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90081">
+				<geo:code_commune>90081</geo:code_commune>
+				<geo:nom xml:lang="fr">Réchésy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90082">
+				<geo:code_commune>90082</geo:code_commune>
+				<geo:nom xml:lang="fr">Autrechêne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90083">
+				<geo:code_commune>90083</geo:code_commune>
+				<geo:nom xml:lang="fr">Recouvrance</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90084">
+				<geo:code_commune>90084</geo:code_commune>
+				<geo:nom xml:lang="fr">Reppe</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90085">
+				<geo:code_commune>90085</geo:code_commune>
+				<geo:nom xml:lang="fr">Riervescemont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90086">
+				<geo:code_commune>90086</geo:code_commune>
+				<geo:nom xml:lang="fr">Romagny-sous-Rougemont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90087">
+				<geo:code_commune>90087</geo:code_commune>
+				<geo:nom xml:lang="fr">Roppe</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90088">
+				<geo:code_commune>90088</geo:code_commune>
+				<geo:nom xml:lang="fr">Rougegoutte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90089">
+				<geo:code_commune>90089</geo:code_commune>
+				<geo:nom xml:lang="fr">Rougemont-le-Château</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90090">
+				<geo:code_commune>90090</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Dizier-l'Évêque</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90091">
+				<geo:code_commune>90091</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Germain-le-Châtelet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90093">
+				<geo:code_commune>90093</geo:code_commune>
+				<geo:nom xml:lang="fr">Sermamagny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90094">
+				<geo:code_commune>90094</geo:code_commune>
+				<geo:nom xml:lang="fr">Sevenans</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90095">
+				<geo:code_commune>90095</geo:code_commune>
+				<geo:nom xml:lang="fr">Suarce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90096">
+				<geo:code_commune>90096</geo:code_commune>
+				<geo:nom xml:lang="fr">Thiancourt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90097">
+				<geo:code_commune>90097</geo:code_commune>
+				<geo:nom xml:lang="fr">Trévenans</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90098">
+				<geo:code_commune>90098</geo:code_commune>
+				<geo:nom xml:lang="fr">Urcerey</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90099">
+				<geo:code_commune>90099</geo:code_commune>
+				<geo:nom xml:lang="fr">Valdoie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90100">
+				<geo:code_commune>90100</geo:code_commune>
+				<geo:nom xml:lang="fr">Vauthiermont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90101">
+				<geo:code_commune>90101</geo:code_commune>
+				<geo:nom xml:lang="fr">Vellescot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90102">
+				<geo:code_commune>90102</geo:code_commune>
+				<geo:nom xml:lang="fr">Vescemont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90103">
+				<geo:code_commune>90103</geo:code_commune>
+				<geo:nom xml:lang="fr">Vétrigne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90104">
+				<geo:code_commune>90104</geo:code_commune>
+				<geo:nom xml:lang="fr">Vézelois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_90105">
+				<geo:code_commune>90105</geo:code_commune>
+				<geo:nom xml:lang="fr">Villars-le-Sec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+</rdf:RDF>

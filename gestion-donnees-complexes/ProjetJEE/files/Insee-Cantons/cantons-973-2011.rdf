@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/cantons-973-2011.rdf">
+		<dc:title xml:lang="fr">Cantons et communes du département de la Guyane (973)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Canton rdf:about="CAN_97301">
+		<geo:code_canton>97301</geo:code_canton>
+		<geo:nom xml:lang="fr">Approuague-Kaw</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97301"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97301">
+				<geo:code_commune>97301</geo:code_commune>
+				<geo:nom xml:lang="fr">Régina</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97302">
+		<geo:code_canton>97302</geo:code_canton>
+		<geo:nom xml:lang="fr">Cayenne 1er Canton Nord-Ouest</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97302"/>
+		<geo:fraction_cantonale rdf:resource="COM_97302" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97303">
+		<geo:code_canton>97303</geo:code_canton>
+		<geo:nom xml:lang="fr">Cayenne 2e  Canton Nord-Est</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97302"/>
+		<geo:fraction_cantonale rdf:resource="COM_97302" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97304">
+		<geo:code_canton>97304</geo:code_canton>
+		<geo:nom xml:lang="fr">Cayenne 6e  Canton Sud-Est</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97302"/>
+		<geo:fraction_cantonale rdf:resource="COM_97302" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97305">
+		<geo:code_canton>97305</geo:code_canton>
+		<geo:nom xml:lang="fr">Cayenne 3e  Canton Sud-Ouest</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97302"/>
+		<geo:fraction_cantonale rdf:resource="COM_97302" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97306">
+		<geo:code_canton>97306</geo:code_canton>
+		<geo:nom xml:lang="fr">Iracoubo</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97303"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97303">
+				<geo:code_commune>97303</geo:code_commune>
+				<geo:nom xml:lang="fr">Iracoubo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97307">
+		<geo:code_canton>97307</geo:code_canton>
+		<geo:nom xml:lang="fr">Kourou</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97304"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97304">
+				<geo:code_commune>97304</geo:code_commune>
+				<geo:nom xml:lang="fr">Kourou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97308">
+		<geo:code_canton>97308</geo:code_canton>
+		<geo:nom xml:lang="fr">Macouria</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97305"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97305">
+				<geo:code_commune>97305</geo:code_commune>
+				<geo:nom xml:lang="fr">Macouria</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97309">
+		<geo:code_canton>97309</geo:code_canton>
+		<geo:nom xml:lang="fr">Mana</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97306"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97306">
+				<geo:code_commune>97306</geo:code_commune>
+				<geo:nom xml:lang="fr">Mana</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97361">
+				<geo:code_commune>97361</geo:code_commune>
+				<geo:nom xml:lang="fr">Awala-Yalimapo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97310">
+		<geo:code_canton>97310</geo:code_canton>
+		<geo:nom xml:lang="fr">Remire-Montjoly</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97309"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97309">
+				<geo:code_commune>97309</geo:code_commune>
+				<geo:nom xml:lang="fr">Remire-Montjoly</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97311">
+		<geo:code_canton>97311</geo:code_canton>
+		<geo:nom xml:lang="fr">Roura</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97310"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97310">
+				<geo:code_commune>97310</geo:code_commune>
+				<geo:nom xml:lang="fr">Roura</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97312">
+		<geo:code_canton>97312</geo:code_canton>
+		<geo:nom xml:lang="fr">Saint-Georges-Oyapoc</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97308"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97308">
+				<geo:code_commune>97308</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Georges</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97314">
+				<geo:code_commune>97314</geo:code_commune>
+				<geo:nom xml:lang="fr">Ouanary</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97356">
+				<geo:code_commune>97356</geo:code_commune>
+				<geo:nom xml:lang="fr">Camopi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97313">
+		<geo:code_canton>97313</geo:code_canton>
+		<geo:nom xml:lang="fr">Saint-Laurent-du-Maroni</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97311"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97311">
+				<geo:code_commune>97311</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Laurent-du-Maroni</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97314">
+		<geo:code_canton>97314</geo:code_canton>
+		<geo:nom xml:lang="fr">Sinnamary</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97312"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97312">
+				<geo:code_commune>97312</geo:code_commune>
+				<geo:nom xml:lang="fr">Sinnamary</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97358">
+				<geo:code_commune>97358</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Élie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97315">
+		<geo:code_canton>97315</geo:code_canton>
+		<geo:nom xml:lang="fr">Montsinéry-Tonnegrande</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97313"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97313">
+				<geo:code_commune>97313</geo:code_commune>
+				<geo:nom xml:lang="fr">Montsinéry-Tonnegrande</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97316">
+		<geo:code_canton>97316</geo:code_canton>
+		<geo:nom xml:lang="fr">Maripasoula</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97353"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97352">
+				<geo:code_commune>97352</geo:code_commune>
+				<geo:nom xml:lang="fr">Saül</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97353">
+				<geo:code_commune>97353</geo:code_commune>
+				<geo:nom xml:lang="fr">Maripasoula</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97357">
+				<geo:code_commune>97357</geo:code_commune>
+				<geo:nom xml:lang="fr">Grand-Santi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97360">
+				<geo:code_commune>97360</geo:code_commune>
+				<geo:nom xml:lang="fr">Apatou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97362">
+				<geo:code_commune>97362</geo:code_commune>
+				<geo:nom xml:lang="fr">Papaichton</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97317">
+		<geo:code_canton>97317</geo:code_canton>
+		<geo:nom xml:lang="fr">Cayenne 4e  Canton Centre</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97302"/>
+		<geo:fraction_cantonale rdf:resource="COM_97302" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97318">
+		<geo:code_canton>97318</geo:code_canton>
+		<geo:nom xml:lang="fr">Cayenne 5e  Canton Sud</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97302"/>
+		<geo:fraction_cantonale rdf:resource="COM_97302" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97319">
+		<geo:code_canton>97319</geo:code_canton>
+		<geo:nom xml:lang="fr">Matoury</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97307"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97307">
+				<geo:code_commune>97307</geo:code_commune>
+				<geo:nom xml:lang="fr">Matoury</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Pseudo-canton rdf:about="CAN_97399">
+		<geo:code_INSEE>97399</geo:code_INSEE>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97302">
+				<geo:code_commune>97302</geo:code_commune>
+				<geo:nom xml:lang="fr">Cayenne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Pseudo-canton>
+
+</rdf:RDF>

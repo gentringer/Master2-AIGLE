@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/arrondissements-971-2011.rdf">
+		<dc:title xml:lang="fr">Arrondissements du département de la Guadeloupe (971)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Arrondissement rdf:about="ARR_9711">
+		<geo:code_arrondissement>9711</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Basse-Terre</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97105"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97104">
+				<geo:code_canton>97104</geo:code_canton>
+				<geo:nom xml:lang="fr">Baie-Mahault</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97105">
+				<geo:code_canton>97105</geo:code_canton>
+				<geo:nom xml:lang="fr">Basse-Terre 1er Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97106">
+				<geo:code_canton>97106</geo:code_canton>
+				<geo:nom xml:lang="fr">Basse-Terre 2e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97107">
+				<geo:code_canton>97107</geo:code_canton>
+				<geo:nom xml:lang="fr">Bouillante</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97108">
+				<geo:code_canton>97108</geo:code_canton>
+				<geo:nom xml:lang="fr">Capesterre-Belle-Eau 1er Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97113">
+				<geo:code_canton>97113</geo:code_canton>
+				<geo:nom xml:lang="fr">Lamentin</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97118">
+				<geo:code_canton>97118</geo:code_canton>
+				<geo:nom xml:lang="fr">Petit-Bourg</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97124">
+				<geo:code_canton>97124</geo:code_canton>
+				<geo:nom xml:lang="fr">Pointe-Noire</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97126">
+				<geo:code_canton>97126</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Claude</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97132">
+				<geo:code_canton>97132</geo:code_canton>
+				<geo:nom xml:lang="fr">Sainte-Rose 1er Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97133">
+				<geo:code_canton>97133</geo:code_canton>
+				<geo:nom xml:lang="fr">Sainte-Rose 2e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97134">
+				<geo:code_canton>97134</geo:code_canton>
+				<geo:nom xml:lang="fr">Les Saintes</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97135">
+				<geo:code_canton>97135</geo:code_canton>
+				<geo:nom xml:lang="fr">Trois-Rivières</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97136">
+				<geo:code_canton>97136</geo:code_canton>
+				<geo:nom xml:lang="fr">Vieux-Habitants</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97140">
+				<geo:code_canton>97140</geo:code_canton>
+				<geo:nom xml:lang="fr">Capesterre-Belle-Eau 2e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97142">
+				<geo:code_canton>97142</geo:code_canton>
+				<geo:nom xml:lang="fr">Gourbeyre</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97143">
+				<geo:code_canton>97143</geo:code_canton>
+				<geo:nom xml:lang="fr">Goyave</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97103">
+				<geo:code_commune>97103</geo:code_commune>
+				<geo:nom xml:lang="fr">Baie-Mahault</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97104">
+				<geo:code_commune>97104</geo:code_commune>
+				<geo:nom xml:lang="fr">Baillif</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97105">
+				<geo:code_commune>97105</geo:code_commune>
+				<geo:nom xml:lang="fr">Basse-Terre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97106">
+				<geo:code_commune>97106</geo:code_commune>
+				<geo:nom xml:lang="fr">Bouillante</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97107">
+				<geo:code_commune>97107</geo:code_commune>
+				<geo:nom xml:lang="fr">Capesterre-Belle-Eau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97109">
+				<geo:code_commune>97109</geo:code_commune>
+				<geo:nom xml:lang="fr">Gourbeyre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97111">
+				<geo:code_commune>97111</geo:code_commune>
+				<geo:nom xml:lang="fr">Deshaies</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97114">
+				<geo:code_commune>97114</geo:code_commune>
+				<geo:nom xml:lang="fr">Goyave</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97115">
+				<geo:code_commune>97115</geo:code_commune>
+				<geo:nom xml:lang="fr">Lamentin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97118">
+				<geo:code_commune>97118</geo:code_commune>
+				<geo:nom xml:lang="fr">Petit-Bourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97121">
+				<geo:code_commune>97121</geo:code_commune>
+				<geo:nom xml:lang="fr">Pointe-Noire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97124">
+				<geo:code_commune>97124</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Claude</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97129">
+				<geo:code_commune>97129</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Rose</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97130">
+				<geo:code_commune>97130</geo:code_commune>
+				<geo:nom xml:lang="fr">Terre-de-Bas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97131">
+				<geo:code_commune>97131</geo:code_commune>
+				<geo:nom xml:lang="fr">Terre-de-Haut</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97132">
+				<geo:code_commune>97132</geo:code_commune>
+				<geo:nom xml:lang="fr">Trois-Rivières</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97133">
+				<geo:code_commune>97133</geo:code_commune>
+				<geo:nom xml:lang="fr">Vieux-Fort</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97134">
+				<geo:code_commune>97134</geo:code_commune>
+				<geo:nom xml:lang="fr">Vieux-Habitants</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_9712">
+		<geo:code_arrondissement>9712</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Pointe-à-Pitre</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97120"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97101">
+				<geo:code_canton>97101</geo:code_canton>
+				<geo:nom xml:lang="fr">Les Abymes 1er Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97102">
+				<geo:code_canton>97102</geo:code_canton>
+				<geo:nom xml:lang="fr">Les Abymes 2e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97103">
+				<geo:code_canton>97103</geo:code_canton>
+				<geo:nom xml:lang="fr">Anse-Bertrand</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97109">
+				<geo:code_canton>97109</geo:code_canton>
+				<geo:nom xml:lang="fr">Capesterre-de-Marie-Galante</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97110">
+				<geo:code_canton>97110</geo:code_canton>
+				<geo:nom xml:lang="fr">La Désirade</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97111">
+				<geo:code_canton>97111</geo:code_canton>
+				<geo:nom xml:lang="fr">Le Gosier 1er Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97112">
+				<geo:code_canton>97112</geo:code_canton>
+				<geo:nom xml:lang="fr">Grand-Bourg</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97114">
+				<geo:code_canton>97114</geo:code_canton>
+				<geo:nom xml:lang="fr">Morne-à-l'Eau 1er Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97115">
+				<geo:code_canton>97115</geo:code_canton>
+				<geo:nom xml:lang="fr">Morne-à-l'Eau 2e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97116">
+				<geo:code_canton>97116</geo:code_canton>
+				<geo:nom xml:lang="fr">Le Moule 1er Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97117">
+				<geo:code_canton>97117</geo:code_canton>
+				<geo:nom xml:lang="fr">Le Moule 2e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97119">
+				<geo:code_canton>97119</geo:code_canton>
+				<geo:nom xml:lang="fr">Petit-Canal</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97120">
+				<geo:code_canton>97120</geo:code_canton>
+				<geo:nom xml:lang="fr">Pointe-à-Pitre 1er Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97121">
+				<geo:code_canton>97121</geo:code_canton>
+				<geo:nom xml:lang="fr">Pointe-à-Pitre 2e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97122">
+				<geo:code_canton>97122</geo:code_canton>
+				<geo:nom xml:lang="fr">Pointe-à-Pitre 3e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97127">
+				<geo:code_canton>97127</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-François</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97128">
+				<geo:code_canton>97128</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Louis</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97130">
+				<geo:code_canton>97130</geo:code_canton>
+				<geo:nom xml:lang="fr">Sainte-Anne 1er Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97131">
+				<geo:code_canton>97131</geo:code_canton>
+				<geo:nom xml:lang="fr">Sainte-Anne 2e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97137">
+				<geo:code_canton>97137</geo:code_canton>
+				<geo:nom xml:lang="fr">Les Abymes 3e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97138">
+				<geo:code_canton>97138</geo:code_canton>
+				<geo:nom xml:lang="fr">Les Abymes 4e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97139">
+				<geo:code_canton>97139</geo:code_canton>
+				<geo:nom xml:lang="fr">Les Abymes 5e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_97141">
+				<geo:code_canton>97141</geo:code_canton>
+				<geo:nom xml:lang="fr">Le Gosier 2e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97101">
+				<geo:code_commune>97101</geo:code_commune>
+				<geo:nom xml:lang="fr">Les Abymes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97102">
+				<geo:code_commune>97102</geo:code_commune>
+				<geo:nom xml:lang="fr">Anse-Bertrand</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97108">
+				<geo:code_commune>97108</geo:code_commune>
+				<geo:nom xml:lang="fr">Capesterre-de-Marie-Galante</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97110">
+				<geo:code_commune>97110</geo:code_commune>
+				<geo:nom xml:lang="fr">La Désirade</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97112">
+				<geo:code_commune>97112</geo:code_commune>
+				<geo:nom xml:lang="fr">Grand-Bourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97113">
+				<geo:code_commune>97113</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Gosier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97116">
+				<geo:code_commune>97116</geo:code_commune>
+				<geo:nom xml:lang="fr">Morne-à-l'Eau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97117">
+				<geo:code_commune>97117</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Moule</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97119">
+				<geo:code_commune>97119</geo:code_commune>
+				<geo:nom xml:lang="fr">Petit-Canal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97120">
+				<geo:code_commune>97120</geo:code_commune>
+				<geo:nom xml:lang="fr">Pointe-à-Pitre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97122">
+				<geo:code_commune>97122</geo:code_commune>
+				<geo:nom xml:lang="fr">Port-Louis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97125">
+				<geo:code_commune>97125</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-François</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97126">
+				<geo:code_commune>97126</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Louis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97128">
+				<geo:code_commune>97128</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Anne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+</rdf:RDF>

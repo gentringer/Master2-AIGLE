@@ -1,0 +1,223 @@
+
+
+//geonames + TDB Departements (longitude / latitude population)
+SELECT DISTINCT ?nom ?population ?lon ?lat ?code WHERE {
+				
+
+    ?s rdf:type insee:Departement  . 
+				?s insee:nom ?ucase .
+				   BIND (str(?ucase) as ?nom) .
+
+				?s insee:code_departement ?code .
+
+				?y rdf:type gn:Feature .
+   ?y gn:name ?nom .
+    ?y gn:population ?population  .
+    ?y wgs84_pos:long ?lon .
+    ?y wgs84_pos:lat ?lat
+}
+
+
+//geonames + TDB Departements
+SELECT DISTINCT ?nom ?population ?code WHERE {
+				
+
+    ?s rdf:type insee:Departement  . 
+				?s insee:nom ?ucase .
+				   BIND (str(?ucase) as ?nom) .
+
+				?s insee:code_departement ?code .
+
+				?y rdf:type gn:Feature .
+   ?y gn:name ?nom .
+    ?y gn:population ?population  .
+}
+
+
+
+
+
+//D2rq + Hbase
+
+SELECT ?nomcommune ?annee (SUM(?nbR) AS ?nbRedevables)
+WHERE {
+ ?impot impots:IMPOT_ANNEE ?annee .
+  ?impot impots:IMPOT_NBREREDEVABLE ?nbR .
+  ?impot impots:IMPOT_CODEINSEE ?codecom .
+  ?com insee:code_INSEE ?codecom .
+  ?com insee:nom ?nomcommune
+
+}
+GROUP BY ?nomcommune ?annee
+
+
+// D2rq + Hbase : Communes avec plus de 500 et moins de 900 redevables
+SELECT ?ville ?nbRedevables
+WHERE {
+  ?impot impots:IMPOT_ANNEE ?annee .
+  ?impot impots:IMPOT_NBREREDEVABLE ?nbRedevables .
+  FILTER (?nbRedevables > 500) .
+    FILTER (?nbRedevables < 900) .
+
+  ?impot impots:IMPOT_CODEINSEE ?codecom .
+  ?com insee:code_INSEE ?codecom .
+  ?com insee:nom ?ville
+}
+ORDER BY DESC(?nbRedevables)
+
+
+
+
+// Nombre d'habitants par departement (TDB + SDB)
+SELECT ?departement ?nom ?popTotale WHERE {
+	?region insee:subdivision ?departement .
+	?region insee:code_region "91" .
+	?departement insee:nom ?nom .
+	?departement idemo:population ?popLeg .
+	?popLeg idemo:populationTotale ?popTotale .
+}
+
+//Nombre d'habitatns pour la commune de Montpellier (Hbase + SDB)
+SELECT ?commune ?nom ?popMunicipale ?popCompteeAPart ?popTotale WHERE {
+	?commune insee:code_INSEE "34172" .
+	?commune insee:nom ?nom .
+	?commune idemo:population ?popLeg .
+	?popLeg idemo:populationMunicipale ?popMunicipale ; idemo:populationCompteeAPart ?popCompteeAPart ; idemo:populationTotale ?popTotale .
+}
+
+
+
+// TDB (Departents) + Genoames + SDB (Population) => Montre conflit
+SELECT DISTINCT ?nom ?population  ?popTotale  ?code WHERE {
+
+    ?s rdf:type insee:Departement  . 
+?s idemo:population ?popLeg .
+	?popLeg idemo:populationTotale ?popTotale .
+				?s insee:nom ?ucase .
+				   BIND (str(?ucase) as ?nom) .
+
+				?s insee:code_departement ?code .
+
+				?y rdf:type gn:Feature .
+   ?y gn:name ?nom .
+    ?y gn:population ?population  .
+
+}
+
+
+
+
+
+// Impots + Hbase (communes) + region (TDB)  // retourne que France
+SELECT ?region ?annee (SUM(?nbR) AS ?nbRedevables)
+WHERE {
+  ?impot impots:IMPOT_ANNEE ?annee .
+  ?impot impots:IMPOT_NBREREDEVABLE ?nbR .
+  ?impot impots:IMPOT_CODEINSEE ?codecom .
+  ?com insee:code_INSEE ?codecom .
+  ?dep insee:chef-lieu ?com .
+  ?reg insee:subdivision ?dep .
+  ?reg insee:nom ?region
+}
+GROUP BY ?region ?annee
+ORDER BY DESC(?nbRedevables)
+
+
+
+// Impots + Hbase (communes)
+SELECT DISTINCT ?codecom ?annee ?nbR
+WHERE {
+  ?impot impots:IMPOT_ANNEE ?annee .
+  ?impot impots:IMPOT_NBREREDEVABLE ?nbR .
+  ?impot impots:IMPOT_CODEINSEE ?codecom .
+  ?com insee:code_INSEE ?codecom .
+
+}
+ORDER BY DESC(?nbRedevables)
+
+//Nom de toutes les communes des département du Languedoc-Roussillon
+(Neo4J, TDB, Hbase)
+select ?codeDep ?nomCom where {
+?region insee:subdivision ?departement .
+	?region insee:code_region "91" .
+?departement insee:nom ?nomDep .
+?departement insee:code_departement ?codeDep .
+?com rdf:type insee:commune .
+?com insee:nom ?nomCom .
+?com insee:code_departement ?codeDep
+}
+LIMIT 1000
+
+
+
+select ?canton ?nom  where {
+
+?canton rdf:type insee:Canton .
+?canton insee:nom ?nom
+}
+
+select ?canton ?popLeg  where {
+
+?canton rdf:type insee:Canton .
+?canton insee:nom ?nom .
+?canton idemo:population ?popLeg .
+
+}
+
+
+//population totale par canton
+select ?canton ?popLeg ?nomcanton ?popTotale  where {
+
+?canton rdf:type insee:Canton .
+?canton insee:nom ?nom .
+?canton idemo:population ?popLeg .
+?popLeg idemo:populationTotale ?popTotale .
+?canton insee:nom ?nomcanton .
+}
+
+
+//Code_departements des communes des arrondissements
+select ?nomArr ?sub ?codeinsee ?codeDep where {
+	
+	?arron insee:subdivision ?sub .
+	?arron insee:nom ?nomArr .
+	?sub insee:code_commune ?code .
+        ?sub insee:code_INSEE ?codeinsee .
+        ?sub insee:code_departement ?codeDep .
+}
+ORDER BY DESC(?codeinsee)
+LIMIT 1000
+
+
+
+//Code_departements des communes des arrondissements et les populations des communes
+//SDB (pop), Arrondissement, HBase (communes)
+select distinct ?nomArr ?nomComm ?sub ?codeinsee ?codeDep ?popTotale where {
+	
+	?arron insee:subdivision ?sub .
+	?arron insee:nom ?nomArr .
+	?sub insee:code_commune ?code .
+        ?sub insee:code_INSEE ?codeinsee .
+        ?sub insee:code_departement ?codeDep .
+        ?sub insee:nom ?nomComm .
+        ?sub idemo:population ?popLeg .
+?popLeg idemo:populationTotale ?popTotale .
+}
+ORDER BY DESC(?codeDep)
+LIMIT 1000
+
+
+select distinct ?nomArrondissement ?nomComm ?sub ?codeinsee ?codeDep ?popTotale where {
+	
+	?arron insee:subdivision ?sub .
+	?arron insee:nom ?nomArr .
+    bind (UCASE(?nomArr) as ?nomArrondissement) .
+    ?sub insee:code_INSEE ?codeinsee .
+    ?sub insee:code_departement ?codeDep .
+    ?sub insee:code_departement "34".
+    ?sub insee:nom ?nomComm .
+    ?sub idemo:population ?popLeg .
+	?popLeg idemo:populationTotale ?popTotale .
+}
+ORDER BY DESC(?nomArrondissement)
+LIMIT 1000

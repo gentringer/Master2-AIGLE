@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration
+    PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+
+		<!-- local connection properties -->
+		<!-- DataBase Url Connexion : -->
+		<property name="hibernate.connection.url">jdbc:mysql://mysql1.alwaysdata.com/stagesgeom_tersuicide</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<!-- DataBase Connection Username : -->
+		<property name="hibernate.connection.username">39131_tersuicide</property>
+		<!-- DataBase Connection Password : -->
+		<property name="hibernate.connection.password">tersuicide</property>
+		<!-- property name="hibernate.connection.pool_size"></property -->
+
+		<!-- dialect for MySQL -->
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="current_session_context_class">thread</property>
+
+		<!-- Disable the second-level cache -->
+		<property name="cache.provider_class">org.hibernate.cache.internal.NoCacheProvider</property>
+
+		<!-- Echo all executed SQL to stdout -->
+		<property name="show_sql">true</property>
+
+		<mapping class="ter.twitter.suicide.model.hibernate.jpa.Thematics"></mapping>
+		<mapping class="ter.twitter.suicide.model.hibernate.jpa.Tweets"></mapping>
+		<mapping class="ter.twitter.suicide.model.hibernate.jpa.TweetsNew"></mapping>
+		<mapping class="ter.twitter.suicide.model.hibernate.jpa.Results"></mapping>
+		
+	</session-factory>
+</hibernate-configuration>

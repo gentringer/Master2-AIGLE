@@ -1,0 +1,159 @@
+package com.example.projet;
+
+import com.google.android.gms.maps.SupportMapFragment;
+import android.support.v4.app.*;
+
+import android.annotation.SuppressLint;
+import android.app.ActionBar;
+import android.app.ActionBar.Tab;
+import android.app.Activity;
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
+
+public class OldMainActivity extends FragmentActivity  {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		final ActionBar actionBar = getActionBar();
+		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+
+
+
+		Tab tabB = actionBar.newTab();
+		tabB.setText("Map");
+		tabB.setTabListener(new TabListener<FragmentMap>(this, "Tag B", FragmentMap.class));
+
+		Tab tabA = actionBar.newTab();
+		tabA.setText("List");
+		tabA.setTabListener(new TabListener<ListeFragment>(this, "Tag A", ListeFragment.class));
+
+		Tab tabC = actionBar.newTab();
+		tabC.setText("Google Maps");
+		tabC.setTabListener(new TabListener<Main2>(this, "Tag C", Main2.class));
+
+
+		actionBar.addTab(tabA);
+		actionBar.addTab(tabB);
+		actionBar.addTab(tabC);
+
+		actionBar.setHomeButtonEnabled(true);
+		
+		if (savedInstanceState != null) {
+			int savedIndex = savedInstanceState.getInt("SAVED_INDEX");
+			getActionBar().setSelectedNavigationItem(savedIndex);
+		}
+
+	}
+
+	@Override
+	protected void onSaveInstanceState(Bundle outState) {
+		// TODO Auto-generated method stub
+		super.onSaveInstanceState(outState);
+		outState.putInt("SAVED_INDEX", getActionBar().getSelectedNavigationIndex());
+	}
+
+	public static class TabListener<T extends Fragment> 
+	implements ActionBar.TabListener{
+
+		private Fragment mFragment;
+		private final FragmentActivity mActivity;
+		private final String mTag;
+		private final Class<T> mClass;
+		private final Bundle mArgs;
+		private FragmentTransaction fft;
+
+		public TabListener(FragmentActivity activity, String tag, Class<T> clz) {
+			this(activity, tag, clz, null);
+		}
+
+		public TabListener(FragmentActivity activity, String tag, Class<T> clz,
+				Bundle args) {
+
+			mActivity = activity;
+			mTag = tag;
+			mClass = clz;
+			mArgs = args;
+			// TODO Auto-generated constructor stub
+
+			mFragment = mActivity.getSupportFragmentManager()
+					.findFragmentByTag(mTag);
+			if (mFragment != null && !mFragment.isDetached()) {
+
+				fft = mActivity.getSupportFragmentManager().beginTransaction();
+				fft.detach(mFragment);
+				fft.commit();
+				mActivity.getSupportFragmentManager()
+				.executePendingTransactions();
+			}
+		}
+
+
+
+
+
+
+		@Override
+		public void onTabReselected(Tab tab, android.app.FragmentTransaction ft) {
+			// TODO Auto-generated method stub
+			Fragment preInitializedFragment = mActivity.getSupportFragmentManager()
+					.findFragmentByTag(mTag);
+			if (preInitializedFragment != null) {
+				fft = mActivity.getSupportFragmentManager().beginTransaction();
+				fft.detach(preInitializedFragment);
+				fft.commit();
+				mActivity.getSupportFragmentManager()
+				.executePendingTransactions();
+
+			} else if (mFragment != null) {
+				fft = mActivity.getSupportFragmentManager().beginTransaction();
+				fft.detach(mFragment);
+				fft.commit();
+				mActivity.getSupportFragmentManager()
+				.executePendingTransactions();
+			}
+		}
+
+		@Override
+		public void onTabSelected(Tab tab, android.app.FragmentTransaction ft) {
+			// TODO Auto-generated method stub
+			Fragment tmp = mActivity.getSupportFragmentManager()
+					.findFragmentByTag(mTag);
+
+			fft = mActivity.getSupportFragmentManager().beginTransaction();
+
+			if (mFragment == null) {
+
+				// If not, instantiate and add it to the activity
+				mFragment = Fragment.instantiate(mActivity, mClass.getName());
+				fft.add(android.R.id.content, mFragment, mTag);
+				fft.commit();
+				mActivity.getSupportFragmentManager()
+				.executePendingTransactions();
+			} else {
+				// If it exists, simply attach it in order to show it
+				fft.attach(mFragment);
+				fft.commit();
+				mActivity.getSupportFragmentManager()
+				.executePendingTransactions();
+			}
+		}
+
+		@Override
+		public void onTabUnselected(Tab tab, android.app.FragmentTransaction ft) {
+			// TODO Auto-generated method stub
+			mFragment = mActivity.getSupportFragmentManager()
+					.findFragmentByTag(mTag);
+
+			if (mFragment != null && !mFragment.isDetached()) {
+				fft = mActivity.getSupportFragmentManager().beginTransaction();
+				fft.detach(mFragment);
+				fft.commit();
+				mActivity.getSupportFragmentManager()
+				.executePendingTransactions();
+			}
+
+		}
+	}
+}

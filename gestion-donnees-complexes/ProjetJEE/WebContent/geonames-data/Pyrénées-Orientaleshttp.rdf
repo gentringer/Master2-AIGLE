@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<gn:Feature rdf:about="http://sws.geonames.org/2984885/">
+<rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/2984885/about.rdf"/>
+<gn:name>Pyrénées-Orientales</gn:name>
+<gn:alternateName xml:lang="ca">Departament dels Pirineus Orientals</gn:alternateName>
+<gn:alternateName xml:lang="de">Pyrénées-Orientales</gn:alternateName>
+<gn:alternateName xml:lang="en">Pyrénées-Orientales</gn:alternateName>
+<gn:alternateName xml:lang="es">Pirineos Orientales</gn:alternateName>
+<gn:alternateName xml:lang="fr">Pyrénées-Orientales</gn:alternateName>
+<gn:alternateName xml:lang="it">Pirenei Orientali</gn:alternateName>
+<gn:alternateName xml:lang="pt">Pirineus Orientais</gn:alternateName>
+<gn:featureClass rdf:resource="http://www.geonames.org/ontology#A"/>
+<gn:featureCode rdf:resource="http://www.geonames.org/ontology#A.ADM2"/>
+<gn:countryCode>FR</gn:countryCode>
+<gn:population>454737</gn:population>
+<wgs84_pos:lat>42.5</wgs84_pos:lat>
+<wgs84_pos:long>2.33333</wgs84_pos:long>
+<gn:parentCountry rdf:resource="http://sws.geonames.org/3017382/"/>
+<gn:childrenFeatures rdf:resource="http://sws.geonames.org/2984885/contains.rdf"/>
+<gn:locationMap rdf:resource="http://www.geonames.org/2984885/departement-des-pyrenees-orientales.html"/>
+<gn:wikipediaArticle rdf:resource="http://en.wikipedia.org/wiki/Pyr%C3%A9n%C3%A9es-Orientales"/>
+<rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Pyr%C3%A9n%C3%A9es-Orientales"/>
+</gn:Feature>
+<gn:Feature rdf:about="http://sws.geonames.org/3113382/">
+<rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/3113382/about.rdf"/>
+<gn:name>The Eastern Pyrenees</gn:name>
+<gn:alternateName xml:lang="en">The Eastern Pyrenees</gn:alternateName>
+<gn:alternateName xml:lang="es">Pirineos Orientales</gn:alternateName>
+<gn:alternateName xml:lang="fr">Pyrénées Méditerraneennes</gn:alternateName>
+<gn:featureClass rdf:resource="http://www.geonames.org/ontology#T"/>
+<gn:featureCode rdf:resource="http://www.geonames.org/ontology#T.MTS"/>
+<gn:countryCode>ES</gn:countryCode>
+<wgs84_pos:lat>42.5</wgs84_pos:lat>
+<wgs84_pos:long>2.25</wgs84_pos:long>
+<gn:parentCountry rdf:resource="http://sws.geonames.org/2510769/"/>
+<gn:nearbyFeatures rdf:resource="http://sws.geonames.org/3113382/nearby.rdf"/>
+<gn:locationMap rdf:resource="http://www.geonames.org/3113382/pyrenees-orientales.html"/>
+</gn:Feature>
+</rdf:RDF>

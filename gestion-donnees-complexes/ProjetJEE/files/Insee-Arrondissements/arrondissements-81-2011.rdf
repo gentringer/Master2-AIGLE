@@ -1,0 +1,2241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/arrondissements-81-2011.rdf">
+		<dc:title xml:lang="fr">Arrondissements du département du Tarn (81)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Arrondissement rdf:about="ARR_811">
+		<geo:code_arrondissement>811</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Albi</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_81004"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8101">
+				<geo:code_canton>8101</geo:code_canton>
+				<geo:nom xml:lang="fr">Alban</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8102">
+				<geo:code_canton>8102</geo:code_canton>
+				<geo:nom xml:lang="fr">Albi-Centre</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8105">
+				<geo:code_canton>8105</geo:code_canton>
+				<geo:nom xml:lang="fr">Cadalen</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8106">
+				<geo:code_canton>8106</geo:code_canton>
+				<geo:nom xml:lang="fr">Carmaux-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8107">
+				<geo:code_canton>8107</geo:code_canton>
+				<geo:nom xml:lang="fr">Castelnau-de-Montmiral</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8109">
+				<geo:code_canton>8109</geo:code_canton>
+				<geo:nom xml:lang="fr">Cordes-sur-Ciel</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8112">
+				<geo:code_canton>8112</geo:code_canton>
+				<geo:nom xml:lang="fr">Gaillac</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8118">
+				<geo:code_canton>8118</geo:code_canton>
+				<geo:nom xml:lang="fr">Lisle-sur-Tarn</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8120">
+				<geo:code_canton>8120</geo:code_canton>
+				<geo:nom xml:lang="fr">Monestiés</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8123">
+				<geo:code_canton>8123</geo:code_canton>
+				<geo:nom xml:lang="fr">Pampelonne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8125">
+				<geo:code_canton>8125</geo:code_canton>
+				<geo:nom xml:lang="fr">Rabastens</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8126">
+				<geo:code_canton>8126</geo:code_canton>
+				<geo:nom xml:lang="fr">Réalmont</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8130">
+				<geo:code_canton>8130</geo:code_canton>
+				<geo:nom xml:lang="fr">Salvagnac</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8132">
+				<geo:code_canton>8132</geo:code_canton>
+				<geo:nom xml:lang="fr">Valderiès</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8133">
+				<geo:code_canton>8133</geo:code_canton>
+				<geo:nom xml:lang="fr">Valence-d'Albigeois</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8134">
+				<geo:code_canton>8134</geo:code_canton>
+				<geo:nom xml:lang="fr">Vaour</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8136">
+				<geo:code_canton>8136</geo:code_canton>
+				<geo:nom xml:lang="fr">Villefranche-d'Albigeois</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8137">
+				<geo:code_canton>8137</geo:code_canton>
+				<geo:nom xml:lang="fr">Albi-Nord-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8138">
+				<geo:code_canton>8138</geo:code_canton>
+				<geo:nom xml:lang="fr">Albi-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8139">
+				<geo:code_canton>8139</geo:code_canton>
+				<geo:nom xml:lang="fr">Carmaux-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8143">
+				<geo:code_canton>8143</geo:code_canton>
+				<geo:nom xml:lang="fr">Albi-Nord-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8144">
+				<geo:code_canton>8144</geo:code_canton>
+				<geo:nom xml:lang="fr">Albi-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8145">
+				<geo:code_canton>8145</geo:code_canton>
+				<geo:nom xml:lang="fr">Albi-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81003">
+				<geo:code_commune>81003</geo:code_commune>
+				<geo:nom xml:lang="fr">Alban</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81004">
+				<geo:code_commune>81004</geo:code_commune>
+				<geo:nom xml:lang="fr">Albi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81007">
+				<geo:code_commune>81007</geo:code_commune>
+				<geo:nom xml:lang="fr">Alos</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81008">
+				<geo:code_commune>81008</geo:code_commune>
+				<geo:nom xml:lang="fr">Almayrac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81009">
+				<geo:code_commune>81009</geo:code_commune>
+				<geo:nom xml:lang="fr">Amarens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81010">
+				<geo:code_commune>81010</geo:code_commune>
+				<geo:nom xml:lang="fr">Ambialet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81012">
+				<geo:code_commune>81012</geo:code_commune>
+				<geo:nom xml:lang="fr">Andillac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81013">
+				<geo:code_commune>81013</geo:code_commune>
+				<geo:nom xml:lang="fr">Andouque</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81018">
+				<geo:code_commune>81018</geo:code_commune>
+				<geo:nom xml:lang="fr">Arthès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81019">
+				<geo:code_commune>81019</geo:code_commune>
+				<geo:nom xml:lang="fr">Assac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81020">
+				<geo:code_commune>81020</geo:code_commune>
+				<geo:nom xml:lang="fr">Aussac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81024">
+				<geo:code_commune>81024</geo:code_commune>
+				<geo:nom xml:lang="fr">Beauvais-sur-Tescou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81026">
+				<geo:code_commune>81026</geo:code_commune>
+				<geo:nom xml:lang="fr">Bellegarde</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81029">
+				<geo:code_commune>81029</geo:code_commune>
+				<geo:nom xml:lang="fr">Bernac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81033">
+				<geo:code_commune>81033</geo:code_commune>
+				<geo:nom xml:lang="fr">Blaye-les-Mines</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81035">
+				<geo:code_commune>81035</geo:code_commune>
+				<geo:nom xml:lang="fr">Bournazel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81038">
+				<geo:code_commune>81038</geo:code_commune>
+				<geo:nom xml:lang="fr">Brens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81041">
+				<geo:code_commune>81041</geo:code_commune>
+				<geo:nom xml:lang="fr">Broze</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81045">
+				<geo:code_commune>81045</geo:code_commune>
+				<geo:nom xml:lang="fr">Les Cabannes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81046">
+				<geo:code_commune>81046</geo:code_commune>
+				<geo:nom xml:lang="fr">Cadalen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81047">
+				<geo:code_commune>81047</geo:code_commune>
+				<geo:nom xml:lang="fr">Cadix</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81048">
+				<geo:code_commune>81048</geo:code_commune>
+				<geo:nom xml:lang="fr">Cagnac-les-Mines</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81051">
+				<geo:code_commune>81051</geo:code_commune>
+				<geo:nom xml:lang="fr">Cahuzac-sur-Vère</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81052">
+				<geo:code_commune>81052</geo:code_commune>
+				<geo:nom xml:lang="fr">Cambon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81056">
+				<geo:code_commune>81056</geo:code_commune>
+				<geo:nom xml:lang="fr">Campagnac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81059">
+				<geo:code_commune>81059</geo:code_commune>
+				<geo:nom xml:lang="fr">Carlus</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81060">
+				<geo:code_commune>81060</geo:code_commune>
+				<geo:nom xml:lang="fr">Carmaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81061">
+				<geo:code_commune>81061</geo:code_commune>
+				<geo:nom xml:lang="fr">Castanet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81063">
+				<geo:code_commune>81063</geo:code_commune>
+				<geo:nom xml:lang="fr">Castelnau-de-Lévis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81064">
+				<geo:code_commune>81064</geo:code_commune>
+				<geo:nom xml:lang="fr">Castelnau-de-Montmiral</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81067">
+				<geo:code_commune>81067</geo:code_commune>
+				<geo:nom xml:lang="fr">Cestayrols</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81068">
+				<geo:code_commune>81068</geo:code_commune>
+				<geo:nom xml:lang="fr">Combefa</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81069">
+				<geo:code_commune>81069</geo:code_commune>
+				<geo:nom xml:lang="fr">Cordes-sur-Ciel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81070">
+				<geo:code_commune>81070</geo:code_commune>
+				<geo:nom xml:lang="fr">Coufouleux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81071">
+				<geo:code_commune>81071</geo:code_commune>
+				<geo:nom xml:lang="fr">Courris</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81072">
+				<geo:code_commune>81072</geo:code_commune>
+				<geo:nom xml:lang="fr">Crespin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81073">
+				<geo:code_commune>81073</geo:code_commune>
+				<geo:nom xml:lang="fr">Crespinet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81074">
+				<geo:code_commune>81074</geo:code_commune>
+				<geo:nom xml:lang="fr">Cunac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81077">
+				<geo:code_commune>81077</geo:code_commune>
+				<geo:nom xml:lang="fr">Curvalle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81079">
+				<geo:code_commune>81079</geo:code_commune>
+				<geo:nom xml:lang="fr">Dénat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81080">
+				<geo:code_commune>81080</geo:code_commune>
+				<geo:nom xml:lang="fr">Donnazac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81082">
+				<geo:code_commune>81082</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Dourn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81087">
+				<geo:code_commune>81087</geo:code_commune>
+				<geo:nom xml:lang="fr">Fayssac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81088">
+				<geo:code_commune>81088</geo:code_commune>
+				<geo:nom xml:lang="fr">Fauch</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81089">
+				<geo:code_commune>81089</geo:code_commune>
+				<geo:nom xml:lang="fr">Faussergues</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81090">
+				<geo:code_commune>81090</geo:code_commune>
+				<geo:nom xml:lang="fr">Fénols</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81093">
+				<geo:code_commune>81093</geo:code_commune>
+				<geo:nom xml:lang="fr">Florentin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81094">
+				<geo:code_commune>81094</geo:code_commune>
+				<geo:nom xml:lang="fr">Fraissines</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81095">
+				<geo:code_commune>81095</geo:code_commune>
+				<geo:nom xml:lang="fr">Frausseilles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81096">
+				<geo:code_commune>81096</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Fraysse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81097">
+				<geo:code_commune>81097</geo:code_commune>
+				<geo:nom xml:lang="fr">Fréjairolles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81099">
+				<geo:code_commune>81099</geo:code_commune>
+				<geo:nom xml:lang="fr">Gaillac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81101">
+				<geo:code_commune>81101</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Garric</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81106">
+				<geo:code_commune>81106</geo:code_commune>
+				<geo:nom xml:lang="fr">Grazac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81108">
+				<geo:code_commune>81108</geo:code_commune>
+				<geo:nom xml:lang="fr">Itzac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81110">
+				<geo:code_commune>81110</geo:code_commune>
+				<geo:nom xml:lang="fr">Jouqueviel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81111">
+				<geo:code_commune>81111</geo:code_commune>
+				<geo:nom xml:lang="fr">Labarthe-Bleys</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81112">
+				<geo:code_commune>81112</geo:code_commune>
+				<geo:nom xml:lang="fr">Labastide-de-Lévis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81113">
+				<geo:code_commune>81113</geo:code_commune>
+				<geo:nom xml:lang="fr">Labastide-Dénat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81114">
+				<geo:code_commune>81114</geo:code_commune>
+				<geo:nom xml:lang="fr">Labastide-Gabausse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81117">
+				<geo:code_commune>81117</geo:code_commune>
+				<geo:nom xml:lang="fr">Labessière-Candeil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81119">
+				<geo:code_commune>81119</geo:code_commune>
+				<geo:nom xml:lang="fr">Laboutarie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81122">
+				<geo:code_commune>81122</geo:code_commune>
+				<geo:nom xml:lang="fr">Lacapelle-Pinet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81123">
+				<geo:code_commune>81123</geo:code_commune>
+				<geo:nom xml:lang="fr">Lacapelle-Ségalar</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81131">
+				<geo:code_commune>81131</geo:code_commune>
+				<geo:nom xml:lang="fr">Lagrave</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81133">
+				<geo:code_commune>81133</geo:code_commune>
+				<geo:nom xml:lang="fr">Lamillarié</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81135">
+				<geo:code_commune>81135</geo:code_commune>
+				<geo:nom xml:lang="fr">Laparrouquial</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81136">
+				<geo:code_commune>81136</geo:code_commune>
+				<geo:nom xml:lang="fr">Larroque</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81138">
+				<geo:code_commune>81138</geo:code_commune>
+				<geo:nom xml:lang="fr">Lasgraisses</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81141">
+				<geo:code_commune>81141</geo:code_commune>
+				<geo:nom xml:lang="fr">Lédas-et-Penthiès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81144">
+				<geo:code_commune>81144</geo:code_commune>
+				<geo:nom xml:lang="fr">Lescure-d'Albigeois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81145">
+				<geo:code_commune>81145</geo:code_commune>
+				<geo:nom xml:lang="fr">Lisle-sur-Tarn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81146">
+				<geo:code_commune>81146</geo:code_commune>
+				<geo:nom xml:lang="fr">Livers-Cazelles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81147">
+				<geo:code_commune>81147</geo:code_commune>
+				<geo:nom xml:lang="fr">Lombers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81148">
+				<geo:code_commune>81148</geo:code_commune>
+				<geo:nom xml:lang="fr">Loubers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81149">
+				<geo:code_commune>81149</geo:code_commune>
+				<geo:nom xml:lang="fr">Loupiac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81152">
+				<geo:code_commune>81152</geo:code_commune>
+				<geo:nom xml:lang="fr">Mailhoc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81154">
+				<geo:code_commune>81154</geo:code_commune>
+				<geo:nom xml:lang="fr">Marnaves</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81155">
+				<geo:code_commune>81155</geo:code_commune>
+				<geo:nom xml:lang="fr">Marsal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81156">
+				<geo:code_commune>81156</geo:code_commune>
+				<geo:nom xml:lang="fr">Marssac-sur-Tarn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81161">
+				<geo:code_commune>81161</geo:code_commune>
+				<geo:nom xml:lang="fr">Massals</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81164">
+				<geo:code_commune>81164</geo:code_commune>
+				<geo:nom xml:lang="fr">Mézens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81165">
+				<geo:code_commune>81165</geo:code_commune>
+				<geo:nom xml:lang="fr">Milhars</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81166">
+				<geo:code_commune>81166</geo:code_commune>
+				<geo:nom xml:lang="fr">Milhavet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81167">
+				<geo:code_commune>81167</geo:code_commune>
+				<geo:nom xml:lang="fr">Miolles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81168">
+				<geo:code_commune>81168</geo:code_commune>
+				<geo:nom xml:lang="fr">Mirandol-Bourgnounac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81170">
+				<geo:code_commune>81170</geo:code_commune>
+				<geo:nom xml:lang="fr">Monestiés</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81171">
+				<geo:code_commune>81171</geo:code_commune>
+				<geo:nom xml:lang="fr">Montans</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81172">
+				<geo:code_commune>81172</geo:code_commune>
+				<geo:nom xml:lang="fr">Montauriol</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81175">
+				<geo:code_commune>81175</geo:code_commune>
+				<geo:nom xml:lang="fr">Montdurausse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81176">
+				<geo:code_commune>81176</geo:code_commune>
+				<geo:nom xml:lang="fr">Montels</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81178">
+				<geo:code_commune>81178</geo:code_commune>
+				<geo:nom xml:lang="fr">Montgaillard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81180">
+				<geo:code_commune>81180</geo:code_commune>
+				<geo:nom xml:lang="fr">Montirat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81184">
+				<geo:code_commune>81184</geo:code_commune>
+				<geo:nom xml:lang="fr">Montrosier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81185">
+				<geo:code_commune>81185</geo:code_commune>
+				<geo:nom xml:lang="fr">Montvalen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81186">
+				<geo:code_commune>81186</geo:code_commune>
+				<geo:nom xml:lang="fr">Moularès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81190">
+				<geo:code_commune>81190</geo:code_commune>
+				<geo:nom xml:lang="fr">Mouzieys-Teulet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81191">
+				<geo:code_commune>81191</geo:code_commune>
+				<geo:nom xml:lang="fr">Mouzieys-Panens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81197">
+				<geo:code_commune>81197</geo:code_commune>
+				<geo:nom xml:lang="fr">Noailles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81198">
+				<geo:code_commune>81198</geo:code_commune>
+				<geo:nom xml:lang="fr">Orban</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81199">
+				<geo:code_commune>81199</geo:code_commune>
+				<geo:nom xml:lang="fr">Padiès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81201">
+				<geo:code_commune>81201</geo:code_commune>
+				<geo:nom xml:lang="fr">Pampelonne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81202">
+				<geo:code_commune>81202</geo:code_commune>
+				<geo:nom xml:lang="fr">Parisot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81203">
+				<geo:code_commune>81203</geo:code_commune>
+				<geo:nom xml:lang="fr">Paulinet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81206">
+				<geo:code_commune>81206</geo:code_commune>
+				<geo:nom xml:lang="fr">Penne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81208">
+				<geo:code_commune>81208</geo:code_commune>
+				<geo:nom xml:lang="fr">Peyrole</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81211">
+				<geo:code_commune>81211</geo:code_commune>
+				<geo:nom xml:lang="fr">Poulan-Pouzols</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81217">
+				<geo:code_commune>81217</geo:code_commune>
+				<geo:nom xml:lang="fr">Puycelci</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81218">
+				<geo:code_commune>81218</geo:code_commune>
+				<geo:nom xml:lang="fr">Puygouzon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81220">
+				<geo:code_commune>81220</geo:code_commune>
+				<geo:nom xml:lang="fr">Rabastens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81222">
+				<geo:code_commune>81222</geo:code_commune>
+				<geo:nom xml:lang="fr">Réalmont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81224">
+				<geo:code_commune>81224</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Riols</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81225">
+				<geo:code_commune>81225</geo:code_commune>
+				<geo:nom xml:lang="fr">Rivières</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81226">
+				<geo:code_commune>81226</geo:code_commune>
+				<geo:nom xml:lang="fr">Ronel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81228">
+				<geo:code_commune>81228</geo:code_commune>
+				<geo:nom xml:lang="fr">Roquemaure</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81230">
+				<geo:code_commune>81230</geo:code_commune>
+				<geo:nom xml:lang="fr">Rosières</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81232">
+				<geo:code_commune>81232</geo:code_commune>
+				<geo:nom xml:lang="fr">Rouffiac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81233">
+				<geo:code_commune>81233</geo:code_commune>
+				<geo:nom xml:lang="fr">Roumégoux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81234">
+				<geo:code_commune>81234</geo:code_commune>
+				<geo:nom xml:lang="fr">Roussayrolles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81240">
+				<geo:code_commune>81240</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-André</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81241">
+				<geo:code_commune>81241</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Antonin-de-Lacalm</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81243">
+				<geo:code_commune>81243</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Beauzile</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81244">
+				<geo:code_commune>81244</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Benoît-de-Carmaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81245">
+				<geo:code_commune>81245</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Christophe</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81246">
+				<geo:code_commune>81246</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Cécile-du-Cayrou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81247">
+				<geo:code_commune>81247</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Cirgue</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81249">
+				<geo:code_commune>81249</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Gemme</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81253">
+				<geo:code_commune>81253</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Grégoire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81254">
+				<geo:code_commune>81254</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jean-de-Marcel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81257">
+				<geo:code_commune>81257</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Juéry</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81259">
+				<geo:code_commune>81259</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Julien-Gaulène</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81260">
+				<geo:code_commune>81260</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Lieux-Lafenasse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81262">
+				<geo:code_commune>81262</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Marcel-Campes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81263">
+				<geo:code_commune>81263</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Martin-Laguépie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81264">
+				<geo:code_commune>81264</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Michel-Labadié</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81265">
+				<geo:code_commune>81265</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Michel-de-Vax</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81272">
+				<geo:code_commune>81272</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Urcisse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81274">
+				<geo:code_commune>81274</geo:code_commune>
+				<geo:nom xml:lang="fr">Saliès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81275">
+				<geo:code_commune>81275</geo:code_commune>
+				<geo:nom xml:lang="fr">Salles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81276">
+				<geo:code_commune>81276</geo:code_commune>
+				<geo:nom xml:lang="fr">Salvagnac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81277">
+				<geo:code_commune>81277</geo:code_commune>
+				<geo:nom xml:lang="fr">Saussenac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81279">
+				<geo:code_commune>81279</geo:code_commune>
+				<geo:nom xml:lang="fr">La Sauzière-Saint-Jean</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81280">
+				<geo:code_commune>81280</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Ségur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81283">
+				<geo:code_commune>81283</geo:code_commune>
+				<geo:nom xml:lang="fr">Senouillac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81284">
+				<geo:code_commune>81284</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Sequestre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81285">
+				<geo:code_commune>81285</geo:code_commune>
+				<geo:nom xml:lang="fr">Sérénac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81287">
+				<geo:code_commune>81287</geo:code_commune>
+				<geo:nom xml:lang="fr">Sieurac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81290">
+				<geo:code_commune>81290</geo:code_commune>
+				<geo:nom xml:lang="fr">Souel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81291">
+				<geo:code_commune>81291</geo:code_commune>
+				<geo:nom xml:lang="fr">Taïx</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81292">
+				<geo:code_commune>81292</geo:code_commune>
+				<geo:nom xml:lang="fr">Tanus</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81293">
+				<geo:code_commune>81293</geo:code_commune>
+				<geo:nom xml:lang="fr">Tauriac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81294">
+				<geo:code_commune>81294</geo:code_commune>
+				<geo:nom xml:lang="fr">Técou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81295">
+				<geo:code_commune>81295</geo:code_commune>
+				<geo:nom xml:lang="fr">Teillet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81296">
+				<geo:code_commune>81296</geo:code_commune>
+				<geo:nom xml:lang="fr">Terre-Clapier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81297">
+				<geo:code_commune>81297</geo:code_commune>
+				<geo:nom xml:lang="fr">Terssac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81300">
+				<geo:code_commune>81300</geo:code_commune>
+				<geo:nom xml:lang="fr">Tonnac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81301">
+				<geo:code_commune>81301</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Travet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81302">
+				<geo:code_commune>81302</geo:code_commune>
+				<geo:nom xml:lang="fr">Tréban</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81303">
+				<geo:code_commune>81303</geo:code_commune>
+				<geo:nom xml:lang="fr">Trébas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81304">
+				<geo:code_commune>81304</geo:code_commune>
+				<geo:nom xml:lang="fr">Trévien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81306">
+				<geo:code_commune>81306</geo:code_commune>
+				<geo:nom xml:lang="fr">Valderiès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81308">
+				<geo:code_commune>81308</geo:code_commune>
+				<geo:nom xml:lang="fr">Valence-d'Albigeois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81309">
+				<geo:code_commune>81309</geo:code_commune>
+				<geo:nom xml:lang="fr">Vaour</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81313">
+				<geo:code_commune>81313</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Verdier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81316">
+				<geo:code_commune>81316</geo:code_commune>
+				<geo:nom xml:lang="fr">Vieux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81317">
+				<geo:code_commune>81317</geo:code_commune>
+				<geo:nom xml:lang="fr">Villefranche-d'Albigeois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81319">
+				<geo:code_commune>81319</geo:code_commune>
+				<geo:nom xml:lang="fr">Villeneuve-sur-Vère</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81320">
+				<geo:code_commune>81320</geo:code_commune>
+				<geo:nom xml:lang="fr">Vindrac-Alayrac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81322">
+				<geo:code_commune>81322</geo:code_commune>
+				<geo:nom xml:lang="fr">Virac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81326">
+				<geo:code_commune>81326</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Croix</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_812">
+		<geo:code_arrondissement>812</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Castres</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_81065"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8103">
+				<geo:code_canton>8103</geo:code_canton>
+				<geo:nom xml:lang="fr">Anglès</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8104">
+				<geo:code_canton>8104</geo:code_canton>
+				<geo:nom xml:lang="fr">Brassac</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8108">
+				<geo:code_canton>8108</geo:code_canton>
+				<geo:nom xml:lang="fr">Castres-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8110">
+				<geo:code_canton>8110</geo:code_canton>
+				<geo:nom xml:lang="fr">Cuq-Toulza</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8111">
+				<geo:code_canton>8111</geo:code_canton>
+				<geo:nom xml:lang="fr">Dourgne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8113">
+				<geo:code_canton>8113</geo:code_canton>
+				<geo:nom xml:lang="fr">Graulhet</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8114">
+				<geo:code_canton>8114</geo:code_canton>
+				<geo:nom xml:lang="fr">Labruguière</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8115">
+				<geo:code_canton>8115</geo:code_canton>
+				<geo:nom xml:lang="fr">Lacaune</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8116">
+				<geo:code_canton>8116</geo:code_canton>
+				<geo:nom xml:lang="fr">Lautrec</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8117">
+				<geo:code_canton>8117</geo:code_canton>
+				<geo:nom xml:lang="fr">Lavaur</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8119">
+				<geo:code_canton>8119</geo:code_canton>
+				<geo:nom xml:lang="fr">Mazamet-Nord-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8121">
+				<geo:code_canton>8121</geo:code_canton>
+				<geo:nom xml:lang="fr">Montredon-Labessonnié</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8122">
+				<geo:code_canton>8122</geo:code_canton>
+				<geo:nom xml:lang="fr">Murat-sur-Vèbre</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8124">
+				<geo:code_canton>8124</geo:code_canton>
+				<geo:nom xml:lang="fr">Puylaurens</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8127">
+				<geo:code_canton>8127</geo:code_canton>
+				<geo:nom xml:lang="fr">Roquecourbe</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8128">
+				<geo:code_canton>8128</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Amans-Soult</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8129">
+				<geo:code_canton>8129</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Paul-Cap-de-Joux</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8131">
+				<geo:code_canton>8131</geo:code_canton>
+				<geo:nom xml:lang="fr">Vabre</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8135">
+				<geo:code_canton>8135</geo:code_canton>
+				<geo:nom xml:lang="fr">Vielmur-sur-Agout</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8140">
+				<geo:code_canton>8140</geo:code_canton>
+				<geo:nom xml:lang="fr">Castres-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8141">
+				<geo:code_canton>8141</geo:code_canton>
+				<geo:nom xml:lang="fr">Castres-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8142">
+				<geo:code_canton>8142</geo:code_canton>
+				<geo:nom xml:lang="fr">Mazamet-Sud-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_8146">
+				<geo:code_canton>8146</geo:code_canton>
+				<geo:nom xml:lang="fr">Castres-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81001">
+				<geo:code_commune>81001</geo:code_commune>
+				<geo:nom xml:lang="fr">Aguts</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81002">
+				<geo:code_commune>81002</geo:code_commune>
+				<geo:nom xml:lang="fr">Aiguefonde</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81005">
+				<geo:code_commune>81005</geo:code_commune>
+				<geo:nom xml:lang="fr">Albine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81006">
+				<geo:code_commune>81006</geo:code_commune>
+				<geo:nom xml:lang="fr">Algans</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81011">
+				<geo:code_commune>81011</geo:code_commune>
+				<geo:nom xml:lang="fr">Ambres</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81014">
+				<geo:code_commune>81014</geo:code_commune>
+				<geo:nom xml:lang="fr">Anglès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81015">
+				<geo:code_commune>81015</geo:code_commune>
+				<geo:nom xml:lang="fr">Appelle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81016">
+				<geo:code_commune>81016</geo:code_commune>
+				<geo:nom xml:lang="fr">Arfons</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81017">
+				<geo:code_commune>81017</geo:code_commune>
+				<geo:nom xml:lang="fr">Arifat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81021">
+				<geo:code_commune>81021</geo:code_commune>
+				<geo:nom xml:lang="fr">Aussillon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81022">
+				<geo:code_commune>81022</geo:code_commune>
+				<geo:nom xml:lang="fr">Bannières</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81023">
+				<geo:code_commune>81023</geo:code_commune>
+				<geo:nom xml:lang="fr">Barre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81025">
+				<geo:code_commune>81025</geo:code_commune>
+				<geo:nom xml:lang="fr">Belcastel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81027">
+				<geo:code_commune>81027</geo:code_commune>
+				<geo:nom xml:lang="fr">Belleserre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81028">
+				<geo:code_commune>81028</geo:code_commune>
+				<geo:nom xml:lang="fr">Berlats</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81030">
+				<geo:code_commune>81030</geo:code_commune>
+				<geo:nom xml:lang="fr">Bertre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81031">
+				<geo:code_commune>81031</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Bez</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81032">
+				<geo:code_commune>81032</geo:code_commune>
+				<geo:nom xml:lang="fr">Blan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81034">
+				<geo:code_commune>81034</geo:code_commune>
+				<geo:nom xml:lang="fr">Boissezon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81036">
+				<geo:code_commune>81036</geo:code_commune>
+				<geo:nom xml:lang="fr">Bout-du-Pont-de-Larn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81037">
+				<geo:code_commune>81037</geo:code_commune>
+				<geo:nom xml:lang="fr">Brassac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81039">
+				<geo:code_commune>81039</geo:code_commune>
+				<geo:nom xml:lang="fr">Briatexte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81040">
+				<geo:code_commune>81040</geo:code_commune>
+				<geo:nom xml:lang="fr">Brousse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81042">
+				<geo:code_commune>81042</geo:code_commune>
+				<geo:nom xml:lang="fr">Burlats</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81043">
+				<geo:code_commune>81043</geo:code_commune>
+				<geo:nom xml:lang="fr">Busque</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81044">
+				<geo:code_commune>81044</geo:code_commune>
+				<geo:nom xml:lang="fr">Cabanès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81049">
+				<geo:code_commune>81049</geo:code_commune>
+				<geo:nom xml:lang="fr">Cahuzac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81050">
+				<geo:code_commune>81050</geo:code_commune>
+				<geo:nom xml:lang="fr">Cambon-lès-Lavaur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81053">
+				<geo:code_commune>81053</geo:code_commune>
+				<geo:nom xml:lang="fr">Cambounès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81054">
+				<geo:code_commune>81054</geo:code_commune>
+				<geo:nom xml:lang="fr">Cambounet-sur-le-Sor</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81055">
+				<geo:code_commune>81055</geo:code_commune>
+				<geo:nom xml:lang="fr">Les Cammazes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81058">
+				<geo:code_commune>81058</geo:code_commune>
+				<geo:nom xml:lang="fr">Carbes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81062">
+				<geo:code_commune>81062</geo:code_commune>
+				<geo:nom xml:lang="fr">Castelnau-de-Brassac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81065">
+				<geo:code_commune>81065</geo:code_commune>
+				<geo:nom xml:lang="fr">Castres</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81066">
+				<geo:code_commune>81066</geo:code_commune>
+				<geo:nom xml:lang="fr">Caucalières</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81075">
+				<geo:code_commune>81075</geo:code_commune>
+				<geo:nom xml:lang="fr">Cuq</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81076">
+				<geo:code_commune>81076</geo:code_commune>
+				<geo:nom xml:lang="fr">Cuq-Toulza</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81078">
+				<geo:code_commune>81078</geo:code_commune>
+				<geo:nom xml:lang="fr">Damiatte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81081">
+				<geo:code_commune>81081</geo:code_commune>
+				<geo:nom xml:lang="fr">Dourgne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81083">
+				<geo:code_commune>81083</geo:code_commune>
+				<geo:nom xml:lang="fr">Durfort</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81084">
+				<geo:code_commune>81084</geo:code_commune>
+				<geo:nom xml:lang="fr">Escoussens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81085">
+				<geo:code_commune>81085</geo:code_commune>
+				<geo:nom xml:lang="fr">Escroux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81086">
+				<geo:code_commune>81086</geo:code_commune>
+				<geo:nom xml:lang="fr">Espérausses</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81091">
+				<geo:code_commune>81091</geo:code_commune>
+				<geo:nom xml:lang="fr">Ferrières</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81092">
+				<geo:code_commune>81092</geo:code_commune>
+				<geo:nom xml:lang="fr">Fiac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81098">
+				<geo:code_commune>81098</geo:code_commune>
+				<geo:nom xml:lang="fr">Fréjeville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81100">
+				<geo:code_commune>81100</geo:code_commune>
+				<geo:nom xml:lang="fr">Garrevaques</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81102">
+				<geo:code_commune>81102</geo:code_commune>
+				<geo:nom xml:lang="fr">Garrigues</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81103">
+				<geo:code_commune>81103</geo:code_commune>
+				<geo:nom xml:lang="fr">Gijounet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81104">
+				<geo:code_commune>81104</geo:code_commune>
+				<geo:nom xml:lang="fr">Giroussens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81105">
+				<geo:code_commune>81105</geo:code_commune>
+				<geo:nom xml:lang="fr">Graulhet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81109">
+				<geo:code_commune>81109</geo:code_commune>
+				<geo:nom xml:lang="fr">Jonquières</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81115">
+				<geo:code_commune>81115</geo:code_commune>
+				<geo:nom xml:lang="fr">Labastide-Rouairoux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81116">
+				<geo:code_commune>81116</geo:code_commune>
+				<geo:nom xml:lang="fr">Labastide-Saint-Georges</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81118">
+				<geo:code_commune>81118</geo:code_commune>
+				<geo:nom xml:lang="fr">Laboulbène</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81120">
+				<geo:code_commune>81120</geo:code_commune>
+				<geo:nom xml:lang="fr">Labruguière</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81121">
+				<geo:code_commune>81121</geo:code_commune>
+				<geo:nom xml:lang="fr">Lacabarède</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81124">
+				<geo:code_commune>81124</geo:code_commune>
+				<geo:nom xml:lang="fr">Lacaune</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81125">
+				<geo:code_commune>81125</geo:code_commune>
+				<geo:nom xml:lang="fr">Lacaze</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81126">
+				<geo:code_commune>81126</geo:code_commune>
+				<geo:nom xml:lang="fr">Lacougotte-Cadoul</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81127">
+				<geo:code_commune>81127</geo:code_commune>
+				<geo:nom xml:lang="fr">Lacroisille</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81128">
+				<geo:code_commune>81128</geo:code_commune>
+				<geo:nom xml:lang="fr">Lacrouzette</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81129">
+				<geo:code_commune>81129</geo:code_commune>
+				<geo:nom xml:lang="fr">Lagardiolle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81130">
+				<geo:code_commune>81130</geo:code_commune>
+				<geo:nom xml:lang="fr">Lagarrigue</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81132">
+				<geo:code_commune>81132</geo:code_commune>
+				<geo:nom xml:lang="fr">Guitalens-L'Albarède</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81134">
+				<geo:code_commune>81134</geo:code_commune>
+				<geo:nom xml:lang="fr">Lamontélarié</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81137">
+				<geo:code_commune>81137</geo:code_commune>
+				<geo:nom xml:lang="fr">Lasfaillades</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81139">
+				<geo:code_commune>81139</geo:code_commune>
+				<geo:nom xml:lang="fr">Lautrec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81140">
+				<geo:code_commune>81140</geo:code_commune>
+				<geo:nom xml:lang="fr">Lavaur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81142">
+				<geo:code_commune>81142</geo:code_commune>
+				<geo:nom xml:lang="fr">Lempaut</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81143">
+				<geo:code_commune>81143</geo:code_commune>
+				<geo:nom xml:lang="fr">Lescout</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81150">
+				<geo:code_commune>81150</geo:code_commune>
+				<geo:nom xml:lang="fr">Lugan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81151">
+				<geo:code_commune>81151</geo:code_commune>
+				<geo:nom xml:lang="fr">Magrin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81153">
+				<geo:code_commune>81153</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Margnès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81157">
+				<geo:code_commune>81157</geo:code_commune>
+				<geo:nom xml:lang="fr">Marzens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81158">
+				<geo:code_commune>81158</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Masnau-Massuguiès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81159">
+				<geo:code_commune>81159</geo:code_commune>
+				<geo:nom xml:lang="fr">Massac-Séran</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81160">
+				<geo:code_commune>81160</geo:code_commune>
+				<geo:nom xml:lang="fr">Massaguel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81162">
+				<geo:code_commune>81162</geo:code_commune>
+				<geo:nom xml:lang="fr">Maurens-Scopont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81163">
+				<geo:code_commune>81163</geo:code_commune>
+				<geo:nom xml:lang="fr">Mazamet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81169">
+				<geo:code_commune>81169</geo:code_commune>
+				<geo:nom xml:lang="fr">Missècle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81173">
+				<geo:code_commune>81173</geo:code_commune>
+				<geo:nom xml:lang="fr">Montcabrier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81174">
+				<geo:code_commune>81174</geo:code_commune>
+				<geo:nom xml:lang="fr">Montdragon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81177">
+				<geo:code_commune>81177</geo:code_commune>
+				<geo:nom xml:lang="fr">Montfa</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81179">
+				<geo:code_commune>81179</geo:code_commune>
+				<geo:nom xml:lang="fr">Montgey</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81181">
+				<geo:code_commune>81181</geo:code_commune>
+				<geo:nom xml:lang="fr">Montpinier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81182">
+				<geo:code_commune>81182</geo:code_commune>
+				<geo:nom xml:lang="fr">Montredon-Labessonnié</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81183">
+				<geo:code_commune>81183</geo:code_commune>
+				<geo:nom xml:lang="fr">Mont-Roc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81187">
+				<geo:code_commune>81187</geo:code_commune>
+				<geo:nom xml:lang="fr">Moulayrès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81188">
+				<geo:code_commune>81188</geo:code_commune>
+				<geo:nom xml:lang="fr">Moulin-Mage</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81189">
+				<geo:code_commune>81189</geo:code_commune>
+				<geo:nom xml:lang="fr">Mouzens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81192">
+				<geo:code_commune>81192</geo:code_commune>
+				<geo:nom xml:lang="fr">Murat-sur-Vèbre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81193">
+				<geo:code_commune>81193</geo:code_commune>
+				<geo:nom xml:lang="fr">Nages</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81195">
+				<geo:code_commune>81195</geo:code_commune>
+				<geo:nom xml:lang="fr">Navès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81196">
+				<geo:code_commune>81196</geo:code_commune>
+				<geo:nom xml:lang="fr">Noailhac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81200">
+				<geo:code_commune>81200</geo:code_commune>
+				<geo:nom xml:lang="fr">Palleville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81204">
+				<geo:code_commune>81204</geo:code_commune>
+				<geo:nom xml:lang="fr">Payrin-Augmontel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81205">
+				<geo:code_commune>81205</geo:code_commune>
+				<geo:nom xml:lang="fr">Péchaudier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81207">
+				<geo:code_commune>81207</geo:code_commune>
+				<geo:nom xml:lang="fr">Peyregoux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81209">
+				<geo:code_commune>81209</geo:code_commune>
+				<geo:nom xml:lang="fr">Pont-de-Larn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81210">
+				<geo:code_commune>81210</geo:code_commune>
+				<geo:nom xml:lang="fr">Poudis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81212">
+				<geo:code_commune>81212</geo:code_commune>
+				<geo:nom xml:lang="fr">Prades</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81213">
+				<geo:code_commune>81213</geo:code_commune>
+				<geo:nom xml:lang="fr">Pratviel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81214">
+				<geo:code_commune>81214</geo:code_commune>
+				<geo:nom xml:lang="fr">Puéchoursi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81215">
+				<geo:code_commune>81215</geo:code_commune>
+				<geo:nom xml:lang="fr">Puybegon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81216">
+				<geo:code_commune>81216</geo:code_commune>
+				<geo:nom xml:lang="fr">Puycalvel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81219">
+				<geo:code_commune>81219</geo:code_commune>
+				<geo:nom xml:lang="fr">Puylaurens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81221">
+				<geo:code_commune>81221</geo:code_commune>
+				<geo:nom xml:lang="fr">Rayssac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81223">
+				<geo:code_commune>81223</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Rialet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81227">
+				<geo:code_commune>81227</geo:code_commune>
+				<geo:nom xml:lang="fr">Roquecourbe</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81229">
+				<geo:code_commune>81229</geo:code_commune>
+				<geo:nom xml:lang="fr">Roquevidal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81231">
+				<geo:code_commune>81231</geo:code_commune>
+				<geo:nom xml:lang="fr">Rouairoux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81235">
+				<geo:code_commune>81235</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Affrique-les-Montagnes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81236">
+				<geo:code_commune>81236</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Agnan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81237">
+				<geo:code_commune>81237</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Amancet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81238">
+				<geo:code_commune>81238</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Amans-Soult</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81239">
+				<geo:code_commune>81239</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Amans-Valtoret</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81242">
+				<geo:code_commune>81242</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Avit</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81248">
+				<geo:code_commune>81248</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Gauzens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81250">
+				<geo:code_commune>81250</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Genest-de-Contest</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81251">
+				<geo:code_commune>81251</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Germain-des-Prés</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81252">
+				<geo:code_commune>81252</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Germier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81255">
+				<geo:code_commune>81255</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jean-de-Rives</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81256">
+				<geo:code_commune>81256</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jean-de-Vals</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81258">
+				<geo:code_commune>81258</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Julien-du-Puy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81261">
+				<geo:code_commune>81261</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Lieux-lès-Lavaur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81266">
+				<geo:code_commune>81266</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Paul-Cap-de-Joux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81267">
+				<geo:code_commune>81267</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pierre-de-Trivisy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81268">
+				<geo:code_commune>81268</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Salvi-de-Carcavès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81269">
+				<geo:code_commune>81269</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Salvy-de-la-Balme</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81270">
+				<geo:code_commune>81270</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Sernin-lès-Lavaur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81271">
+				<geo:code_commune>81271</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Sulpice</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81273">
+				<geo:code_commune>81273</geo:code_commune>
+				<geo:nom xml:lang="fr">Saïx</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81278">
+				<geo:code_commune>81278</geo:code_commune>
+				<geo:nom xml:lang="fr">Sauveterre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81281">
+				<geo:code_commune>81281</geo:code_commune>
+				<geo:nom xml:lang="fr">Sémalens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81282">
+				<geo:code_commune>81282</geo:code_commune>
+				<geo:nom xml:lang="fr">Senaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81286">
+				<geo:code_commune>81286</geo:code_commune>
+				<geo:nom xml:lang="fr">Serviès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81288">
+				<geo:code_commune>81288</geo:code_commune>
+				<geo:nom xml:lang="fr">Sorèze</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81289">
+				<geo:code_commune>81289</geo:code_commune>
+				<geo:nom xml:lang="fr">Soual</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81298">
+				<geo:code_commune>81298</geo:code_commune>
+				<geo:nom xml:lang="fr">Teulat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81299">
+				<geo:code_commune>81299</geo:code_commune>
+				<geo:nom xml:lang="fr">Teyssode</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81305">
+				<geo:code_commune>81305</geo:code_commune>
+				<geo:nom xml:lang="fr">Vabre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81307">
+				<geo:code_commune>81307</geo:code_commune>
+				<geo:nom xml:lang="fr">Valdurenque</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81310">
+				<geo:code_commune>81310</geo:code_commune>
+				<geo:nom xml:lang="fr">Veilhes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81311">
+				<geo:code_commune>81311</geo:code_commune>
+				<geo:nom xml:lang="fr">Vénès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81312">
+				<geo:code_commune>81312</geo:code_commune>
+				<geo:nom xml:lang="fr">Verdalle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81314">
+				<geo:code_commune>81314</geo:code_commune>
+				<geo:nom xml:lang="fr">Viane</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81315">
+				<geo:code_commune>81315</geo:code_commune>
+				<geo:nom xml:lang="fr">Vielmur-sur-Agout</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81318">
+				<geo:code_commune>81318</geo:code_commune>
+				<geo:nom xml:lang="fr">Villeneuve-lès-Lavaur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81321">
+				<geo:code_commune>81321</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Vintrou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81323">
+				<geo:code_commune>81323</geo:code_commune>
+				<geo:nom xml:lang="fr">Viterbe</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81324">
+				<geo:code_commune>81324</geo:code_commune>
+				<geo:nom xml:lang="fr">Viviers-lès-Lavaur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_81325">
+				<geo:code_commune>81325</geo:code_commune>
+				<geo:nom xml:lang="fr">Viviers-lès-Montagnes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+</rdf:RDF>

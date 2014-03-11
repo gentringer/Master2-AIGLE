@@ -1,0 +1,68 @@
+@prefix map: <file:mapping-partie2.n3#> .
+@prefix db: <> .
+@prefix impots: <http://www.lirmm.fr/impots#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix jdbc: <http://d2rq.org/terms/jdbc/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix geo: <http://rdf.insee.fr/geo/> .
+
+
+map:database a d2rq:Database;
+	d2rq:jdbcDriver "oracle.jdbc.driver.OracleDriver";
+	d2rq:jdbcDSN "jdbc:oracle:thin:@localhost:1521:XE";
+	d2rq:username "gentringer";
+	d2rq:password "959426";
+	.
+
+
+
+# Table IMPOT
+map:IMPOT a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "http://www.lirmm.fr/impots#@@IMPOT.CODEINSEE@@";
+	d2rq:class impots:IMPOT;
+	d2rq:classDefinitionLabel "IMPOT";
+	.
+map:IMPOT_CODEIMP a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:IMPOT;
+	d2rq:property impots:IMPOT_CODEIMP;
+	d2rq:column "IMPOT.CODEIMP";
+	d2rq:datatype xsd:decimal;
+	.
+map:IMPOT_CODEINSEE a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:IMPOT;
+	d2rq:property impots:IMPOT_CODEINSEE;
+	d2rq:additionalClassDefinitionProperty map:InseeEquivalence;
+	d2rq:column "IMPOT.CODEINSEE";
+	.
+map:InseeEquivalence a d2rq:AdditionalProperty;
+    d2rq:propertyName owl:equivalentProperty;
+    d2rq:propertyValue geo:code_INSEE;
+    .
+map:IMPOT_NBREREDEVABLE a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:IMPOT;
+	d2rq:property impots:IMPOT_NBREREDEVABLE;
+	d2rq:column "IMPOT.NBREREDEVABLE";
+	d2rq:datatype xsd:decimal;
+	.
+map:IMPOT_PATRIMOINEM a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:IMPOT;
+	d2rq:property impots:IMPOT_PATRIMOINEM;
+	d2rq:column "IMPOT.PATRIMOINEM";
+	d2rq:datatype xsd:decimal;
+	.
+map:IMPOT_IMPOTMOYEN a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:IMPOT;
+	d2rq:property impots:IMPOT_IMPOTMOYEN;
+	d2rq:column "IMPOT.IMPOTMOYEN";
+	d2rq:datatype xsd:decimal;
+	.
+map:IMPOT_ANNEE a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:IMPOT;
+	d2rq:property impots:IMPOT_ANNEE;
+	d2rq:column "IMPOT.ANNEE";
+	d2rq:datatype xsd:decimal;
+	.

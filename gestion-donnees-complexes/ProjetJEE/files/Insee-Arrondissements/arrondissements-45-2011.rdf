@@ -1,0 +1,2283 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/arrondissements-45-2011.rdf">
+		<dc:title xml:lang="fr">Arrondissements du département du Loiret (45)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Arrondissement rdf:about="ARR_451">
+		<geo:code_arrondissement>451</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Montargis</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_45208"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4504">
+				<geo:code_canton>4504</geo:code_canton>
+				<geo:nom xml:lang="fr">Bellegarde</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4505">
+				<geo:code_canton>4505</geo:code_canton>
+				<geo:nom xml:lang="fr">Briare</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4507">
+				<geo:code_canton>4507</geo:code_canton>
+				<geo:nom xml:lang="fr">Château-Renard</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4508">
+				<geo:code_canton>4508</geo:code_canton>
+				<geo:nom xml:lang="fr">Châtillon-Coligny</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4509">
+				<geo:code_canton>4509</geo:code_canton>
+				<geo:nom xml:lang="fr">Châtillon-sur-Loire</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4511">
+				<geo:code_canton>4511</geo:code_canton>
+				<geo:nom xml:lang="fr">Courtenay</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4512">
+				<geo:code_canton>4512</geo:code_canton>
+				<geo:nom xml:lang="fr">Ferrières-en-Gâtinais</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4514">
+				<geo:code_canton>4514</geo:code_canton>
+				<geo:nom xml:lang="fr">Gien</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4516">
+				<geo:code_canton>4516</geo:code_canton>
+				<geo:nom xml:lang="fr">Lorris</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4519">
+				<geo:code_canton>4519</geo:code_canton>
+				<geo:nom xml:lang="fr">Montargis</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4532">
+				<geo:code_canton>4532</geo:code_canton>
+				<geo:nom xml:lang="fr">Amilly</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4533">
+				<geo:code_canton>4533</geo:code_canton>
+				<geo:nom xml:lang="fr">Châlette-sur-Loing</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45001">
+				<geo:code_commune>45001</geo:code_commune>
+				<geo:nom xml:lang="fr">Adon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45002">
+				<geo:code_commune>45002</geo:code_commune>
+				<geo:nom xml:lang="fr">Aillant-sur-Milleron</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45004">
+				<geo:code_commune>45004</geo:code_commune>
+				<geo:nom xml:lang="fr">Amilly</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45016">
+				<geo:code_commune>45016</geo:code_commune>
+				<geo:nom xml:lang="fr">Autry-le-Châtel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45017">
+				<geo:code_commune>45017</geo:code_commune>
+				<geo:nom xml:lang="fr">Auvilliers-en-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45023">
+				<geo:code_commune>45023</geo:code_commune>
+				<geo:nom xml:lang="fr">Batilly-en-Puisaye</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45026">
+				<geo:code_commune>45026</geo:code_commune>
+				<geo:nom xml:lang="fr">Bazoches-sur-le-Betz</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45027">
+				<geo:code_commune>45027</geo:code_commune>
+				<geo:nom xml:lang="fr">Beauchamps-sur-Huillard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45029">
+				<geo:code_commune>45029</geo:code_commune>
+				<geo:nom xml:lang="fr">Beaulieu-sur-Loire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45031">
+				<geo:code_commune>45031</geo:code_commune>
+				<geo:nom xml:lang="fr">Bellegarde</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45032">
+				<geo:code_commune>45032</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Bignon-Mirabeau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45036">
+				<geo:code_commune>45036</geo:code_commune>
+				<geo:nom xml:lang="fr">Boismorand</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45040">
+				<geo:code_commune>45040</geo:code_commune>
+				<geo:nom xml:lang="fr">Bonny-sur-Loire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45052">
+				<geo:code_commune>45052</geo:code_commune>
+				<geo:nom xml:lang="fr">Breteau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45053">
+				<geo:code_commune>45053</geo:code_commune>
+				<geo:nom xml:lang="fr">Briare</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45060">
+				<geo:code_commune>45060</geo:code_commune>
+				<geo:nom xml:lang="fr">La Bussière</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45061">
+				<geo:code_commune>45061</geo:code_commune>
+				<geo:nom xml:lang="fr">Cepoy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45064">
+				<geo:code_commune>45064</geo:code_commune>
+				<geo:nom xml:lang="fr">Cernoy-en-Berry</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45066">
+				<geo:code_commune>45066</geo:code_commune>
+				<geo:nom xml:lang="fr">Chailly-en-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45068">
+				<geo:code_commune>45068</geo:code_commune>
+				<geo:nom xml:lang="fr">Châlette-sur-Loing</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45070">
+				<geo:code_commune>45070</geo:code_commune>
+				<geo:nom xml:lang="fr">Champoulet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45073">
+				<geo:code_commune>45073</geo:code_commune>
+				<geo:nom xml:lang="fr">Chantecoq</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45076">
+				<geo:code_commune>45076</geo:code_commune>
+				<geo:nom xml:lang="fr">La Chapelle-Saint-Sépulcre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45077">
+				<geo:code_commune>45077</geo:code_commune>
+				<geo:nom xml:lang="fr">La Chapelle-sur-Aveyron</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45078">
+				<geo:code_commune>45078</geo:code_commune>
+				<geo:nom xml:lang="fr">Chapelon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45079">
+				<geo:code_commune>45079</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Charme</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45083">
+				<geo:code_commune>45083</geo:code_commune>
+				<geo:nom xml:lang="fr">Château-Renard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45085">
+				<geo:code_commune>45085</geo:code_commune>
+				<geo:nom xml:lang="fr">Châtillon-Coligny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45087">
+				<geo:code_commune>45087</geo:code_commune>
+				<geo:nom xml:lang="fr">Châtillon-sur-Loire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45091">
+				<geo:code_commune>45091</geo:code_commune>
+				<geo:nom xml:lang="fr">Chevannes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45092">
+				<geo:code_commune>45092</geo:code_commune>
+				<geo:nom xml:lang="fr">Chevillon-sur-Huillard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45094">
+				<geo:code_commune>45094</geo:code_commune>
+				<geo:nom xml:lang="fr">Chevry-sous-le-Bignon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45096">
+				<geo:code_commune>45096</geo:code_commune>
+				<geo:nom xml:lang="fr">Les Choux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45097">
+				<geo:code_commune>45097</geo:code_commune>
+				<geo:nom xml:lang="fr">Chuelles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45102">
+				<geo:code_commune>45102</geo:code_commune>
+				<geo:nom xml:lang="fr">Conflans-sur-Loing</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45103">
+				<geo:code_commune>45103</geo:code_commune>
+				<geo:nom xml:lang="fr">Corbeilles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45104">
+				<geo:code_commune>45104</geo:code_commune>
+				<geo:nom xml:lang="fr">Corquilleroy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45105">
+				<geo:code_commune>45105</geo:code_commune>
+				<geo:nom xml:lang="fr">Cortrat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45107">
+				<geo:code_commune>45107</geo:code_commune>
+				<geo:nom xml:lang="fr">Coudroy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45108">
+				<geo:code_commune>45108</geo:code_commune>
+				<geo:nom xml:lang="fr">Coullons</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45112">
+				<geo:code_commune>45112</geo:code_commune>
+				<geo:nom xml:lang="fr">La Cour-Marigny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45113">
+				<geo:code_commune>45113</geo:code_commune>
+				<geo:nom xml:lang="fr">Courtemaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45114">
+				<geo:code_commune>45114</geo:code_commune>
+				<geo:nom xml:lang="fr">Courtempierre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45115">
+				<geo:code_commune>45115</geo:code_commune>
+				<geo:nom xml:lang="fr">Courtenay</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45120">
+				<geo:code_commune>45120</geo:code_commune>
+				<geo:nom xml:lang="fr">Dammarie-en-Puisaye</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45121">
+				<geo:code_commune>45121</geo:code_commune>
+				<geo:nom xml:lang="fr">Dammarie-sur-Loing</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45127">
+				<geo:code_commune>45127</geo:code_commune>
+				<geo:nom xml:lang="fr">Dordives</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45129">
+				<geo:code_commune>45129</geo:code_commune>
+				<geo:nom xml:lang="fr">Douchy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45136">
+				<geo:code_commune>45136</geo:code_commune>
+				<geo:nom xml:lang="fr">Ervauville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45138">
+				<geo:code_commune>45138</geo:code_commune>
+				<geo:nom xml:lang="fr">Escrignelles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45141">
+				<geo:code_commune>45141</geo:code_commune>
+				<geo:nom xml:lang="fr">Faverelles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45143">
+				<geo:code_commune>45143</geo:code_commune>
+				<geo:nom xml:lang="fr">Feins-en-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45145">
+				<geo:code_commune>45145</geo:code_commune>
+				<geo:nom xml:lang="fr">Ferrières-en-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45148">
+				<geo:code_commune>45148</geo:code_commune>
+				<geo:nom xml:lang="fr">Fontenay-sur-Loing</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45149">
+				<geo:code_commune>45149</geo:code_commune>
+				<geo:nom xml:lang="fr">Foucherolles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45150">
+				<geo:code_commune>45150</geo:code_commune>
+				<geo:nom xml:lang="fr">Fréville-du-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45155">
+				<geo:code_commune>45155</geo:code_commune>
+				<geo:nom xml:lang="fr">Gien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45156">
+				<geo:code_commune>45156</geo:code_commune>
+				<geo:nom xml:lang="fr">Girolles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45158">
+				<geo:code_commune>45158</geo:code_commune>
+				<geo:nom xml:lang="fr">Gondreville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45161">
+				<geo:code_commune>45161</geo:code_commune>
+				<geo:nom xml:lang="fr">Griselles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45165">
+				<geo:code_commune>45165</geo:code_commune>
+				<geo:nom xml:lang="fr">Gy-les-Nonains</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45178">
+				<geo:code_commune>45178</geo:code_commune>
+				<geo:nom xml:lang="fr">Ladon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45180">
+				<geo:code_commune>45180</geo:code_commune>
+				<geo:nom xml:lang="fr">Langesse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45185">
+				<geo:code_commune>45185</geo:code_commune>
+				<geo:nom xml:lang="fr">Lombreuil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45187">
+				<geo:code_commune>45187</geo:code_commune>
+				<geo:nom xml:lang="fr">Lorris</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45189">
+				<geo:code_commune>45189</geo:code_commune>
+				<geo:nom xml:lang="fr">Louzouer</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45199">
+				<geo:code_commune>45199</geo:code_commune>
+				<geo:nom xml:lang="fr">Melleroy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45201">
+				<geo:code_commune>45201</geo:code_commune>
+				<geo:nom xml:lang="fr">Mérinville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45205">
+				<geo:code_commune>45205</geo:code_commune>
+				<geo:nom xml:lang="fr">Mézières-en-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45206">
+				<geo:code_commune>45206</geo:code_commune>
+				<geo:nom xml:lang="fr">Mignères</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45207">
+				<geo:code_commune>45207</geo:code_commune>
+				<geo:nom xml:lang="fr">Mignerette</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45208">
+				<geo:code_commune>45208</geo:code_commune>
+				<geo:nom xml:lang="fr">Montargis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45210">
+				<geo:code_commune>45210</geo:code_commune>
+				<geo:nom xml:lang="fr">Montbouy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45211">
+				<geo:code_commune>45211</geo:code_commune>
+				<geo:nom xml:lang="fr">Montcorbon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45212">
+				<geo:code_commune>45212</geo:code_commune>
+				<geo:nom xml:lang="fr">Montcresson</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45213">
+				<geo:code_commune>45213</geo:code_commune>
+				<geo:nom xml:lang="fr">Montereau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45216">
+				<geo:code_commune>45216</geo:code_commune>
+				<geo:nom xml:lang="fr">Mormant-sur-Vernisson</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45218">
+				<geo:code_commune>45218</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Moulinet-sur-Solin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45219">
+				<geo:code_commune>45219</geo:code_commune>
+				<geo:nom xml:lang="fr">Moulon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45222">
+				<geo:code_commune>45222</geo:code_commune>
+				<geo:nom xml:lang="fr">Nargis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45223">
+				<geo:code_commune>45223</geo:code_commune>
+				<geo:nom xml:lang="fr">Nesploy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45227">
+				<geo:code_commune>45227</geo:code_commune>
+				<geo:nom xml:lang="fr">Nevoy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45229">
+				<geo:code_commune>45229</geo:code_commune>
+				<geo:nom xml:lang="fr">Nogent-sur-Vernisson</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45230">
+				<geo:code_commune>45230</geo:code_commune>
+				<geo:nom xml:lang="fr">Noyers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45238">
+				<geo:code_commune>45238</geo:code_commune>
+				<geo:nom xml:lang="fr">Ousson-sur-Loire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45239">
+				<geo:code_commune>45239</geo:code_commune>
+				<geo:nom xml:lang="fr">Oussoy-en-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45242">
+				<geo:code_commune>45242</geo:code_commune>
+				<geo:nom xml:lang="fr">Ouzouer-des-Champs</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45243">
+				<geo:code_commune>45243</geo:code_commune>
+				<geo:nom xml:lang="fr">Ouzouer-sous-Bellegarde</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45245">
+				<geo:code_commune>45245</geo:code_commune>
+				<geo:nom xml:lang="fr">Ouzouer-sur-Trézée</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45247">
+				<geo:code_commune>45247</geo:code_commune>
+				<geo:nom xml:lang="fr">Pannes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45249">
+				<geo:code_commune>45249</geo:code_commune>
+				<geo:nom xml:lang="fr">Paucourt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45250">
+				<geo:code_commune>45250</geo:code_commune>
+				<geo:nom xml:lang="fr">Pers-en-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45251">
+				<geo:code_commune>45251</geo:code_commune>
+				<geo:nom xml:lang="fr">Pierrefitte-ès-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45254">
+				<geo:code_commune>45254</geo:code_commune>
+				<geo:nom xml:lang="fr">Poilly-lez-Gien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45255">
+				<geo:code_commune>45255</geo:code_commune>
+				<geo:nom xml:lang="fr">Préfontaines</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45256">
+				<geo:code_commune>45256</geo:code_commune>
+				<geo:nom xml:lang="fr">Presnoy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45257">
+				<geo:code_commune>45257</geo:code_commune>
+				<geo:nom xml:lang="fr">Pressigny-les-Pins</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45259">
+				<geo:code_commune>45259</geo:code_commune>
+				<geo:nom xml:lang="fr">Quiers-sur-Bézonde</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45265">
+				<geo:code_commune>45265</geo:code_commune>
+				<geo:nom xml:lang="fr">Rozoy-le-Vieil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45271">
+				<geo:code_commune>45271</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Brisson-sur-Loire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45275">
+				<geo:code_commune>45275</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Firmin-des-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45276">
+				<geo:code_commune>45276</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Firmin-sur-Loire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45278">
+				<geo:code_commune>45278</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Geneviève-des-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45279">
+				<geo:code_commune>45279</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Germain-des-Prés</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45280">
+				<geo:code_commune>45280</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Gondon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45281">
+				<geo:code_commune>45281</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Hilaire-les-Andrésis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45283">
+				<geo:code_commune>45283</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Hilaire-sur-Puiseaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45287">
+				<geo:code_commune>45287</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Loup-de-Gonois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45291">
+				<geo:code_commune>45291</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Martin-sur-Ocre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45292">
+				<geo:code_commune>45292</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Maurice-sur-Aveyron</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45293">
+				<geo:code_commune>45293</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Maurice-sur-Fessard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45303">
+				<geo:code_commune>45303</geo:code_commune>
+				<geo:nom xml:lang="fr">Sceaux-du-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45306">
+				<geo:code_commune>45306</geo:code_commune>
+				<geo:nom xml:lang="fr">La Selle-en-Hermoy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45307">
+				<geo:code_commune>45307</geo:code_commune>
+				<geo:nom xml:lang="fr">La Selle-sur-le-Bied</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45312">
+				<geo:code_commune>45312</geo:code_commune>
+				<geo:nom xml:lang="fr">Solterre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45321">
+				<geo:code_commune>45321</geo:code_commune>
+				<geo:nom xml:lang="fr">Thimory</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45322">
+				<geo:code_commune>45322</geo:code_commune>
+				<geo:nom xml:lang="fr">Thorailles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45323">
+				<geo:code_commune>45323</geo:code_commune>
+				<geo:nom xml:lang="fr">Thou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45328">
+				<geo:code_commune>45328</geo:code_commune>
+				<geo:nom xml:lang="fr">Treilles-en-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45329">
+				<geo:code_commune>45329</geo:code_commune>
+				<geo:nom xml:lang="fr">Triguères</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45332">
+				<geo:code_commune>45332</geo:code_commune>
+				<geo:nom xml:lang="fr">Varennes-Changy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45334">
+				<geo:code_commune>45334</geo:code_commune>
+				<geo:nom xml:lang="fr">Vieilles-Maisons-sur-Joudry</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45338">
+				<geo:code_commune>45338</geo:code_commune>
+				<geo:nom xml:lang="fr">Villemandeur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45339">
+				<geo:code_commune>45339</geo:code_commune>
+				<geo:nom xml:lang="fr">Villemoutiers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45343">
+				<geo:code_commune>45343</geo:code_commune>
+				<geo:nom xml:lang="fr">Villevoques</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45345">
+				<geo:code_commune>45345</geo:code_commune>
+				<geo:nom xml:lang="fr">Vimory</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_452">
+		<geo:code_arrondissement>452</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Orléans</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_45234"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4501">
+				<geo:code_canton>4501</geo:code_canton>
+				<geo:nom xml:lang="fr">Artenay</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4502">
+				<geo:code_canton>4502</geo:code_canton>
+				<geo:nom xml:lang="fr">Beaugency</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4506">
+				<geo:code_canton>4506</geo:code_canton>
+				<geo:nom xml:lang="fr">Châteauneuf-sur-Loire</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4510">
+				<geo:code_canton>4510</geo:code_canton>
+				<geo:nom xml:lang="fr">Cléry-Saint-André</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4513">
+				<geo:code_canton>4513</geo:code_canton>
+				<geo:nom xml:lang="fr">La Ferté-Saint-Aubin</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4515">
+				<geo:code_canton>4515</geo:code_canton>
+				<geo:nom xml:lang="fr">Jargeau</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4518">
+				<geo:code_canton>4518</geo:code_canton>
+				<geo:nom xml:lang="fr">Meung-sur-Loire</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4520">
+				<geo:code_canton>4520</geo:code_canton>
+				<geo:nom xml:lang="fr">Neuville-aux-Bois</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4521">
+				<geo:code_canton>4521</geo:code_canton>
+				<geo:nom xml:lang="fr">Orléans-Bourgogne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4522">
+				<geo:code_canton>4522</geo:code_canton>
+				<geo:nom xml:lang="fr">Orléans-Carmes</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4523">
+				<geo:code_canton>4523</geo:code_canton>
+				<geo:nom xml:lang="fr">Orléans-Bannier</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4524">
+				<geo:code_canton>4524</geo:code_canton>
+				<geo:nom xml:lang="fr">Orléans-Saint-Marc-Argonne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4525">
+				<geo:code_canton>4525</geo:code_canton>
+				<geo:nom xml:lang="fr">Orléans-Saint-Marceau</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4527">
+				<geo:code_canton>4527</geo:code_canton>
+				<geo:nom xml:lang="fr">Ouzouer-sur-Loire</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4528">
+				<geo:code_canton>4528</geo:code_canton>
+				<geo:nom xml:lang="fr">Patay</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4531">
+				<geo:code_canton>4531</geo:code_canton>
+				<geo:nom xml:lang="fr">Sully-sur-Loire</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4534">
+				<geo:code_canton>4534</geo:code_canton>
+				<geo:nom xml:lang="fr">Fleury-les-Aubrais</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4535">
+				<geo:code_canton>4535</geo:code_canton>
+				<geo:nom xml:lang="fr">Olivet</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4536">
+				<geo:code_canton>4536</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Jean-de-Braye</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4537">
+				<geo:code_canton>4537</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Jean-de-la-Ruelle</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4538">
+				<geo:code_canton>4538</geo:code_canton>
+				<geo:nom xml:lang="fr">Chécy</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4539">
+				<geo:code_canton>4539</geo:code_canton>
+				<geo:nom xml:lang="fr">Ingré</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4540">
+				<geo:code_canton>4540</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Jean-le-Blanc</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4541">
+				<geo:code_canton>4541</geo:code_canton>
+				<geo:nom xml:lang="fr">Orléans-La Source</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45006">
+				<geo:code_commune>45006</geo:code_commune>
+				<geo:nom xml:lang="fr">Ardon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45008">
+				<geo:code_commune>45008</geo:code_commune>
+				<geo:nom xml:lang="fr">Artenay</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45019">
+				<geo:code_commune>45019</geo:code_commune>
+				<geo:nom xml:lang="fr">Baccon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45020">
+				<geo:code_commune>45020</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Bardon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45024">
+				<geo:code_commune>45024</geo:code_commune>
+				<geo:nom xml:lang="fr">Baule</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45028">
+				<geo:code_commune>45028</geo:code_commune>
+				<geo:nom xml:lang="fr">Beaugency</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45034">
+				<geo:code_commune>45034</geo:code_commune>
+				<geo:nom xml:lang="fr">Boigny-sur-Bionne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45039">
+				<geo:code_commune>45039</geo:code_commune>
+				<geo:nom xml:lang="fr">Bonnée</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45042">
+				<geo:code_commune>45042</geo:code_commune>
+				<geo:nom xml:lang="fr">Les Bordes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45043">
+				<geo:code_commune>45043</geo:code_commune>
+				<geo:nom xml:lang="fr">Bou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45044">
+				<geo:code_commune>45044</geo:code_commune>
+				<geo:nom xml:lang="fr">Bougy-lez-Neuville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45046">
+				<geo:code_commune>45046</geo:code_commune>
+				<geo:nom xml:lang="fr">Boulay-les-Barres</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45049">
+				<geo:code_commune>45049</geo:code_commune>
+				<geo:nom xml:lang="fr">Bouzy-la-Forêt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45051">
+				<geo:code_commune>45051</geo:code_commune>
+				<geo:nom xml:lang="fr">Bray-en-Val</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45055">
+				<geo:code_commune>45055</geo:code_commune>
+				<geo:nom xml:lang="fr">Bricy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45058">
+				<geo:code_commune>45058</geo:code_commune>
+				<geo:nom xml:lang="fr">Bucy-le-Roi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45059">
+				<geo:code_commune>45059</geo:code_commune>
+				<geo:nom xml:lang="fr">Bucy-Saint-Liphard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45062">
+				<geo:code_commune>45062</geo:code_commune>
+				<geo:nom xml:lang="fr">Cercottes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45063">
+				<geo:code_commune>45063</geo:code_commune>
+				<geo:nom xml:lang="fr">Cerdon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45067">
+				<geo:code_commune>45067</geo:code_commune>
+				<geo:nom xml:lang="fr">Chaingy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45072">
+				<geo:code_commune>45072</geo:code_commune>
+				<geo:nom xml:lang="fr">Chanteau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45074">
+				<geo:code_commune>45074</geo:code_commune>
+				<geo:nom xml:lang="fr">La Chapelle-Onzerain</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45075">
+				<geo:code_commune>45075</geo:code_commune>
+				<geo:nom xml:lang="fr">La Chapelle-Saint-Mesmin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45081">
+				<geo:code_commune>45081</geo:code_commune>
+				<geo:nom xml:lang="fr">Charsonville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45082">
+				<geo:code_commune>45082</geo:code_commune>
+				<geo:nom xml:lang="fr">Châteauneuf-sur-Loire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45084">
+				<geo:code_commune>45084</geo:code_commune>
+				<geo:nom xml:lang="fr">Châtenoy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45089">
+				<geo:code_commune>45089</geo:code_commune>
+				<geo:nom xml:lang="fr">Chécy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45093">
+				<geo:code_commune>45093</geo:code_commune>
+				<geo:nom xml:lang="fr">Chevilly</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45098">
+				<geo:code_commune>45098</geo:code_commune>
+				<geo:nom xml:lang="fr">Cléry-Saint-André</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45099">
+				<geo:code_commune>45099</geo:code_commune>
+				<geo:nom xml:lang="fr">Coinces</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45100">
+				<geo:code_commune>45100</geo:code_commune>
+				<geo:nom xml:lang="fr">Combleux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45101">
+				<geo:code_commune>45101</geo:code_commune>
+				<geo:nom xml:lang="fr">Combreux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45109">
+				<geo:code_commune>45109</geo:code_commune>
+				<geo:nom xml:lang="fr">Coulmiers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45116">
+				<geo:code_commune>45116</geo:code_commune>
+				<geo:nom xml:lang="fr">Cravant</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45122">
+				<geo:code_commune>45122</geo:code_commune>
+				<geo:nom xml:lang="fr">Dampierre-en-Burly</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45123">
+				<geo:code_commune>45123</geo:code_commune>
+				<geo:nom xml:lang="fr">Darvoy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45126">
+				<geo:code_commune>45126</geo:code_commune>
+				<geo:nom xml:lang="fr">Donnery</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45130">
+				<geo:code_commune>45130</geo:code_commune>
+				<geo:nom xml:lang="fr">Dry</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45134">
+				<geo:code_commune>45134</geo:code_commune>
+				<geo:nom xml:lang="fr">Épieds-en-Beauce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45142">
+				<geo:code_commune>45142</geo:code_commune>
+				<geo:nom xml:lang="fr">Fay-aux-Loges</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45144">
+				<geo:code_commune>45144</geo:code_commune>
+				<geo:nom xml:lang="fr">Férolles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45146">
+				<geo:code_commune>45146</geo:code_commune>
+				<geo:nom xml:lang="fr">La Ferté-Saint-Aubin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45147">
+				<geo:code_commune>45147</geo:code_commune>
+				<geo:nom xml:lang="fr">Fleury-les-Aubrais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45152">
+				<geo:code_commune>45152</geo:code_commune>
+				<geo:nom xml:lang="fr">Gémigny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45153">
+				<geo:code_commune>45153</geo:code_commune>
+				<geo:nom xml:lang="fr">Germigny-des-Prés</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45154">
+				<geo:code_commune>45154</geo:code_commune>
+				<geo:nom xml:lang="fr">Gidy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45164">
+				<geo:code_commune>45164</geo:code_commune>
+				<geo:nom xml:lang="fr">Guilly</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45166">
+				<geo:code_commune>45166</geo:code_commune>
+				<geo:nom xml:lang="fr">Huêtre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45167">
+				<geo:code_commune>45167</geo:code_commune>
+				<geo:nom xml:lang="fr">Huisseau-sur-Mauves</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45168">
+				<geo:code_commune>45168</geo:code_commune>
+				<geo:nom xml:lang="fr">Ingrannes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45169">
+				<geo:code_commune>45169</geo:code_commune>
+				<geo:nom xml:lang="fr">Ingré</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45171">
+				<geo:code_commune>45171</geo:code_commune>
+				<geo:nom xml:lang="fr">Isdes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45173">
+				<geo:code_commune>45173</geo:code_commune>
+				<geo:nom xml:lang="fr">Jargeau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45175">
+				<geo:code_commune>45175</geo:code_commune>
+				<geo:nom xml:lang="fr">Jouy-le-Potier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45179">
+				<geo:code_commune>45179</geo:code_commune>
+				<geo:nom xml:lang="fr">Lailly-en-Val</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45182">
+				<geo:code_commune>45182</geo:code_commune>
+				<geo:nom xml:lang="fr">Ligny-le-Ribault</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45183">
+				<geo:code_commune>45183</geo:code_commune>
+				<geo:nom xml:lang="fr">Lion-en-Beauce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45184">
+				<geo:code_commune>45184</geo:code_commune>
+				<geo:nom xml:lang="fr">Lion-en-Sullias</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45188">
+				<geo:code_commune>45188</geo:code_commune>
+				<geo:nom xml:lang="fr">Loury</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45193">
+				<geo:code_commune>45193</geo:code_commune>
+				<geo:nom xml:lang="fr">Marcilly-en-Villette</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45194">
+				<geo:code_commune>45194</geo:code_commune>
+				<geo:nom xml:lang="fr">Mardié</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45196">
+				<geo:code_commune>45196</geo:code_commune>
+				<geo:nom xml:lang="fr">Mareau-aux-Prés</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45197">
+				<geo:code_commune>45197</geo:code_commune>
+				<geo:nom xml:lang="fr">Marigny-les-Usages</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45200">
+				<geo:code_commune>45200</geo:code_commune>
+				<geo:nom xml:lang="fr">Ménestreau-en-Villette</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45202">
+				<geo:code_commune>45202</geo:code_commune>
+				<geo:nom xml:lang="fr">Messas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45203">
+				<geo:code_commune>45203</geo:code_commune>
+				<geo:nom xml:lang="fr">Meung-sur-Loire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45204">
+				<geo:code_commune>45204</geo:code_commune>
+				<geo:nom xml:lang="fr">Mézières-lez-Cléry</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45224">
+				<geo:code_commune>45224</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuville-aux-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45226">
+				<geo:code_commune>45226</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuvy-en-Sullias</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45232">
+				<geo:code_commune>45232</geo:code_commune>
+				<geo:nom xml:lang="fr">Olivet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45234">
+				<geo:code_commune>45234</geo:code_commune>
+				<geo:nom xml:lang="fr">Orléans</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45235">
+				<geo:code_commune>45235</geo:code_commune>
+				<geo:nom xml:lang="fr">Ormes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45241">
+				<geo:code_commune>45241</geo:code_commune>
+				<geo:nom xml:lang="fr">Ouvrouer-les-Champs</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45244">
+				<geo:code_commune>45244</geo:code_commune>
+				<geo:nom xml:lang="fr">Ouzouer-sur-Loire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45248">
+				<geo:code_commune>45248</geo:code_commune>
+				<geo:nom xml:lang="fr">Patay</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45261">
+				<geo:code_commune>45261</geo:code_commune>
+				<geo:nom xml:lang="fr">Rebréchien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45262">
+				<geo:code_commune>45262</geo:code_commune>
+				<geo:nom xml:lang="fr">Rouvray-Sainte-Croix</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45264">
+				<geo:code_commune>45264</geo:code_commune>
+				<geo:nom xml:lang="fr">Rozières-en-Beauce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45266">
+				<geo:code_commune>45266</geo:code_commune>
+				<geo:nom xml:lang="fr">Ruan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45267">
+				<geo:code_commune>45267</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Aignan-des-Gués</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45268">
+				<geo:code_commune>45268</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Aignan-le-Jaillard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45269">
+				<geo:code_commune>45269</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Ay</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45270">
+				<geo:code_commune>45270</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Benoît-sur-Loire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45272">
+				<geo:code_commune>45272</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Cyr-en-Val</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45273">
+				<geo:code_commune>45273</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Denis-de-l'Hôtel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45274">
+				<geo:code_commune>45274</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Denis-en-Val</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45277">
+				<geo:code_commune>45277</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Florent</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45282">
+				<geo:code_commune>45282</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Hilaire-Saint-Mesmin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45284">
+				<geo:code_commune>45284</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jean-de-Braye</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45285">
+				<geo:code_commune>45285</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jean-de-la-Ruelle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45286">
+				<geo:code_commune>45286</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jean-le-Blanc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45289">
+				<geo:code_commune>45289</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Lyé-la-Forêt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45290">
+				<geo:code_commune>45290</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Martin-d'Abbat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45296">
+				<geo:code_commune>45296</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Péravy-la-Colombe</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45297">
+				<geo:code_commune>45297</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Père-sur-Loire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45298">
+				<geo:code_commune>45298</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pryvé-Saint-Mesmin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45299">
+				<geo:code_commune>45299</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Sigismond</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45300">
+				<geo:code_commune>45300</geo:code_commune>
+				<geo:nom xml:lang="fr">Sandillon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45302">
+				<geo:code_commune>45302</geo:code_commune>
+				<geo:nom xml:lang="fr">Saran</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45305">
+				<geo:code_commune>45305</geo:code_commune>
+				<geo:nom xml:lang="fr">Seichebrières</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45308">
+				<geo:code_commune>45308</geo:code_commune>
+				<geo:nom xml:lang="fr">Semoy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45309">
+				<geo:code_commune>45309</geo:code_commune>
+				<geo:nom xml:lang="fr">Sennely</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45311">
+				<geo:code_commune>45311</geo:code_commune>
+				<geo:nom xml:lang="fr">Sigloy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45313">
+				<geo:code_commune>45313</geo:code_commune>
+				<geo:nom xml:lang="fr">Sougy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45314">
+				<geo:code_commune>45314</geo:code_commune>
+				<geo:nom xml:lang="fr">Sully-la-Chapelle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45315">
+				<geo:code_commune>45315</geo:code_commune>
+				<geo:nom xml:lang="fr">Sully-sur-Loire</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45316">
+				<geo:code_commune>45316</geo:code_commune>
+				<geo:nom xml:lang="fr">Sury-aux-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45317">
+				<geo:code_commune>45317</geo:code_commune>
+				<geo:nom xml:lang="fr">Tavers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45324">
+				<geo:code_commune>45324</geo:code_commune>
+				<geo:nom xml:lang="fr">Tigy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45326">
+				<geo:code_commune>45326</geo:code_commune>
+				<geo:nom xml:lang="fr">Tournoisis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45327">
+				<geo:code_commune>45327</geo:code_commune>
+				<geo:nom xml:lang="fr">Traînou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45330">
+				<geo:code_commune>45330</geo:code_commune>
+				<geo:nom xml:lang="fr">Trinay</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45331">
+				<geo:code_commune>45331</geo:code_commune>
+				<geo:nom xml:lang="fr">Vannes-sur-Cosson</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45333">
+				<geo:code_commune>45333</geo:code_commune>
+				<geo:nom xml:lang="fr">Vennecy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45335">
+				<geo:code_commune>45335</geo:code_commune>
+				<geo:nom xml:lang="fr">Vienne-en-Val</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45336">
+				<geo:code_commune>45336</geo:code_commune>
+				<geo:nom xml:lang="fr">Viglain</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45337">
+				<geo:code_commune>45337</geo:code_commune>
+				<geo:nom xml:lang="fr">Villamblain</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45340">
+				<geo:code_commune>45340</geo:code_commune>
+				<geo:nom xml:lang="fr">Villemurlin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45341">
+				<geo:code_commune>45341</geo:code_commune>
+				<geo:nom xml:lang="fr">Villeneuve-sur-Conie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45342">
+				<geo:code_commune>45342</geo:code_commune>
+				<geo:nom xml:lang="fr">Villereau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45344">
+				<geo:code_commune>45344</geo:code_commune>
+				<geo:nom xml:lang="fr">Villorceau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45346">
+				<geo:code_commune>45346</geo:code_commune>
+				<geo:nom xml:lang="fr">Vitry-aux-Loges</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_453">
+		<geo:code_arrondissement>453</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Pithiviers</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_45252"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4503">
+				<geo:code_canton>4503</geo:code_canton>
+				<geo:nom xml:lang="fr">Beaune-la-Rolande</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4517">
+				<geo:code_canton>4517</geo:code_canton>
+				<geo:nom xml:lang="fr">Malesherbes</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4526">
+				<geo:code_canton>4526</geo:code_canton>
+				<geo:nom xml:lang="fr">Outarville</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4529">
+				<geo:code_canton>4529</geo:code_canton>
+				<geo:nom xml:lang="fr">Pithiviers</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4530">
+				<geo:code_canton>4530</geo:code_canton>
+				<geo:nom xml:lang="fr">Puiseaux</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45005">
+				<geo:code_commune>45005</geo:code_commune>
+				<geo:nom xml:lang="fr">Andonville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45009">
+				<geo:code_commune>45009</geo:code_commune>
+				<geo:nom xml:lang="fr">Aschères-le-Marché</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45010">
+				<geo:code_commune>45010</geo:code_commune>
+				<geo:nom xml:lang="fr">Ascoux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45011">
+				<geo:code_commune>45011</geo:code_commune>
+				<geo:nom xml:lang="fr">Attray</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45012">
+				<geo:code_commune>45012</geo:code_commune>
+				<geo:nom xml:lang="fr">Audeville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45013">
+				<geo:code_commune>45013</geo:code_commune>
+				<geo:nom xml:lang="fr">Augerville-la-Rivière</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45014">
+				<geo:code_commune>45014</geo:code_commune>
+				<geo:nom xml:lang="fr">Aulnay-la-Rivière</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45015">
+				<geo:code_commune>45015</geo:code_commune>
+				<geo:nom xml:lang="fr">Autruy-sur-Juine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45018">
+				<geo:code_commune>45018</geo:code_commune>
+				<geo:nom xml:lang="fr">Auxy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45021">
+				<geo:code_commune>45021</geo:code_commune>
+				<geo:nom xml:lang="fr">Barville-en-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45022">
+				<geo:code_commune>45022</geo:code_commune>
+				<geo:nom xml:lang="fr">Batilly-en-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45025">
+				<geo:code_commune>45025</geo:code_commune>
+				<geo:nom xml:lang="fr">Bazoches-les-Gallerandes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45030">
+				<geo:code_commune>45030</geo:code_commune>
+				<geo:nom xml:lang="fr">Beaune-la-Rolande</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45033">
+				<geo:code_commune>45033</geo:code_commune>
+				<geo:nom xml:lang="fr">Boësses</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45035">
+				<geo:code_commune>45035</geo:code_commune>
+				<geo:nom xml:lang="fr">Boiscommun</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45037">
+				<geo:code_commune>45037</geo:code_commune>
+				<geo:nom xml:lang="fr">Boisseaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45038">
+				<geo:code_commune>45038</geo:code_commune>
+				<geo:nom xml:lang="fr">Bondaroy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45041">
+				<geo:code_commune>45041</geo:code_commune>
+				<geo:nom xml:lang="fr">Bordeaux-en-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45045">
+				<geo:code_commune>45045</geo:code_commune>
+				<geo:nom xml:lang="fr">Bouilly-en-Gâtinais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45047">
+				<geo:code_commune>45047</geo:code_commune>
+				<geo:nom xml:lang="fr">Bouzonville-aux-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45050">
+				<geo:code_commune>45050</geo:code_commune>
+				<geo:nom xml:lang="fr">Boynes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45054">
+				<geo:code_commune>45054</geo:code_commune>
+				<geo:nom xml:lang="fr">Briarres-sur-Essonne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45056">
+				<geo:code_commune>45056</geo:code_commune>
+				<geo:nom xml:lang="fr">Bromeilles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45057">
+				<geo:code_commune>45057</geo:code_commune>
+				<geo:nom xml:lang="fr">Labrosse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45065">
+				<geo:code_commune>45065</geo:code_commune>
+				<geo:nom xml:lang="fr">Césarville-Dossainville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45069">
+				<geo:code_commune>45069</geo:code_commune>
+				<geo:nom xml:lang="fr">Chambon-la-Forêt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45080">
+				<geo:code_commune>45080</geo:code_commune>
+				<geo:nom xml:lang="fr">Charmont-en-Beauce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45086">
+				<geo:code_commune>45086</geo:code_commune>
+				<geo:nom xml:lang="fr">Châtillon-le-Roi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45088">
+				<geo:code_commune>45088</geo:code_commune>
+				<geo:nom xml:lang="fr">Chaussy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45095">
+				<geo:code_commune>45095</geo:code_commune>
+				<geo:nom xml:lang="fr">Chilleurs-aux-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45106">
+				<geo:code_commune>45106</geo:code_commune>
+				<geo:nom xml:lang="fr">Coudray</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45110">
+				<geo:code_commune>45110</geo:code_commune>
+				<geo:nom xml:lang="fr">Courcelles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45111">
+				<geo:code_commune>45111</geo:code_commune>
+				<geo:nom xml:lang="fr">Courcy-aux-Loges</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45118">
+				<geo:code_commune>45118</geo:code_commune>
+				<geo:nom xml:lang="fr">Crottes-en-Pithiverais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45119">
+				<geo:code_commune>45119</geo:code_commune>
+				<geo:nom xml:lang="fr">Dadonville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45124">
+				<geo:code_commune>45124</geo:code_commune>
+				<geo:nom xml:lang="fr">Desmonts</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45125">
+				<geo:code_commune>45125</geo:code_commune>
+				<geo:nom xml:lang="fr">Dimancheville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45131">
+				<geo:code_commune>45131</geo:code_commune>
+				<geo:nom xml:lang="fr">Échilleuses</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45132">
+				<geo:code_commune>45132</geo:code_commune>
+				<geo:nom xml:lang="fr">Égry</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45133">
+				<geo:code_commune>45133</geo:code_commune>
+				<geo:nom xml:lang="fr">Engenville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45135">
+				<geo:code_commune>45135</geo:code_commune>
+				<geo:nom xml:lang="fr">Erceville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45137">
+				<geo:code_commune>45137</geo:code_commune>
+				<geo:nom xml:lang="fr">Escrennes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45139">
+				<geo:code_commune>45139</geo:code_commune>
+				<geo:nom xml:lang="fr">Estouy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45151">
+				<geo:code_commune>45151</geo:code_commune>
+				<geo:nom xml:lang="fr">Gaubertin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45157">
+				<geo:code_commune>45157</geo:code_commune>
+				<geo:nom xml:lang="fr">Givraines</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45159">
+				<geo:code_commune>45159</geo:code_commune>
+				<geo:nom xml:lang="fr">Grangermont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45160">
+				<geo:code_commune>45160</geo:code_commune>
+				<geo:nom xml:lang="fr">Greneville-en-Beauce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45162">
+				<geo:code_commune>45162</geo:code_commune>
+				<geo:nom xml:lang="fr">Guigneville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45170">
+				<geo:code_commune>45170</geo:code_commune>
+				<geo:nom xml:lang="fr">Intville-la-Guétard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45174">
+				<geo:code_commune>45174</geo:code_commune>
+				<geo:nom xml:lang="fr">Jouy-en-Pithiverais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45176">
+				<geo:code_commune>45176</geo:code_commune>
+				<geo:nom xml:lang="fr">Juranville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45177">
+				<geo:code_commune>45177</geo:code_commune>
+				<geo:nom xml:lang="fr">Laas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45181">
+				<geo:code_commune>45181</geo:code_commune>
+				<geo:nom xml:lang="fr">Léouville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45186">
+				<geo:code_commune>45186</geo:code_commune>
+				<geo:nom xml:lang="fr">Lorcy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45190">
+				<geo:code_commune>45190</geo:code_commune>
+				<geo:nom xml:lang="fr">Mainvilliers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45191">
+				<geo:code_commune>45191</geo:code_commune>
+				<geo:nom xml:lang="fr">Malesherbes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45192">
+				<geo:code_commune>45192</geo:code_commune>
+				<geo:nom xml:lang="fr">Manchecourt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45195">
+				<geo:code_commune>45195</geo:code_commune>
+				<geo:nom xml:lang="fr">Mareau-aux-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45198">
+				<geo:code_commune>45198</geo:code_commune>
+				<geo:nom xml:lang="fr">Marsainvilliers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45209">
+				<geo:code_commune>45209</geo:code_commune>
+				<geo:nom xml:lang="fr">Montbarrois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45214">
+				<geo:code_commune>45214</geo:code_commune>
+				<geo:nom xml:lang="fr">Montigny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45215">
+				<geo:code_commune>45215</geo:code_commune>
+				<geo:nom xml:lang="fr">Montliard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45217">
+				<geo:code_commune>45217</geo:code_commune>
+				<geo:nom xml:lang="fr">Morville-en-Beauce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45220">
+				<geo:code_commune>45220</geo:code_commune>
+				<geo:nom xml:lang="fr">Nancray-sur-Rimarde</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45221">
+				<geo:code_commune>45221</geo:code_commune>
+				<geo:nom xml:lang="fr">Nangeville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45225">
+				<geo:code_commune>45225</geo:code_commune>
+				<geo:nom xml:lang="fr">La Neuville-sur-Essonne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45228">
+				<geo:code_commune>45228</geo:code_commune>
+				<geo:nom xml:lang="fr">Nibelle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45231">
+				<geo:code_commune>45231</geo:code_commune>
+				<geo:nom xml:lang="fr">Oison</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45233">
+				<geo:code_commune>45233</geo:code_commune>
+				<geo:nom xml:lang="fr">Ondreville-sur-Essonne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45236">
+				<geo:code_commune>45236</geo:code_commune>
+				<geo:nom xml:lang="fr">Orveau-Bellesauve</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45237">
+				<geo:code_commune>45237</geo:code_commune>
+				<geo:nom xml:lang="fr">Orville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45240">
+				<geo:code_commune>45240</geo:code_commune>
+				<geo:nom xml:lang="fr">Outarville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45246">
+				<geo:code_commune>45246</geo:code_commune>
+				<geo:nom xml:lang="fr">Pannecières</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45252">
+				<geo:code_commune>45252</geo:code_commune>
+				<geo:nom xml:lang="fr">Pithiviers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45253">
+				<geo:code_commune>45253</geo:code_commune>
+				<geo:nom xml:lang="fr">Pithiviers-le-Vieil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45258">
+				<geo:code_commune>45258</geo:code_commune>
+				<geo:nom xml:lang="fr">Puiseaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45260">
+				<geo:code_commune>45260</geo:code_commune>
+				<geo:nom xml:lang="fr">Ramoulu</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45263">
+				<geo:code_commune>45263</geo:code_commune>
+				<geo:nom xml:lang="fr">Rouvres-Saint-Jean</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45288">
+				<geo:code_commune>45288</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Loup-des-Vignes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45294">
+				<geo:code_commune>45294</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Michel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45301">
+				<geo:code_commune>45301</geo:code_commune>
+				<geo:nom xml:lang="fr">Santeau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45310">
+				<geo:code_commune>45310</geo:code_commune>
+				<geo:nom xml:lang="fr">Sermaises</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45320">
+				<geo:code_commune>45320</geo:code_commune>
+				<geo:nom xml:lang="fr">Thignonville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45325">
+				<geo:code_commune>45325</geo:code_commune>
+				<geo:nom xml:lang="fr">Tivernon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45347">
+				<geo:code_commune>45347</geo:code_commune>
+				<geo:nom xml:lang="fr">Vrigny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_45348">
+				<geo:code_commune>45348</geo:code_commune>
+				<geo:nom xml:lang="fr">Yèvre-la-Ville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+</rdf:RDF>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>TER-Twitter-JEE-1</display-name>
+  <welcome-file-list>
+    <welcome-file>/index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>thematicsserv</servlet-name>
+    <servlet-class>ter.twitter.suicide.controller.ThematicsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>thematicsserv</servlet-name>
+    <url-pattern>/thematics</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>suspectservlet</servlet-name>
+    <servlet-class>ter.twitter.suicide.controller.SuspectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>suspectservlet</servlet-name>
+    <url-pattern>/suspects</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>tweetdetail</servlet-name>
+    <servlet-class>ter.twitter.suicide.controller.TweetDetailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>tweetdetail</servlet-name>
+    <url-pattern>/tweetdetail</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>HighCharts</servlet-name>
+    <servlet-class>ter.twitter.suicide.controller.HighCharts</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HighCharts</servlet-name>
+    <url-pattern>/HighCharts/*</url-pattern>
+  </servlet-mapping>
+
+</web-app>

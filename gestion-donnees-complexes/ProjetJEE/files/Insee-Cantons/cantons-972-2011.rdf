@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/cantons-972-2011.rdf">
+		<dc:title xml:lang="fr">Cantons et communes du département de la Martinique (972)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Canton rdf:about="CAN_97201">
+		<geo:code_canton>97201</geo:code_canton>
+		<geo:nom xml:lang="fr">L'Ajoupa-Bouillon</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97201"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97201">
+				<geo:code_commune>97201</geo:code_commune>
+				<geo:nom xml:lang="fr">L'Ajoupa-Bouillon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97202">
+		<geo:code_canton>97202</geo:code_canton>
+		<geo:nom xml:lang="fr">Les Anses-d'Arlet</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97202"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97202">
+				<geo:code_commune>97202</geo:code_commune>
+				<geo:nom xml:lang="fr">Les Anses-d'Arlet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97203">
+		<geo:code_canton>97203</geo:code_canton>
+		<geo:nom xml:lang="fr">Basse-Pointe</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97203"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97203">
+				<geo:code_commune>97203</geo:code_commune>
+				<geo:nom xml:lang="fr">Basse-Pointe</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97204">
+		<geo:code_canton>97204</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Carbet</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97204"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97204">
+				<geo:code_commune>97204</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Carbet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97233">
+				<geo:code_commune>97233</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Morne-Vert</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97205">
+		<geo:code_canton>97205</geo:code_canton>
+		<geo:nom xml:lang="fr">Case-Pilote-Bellefontaine</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97205"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97205">
+				<geo:code_commune>97205</geo:code_commune>
+				<geo:nom xml:lang="fr">Case-Pilote</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97234">
+				<geo:code_commune>97234</geo:code_commune>
+				<geo:nom xml:lang="fr">Bellefontaine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97206">
+		<geo:code_canton>97206</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Diamant</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97206"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97206">
+				<geo:code_commune>97206</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Diamant</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97207">
+		<geo:code_canton>97207</geo:code_canton>
+		<geo:nom xml:lang="fr">Ducos</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97207"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97207">
+				<geo:code_commune>97207</geo:code_commune>
+				<geo:nom xml:lang="fr">Ducos</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97209">
+		<geo:code_canton>97209</geo:code_canton>
+		<geo:nom xml:lang="fr">Fort-de-France  1er Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97209"/>
+		<geo:fraction_cantonale rdf:resource="COM_97209" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97210">
+		<geo:code_canton>97210</geo:code_canton>
+		<geo:nom xml:lang="fr">Fort-de-France  2e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97209"/>
+		<geo:fraction_cantonale rdf:resource="COM_97209" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97211">
+		<geo:code_canton>97211</geo:code_canton>
+		<geo:nom xml:lang="fr">Fort-de-France  3e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97209"/>
+		<geo:fraction_cantonale rdf:resource="COM_97209" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97212">
+		<geo:code_canton>97212</geo:code_canton>
+		<geo:nom xml:lang="fr">Fort-de-France  4e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97209"/>
+		<geo:fraction_cantonale rdf:resource="COM_97209" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97213">
+		<geo:code_canton>97213</geo:code_canton>
+		<geo:nom xml:lang="fr">Le François 1er Canton Nord</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97210"/>
+		<geo:fraction_cantonale rdf:resource="COM_97210" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97215">
+		<geo:code_canton>97215</geo:code_canton>
+		<geo:nom xml:lang="fr">Gros-Morne</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97212"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97212">
+				<geo:code_commune>97212</geo:code_commune>
+				<geo:nom xml:lang="fr">Gros-Morne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97216">
+		<geo:code_canton>97216</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Lamentin 1er Canton Sud-Bourg</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97213"/>
+		<geo:fraction_cantonale rdf:resource="COM_97213" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97217">
+		<geo:code_canton>97217</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Lorrain</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97214"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97214">
+				<geo:code_commune>97214</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Lorrain</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97218">
+		<geo:code_canton>97218</geo:code_canton>
+		<geo:nom xml:lang="fr">Macouba</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97215"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97211">
+				<geo:code_commune>97211</geo:code_commune>
+				<geo:nom xml:lang="fr">Grand'Rivière</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97215">
+				<geo:code_commune>97215</geo:code_commune>
+				<geo:nom xml:lang="fr">Macouba</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97219">
+		<geo:code_canton>97219</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Marigot</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97216"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97216">
+				<geo:code_commune>97216</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Marigot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97220">
+		<geo:code_canton>97220</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Marin</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97217"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97217">
+				<geo:code_commune>97217</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Marin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97221">
+		<geo:code_canton>97221</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Morne-Rouge</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97218"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97218">
+				<geo:code_commune>97218</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Morne-Rouge</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97223">
+		<geo:code_canton>97223</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Prêcheur</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97219"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97219">
+				<geo:code_commune>97219</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Prêcheur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97224">
+		<geo:code_canton>97224</geo:code_canton>
+		<geo:nom xml:lang="fr">Rivière-Pilote</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97220"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97220">
+				<geo:code_commune>97220</geo:code_commune>
+				<geo:nom xml:lang="fr">Rivière-Pilote</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97225">
+		<geo:code_canton>97225</geo:code_canton>
+		<geo:nom xml:lang="fr">Rivière-Salée</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97221"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97221">
+				<geo:code_commune>97221</geo:code_commune>
+				<geo:nom xml:lang="fr">Rivière-Salée</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97226">
+		<geo:code_canton>97226</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Robert 1er Canton Sud</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97222"/>
+		<geo:fraction_cantonale rdf:resource="COM_97222" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97227">
+		<geo:code_canton>97227</geo:code_canton>
+		<geo:nom xml:lang="fr">Saint-Esprit</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97223"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97223">
+				<geo:code_commune>97223</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Esprit</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97228">
+		<geo:code_canton>97228</geo:code_canton>
+		<geo:nom xml:lang="fr">Saint-Joseph</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97224"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97224">
+				<geo:code_commune>97224</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Joseph</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97229">
+		<geo:code_canton>97229</geo:code_canton>
+		<geo:nom xml:lang="fr">Saint-Pierre</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97225"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97208">
+				<geo:code_commune>97208</geo:code_commune>
+				<geo:nom xml:lang="fr">Fonds-Saint-Denis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97225">
+				<geo:code_commune>97225</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pierre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97230">
+		<geo:code_canton>97230</geo:code_canton>
+		<geo:nom xml:lang="fr">Sainte-Anne</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97226"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97226">
+				<geo:code_commune>97226</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Anne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97231">
+		<geo:code_canton>97231</geo:code_canton>
+		<geo:nom xml:lang="fr">Sainte-Luce</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97227"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97227">
+				<geo:code_commune>97227</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Luce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97232">
+		<geo:code_canton>97232</geo:code_canton>
+		<geo:nom xml:lang="fr">Sainte-Marie 1er Canton Nord</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97228"/>
+		<geo:fraction_cantonale rdf:resource="COM_97228" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97233">
+		<geo:code_canton>97233</geo:code_canton>
+		<geo:nom xml:lang="fr">Schoelcher 1er Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97229"/>
+		<geo:fraction_cantonale rdf:resource="COM_97229" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97234">
+		<geo:code_canton>97234</geo:code_canton>
+		<geo:nom xml:lang="fr">La Trinité</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97230"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97230">
+				<geo:code_commune>97230</geo:code_commune>
+				<geo:nom xml:lang="fr">La Trinité</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97235">
+		<geo:code_canton>97235</geo:code_canton>
+		<geo:nom xml:lang="fr">Les Trois-Îlets</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97231"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97231">
+				<geo:code_commune>97231</geo:code_commune>
+				<geo:nom xml:lang="fr">Les Trois-Îlets</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97236">
+		<geo:code_canton>97236</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Vauclin</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97232"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97232">
+				<geo:code_commune>97232</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Vauclin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97237">
+		<geo:code_canton>97237</geo:code_canton>
+		<geo:nom xml:lang="fr">Fort-de-France  5e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97209"/>
+		<geo:fraction_cantonale rdf:resource="COM_97209" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97238">
+		<geo:code_canton>97238</geo:code_canton>
+		<geo:nom xml:lang="fr">Fort-de-France  6e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97209"/>
+		<geo:fraction_cantonale rdf:resource="COM_97209" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97239">
+		<geo:code_canton>97239</geo:code_canton>
+		<geo:nom xml:lang="fr">Fort-de-France  7e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97209"/>
+		<geo:fraction_cantonale rdf:resource="COM_97209" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97240">
+		<geo:code_canton>97240</geo:code_canton>
+		<geo:nom xml:lang="fr">Fort-de-France  8e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97209"/>
+		<geo:fraction_cantonale rdf:resource="COM_97209" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97241">
+		<geo:code_canton>97241</geo:code_canton>
+		<geo:nom xml:lang="fr">Fort-de-France  9e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97209"/>
+		<geo:fraction_cantonale rdf:resource="COM_97209" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97242">
+		<geo:code_canton>97242</geo:code_canton>
+		<geo:nom xml:lang="fr">Fort-de-France 10e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97209"/>
+		<geo:fraction_cantonale rdf:resource="COM_97209" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97243">
+		<geo:code_canton>97243</geo:code_canton>
+		<geo:nom xml:lang="fr">Le François 2e  Canton Sud</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97210"/>
+		<geo:fraction_cantonale rdf:resource="COM_97210" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97244">
+		<geo:code_canton>97244</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Lamentin 2e  Canton Nord</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97213"/>
+		<geo:fraction_cantonale rdf:resource="COM_97213" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97245">
+		<geo:code_canton>97245</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Lamentin 3e  Canton Est</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97213"/>
+		<geo:fraction_cantonale rdf:resource="COM_97213" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97246">
+		<geo:code_canton>97246</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Robert 2e  Canton Nord</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97222"/>
+		<geo:fraction_cantonale rdf:resource="COM_97222" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97247">
+		<geo:code_canton>97247</geo:code_canton>
+		<geo:nom xml:lang="fr">Sainte-Marie 2e  Canton Sud</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97228"/>
+		<geo:fraction_cantonale rdf:resource="COM_97228" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_97248">
+		<geo:code_canton>97248</geo:code_canton>
+		<geo:nom xml:lang="fr">Schoelcher 2e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_97229"/>
+		<geo:fraction_cantonale rdf:resource="COM_97229" />
+	</geo:Canton>
+
+	<geo:Pseudo-canton rdf:about="CAN_97294">
+		<geo:code_INSEE>97294</geo:code_INSEE>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97210">
+				<geo:code_commune>97210</geo:code_commune>
+				<geo:nom xml:lang="fr">Le François</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Pseudo-canton>
+
+	<geo:Pseudo-canton rdf:about="CAN_97295">
+		<geo:code_INSEE>97295</geo:code_INSEE>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97213">
+				<geo:code_commune>97213</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Lamentin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Pseudo-canton>
+
+	<geo:Pseudo-canton rdf:about="CAN_97296">
+		<geo:code_INSEE>97296</geo:code_INSEE>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97222">
+				<geo:code_commune>97222</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Robert</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Pseudo-canton>
+
+	<geo:Pseudo-canton rdf:about="CAN_97297">
+		<geo:code_INSEE>97297</geo:code_INSEE>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97228">
+				<geo:code_commune>97228</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Marie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Pseudo-canton>
+
+	<geo:Pseudo-canton rdf:about="CAN_97298">
+		<geo:code_INSEE>97298</geo:code_INSEE>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97229">
+				<geo:code_commune>97229</geo:code_commune>
+				<geo:nom xml:lang="fr">Schoelcher</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Pseudo-canton>
+
+	<geo:Pseudo-canton rdf:about="CAN_97299">
+		<geo:code_INSEE>97299</geo:code_INSEE>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_97209">
+				<geo:code_commune>97209</geo:code_commune>
+				<geo:nom xml:lang="fr">Fort-de-France</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Pseudo-canton>
+
+</rdf:RDF>

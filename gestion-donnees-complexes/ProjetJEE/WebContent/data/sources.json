@@ -1,0 +1,36 @@
+{
+  "sources" : [
+    {
+      "name" : "d2rq",
+      "title" : "D2RQ",
+      "data" : ["Impots"]
+    },
+    {
+      "name" : "tdb",
+      "title" : "TDB TribleStore",
+      "data" : ["Cantons","Arrondissements","Departements","Regions"]
+    },
+    {
+      "name" : "neo4j",
+      "title" : "Neo4J",
+      "data" : ["Regions","Departements"]
+    },
+    {
+      "name" : "hbase",
+      "title" : "HBASE",
+      "data" : ["Communes"]
+    },
+    {
+      "name" : "geonames",
+      "title" : "GeoNames (TDB TripleStore)",
+      "data" : ["Departements"]
+    }
+    ,
+    {
+      "name" : "SDB",
+      "title" : "SDB Triplestore",
+      "data" : ["Population"]
+    }
+    
+  ]
+}

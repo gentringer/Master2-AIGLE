@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/arrondissements-93-2011.rdf">
+		<dc:title xml:lang="fr">Arrondissements du département de la Seine-Saint-Denis (93)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Arrondissement rdf:about="ARR_931">
+		<geo:code_arrondissement>931</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Bobigny</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_93008"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9305">
+				<geo:code_canton>9305</geo:code_canton>
+				<geo:nom xml:lang="fr">Bagnolet</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9307">
+				<geo:code_canton>9307</geo:code_canton>
+				<geo:nom xml:lang="fr">Bobigny</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9308">
+				<geo:code_canton>9308</geo:code_canton>
+				<geo:nom xml:lang="fr">Bondy-Sud-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9309">
+				<geo:code_canton>9309</geo:code_canton>
+				<geo:nom xml:lang="fr">Le Bourget</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9311">
+				<geo:code_canton>9311</geo:code_canton>
+				<geo:nom xml:lang="fr">Drancy</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9316">
+				<geo:code_canton>9316</geo:code_canton>
+				<geo:nom xml:lang="fr">Montreuil-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9317">
+				<geo:code_canton>9317</geo:code_canton>
+				<geo:nom xml:lang="fr">Montreuil-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9320">
+				<geo:code_canton>9320</geo:code_canton>
+				<geo:nom xml:lang="fr">Noisy-le-Sec</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9321">
+				<geo:code_canton>9321</geo:code_canton>
+				<geo:nom xml:lang="fr">Pantin-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9322">
+				<geo:code_canton>9322</geo:code_canton>
+				<geo:nom xml:lang="fr">Les Pavillons-sous-Bois</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9323">
+				<geo:code_canton>9323</geo:code_canton>
+				<geo:nom xml:lang="fr">Les Lilas</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9325">
+				<geo:code_canton>9325</geo:code_canton>
+				<geo:nom xml:lang="fr">Romainville</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9326">
+				<geo:code_canton>9326</geo:code_canton>
+				<geo:nom xml:lang="fr">Rosny-sous-Bois</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9334">
+				<geo:code_canton>9334</geo:code_canton>
+				<geo:nom xml:lang="fr">Villemomble</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9335">
+				<geo:code_canton>9335</geo:code_canton>
+				<geo:nom xml:lang="fr">Bondy-Nord-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9336">
+				<geo:code_canton>9336</geo:code_canton>
+				<geo:nom xml:lang="fr">Montreuil-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9338">
+				<geo:code_canton>9338</geo:code_canton>
+				<geo:nom xml:lang="fr">Pantin-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93006">
+				<geo:code_commune>93006</geo:code_commune>
+				<geo:nom xml:lang="fr">Bagnolet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93008">
+				<geo:code_commune>93008</geo:code_commune>
+				<geo:nom xml:lang="fr">Bobigny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93010">
+				<geo:code_commune>93010</geo:code_commune>
+				<geo:nom xml:lang="fr">Bondy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93013">
+				<geo:code_commune>93013</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Bourget</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93029">
+				<geo:code_commune>93029</geo:code_commune>
+				<geo:nom xml:lang="fr">Drancy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93030">
+				<geo:code_commune>93030</geo:code_commune>
+				<geo:nom xml:lang="fr">Dugny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93045">
+				<geo:code_commune>93045</geo:code_commune>
+				<geo:nom xml:lang="fr">Les Lilas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93048">
+				<geo:code_commune>93048</geo:code_commune>
+				<geo:nom xml:lang="fr">Montreuil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93053">
+				<geo:code_commune>93053</geo:code_commune>
+				<geo:nom xml:lang="fr">Noisy-le-Sec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93055">
+				<geo:code_commune>93055</geo:code_commune>
+				<geo:nom xml:lang="fr">Pantin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93057">
+				<geo:code_commune>93057</geo:code_commune>
+				<geo:nom xml:lang="fr">Les Pavillons-sous-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93061">
+				<geo:code_commune>93061</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Pré-Saint-Gervais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93063">
+				<geo:code_commune>93063</geo:code_commune>
+				<geo:nom xml:lang="fr">Romainville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93064">
+				<geo:code_commune>93064</geo:code_commune>
+				<geo:nom xml:lang="fr">Rosny-sous-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93077">
+				<geo:code_commune>93077</geo:code_commune>
+				<geo:nom xml:lang="fr">Villemomble</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_932">
+		<geo:code_arrondissement>932</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Le Raincy</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_93062"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9303">
+				<geo:code_canton>9303</geo:code_canton>
+				<geo:nom xml:lang="fr">Aulnay-sous-Bois-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9304">
+				<geo:code_canton>9304</geo:code_canton>
+				<geo:nom xml:lang="fr">Aulnay-sous-Bois-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9306">
+				<geo:code_canton>9306</geo:code_canton>
+				<geo:nom xml:lang="fr">Le Blanc-Mesnil</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9313">
+				<geo:code_canton>9313</geo:code_canton>
+				<geo:nom xml:lang="fr">Gagny</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9314">
+				<geo:code_canton>9314</geo:code_canton>
+				<geo:nom xml:lang="fr">Livry-Gargan</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9315">
+				<geo:code_canton>9315</geo:code_canton>
+				<geo:nom xml:lang="fr">Montfermeil</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9318">
+				<geo:code_canton>9318</geo:code_canton>
+				<geo:nom xml:lang="fr">Neuilly-Plaisance</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9319">
+				<geo:code_canton>9319</geo:code_canton>
+				<geo:nom xml:lang="fr">Noisy-le-Grand</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9324">
+				<geo:code_canton>9324</geo:code_canton>
+				<geo:nom xml:lang="fr">Le Raincy</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9331">
+				<geo:code_canton>9331</geo:code_canton>
+				<geo:nom xml:lang="fr">Sevran</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9333">
+				<geo:code_canton>9333</geo:code_canton>
+				<geo:nom xml:lang="fr">Tremblay-en-France</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9337">
+				<geo:code_canton>9337</geo:code_canton>
+				<geo:nom xml:lang="fr">Neuilly-sur-Marne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9340">
+				<geo:code_canton>9340</geo:code_canton>
+				<geo:nom xml:lang="fr">Villepinte</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93005">
+				<geo:code_commune>93005</geo:code_commune>
+				<geo:nom xml:lang="fr">Aulnay-sous-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93007">
+				<geo:code_commune>93007</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Blanc-Mesnil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93014">
+				<geo:code_commune>93014</geo:code_commune>
+				<geo:nom xml:lang="fr">Clichy-sous-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93015">
+				<geo:code_commune>93015</geo:code_commune>
+				<geo:nom xml:lang="fr">Coubron</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93032">
+				<geo:code_commune>93032</geo:code_commune>
+				<geo:nom xml:lang="fr">Gagny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93033">
+				<geo:code_commune>93033</geo:code_commune>
+				<geo:nom xml:lang="fr">Gournay-sur-Marne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93046">
+				<geo:code_commune>93046</geo:code_commune>
+				<geo:nom xml:lang="fr">Livry-Gargan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93047">
+				<geo:code_commune>93047</geo:code_commune>
+				<geo:nom xml:lang="fr">Montfermeil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93049">
+				<geo:code_commune>93049</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuilly-Plaisance</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93050">
+				<geo:code_commune>93050</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuilly-sur-Marne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93051">
+				<geo:code_commune>93051</geo:code_commune>
+				<geo:nom xml:lang="fr">Noisy-le-Grand</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93062">
+				<geo:code_commune>93062</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Raincy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93071">
+				<geo:code_commune>93071</geo:code_commune>
+				<geo:nom xml:lang="fr">Sevran</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93073">
+				<geo:code_commune>93073</geo:code_commune>
+				<geo:nom xml:lang="fr">Tremblay-en-France</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93074">
+				<geo:code_commune>93074</geo:code_commune>
+				<geo:nom xml:lang="fr">Vaujours</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93078">
+				<geo:code_commune>93078</geo:code_commune>
+				<geo:nom xml:lang="fr">Villepinte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_933">
+		<geo:code_arrondissement>933</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Saint-Denis</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_93066"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9301">
+				<geo:code_canton>9301</geo:code_canton>
+				<geo:nom xml:lang="fr">Aubervilliers-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9302">
+				<geo:code_canton>9302</geo:code_canton>
+				<geo:nom xml:lang="fr">Aubervilliers-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9310">
+				<geo:code_canton>9310</geo:code_canton>
+				<geo:nom xml:lang="fr">La Courneuve</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9312">
+				<geo:code_canton>9312</geo:code_canton>
+				<geo:nom xml:lang="fr">Épinay-sur-Seine</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9327">
+				<geo:code_canton>9327</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Denis-Nord-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9328">
+				<geo:code_canton>9328</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Denis-Nord-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9329">
+				<geo:code_canton>9329</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Denis-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9330">
+				<geo:code_canton>9330</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Ouen</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9332">
+				<geo:code_canton>9332</geo:code_canton>
+				<geo:nom xml:lang="fr">Stains</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9339">
+				<geo:code_canton>9339</geo:code_canton>
+				<geo:nom xml:lang="fr">Pierrefitte-sur-Seine</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93001">
+				<geo:code_commune>93001</geo:code_commune>
+				<geo:nom xml:lang="fr">Aubervilliers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93027">
+				<geo:code_commune>93027</geo:code_commune>
+				<geo:nom xml:lang="fr">La Courneuve</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93031">
+				<geo:code_commune>93031</geo:code_commune>
+				<geo:nom xml:lang="fr">Épinay-sur-Seine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93039">
+				<geo:code_commune>93039</geo:code_commune>
+				<geo:nom xml:lang="fr">L'Île-Saint-Denis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93059">
+				<geo:code_commune>93059</geo:code_commune>
+				<geo:nom xml:lang="fr">Pierrefitte-sur-Seine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93066">
+				<geo:code_commune>93066</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Denis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93070">
+				<geo:code_commune>93070</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Ouen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93072">
+				<geo:code_commune>93072</geo:code_commune>
+				<geo:nom xml:lang="fr">Stains</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_93079">
+				<geo:code_commune>93079</geo:code_commune>
+				<geo:nom xml:lang="fr">Villetaneuse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+</rdf:RDF>

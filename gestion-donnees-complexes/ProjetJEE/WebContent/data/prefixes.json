@@ -1,0 +1,232 @@
+{
+  "prefixes" : [
+    {
+      "name" : "insee",
+      "title" : "hbase-communes",
+      "url" : "http://rdf.insee.fr/geo/"
+    },
+    {
+      "name" : "rdf",
+      "title" : "hbase-communes",
+      "url" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "name" : "rdfs",
+      "title" : "hbase-communes",
+      "url" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+  
+    {
+      "name" : "insee",
+      "title" : "neo4j-departements",
+      "url" : "http://rdf.insee.fr/geo/"
+    },
+    {
+      "name" : "rdf",
+      "title" : "neo4j-departements",
+      "url" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "name" : "rdfs",
+      "title" : "neo4j-departements",
+      "url" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+
+    {
+      "name" : "insee",
+      "title" : "neo4j-regions",
+      "url" : "http://rdf.insee.fr/geo/"
+    },
+    {
+      "name" : "rdf",
+      "title" : "neo4j-regions",
+      "url" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "name" : "rdfs",
+      "title" : "neo4j-regions",
+      "url" : "http://www.w3.org/2000/01/rdf-schema#"
+    }
+    ,
+  
+    {
+      "name" : "insee",
+      "title" : "tdb-arrondissements",
+      "url" : "http://rdf.insee.fr/geo/"
+    },
+    {
+      "name" : "rdf",
+      "title" : "tdb-arrondissements",
+      "url" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "name" : "rdfs",
+      "title" : "tdb-arrondissements",
+      "url" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    {
+      "name" : "dc",
+      "title" : "tdb-arrondissements",
+      "url" : "http://purl.org/dc/elements/1.1/"
+    },
+    
+
+    {
+      "name" : "insee",
+      "title" : "tdb-cantons",
+      "url" : "http://rdf.insee.fr/geo/"
+    },
+    {
+      "name" : "rdf",
+      "title" : "tdb-cantons",
+      "url" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "name" : "rdfs",
+      "title" : "tdb-cantons",
+      "url" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    {
+      "name" : "dc",
+      "title" : "tdb-cantons",
+      "url" : "http://purl.org/dc/elements/1.1/"
+    },
+    
+
+    
+
+    {
+      "name" : "insee",
+      "title" : "tdb-regions",
+      "url" : "http://rdf.insee.fr/geo/"
+    },
+    {
+      "name" : "rdf",
+      "title" : "tdb-regions",
+      "url" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "name" : "rdfs",
+      "title" : "tdb-regions",
+      "url" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    {
+      "name" : "dc",
+      "title" : "tdb-regions",
+      "url" : "http://purl.org/dc/elements/1.1/"
+    },
+    
+
+
+
+    {
+      "name" : "insee",
+      "title" : "tdb-departements",
+      "url" : "http://rdf.insee.fr/geo/"
+    },
+    {
+      "name" : "rdf",
+      "title" : "tdb-departements",
+      "url" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "name" : "rdfs",
+      "title" : "tdb-departements",
+      "url" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    {
+      "name" : "dc",
+      "title" : "tdb-departements",
+      "url" : "http://purl.org/dc/elements/1.1/"
+    },
+
+     {
+      "name" : "skos",
+      "title" : "geonames-departements",
+      "url" : "http://www.w3.org/2004/02/skos/core#"
+    },
+
+    {
+      "name" : "base",
+      "title" : "geonames-departements",
+      "url" : "http://www.geonames.org/ontology"
+    },
+    {
+      "name" : "gn",
+      "title" : "geonames-departements",
+      "url" : "http://www.geonames.org/ontology#"
+    },
+    {
+      "name" : "dcgn",
+      "title" : "geonames-departements",
+      "url" : "http://purl.org/dc/terms/"
+    },
+    {
+      "name" : "foaf",
+      "title" : "geonames-departements",
+      "url" : "http://xmlns.com/foaf/0.1/"
+    },
+    {
+      "name" : "cc",
+      "title" : "geonames-departements",
+      "url" : "http://creativecommons.org/ns#"
+    },
+    {
+      "name" : "rdf",
+      "title" : "geonames-departements",
+      "url" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "name" : "rdfs",
+      "title" : "geonames-departements",
+      "url" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    {
+      "name" : "wgs84_pos",
+      "title" : "geonames-departements",
+      "url" : "http://www.w3.org/2003/01/geo/wgs84_pos#"
+    }
+
+
+    
+
+    ,
+
+    
+    {
+      "name" : "rdf",
+      "title" : "d2rq-impots",
+      "url" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "name" : "rdfs",
+      "title" : "d2rq-impots",
+      "url" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    {
+      "name" : "impots",
+      "title" : "d2rq-impots",
+      "url" : "http://www.lirmm.fr/impots#"
+    }
+    
+    ,
+    {
+      "name" : "rdf",
+      "title" : "sdb-population",
+      "url" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "name" : "rdfs",
+      "title" : "sdb-population",
+      "url" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    {
+      "name" : "idemo",
+      "title" : "sdb-population",
+      "url" : "http://rdf.insee.fr/def/demo#"
+    }
+
+
+
+  ]
+}

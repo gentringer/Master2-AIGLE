@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/arrondissements-94-2011.rdf">
+		<dc:title xml:lang="fr">Arrondissements du département du Val-de-Marne (94)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Arrondissement rdf:about="ARR_941">
+		<geo:code_arrondissement>941</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Créteil</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_94028"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9401">
+				<geo:code_canton>9401</geo:code_canton>
+				<geo:nom xml:lang="fr">Alfortville-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9402">
+				<geo:code_canton>9402</geo:code_canton>
+				<geo:nom xml:lang="fr">Boissy-Saint-Léger</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9403">
+				<geo:code_canton>9403</geo:code_canton>
+				<geo:nom xml:lang="fr">Bonneuil-sur-Marne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9407">
+				<geo:code_canton>9407</geo:code_canton>
+				<geo:nom xml:lang="fr">Charenton-le-Pont</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9409">
+				<geo:code_canton>9409</geo:code_canton>
+				<geo:nom xml:lang="fr">Choisy-le-Roi</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9410">
+				<geo:code_canton>9410</geo:code_canton>
+				<geo:nom xml:lang="fr">Créteil-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9413">
+				<geo:code_canton>9413</geo:code_canton>
+				<geo:nom xml:lang="fr">Ivry-sur-Seine-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9414">
+				<geo:code_canton>9414</geo:code_canton>
+				<geo:nom xml:lang="fr">Ivry-sur-Seine-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9417">
+				<geo:code_canton>9417</geo:code_canton>
+				<geo:nom xml:lang="fr">Maisons-Alfort-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9418">
+				<geo:code_canton>9418</geo:code_canton>
+				<geo:nom xml:lang="fr">Maisons-Alfort-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9420">
+				<geo:code_canton>9420</geo:code_canton>
+				<geo:nom xml:lang="fr">Orly</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9423">
+				<geo:code_canton>9423</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Maur-des-Fossés-Centre</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9424">
+				<geo:code_canton>9424</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Maur-des-Fossés-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9426">
+				<geo:code_canton>9426</geo:code_canton>
+				<geo:nom xml:lang="fr">Villecresnes</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9428">
+				<geo:code_canton>9428</geo:code_canton>
+				<geo:nom xml:lang="fr">Villeneuve-le-Roi</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9429">
+				<geo:code_canton>9429</geo:code_canton>
+				<geo:nom xml:lang="fr">Villeneuve-Saint-Georges</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9432">
+				<geo:code_canton>9432</geo:code_canton>
+				<geo:nom xml:lang="fr">Vitry-sur-Seine-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9433">
+				<geo:code_canton>9433</geo:code_canton>
+				<geo:nom xml:lang="fr">Vitry-sur-Seine-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9436">
+				<geo:code_canton>9436</geo:code_canton>
+				<geo:nom xml:lang="fr">Créteil-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9440">
+				<geo:code_canton>9440</geo:code_canton>
+				<geo:nom xml:lang="fr">Alfortville-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9443">
+				<geo:code_canton>9443</geo:code_canton>
+				<geo:nom xml:lang="fr">Créteil-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9445">
+				<geo:code_canton>9445</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Maur-La Varenne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9446">
+				<geo:code_canton>9446</geo:code_canton>
+				<geo:nom xml:lang="fr">Sucy-en-Brie</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9447">
+				<geo:code_canton>9447</geo:code_canton>
+				<geo:nom xml:lang="fr">Valenton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9449">
+				<geo:code_canton>9449</geo:code_canton>
+				<geo:nom xml:lang="fr">Vitry-sur-Seine-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94001">
+				<geo:code_commune>94001</geo:code_commune>
+				<geo:nom xml:lang="fr">Ablon-sur-Seine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94002">
+				<geo:code_commune>94002</geo:code_commune>
+				<geo:nom xml:lang="fr">Alfortville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94004">
+				<geo:code_commune>94004</geo:code_commune>
+				<geo:nom xml:lang="fr">Boissy-Saint-Léger</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94011">
+				<geo:code_commune>94011</geo:code_commune>
+				<geo:nom xml:lang="fr">Bonneuil-sur-Marne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94018">
+				<geo:code_commune>94018</geo:code_commune>
+				<geo:nom xml:lang="fr">Charenton-le-Pont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94022">
+				<geo:code_commune>94022</geo:code_commune>
+				<geo:nom xml:lang="fr">Choisy-le-Roi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94028">
+				<geo:code_commune>94028</geo:code_commune>
+				<geo:nom xml:lang="fr">Créteil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94041">
+				<geo:code_commune>94041</geo:code_commune>
+				<geo:nom xml:lang="fr">Ivry-sur-Seine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94044">
+				<geo:code_commune>94044</geo:code_commune>
+				<geo:nom xml:lang="fr">Limeil-Brévannes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94046">
+				<geo:code_commune>94046</geo:code_commune>
+				<geo:nom xml:lang="fr">Maisons-Alfort</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94047">
+				<geo:code_commune>94047</geo:code_commune>
+				<geo:nom xml:lang="fr">Mandres-les-Roses</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94048">
+				<geo:code_commune>94048</geo:code_commune>
+				<geo:nom xml:lang="fr">Marolles-en-Brie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94054">
+				<geo:code_commune>94054</geo:code_commune>
+				<geo:nom xml:lang="fr">Orly</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94056">
+				<geo:code_commune>94056</geo:code_commune>
+				<geo:nom xml:lang="fr">Périgny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94068">
+				<geo:code_commune>94068</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Maur-des-Fossés</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94069">
+				<geo:code_commune>94069</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Maurice</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94070">
+				<geo:code_commune>94070</geo:code_commune>
+				<geo:nom xml:lang="fr">Santeny</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94071">
+				<geo:code_commune>94071</geo:code_commune>
+				<geo:nom xml:lang="fr">Sucy-en-Brie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94074">
+				<geo:code_commune>94074</geo:code_commune>
+				<geo:nom xml:lang="fr">Valenton</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94075">
+				<geo:code_commune>94075</geo:code_commune>
+				<geo:nom xml:lang="fr">Villecresnes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94077">
+				<geo:code_commune>94077</geo:code_commune>
+				<geo:nom xml:lang="fr">Villeneuve-le-Roi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94078">
+				<geo:code_commune>94078</geo:code_commune>
+				<geo:nom xml:lang="fr">Villeneuve-Saint-Georges</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94081">
+				<geo:code_commune>94081</geo:code_commune>
+				<geo:nom xml:lang="fr">Vitry-sur-Seine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_942">
+		<geo:code_arrondissement>942</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Nogent-sur-Marne</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_94052"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9404">
+				<geo:code_canton>9404</geo:code_canton>
+				<geo:nom xml:lang="fr">Bry-sur-Marne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9406">
+				<geo:code_canton>9406</geo:code_canton>
+				<geo:nom xml:lang="fr">Champigny-sur-Marne-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9408">
+				<geo:code_canton>9408</geo:code_canton>
+				<geo:nom xml:lang="fr">Chennevières-sur-Marne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9411">
+				<geo:code_canton>9411</geo:code_canton>
+				<geo:nom xml:lang="fr">Fontenay-sous-Bois-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9415">
+				<geo:code_canton>9415</geo:code_canton>
+				<geo:nom xml:lang="fr">Joinville-le-Pont</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9419">
+				<geo:code_canton>9419</geo:code_canton>
+				<geo:nom xml:lang="fr">Nogent-sur-Marne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9421">
+				<geo:code_canton>9421</geo:code_canton>
+				<geo:nom xml:lang="fr">Le Perreux-sur-Marne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9422">
+				<geo:code_canton>9422</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Mandé</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9430">
+				<geo:code_canton>9430</geo:code_canton>
+				<geo:nom xml:lang="fr">Fontenay-sous-Bois-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9431">
+				<geo:code_canton>9431</geo:code_canton>
+				<geo:nom xml:lang="fr">Vincennes-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9435">
+				<geo:code_canton>9435</geo:code_canton>
+				<geo:nom xml:lang="fr">Champigny-sur-Marne-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9438">
+				<geo:code_canton>9438</geo:code_canton>
+				<geo:nom xml:lang="fr">Villiers-sur-Marne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9439">
+				<geo:code_canton>9439</geo:code_canton>
+				<geo:nom xml:lang="fr">Vincennes-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9441">
+				<geo:code_canton>9441</geo:code_canton>
+				<geo:nom xml:lang="fr">Champigny-sur-Marne-Centre</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9444">
+				<geo:code_canton>9444</geo:code_canton>
+				<geo:nom xml:lang="fr">Ormesson-sur-Marne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94015">
+				<geo:code_commune>94015</geo:code_commune>
+				<geo:nom xml:lang="fr">Bry-sur-Marne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94017">
+				<geo:code_commune>94017</geo:code_commune>
+				<geo:nom xml:lang="fr">Champigny-sur-Marne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94019">
+				<geo:code_commune>94019</geo:code_commune>
+				<geo:nom xml:lang="fr">Chennevières-sur-Marne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94033">
+				<geo:code_commune>94033</geo:code_commune>
+				<geo:nom xml:lang="fr">Fontenay-sous-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94042">
+				<geo:code_commune>94042</geo:code_commune>
+				<geo:nom xml:lang="fr">Joinville-le-Pont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94052">
+				<geo:code_commune>94052</geo:code_commune>
+				<geo:nom xml:lang="fr">Nogent-sur-Marne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94053">
+				<geo:code_commune>94053</geo:code_commune>
+				<geo:nom xml:lang="fr">Noiseau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94055">
+				<geo:code_commune>94055</geo:code_commune>
+				<geo:nom xml:lang="fr">Ormesson-sur-Marne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94058">
+				<geo:code_commune>94058</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Perreux-sur-Marne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94059">
+				<geo:code_commune>94059</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Plessis-Trévise</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94060">
+				<geo:code_commune>94060</geo:code_commune>
+				<geo:nom xml:lang="fr">La Queue-en-Brie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94067">
+				<geo:code_commune>94067</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Mandé</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94079">
+				<geo:code_commune>94079</geo:code_commune>
+				<geo:nom xml:lang="fr">Villiers-sur-Marne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94080">
+				<geo:code_commune>94080</geo:code_commune>
+				<geo:nom xml:lang="fr">Vincennes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_943">
+		<geo:code_arrondissement>943</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">L'Haÿ-les-Roses</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_94038"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9405">
+				<geo:code_canton>9405</geo:code_canton>
+				<geo:nom xml:lang="fr">Cachan</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9412">
+				<geo:code_canton>9412</geo:code_canton>
+				<geo:nom xml:lang="fr">L'Haÿ-les-Roses</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9416">
+				<geo:code_canton>9416</geo:code_canton>
+				<geo:nom xml:lang="fr">Le Kremlin-Bicêtre</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9425">
+				<geo:code_canton>9425</geo:code_canton>
+				<geo:nom xml:lang="fr">Thiais</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9427">
+				<geo:code_canton>9427</geo:code_canton>
+				<geo:nom xml:lang="fr">Villejuif-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9434">
+				<geo:code_canton>9434</geo:code_canton>
+				<geo:nom xml:lang="fr">Arcueil</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9437">
+				<geo:code_canton>9437</geo:code_canton>
+				<geo:nom xml:lang="fr">Fresnes</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9442">
+				<geo:code_canton>9442</geo:code_canton>
+				<geo:nom xml:lang="fr">Chevilly-Larue</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9448">
+				<geo:code_canton>9448</geo:code_canton>
+				<geo:nom xml:lang="fr">Villejuif-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94003">
+				<geo:code_commune>94003</geo:code_commune>
+				<geo:nom xml:lang="fr">Arcueil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94016">
+				<geo:code_commune>94016</geo:code_commune>
+				<geo:nom xml:lang="fr">Cachan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94021">
+				<geo:code_commune>94021</geo:code_commune>
+				<geo:nom xml:lang="fr">Chevilly-Larue</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94034">
+				<geo:code_commune>94034</geo:code_commune>
+				<geo:nom xml:lang="fr">Fresnes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94037">
+				<geo:code_commune>94037</geo:code_commune>
+				<geo:nom xml:lang="fr">Gentilly</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94038">
+				<geo:code_commune>94038</geo:code_commune>
+				<geo:nom xml:lang="fr">L'Haÿ-les-Roses</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94043">
+				<geo:code_commune>94043</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Kremlin-Bicêtre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94065">
+				<geo:code_commune>94065</geo:code_commune>
+				<geo:nom xml:lang="fr">Rungis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94073">
+				<geo:code_commune>94073</geo:code_commune>
+				<geo:nom xml:lang="fr">Thiais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_94076">
+				<geo:code_commune>94076</geo:code_commune>
+				<geo:nom xml:lang="fr">Villejuif</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+</rdf:RDF>

@@ -1,0 +1,4788 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/cantons-18-2011.rdf">
+		<dc:title xml:lang="fr">Cantons et communes du département du Cher (18)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Canton rdf:about="CAN_1801">
+		<geo:code_canton>1801</geo:code_canton>
+		<geo:nom xml:lang="fr">Les Aix-d'Angillon</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18003"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18003">
+				<geo:code_commune>18003</geo:code_commune>
+				<geo:nom xml:lang="fr">Les Aix-d'Angillon</geo:nom>
+				<geo:voisin rdf:resource="COM_18003" />
+				<geo:voisin rdf:resource="COM_18016" />
+				<geo:voisin rdf:resource="COM_18176" />
+				<geo:voisin rdf:resource="COM_18194" />
+				<geo:voisin rdf:resource="COM_18235" />
+				<geo:voisin rdf:resource="COM_18253" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18016">
+				<geo:code_commune>18016</geo:code_commune>
+				<geo:nom xml:lang="fr">Aubinges</geo:nom>
+				<geo:voisin rdf:resource="COM_18003" />
+				<geo:voisin rdf:resource="COM_18016" />
+				<geo:voisin rdf:resource="COM_18156" />
+				<geo:voisin rdf:resource="COM_18176" />
+				<geo:voisin rdf:resource="COM_18194" />
+				<geo:voisin rdf:resource="COM_18202" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18019">
+				<geo:code_commune>18019</geo:code_commune>
+				<geo:nom xml:lang="fr">Azy</geo:nom>
+				<geo:voisin rdf:resource="COM_18019" />
+				<geo:voisin rdf:resource="COM_18090" />
+				<geo:voisin rdf:resource="COM_18104" />
+				<geo:voisin rdf:resource="COM_18116" />
+				<geo:voisin rdf:resource="COM_18151" />
+				<geo:voisin rdf:resource="COM_18194" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18035">
+				<geo:code_commune>18035</geo:code_commune>
+				<geo:nom xml:lang="fr">Brécy</geo:nom>
+				<geo:voisin rdf:resource="COM_18035" />
+				<geo:voisin rdf:resource="COM_18090" />
+				<geo:voisin rdf:resource="COM_18092" />
+				<geo:voisin rdf:resource="COM_18166" />
+				<geo:voisin rdf:resource="COM_18194" />
+				<geo:voisin rdf:resource="COM_18235" />
+				<geo:voisin rdf:resource="COM_18282" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18156">
+				<geo:code_commune>18156</geo:code_commune>
+				<geo:nom xml:lang="fr">Morogues</geo:nom>
+				<geo:voisin rdf:resource="COM_18016" />
+				<geo:voisin rdf:resource="COM_18109" />
+				<geo:voisin rdf:resource="COM_18111" />
+				<geo:voisin rdf:resource="COM_18156" />
+				<geo:voisin rdf:resource="COM_18176" />
+				<geo:voisin rdf:resource="COM_18202" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18176">
+				<geo:code_commune>18176</geo:code_commune>
+				<geo:nom xml:lang="fr">Parassy</geo:nom>
+				<geo:voisin rdf:resource="COM_18003" />
+				<geo:voisin rdf:resource="COM_18016" />
+				<geo:voisin rdf:resource="COM_18109" />
+				<geo:voisin rdf:resource="COM_18145" />
+				<geo:voisin rdf:resource="COM_18156" />
+				<geo:voisin rdf:resource="COM_18176" />
+				<geo:voisin rdf:resource="COM_18253" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18194">
+				<geo:code_commune>18194</geo:code_commune>
+				<geo:nom xml:lang="fr">Rians</geo:nom>
+				<geo:voisin rdf:resource="COM_18003" />
+				<geo:voisin rdf:resource="COM_18016" />
+				<geo:voisin rdf:resource="COM_18019" />
+				<geo:voisin rdf:resource="COM_18035" />
+				<geo:voisin rdf:resource="COM_18090" />
+				<geo:voisin rdf:resource="COM_18151" />
+				<geo:voisin rdf:resource="COM_18194" />
+				<geo:voisin rdf:resource="COM_18202" />
+				<geo:voisin rdf:resource="COM_18235" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18202">
+				<geo:code_commune>18202</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Céols</geo:nom>
+				<geo:voisin rdf:resource="COM_18016" />
+				<geo:voisin rdf:resource="COM_18111" />
+				<geo:voisin rdf:resource="COM_18151" />
+				<geo:voisin rdf:resource="COM_18156" />
+				<geo:voisin rdf:resource="COM_18194" />
+				<geo:voisin rdf:resource="COM_18202" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18213">
+				<geo:code_commune>18213</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Germain-du-Puy</geo:nom>
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18158" />
+				<geo:voisin rdf:resource="COM_18174" />
+				<geo:voisin rdf:resource="COM_18213" />
+				<geo:voisin rdf:resource="COM_18226" />
+				<geo:voisin rdf:resource="COM_18235" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18226">
+				<geo:code_commune>18226</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Michel-de-Volangis</geo:nom>
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18097" />
+				<geo:voisin rdf:resource="COM_18179" />
+				<geo:voisin rdf:resource="COM_18213" />
+				<geo:voisin rdf:resource="COM_18226" />
+				<geo:voisin rdf:resource="COM_18235" />
+				<geo:voisin rdf:resource="COM_18253" />
+				<geo:voisin rdf:resource="COM_18280" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18235">
+				<geo:code_commune>18235</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Solange</geo:nom>
+				<geo:voisin rdf:resource="COM_18003" />
+				<geo:voisin rdf:resource="COM_18035" />
+				<geo:voisin rdf:resource="COM_18158" />
+				<geo:voisin rdf:resource="COM_18166" />
+				<geo:voisin rdf:resource="COM_18194" />
+				<geo:voisin rdf:resource="COM_18213" />
+				<geo:voisin rdf:resource="COM_18226" />
+				<geo:voisin rdf:resource="COM_18235" />
+				<geo:voisin rdf:resource="COM_18253" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18253">
+				<geo:code_commune>18253</geo:code_commune>
+				<geo:nom xml:lang="fr">Soulangis</geo:nom>
+				<geo:voisin rdf:resource="COM_18003" />
+				<geo:voisin rdf:resource="COM_18145" />
+				<geo:voisin rdf:resource="COM_18176" />
+				<geo:voisin rdf:resource="COM_18226" />
+				<geo:voisin rdf:resource="COM_18235" />
+				<geo:voisin rdf:resource="COM_18253" />
+				<geo:voisin rdf:resource="COM_18280" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1802">
+		<geo:code_canton>1802</geo:code_canton>
+		<geo:nom xml:lang="fr">Argent-sur-Sauldre</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18011"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18011">
+				<geo:code_commune>18011</geo:code_commune>
+				<geo:nom xml:lang="fr">Argent-sur-Sauldre</geo:nom>
+				<geo:voisin rdf:resource="COM_18011" />
+				<geo:voisin rdf:resource="COM_18015" />
+				<geo:voisin rdf:resource="COM_18030" />
+				<geo:voisin rdf:resource="COM_18067" />
+				<geo:voisin rdf:resource="COM_18227" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45063">
+						<geo:code_commune>45063</geo:code_commune>
+						<geo:nom xml:lang="fr">Cerdon</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45108">
+						<geo:code_commune>45108</geo:code_commune>
+						<geo:nom xml:lang="fr">Coullons</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18030">
+				<geo:code_commune>18030</geo:code_commune>
+				<geo:nom xml:lang="fr">Blancafort</geo:nom>
+				<geo:voisin rdf:resource="COM_18011" />
+				<geo:voisin rdf:resource="COM_18015" />
+				<geo:voisin rdf:resource="COM_18022" />
+				<geo:voisin rdf:resource="COM_18030" />
+				<geo:voisin rdf:resource="COM_18070" />
+				<geo:voisin rdf:resource="COM_18170" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45016">
+						<geo:code_commune>45016</geo:code_commune>
+						<geo:nom xml:lang="fr">Autry-le-Châtel</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45064">
+						<geo:code_commune>45064</geo:code_commune>
+						<geo:nom xml:lang="fr">Cernoy-en-Berry</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45108">
+						<geo:code_commune>45108</geo:code_commune>
+						<geo:nom xml:lang="fr">Coullons</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18037">
+				<geo:code_commune>18037</geo:code_commune>
+				<geo:nom xml:lang="fr">Brinon-sur-Sauldre</geo:nom>
+				<geo:voisin rdf:resource="COM_18037" />
+				<geo:voisin rdf:resource="COM_18067" />
+				<geo:voisin rdf:resource="COM_18227" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41036">
+						<geo:code_commune>41036</geo:code_commune>
+						<geo:nom xml:lang="fr">Chaon</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41176">
+						<geo:code_commune>41176</geo:code_commune>
+						<geo:nom xml:lang="fr">Pierrefitte-sur-Sauldre</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41249">
+						<geo:code_commune>41249</geo:code_commune>
+						<geo:nom xml:lang="fr">Souesmes</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45063">
+						<geo:code_commune>45063</geo:code_commune>
+						<geo:nom xml:lang="fr">Cerdon</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45171">
+						<geo:code_commune>45171</geo:code_commune>
+						<geo:nom xml:lang="fr">Isdes</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18067">
+				<geo:code_commune>18067</geo:code_commune>
+				<geo:nom xml:lang="fr">Clémont</geo:nom>
+				<geo:voisin rdf:resource="COM_18011" />
+				<geo:voisin rdf:resource="COM_18037" />
+				<geo:voisin rdf:resource="COM_18067" />
+				<geo:voisin rdf:resource="COM_18227" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45063">
+						<geo:code_commune>45063</geo:code_commune>
+						<geo:nom xml:lang="fr">Cerdon</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1803">
+		<geo:code_canton>1803</geo:code_canton>
+		<geo:nom xml:lang="fr">Aubigny-sur-Nère</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18015"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18015">
+				<geo:code_commune>18015</geo:code_commune>
+				<geo:nom xml:lang="fr">Aubigny-sur-Nère</geo:nom>
+				<geo:voisin rdf:resource="COM_18011" />
+				<geo:voisin rdf:resource="COM_18015" />
+				<geo:voisin rdf:resource="COM_18030" />
+				<geo:voisin rdf:resource="COM_18088" />
+				<geo:voisin rdf:resource="COM_18170" />
+				<geo:voisin rdf:resource="COM_18227" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18147">
+				<geo:code_commune>18147</geo:code_commune>
+				<geo:nom xml:lang="fr">Ménétréol-sur-Sauldre</geo:nom>
+				<geo:voisin rdf:resource="COM_18088" />
+				<geo:voisin rdf:resource="COM_18147" />
+				<geo:voisin rdf:resource="COM_18185" />
+				<geo:voisin rdf:resource="COM_18227" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41249">
+						<geo:code_commune>41249</geo:code_commune>
+						<geo:nom xml:lang="fr">Souesmes</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18170">
+				<geo:code_commune>18170</geo:code_commune>
+				<geo:nom xml:lang="fr">Oizon</geo:nom>
+				<geo:voisin rdf:resource="COM_18015" />
+				<geo:voisin rdf:resource="COM_18030" />
+				<geo:voisin rdf:resource="COM_18070" />
+				<geo:voisin rdf:resource="COM_18084" />
+				<geo:voisin rdf:resource="COM_18088" />
+				<geo:voisin rdf:resource="COM_18115" />
+				<geo:voisin rdf:resource="COM_18170" />
+				<geo:voisin rdf:resource="COM_18284" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18227">
+				<geo:code_commune>18227</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Montaine</geo:nom>
+				<geo:voisin rdf:resource="COM_18011" />
+				<geo:voisin rdf:resource="COM_18015" />
+				<geo:voisin rdf:resource="COM_18037" />
+				<geo:voisin rdf:resource="COM_18067" />
+				<geo:voisin rdf:resource="COM_18088" />
+				<geo:voisin rdf:resource="COM_18147" />
+				<geo:voisin rdf:resource="COM_18227" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41249">
+						<geo:code_commune>41249</geo:code_commune>
+						<geo:nom xml:lang="fr">Souesmes</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1804">
+		<geo:code_canton>1804</geo:code_canton>
+		<geo:nom xml:lang="fr">Baugy</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18023"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18018">
+				<geo:code_commune>18018</geo:code_commune>
+				<geo:nom xml:lang="fr">Avord</geo:nom>
+				<geo:voisin rdf:resource="COM_18018" />
+				<geo:voisin rdf:resource="COM_18023" />
+				<geo:voisin rdf:resource="COM_18027" />
+				<geo:voisin rdf:resource="COM_18081" />
+				<geo:voisin rdf:resource="COM_18092" />
+				<geo:voisin rdf:resource="COM_18119" />
+				<geo:voisin rdf:resource="COM_18239" />
+				<geo:voisin rdf:resource="COM_18247" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18023">
+				<geo:code_commune>18023</geo:code_commune>
+				<geo:nom xml:lang="fr">Baugy</geo:nom>
+				<geo:voisin rdf:resource="COM_18018" />
+				<geo:voisin rdf:resource="COM_18023" />
+				<geo:voisin rdf:resource="COM_18092" />
+				<geo:voisin rdf:resource="COM_18105" />
+				<geo:voisin rdf:resource="COM_18239" />
+				<geo:voisin rdf:resource="COM_18282" />
+				<geo:voisin rdf:resource="COM_18286" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18027">
+				<geo:code_commune>18027</geo:code_commune>
+				<geo:nom xml:lang="fr">Bengy-sur-Craon</geo:nom>
+				<geo:voisin rdf:resource="COM_18018" />
+				<geo:voisin rdf:resource="COM_18027" />
+				<geo:voisin rdf:resource="COM_18072" />
+				<geo:voisin rdf:resource="COM_18095" />
+				<geo:voisin rdf:resource="COM_18119" />
+				<geo:voisin rdf:resource="COM_18123" />
+				<geo:voisin rdf:resource="COM_18160" />
+				<geo:voisin rdf:resource="COM_18191" />
+				<geo:voisin rdf:resource="COM_18239" />
+				<geo:voisin rdf:resource="COM_18260" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18056">
+				<geo:code_commune>18056</geo:code_commune>
+				<geo:nom xml:lang="fr">Chassy</geo:nom>
+				<geo:voisin rdf:resource="COM_18056" />
+				<geo:voisin rdf:resource="COM_18123" />
+				<geo:voisin rdf:resource="COM_18154" />
+				<geo:voisin rdf:resource="COM_18160" />
+				<geo:voisin rdf:resource="COM_18215" />
+				<geo:voisin rdf:resource="COM_18286" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18081">
+				<geo:code_commune>18081</geo:code_commune>
+				<geo:nom xml:lang="fr">Crosses</geo:nom>
+				<geo:voisin rdf:resource="COM_18006" />
+				<geo:voisin rdf:resource="COM_18018" />
+				<geo:voisin rdf:resource="COM_18081" />
+				<geo:voisin rdf:resource="COM_18119" />
+				<geo:voisin rdf:resource="COM_18218" />
+				<geo:voisin rdf:resource="COM_18247" />
+				<geo:voisin rdf:resource="COM_18254" />
+				<geo:voisin rdf:resource="COM_18289" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18092">
+				<geo:code_commune>18092</geo:code_commune>
+				<geo:nom xml:lang="fr">Farges-en-Septaine</geo:nom>
+				<geo:voisin rdf:resource="COM_18018" />
+				<geo:voisin rdf:resource="COM_18023" />
+				<geo:voisin rdf:resource="COM_18035" />
+				<geo:voisin rdf:resource="COM_18092" />
+				<geo:voisin rdf:resource="COM_18166" />
+				<geo:voisin rdf:resource="COM_18247" />
+				<geo:voisin rdf:resource="COM_18282" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18105">
+				<geo:code_commune>18105</geo:code_commune>
+				<geo:nom xml:lang="fr">Gron</geo:nom>
+				<geo:voisin rdf:resource="COM_18023" />
+				<geo:voisin rdf:resource="COM_18061" />
+				<geo:voisin rdf:resource="COM_18077" />
+				<geo:voisin rdf:resource="COM_18090" />
+				<geo:voisin rdf:resource="COM_18105" />
+				<geo:voisin rdf:resource="COM_18282" />
+				<geo:voisin rdf:resource="COM_18286" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18119">
+				<geo:code_commune>18119</geo:code_commune>
+				<geo:nom xml:lang="fr">Jussy-Champagne</geo:nom>
+				<geo:voisin rdf:resource="COM_18018" />
+				<geo:voisin rdf:resource="COM_18027" />
+				<geo:voisin rdf:resource="COM_18081" />
+				<geo:voisin rdf:resource="COM_18119" />
+				<geo:voisin rdf:resource="COM_18173" />
+				<geo:voisin rdf:resource="COM_18191" />
+				<geo:voisin rdf:resource="COM_18289" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18123">
+				<geo:code_commune>18123</geo:code_commune>
+				<geo:nom xml:lang="fr">Laverdines</geo:nom>
+				<geo:voisin rdf:resource="COM_18027" />
+				<geo:voisin rdf:resource="COM_18056" />
+				<geo:voisin rdf:resource="COM_18123" />
+				<geo:voisin rdf:resource="COM_18160" />
+				<geo:voisin rdf:resource="COM_18239" />
+				<geo:voisin rdf:resource="COM_18286" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18158">
+				<geo:code_commune>18158</geo:code_commune>
+				<geo:nom xml:lang="fr">Moulins-sur-Yèvre</geo:nom>
+				<geo:voisin rdf:resource="COM_18158" />
+				<geo:voisin rdf:resource="COM_18166" />
+				<geo:voisin rdf:resource="COM_18174" />
+				<geo:voisin rdf:resource="COM_18213" />
+				<geo:voisin rdf:resource="COM_18235" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18166">
+				<geo:code_commune>18166</geo:code_commune>
+				<geo:nom xml:lang="fr">Nohant-en-Goût</geo:nom>
+				<geo:voisin rdf:resource="COM_18035" />
+				<geo:voisin rdf:resource="COM_18092" />
+				<geo:voisin rdf:resource="COM_18158" />
+				<geo:voisin rdf:resource="COM_18166" />
+				<geo:voisin rdf:resource="COM_18174" />
+				<geo:voisin rdf:resource="COM_18235" />
+				<geo:voisin rdf:resource="COM_18247" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18174">
+				<geo:code_commune>18174</geo:code_commune>
+				<geo:nom xml:lang="fr">Osmoy</geo:nom>
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18158" />
+				<geo:voisin rdf:resource="COM_18166" />
+				<geo:voisin rdf:resource="COM_18174" />
+				<geo:voisin rdf:resource="COM_18213" />
+				<geo:voisin rdf:resource="COM_18247" />
+				<geo:voisin rdf:resource="COM_18254" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18239">
+				<geo:code_commune>18239</geo:code_commune>
+				<geo:nom xml:lang="fr">Saligny-le-Vif</geo:nom>
+				<geo:voisin rdf:resource="COM_18018" />
+				<geo:voisin rdf:resource="COM_18023" />
+				<geo:voisin rdf:resource="COM_18027" />
+				<geo:voisin rdf:resource="COM_18123" />
+				<geo:voisin rdf:resource="COM_18239" />
+				<geo:voisin rdf:resource="COM_18286" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18247">
+				<geo:code_commune>18247</geo:code_commune>
+				<geo:nom xml:lang="fr">Savigny-en-Septaine</geo:nom>
+				<geo:voisin rdf:resource="COM_18018" />
+				<geo:voisin rdf:resource="COM_18081" />
+				<geo:voisin rdf:resource="COM_18092" />
+				<geo:voisin rdf:resource="COM_18166" />
+				<geo:voisin rdf:resource="COM_18174" />
+				<geo:voisin rdf:resource="COM_18247" />
+				<geo:voisin rdf:resource="COM_18254" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18282">
+				<geo:code_commune>18282</geo:code_commune>
+				<geo:nom xml:lang="fr">Villabon</geo:nom>
+				<geo:voisin rdf:resource="COM_18023" />
+				<geo:voisin rdf:resource="COM_18035" />
+				<geo:voisin rdf:resource="COM_18090" />
+				<geo:voisin rdf:resource="COM_18092" />
+				<geo:voisin rdf:resource="COM_18105" />
+				<geo:voisin rdf:resource="COM_18282" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18286">
+				<geo:code_commune>18286</geo:code_commune>
+				<geo:nom xml:lang="fr">Villequiers</geo:nom>
+				<geo:voisin rdf:resource="COM_18023" />
+				<geo:voisin rdf:resource="COM_18056" />
+				<geo:voisin rdf:resource="COM_18077" />
+				<geo:voisin rdf:resource="COM_18099" />
+				<geo:voisin rdf:resource="COM_18105" />
+				<geo:voisin rdf:resource="COM_18123" />
+				<geo:voisin rdf:resource="COM_18154" />
+				<geo:voisin rdf:resource="COM_18239" />
+				<geo:voisin rdf:resource="COM_18286" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18289">
+				<geo:code_commune>18289</geo:code_commune>
+				<geo:nom xml:lang="fr">Vornay</geo:nom>
+				<geo:voisin rdf:resource="COM_18006" />
+				<geo:voisin rdf:resource="COM_18040" />
+				<geo:voisin rdf:resource="COM_18081" />
+				<geo:voisin rdf:resource="COM_18087" />
+				<geo:voisin rdf:resource="COM_18119" />
+				<geo:voisin rdf:resource="COM_18173" />
+				<geo:voisin rdf:resource="COM_18204" />
+				<geo:voisin rdf:resource="COM_18289" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1805">
+		<geo:code_canton>1805</geo:code_canton>
+		<geo:nom xml:lang="fr">Bourges  1er Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18033"/>
+		<geo:fraction_cantonale rdf:resource="COM_18033" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1806">
+		<geo:code_canton>1806</geo:code_canton>
+		<geo:nom xml:lang="fr">La Chapelle-d'Angillon</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18047"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18047">
+				<geo:code_commune>18047</geo:code_commune>
+				<geo:nom xml:lang="fr">La Chapelle-d'Angillon</geo:nom>
+				<geo:voisin rdf:resource="COM_18047" />
+				<geo:voisin rdf:resource="COM_18088" />
+				<geo:voisin rdf:resource="COM_18115" />
+				<geo:voisin rdf:resource="COM_18149" />
+				<geo:voisin rdf:resource="COM_18185" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18088">
+				<geo:code_commune>18088</geo:code_commune>
+				<geo:nom xml:lang="fr">Ennordres</geo:nom>
+				<geo:voisin rdf:resource="COM_18015" />
+				<geo:voisin rdf:resource="COM_18047" />
+				<geo:voisin rdf:resource="COM_18088" />
+				<geo:voisin rdf:resource="COM_18115" />
+				<geo:voisin rdf:resource="COM_18147" />
+				<geo:voisin rdf:resource="COM_18170" />
+				<geo:voisin rdf:resource="COM_18185" />
+				<geo:voisin rdf:resource="COM_18227" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18115">
+				<geo:code_commune>18115</geo:code_commune>
+				<geo:nom xml:lang="fr">Ivoy-le-Pré</geo:nom>
+				<geo:voisin rdf:resource="COM_18001" />
+				<geo:voisin rdf:resource="COM_18047" />
+				<geo:voisin rdf:resource="COM_18051" />
+				<geo:voisin rdf:resource="COM_18088" />
+				<geo:voisin rdf:resource="COM_18109" />
+				<geo:voisin rdf:resource="COM_18115" />
+				<geo:voisin rdf:resource="COM_18117" />
+				<geo:voisin rdf:resource="COM_18149" />
+				<geo:voisin rdf:resource="COM_18170" />
+				<geo:voisin rdf:resource="COM_18284" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18149">
+				<geo:code_commune>18149</geo:code_commune>
+				<geo:nom xml:lang="fr">Méry-ès-Bois</geo:nom>
+				<geo:voisin rdf:resource="COM_18001" />
+				<geo:voisin rdf:resource="COM_18004" />
+				<geo:voisin rdf:resource="COM_18047" />
+				<geo:voisin rdf:resource="COM_18115" />
+				<geo:voisin rdf:resource="COM_18149" />
+				<geo:voisin rdf:resource="COM_18165" />
+				<geo:voisin rdf:resource="COM_18185" />
+				<geo:voisin rdf:resource="COM_18223" />
+				<geo:voisin rdf:resource="COM_18229" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18185">
+				<geo:code_commune>18185</geo:code_commune>
+				<geo:nom xml:lang="fr">Presly</geo:nom>
+				<geo:voisin rdf:resource="COM_18047" />
+				<geo:voisin rdf:resource="COM_18088" />
+				<geo:voisin rdf:resource="COM_18147" />
+				<geo:voisin rdf:resource="COM_18149" />
+				<geo:voisin rdf:resource="COM_18159" />
+				<geo:voisin rdf:resource="COM_18165" />
+				<geo:voisin rdf:resource="COM_18185" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41249">
+						<geo:code_commune>41249</geo:code_commune>
+						<geo:nom xml:lang="fr">Souesmes</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1807">
+		<geo:code_canton>1807</geo:code_canton>
+		<geo:nom xml:lang="fr">Charenton-du-Cher</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18052"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18013">
+				<geo:code_commune>18013</geo:code_commune>
+				<geo:nom xml:lang="fr">Arpheuilles</geo:nom>
+				<geo:voisin rdf:resource="COM_18013" />
+				<geo:voisin rdf:resource="COM_18052" />
+				<geo:voisin rdf:resource="COM_18142" />
+				<geo:voisin rdf:resource="COM_18177" />
+				<geo:voisin rdf:resource="COM_18183" />
+				<geo:voisin rdf:resource="COM_18197" />
+				<geo:voisin rdf:resource="COM_18231" />
+				<geo:voisin rdf:resource="COM_18277" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18021">
+				<geo:code_commune>18021</geo:code_commune>
+				<geo:nom xml:lang="fr">Bannegon</geo:nom>
+				<geo:voisin rdf:resource="COM_18021" />
+				<geo:voisin rdf:resource="COM_18029" />
+				<geo:voisin rdf:resource="COM_18045" />
+				<geo:voisin rdf:resource="COM_18060" />
+				<geo:voisin rdf:resource="COM_18161" />
+				<geo:voisin rdf:resource="COM_18261" />
+				<geo:voisin rdf:resource="COM_18276" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18029">
+				<geo:code_commune>18029</geo:code_commune>
+				<geo:nom xml:lang="fr">Bessais-le-Fromental</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03003">
+						<geo:code_commune>03003</geo:code_commune>
+						<geo:nom xml:lang="fr">Ainay-le-Château</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03130">
+						<geo:code_commune>03130</geo:code_commune>
+						<geo:nom xml:lang="fr">Isle-et-Bardais</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03296">
+						<geo:code_commune>03296</geo:code_commune>
+						<geo:nom xml:lang="fr">Valigny</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18021" />
+				<geo:voisin rdf:resource="COM_18029" />
+				<geo:voisin rdf:resource="COM_18161" />
+				<geo:voisin rdf:resource="COM_18196" />
+				<geo:voisin rdf:resource="COM_18276" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18052">
+				<geo:code_commune>18052</geo:code_commune>
+				<geo:nom xml:lang="fr">Charenton-du-Cher</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03003">
+						<geo:code_commune>03003</geo:code_commune>
+						<geo:nom xml:lang="fr">Ainay-le-Château</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03037">
+						<geo:code_commune>03037</geo:code_commune>
+						<geo:nom xml:lang="fr">Braize</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03221">
+						<geo:code_commune>03221</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Bonnet-Tronçais</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18013" />
+				<geo:voisin rdf:resource="COM_18052" />
+				<geo:voisin rdf:resource="COM_18076" />
+				<geo:voisin rdf:resource="COM_18183" />
+				<geo:voisin rdf:resource="COM_18231" />
+				<geo:voisin rdf:resource="COM_18261" />
+				<geo:voisin rdf:resource="COM_18276" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18076">
+				<geo:code_commune>18076</geo:code_commune>
+				<geo:nom xml:lang="fr">Coust</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03037">
+						<geo:code_commune>03037</geo:code_commune>
+						<geo:nom xml:lang="fr">Braize</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03143">
+						<geo:code_commune>03143</geo:code_commune>
+						<geo:nom xml:lang="fr">Lételon</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18002" />
+				<geo:voisin rdf:resource="COM_18052" />
+				<geo:voisin rdf:resource="COM_18069" />
+				<geo:voisin rdf:resource="COM_18076" />
+				<geo:voisin rdf:resource="COM_18231" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18183">
+				<geo:code_commune>18183</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Pondy</geo:nom>
+				<geo:voisin rdf:resource="COM_18013" />
+				<geo:voisin rdf:resource="COM_18052" />
+				<geo:voisin rdf:resource="COM_18183" />
+				<geo:voisin rdf:resource="COM_18261" />
+				<geo:voisin rdf:resource="COM_18277" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18231">
+				<geo:code_commune>18231</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pierre-les-Étieux</geo:nom>
+				<geo:voisin rdf:resource="COM_18013" />
+				<geo:voisin rdf:resource="COM_18052" />
+				<geo:voisin rdf:resource="COM_18069" />
+				<geo:voisin rdf:resource="COM_18076" />
+				<geo:voisin rdf:resource="COM_18197" />
+				<geo:voisin rdf:resource="COM_18231" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18261">
+				<geo:code_commune>18261</geo:code_commune>
+				<geo:nom xml:lang="fr">Thaumiers</geo:nom>
+				<geo:voisin rdf:resource="COM_18021" />
+				<geo:voisin rdf:resource="COM_18045" />
+				<geo:voisin rdf:resource="COM_18052" />
+				<geo:voisin rdf:resource="COM_18068" />
+				<geo:voisin rdf:resource="COM_18183" />
+				<geo:voisin rdf:resource="COM_18261" />
+				<geo:voisin rdf:resource="COM_18276" />
+				<geo:voisin rdf:resource="COM_18277" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18276">
+				<geo:code_commune>18276</geo:code_commune>
+				<geo:nom xml:lang="fr">Vernais</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03003">
+						<geo:code_commune>03003</geo:code_commune>
+						<geo:nom xml:lang="fr">Ainay-le-Château</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18021" />
+				<geo:voisin rdf:resource="COM_18029" />
+				<geo:voisin rdf:resource="COM_18052" />
+				<geo:voisin rdf:resource="COM_18261" />
+				<geo:voisin rdf:resource="COM_18276" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1808">
+		<geo:code_canton>1808</geo:code_canton>
+		<geo:nom xml:lang="fr">Chârost</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18055"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18055">
+				<geo:code_commune>18055</geo:code_commune>
+				<geo:nom xml:lang="fr">Chârost</geo:nom>
+				<geo:voisin rdf:resource="COM_18055" />
+				<geo:voisin rdf:resource="COM_18066" />
+				<geo:voisin rdf:resource="COM_18181" />
+				<geo:voisin rdf:resource="COM_18244" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36195">
+						<geo:code_commune>36195</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Georges-sur-Arnon</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18066">
+				<geo:code_commune>18066</geo:code_commune>
+				<geo:nom xml:lang="fr">Civray</geo:nom>
+				<geo:voisin rdf:resource="COM_18055" />
+				<geo:voisin rdf:resource="COM_18066" />
+				<geo:voisin rdf:resource="COM_18133" />
+				<geo:voisin rdf:resource="COM_18181" />
+				<geo:voisin rdf:resource="COM_18188" />
+				<geo:voisin rdf:resource="COM_18198" />
+				<geo:voisin rdf:resource="COM_18207" />
+				<geo:voisin rdf:resource="COM_18244" />
+				<geo:voisin rdf:resource="COM_18285" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18133">
+				<geo:code_commune>18133</geo:code_commune>
+				<geo:nom xml:lang="fr">Lunery</geo:nom>
+				<geo:voisin rdf:resource="COM_18066" />
+				<geo:voisin rdf:resource="COM_18122" />
+				<geo:voisin rdf:resource="COM_18133" />
+				<geo:voisin rdf:resource="COM_18188" />
+				<geo:voisin rdf:resource="COM_18201" />
+				<geo:voisin rdf:resource="COM_18207" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18137">
+				<geo:code_commune>18137</geo:code_commune>
+				<geo:nom xml:lang="fr">Mareuil-sur-Arnon</geo:nom>
+				<geo:voisin rdf:resource="COM_18065" />
+				<geo:voisin rdf:resource="COM_18137" />
+				<geo:voisin rdf:resource="COM_18188" />
+				<geo:voisin rdf:resource="COM_18198" />
+				<geo:voisin rdf:resource="COM_18199" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36215">
+						<geo:code_commune>36215</geo:code_commune>
+						<geo:nom xml:lang="fr">Ségry</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18157">
+				<geo:code_commune>18157</geo:code_commune>
+				<geo:nom xml:lang="fr">Morthomiers</geo:nom>
+				<geo:voisin rdf:resource="COM_18050" />
+				<geo:voisin rdf:resource="COM_18138" />
+				<geo:voisin rdf:resource="COM_18157" />
+				<geo:voisin rdf:resource="COM_18207" />
+				<geo:voisin rdf:resource="COM_18237" />
+				<geo:voisin rdf:resource="COM_18255" />
+				<geo:voisin rdf:resource="COM_18285" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18181">
+				<geo:code_commune>18181</geo:code_commune>
+				<geo:nom xml:lang="fr">Plou</geo:nom>
+				<geo:voisin rdf:resource="COM_18055" />
+				<geo:voisin rdf:resource="COM_18066" />
+				<geo:voisin rdf:resource="COM_18124" />
+				<geo:voisin rdf:resource="COM_18128" />
+				<geo:voisin rdf:resource="COM_18181" />
+				<geo:voisin rdf:resource="COM_18182" />
+				<geo:voisin rdf:resource="COM_18186" />
+				<geo:voisin rdf:resource="COM_18237" />
+				<geo:voisin rdf:resource="COM_18285" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36195">
+						<geo:code_commune>36195</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Georges-sur-Arnon</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18182">
+				<geo:code_commune>18182</geo:code_commune>
+				<geo:nom xml:lang="fr">Poisieux</geo:nom>
+				<geo:voisin rdf:resource="COM_18124" />
+				<geo:voisin rdf:resource="COM_18181" />
+				<geo:voisin rdf:resource="COM_18182" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36125">
+						<geo:code_commune>36125</geo:code_commune>
+						<geo:nom xml:lang="fr">Migny</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36195">
+						<geo:code_commune>36195</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Georges-sur-Arnon</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18188">
+				<geo:code_commune>18188</geo:code_commune>
+				<geo:nom xml:lang="fr">Primelles</geo:nom>
+				<geo:voisin rdf:resource="COM_18066" />
+				<geo:voisin rdf:resource="COM_18073" />
+				<geo:voisin rdf:resource="COM_18122" />
+				<geo:voisin rdf:resource="COM_18133" />
+				<geo:voisin rdf:resource="COM_18137" />
+				<geo:voisin rdf:resource="COM_18188" />
+				<geo:voisin rdf:resource="COM_18198" />
+				<geo:voisin rdf:resource="COM_18199" />
+				<geo:voisin rdf:resource="COM_18273" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18198">
+				<geo:code_commune>18198</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Ambroix</geo:nom>
+				<geo:voisin rdf:resource="COM_18066" />
+				<geo:voisin rdf:resource="COM_18137" />
+				<geo:voisin rdf:resource="COM_18188" />
+				<geo:voisin rdf:resource="COM_18198" />
+				<geo:voisin rdf:resource="COM_18244" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36052">
+						<geo:code_commune>36052</geo:code_commune>
+						<geo:nom xml:lang="fr">Chouday</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36088">
+						<geo:code_commune>36088</geo:code_commune>
+						<geo:nom xml:lang="fr">Issoudun</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36215">
+						<geo:code_commune>36215</geo:code_commune>
+						<geo:nom xml:lang="fr">Ségry</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18207">
+				<geo:code_commune>18207</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Florent-sur-Cher</geo:nom>
+				<geo:voisin rdf:resource="COM_18066" />
+				<geo:voisin rdf:resource="COM_18133" />
+				<geo:voisin rdf:resource="COM_18157" />
+				<geo:voisin rdf:resource="COM_18201" />
+				<geo:voisin rdf:resource="COM_18207" />
+				<geo:voisin rdf:resource="COM_18255" />
+				<geo:voisin rdf:resource="COM_18285" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18244">
+				<geo:code_commune>18244</geo:code_commune>
+				<geo:nom xml:lang="fr">Saugy</geo:nom>
+				<geo:voisin rdf:resource="COM_18055" />
+				<geo:voisin rdf:resource="COM_18066" />
+				<geo:voisin rdf:resource="COM_18198" />
+				<geo:voisin rdf:resource="COM_18244" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36088">
+						<geo:code_commune>36088</geo:code_commune>
+						<geo:nom xml:lang="fr">Issoudun</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36195">
+						<geo:code_commune>36195</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Georges-sur-Arnon</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18255">
+				<geo:code_commune>18255</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Subdray</geo:nom>
+				<geo:voisin rdf:resource="COM_18008" />
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18050" />
+				<geo:voisin rdf:resource="COM_18157" />
+				<geo:voisin rdf:resource="COM_18201" />
+				<geo:voisin rdf:resource="COM_18207" />
+				<geo:voisin rdf:resource="COM_18255" />
+				<geo:voisin rdf:resource="COM_18267" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18285">
+				<geo:code_commune>18285</geo:code_commune>
+				<geo:nom xml:lang="fr">Villeneuve-sur-Cher</geo:nom>
+				<geo:voisin rdf:resource="COM_18066" />
+				<geo:voisin rdf:resource="COM_18157" />
+				<geo:voisin rdf:resource="COM_18181" />
+				<geo:voisin rdf:resource="COM_18207" />
+				<geo:voisin rdf:resource="COM_18237" />
+				<geo:voisin rdf:resource="COM_18285" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1809">
+		<geo:code_canton>1809</geo:code_canton>
+		<geo:nom xml:lang="fr">Châteaumeillant</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18057"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18024">
+				<geo:code_commune>18024</geo:code_commune>
+				<geo:nom xml:lang="fr">Beddes</geo:nom>
+				<geo:voisin rdf:resource="COM_18024" />
+				<geo:voisin rdf:resource="COM_18057" />
+				<geo:voisin rdf:resource="COM_18059" />
+				<geo:voisin rdf:resource="COM_18135" />
+				<geo:voisin rdf:resource="COM_18217" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36236">
+						<geo:code_commune>36236</geo:code_commune>
+						<geo:nom xml:lang="fr">Vicq-Exemplet</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18057">
+				<geo:code_commune>18057</geo:code_commune>
+				<geo:nom xml:lang="fr">Châteaumeillant</geo:nom>
+				<geo:voisin rdf:resource="COM_18024" />
+				<geo:voisin rdf:resource="COM_18057" />
+				<geo:voisin rdf:resource="COM_18217" />
+				<geo:voisin rdf:resource="COM_18225" />
+				<geo:voisin rdf:resource="COM_18234" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36095">
+						<geo:code_commune>36095</geo:code_commune>
+						<geo:nom xml:lang="fr">Lignerolles</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36138">
+						<geo:code_commune>36138</geo:code_commune>
+						<geo:nom xml:lang="fr">Néret</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36227">
+						<geo:code_commune>36227</geo:code_commune>
+						<geo:nom xml:lang="fr">Urciers</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36236">
+						<geo:code_commune>36236</geo:code_commune>
+						<geo:nom xml:lang="fr">Vicq-Exemplet</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18083">
+				<geo:code_commune>18083</geo:code_commune>
+				<geo:nom xml:lang="fr">Culan</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03225">
+						<geo:code_commune>03225</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Désiré</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03228">
+						<geo:code_commune>03228</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Éloy-d'Allier</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18083" />
+				<geo:voisin rdf:resource="COM_18192" />
+				<geo:voisin rdf:resource="COM_18203" />
+				<geo:voisin rdf:resource="COM_18225" />
+				<geo:voisin rdf:resource="COM_18252" />
+				<geo:voisin rdf:resource="COM_18278" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18187">
+				<geo:code_commune>18187</geo:code_commune>
+				<geo:nom xml:lang="fr">Préveranges</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03249">
+						<geo:code_commune>03249</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Palais</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18187" />
+				<geo:voisin rdf:resource="COM_18232" />
+				<geo:voisin rdf:resource="COM_18234" />
+				<geo:voisin rdf:resource="COM_18252" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_23213">
+						<geo:code_commune>23213</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Marien</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_23233">
+						<geo:code_commune>23233</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Pierre-le-Bost</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18192">
+				<geo:code_commune>18192</geo:code_commune>
+				<geo:nom xml:lang="fr">Reigny</geo:nom>
+				<geo:voisin rdf:resource="COM_18010" />
+				<geo:voisin rdf:resource="COM_18059" />
+				<geo:voisin rdf:resource="COM_18083" />
+				<geo:voisin rdf:resource="COM_18130" />
+				<geo:voisin rdf:resource="COM_18192" />
+				<geo:voisin rdf:resource="COM_18203" />
+				<geo:voisin rdf:resource="COM_18225" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18203">
+				<geo:code_commune>18203</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Christophe-le-Chaudry</geo:nom>
+				<geo:voisin rdf:resource="COM_18083" />
+				<geo:voisin rdf:resource="COM_18130" />
+				<geo:voisin rdf:resource="COM_18192" />
+				<geo:voisin rdf:resource="COM_18203" />
+				<geo:voisin rdf:resource="COM_18278" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18217">
+				<geo:code_commune>18217</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jeanvrin</geo:nom>
+				<geo:voisin rdf:resource="COM_18024" />
+				<geo:voisin rdf:resource="COM_18057" />
+				<geo:voisin rdf:resource="COM_18059" />
+				<geo:voisin rdf:resource="COM_18217" />
+				<geo:voisin rdf:resource="COM_18225" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18225">
+				<geo:code_commune>18225</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Maur</geo:nom>
+				<geo:voisin rdf:resource="COM_18057" />
+				<geo:voisin rdf:resource="COM_18059" />
+				<geo:voisin rdf:resource="COM_18083" />
+				<geo:voisin rdf:resource="COM_18192" />
+				<geo:voisin rdf:resource="COM_18217" />
+				<geo:voisin rdf:resource="COM_18225" />
+				<geo:voisin rdf:resource="COM_18234" />
+				<geo:voisin rdf:resource="COM_18252" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18232">
+				<geo:code_commune>18232</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Priest-la-Marche</geo:nom>
+				<geo:voisin rdf:resource="COM_18187" />
+				<geo:voisin rdf:resource="COM_18232" />
+				<geo:voisin rdf:resource="COM_18234" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_23038">
+						<geo:code_commune>23038</geo:code_commune>
+						<geo:nom xml:lang="fr">Bussière-Saint-Georges</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_23213">
+						<geo:code_commune>23213</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Marien</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36156">
+						<geo:code_commune>36156</geo:code_commune>
+						<geo:nom xml:lang="fr">Pérassay</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36240">
+						<geo:code_commune>36240</geo:code_commune>
+						<geo:nom xml:lang="fr">Vijon</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18234">
+				<geo:code_commune>18234</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Saturnin</geo:nom>
+				<geo:voisin rdf:resource="COM_18057" />
+				<geo:voisin rdf:resource="COM_18187" />
+				<geo:voisin rdf:resource="COM_18225" />
+				<geo:voisin rdf:resource="COM_18232" />
+				<geo:voisin rdf:resource="COM_18234" />
+				<geo:voisin rdf:resource="COM_18252" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36095">
+						<geo:code_commune>36095</geo:code_commune>
+						<geo:nom xml:lang="fr">Lignerolles</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36156">
+						<geo:code_commune>36156</geo:code_commune>
+						<geo:nom xml:lang="fr">Pérassay</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18252">
+				<geo:code_commune>18252</geo:code_commune>
+				<geo:nom xml:lang="fr">Sidiailles</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03225">
+						<geo:code_commune>03225</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Désiré</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03228">
+						<geo:code_commune>03228</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Éloy-d'Allier</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03249">
+						<geo:code_commune>03249</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Palais</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03317">
+						<geo:code_commune>03317</geo:code_commune>
+						<geo:nom xml:lang="fr">Viplaix</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18083" />
+				<geo:voisin rdf:resource="COM_18187" />
+				<geo:voisin rdf:resource="COM_18225" />
+				<geo:voisin rdf:resource="COM_18234" />
+				<geo:voisin rdf:resource="COM_18252" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1810">
+		<geo:code_canton>1810</geo:code_canton>
+		<geo:nom xml:lang="fr">Châteauneuf-sur-Cher</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18058"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18046">
+				<geo:code_commune>18046</geo:code_commune>
+				<geo:nom xml:lang="fr">Chambon</geo:nom>
+				<geo:voisin rdf:resource="COM_18046" />
+				<geo:voisin rdf:resource="COM_18078" />
+				<geo:voisin rdf:resource="COM_18114" />
+				<geo:voisin rdf:resource="COM_18153" />
+				<geo:voisin rdf:resource="COM_18236" />
+				<geo:voisin rdf:resource="COM_18270" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18058">
+				<geo:code_commune>18058</geo:code_commune>
+				<geo:nom xml:lang="fr">Châteauneuf-sur-Cher</geo:nom>
+				<geo:voisin rdf:resource="COM_18058" />
+				<geo:voisin rdf:resource="COM_18063" />
+				<geo:voisin rdf:resource="COM_18073" />
+				<geo:voisin rdf:resource="COM_18221" />
+				<geo:voisin rdf:resource="COM_18222" />
+				<geo:voisin rdf:resource="COM_18250" />
+				<geo:voisin rdf:resource="COM_18273" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18063">
+				<geo:code_commune>18063</geo:code_commune>
+				<geo:nom xml:lang="fr">Chavannes</geo:nom>
+				<geo:voisin rdf:resource="COM_18058" />
+				<geo:voisin rdf:resource="COM_18063" />
+				<geo:voisin rdf:resource="COM_18212" />
+				<geo:voisin rdf:resource="COM_18221" />
+				<geo:voisin rdf:resource="COM_18250" />
+				<geo:voisin rdf:resource="COM_18268" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18073">
+				<geo:code_commune>18073</geo:code_commune>
+				<geo:nom xml:lang="fr">Corquoy</geo:nom>
+				<geo:voisin rdf:resource="COM_18058" />
+				<geo:voisin rdf:resource="COM_18073" />
+				<geo:voisin rdf:resource="COM_18122" />
+				<geo:voisin rdf:resource="COM_18188" />
+				<geo:voisin rdf:resource="COM_18222" />
+				<geo:voisin rdf:resource="COM_18273" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18078">
+				<geo:code_commune>18078</geo:code_commune>
+				<geo:nom xml:lang="fr">Crézançay-sur-Cher</geo:nom>
+				<geo:voisin rdf:resource="COM_18046" />
+				<geo:voisin rdf:resource="COM_18078" />
+				<geo:voisin rdf:resource="COM_18221" />
+				<geo:voisin rdf:resource="COM_18236" />
+				<geo:voisin rdf:resource="COM_18270" />
+				<geo:voisin rdf:resource="COM_18273" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18221">
+				<geo:code_commune>18221</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Loup-des-Chaumes</geo:nom>
+				<geo:voisin rdf:resource="COM_18038" />
+				<geo:voisin rdf:resource="COM_18058" />
+				<geo:voisin rdf:resource="COM_18063" />
+				<geo:voisin rdf:resource="COM_18078" />
+				<geo:voisin rdf:resource="COM_18221" />
+				<geo:voisin rdf:resource="COM_18268" />
+				<geo:voisin rdf:resource="COM_18270" />
+				<geo:voisin rdf:resource="COM_18273" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18236">
+				<geo:code_commune>18236</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Symphorien</geo:nom>
+				<geo:voisin rdf:resource="COM_18046" />
+				<geo:voisin rdf:resource="COM_18078" />
+				<geo:voisin rdf:resource="COM_18114" />
+				<geo:voisin rdf:resource="COM_18152" />
+				<geo:voisin rdf:resource="COM_18236" />
+				<geo:voisin rdf:resource="COM_18273" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18250">
+				<geo:code_commune>18250</geo:code_commune>
+				<geo:nom xml:lang="fr">Serruelles</geo:nom>
+				<geo:voisin rdf:resource="COM_18058" />
+				<geo:voisin rdf:resource="COM_18063" />
+				<geo:voisin rdf:resource="COM_18126" />
+				<geo:voisin rdf:resource="COM_18212" />
+				<geo:voisin rdf:resource="COM_18222" />
+				<geo:voisin rdf:resource="COM_18250" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18268">
+				<geo:code_commune>18268</geo:code_commune>
+				<geo:nom xml:lang="fr">Uzay-le-Venon</geo:nom>
+				<geo:voisin rdf:resource="COM_18038" />
+				<geo:voisin rdf:resource="COM_18042" />
+				<geo:voisin rdf:resource="COM_18063" />
+				<geo:voisin rdf:resource="COM_18071" />
+				<geo:voisin rdf:resource="COM_18142" />
+				<geo:voisin rdf:resource="COM_18212" />
+				<geo:voisin rdf:resource="COM_18221" />
+				<geo:voisin rdf:resource="COM_18268" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18270">
+				<geo:code_commune>18270</geo:code_commune>
+				<geo:nom xml:lang="fr">Vallenay</geo:nom>
+				<geo:voisin rdf:resource="COM_18038" />
+				<geo:voisin rdf:resource="COM_18046" />
+				<geo:voisin rdf:resource="COM_18078" />
+				<geo:voisin rdf:resource="COM_18091" />
+				<geo:voisin rdf:resource="COM_18136" />
+				<geo:voisin rdf:resource="COM_18153" />
+				<geo:voisin rdf:resource="COM_18169" />
+				<geo:voisin rdf:resource="COM_18171" />
+				<geo:voisin rdf:resource="COM_18221" />
+				<geo:voisin rdf:resource="COM_18270" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18273">
+				<geo:code_commune>18273</geo:code_commune>
+				<geo:nom xml:lang="fr">Venesmes</geo:nom>
+				<geo:voisin rdf:resource="COM_18058" />
+				<geo:voisin rdf:resource="COM_18073" />
+				<geo:voisin rdf:resource="COM_18078" />
+				<geo:voisin rdf:resource="COM_18152" />
+				<geo:voisin rdf:resource="COM_18188" />
+				<geo:voisin rdf:resource="COM_18199" />
+				<geo:voisin rdf:resource="COM_18221" />
+				<geo:voisin rdf:resource="COM_18236" />
+				<geo:voisin rdf:resource="COM_18273" />
+				<geo:voisin rdf:resource="COM_18283" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1811">
+		<geo:code_canton>1811</geo:code_canton>
+		<geo:nom xml:lang="fr">Le Châtelet</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18059"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18010">
+				<geo:code_commune>18010</geo:code_commune>
+				<geo:nom xml:lang="fr">Ardenais</geo:nom>
+				<geo:voisin rdf:resource="COM_18010" />
+				<geo:voisin rdf:resource="COM_18059" />
+				<geo:voisin rdf:resource="COM_18130" />
+				<geo:voisin rdf:resource="COM_18136" />
+				<geo:voisin rdf:resource="COM_18192" />
+				<geo:voisin rdf:resource="COM_18230" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18059">
+				<geo:code_commune>18059</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Châtelet</geo:nom>
+				<geo:voisin rdf:resource="COM_18010" />
+				<geo:voisin rdf:resource="COM_18024" />
+				<geo:voisin rdf:resource="COM_18059" />
+				<geo:voisin rdf:resource="COM_18135" />
+				<geo:voisin rdf:resource="COM_18192" />
+				<geo:voisin rdf:resource="COM_18217" />
+				<geo:voisin rdf:resource="COM_18225" />
+				<geo:voisin rdf:resource="COM_18230" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18112">
+				<geo:code_commune>18112</geo:code_commune>
+				<geo:nom xml:lang="fr">Ids-Saint-Roch</geo:nom>
+				<geo:voisin rdf:resource="COM_18112" />
+				<geo:voisin rdf:resource="COM_18114" />
+				<geo:voisin rdf:resource="COM_18135" />
+				<geo:voisin rdf:resource="COM_18153" />
+				<geo:voisin rdf:resource="COM_18230" />
+				<geo:voisin rdf:resource="COM_18266" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18135">
+				<geo:code_commune>18135</geo:code_commune>
+				<geo:nom xml:lang="fr">Maisonnais</geo:nom>
+				<geo:voisin rdf:resource="COM_18024" />
+				<geo:voisin rdf:resource="COM_18059" />
+				<geo:voisin rdf:resource="COM_18112" />
+				<geo:voisin rdf:resource="COM_18135" />
+				<geo:voisin rdf:resource="COM_18193" />
+				<geo:voisin rdf:resource="COM_18230" />
+				<geo:voisin rdf:resource="COM_18266" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36236">
+						<geo:code_commune>36236</geo:code_commune>
+						<geo:nom xml:lang="fr">Vicq-Exemplet</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18153">
+				<geo:code_commune>18153</geo:code_commune>
+				<geo:nom xml:lang="fr">Morlac</geo:nom>
+				<geo:voisin rdf:resource="COM_18046" />
+				<geo:voisin rdf:resource="COM_18112" />
+				<geo:voisin rdf:resource="COM_18114" />
+				<geo:voisin rdf:resource="COM_18136" />
+				<geo:voisin rdf:resource="COM_18153" />
+				<geo:voisin rdf:resource="COM_18230" />
+				<geo:voisin rdf:resource="COM_18270" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18193">
+				<geo:code_commune>18193</geo:code_commune>
+				<geo:nom xml:lang="fr">Rezay</geo:nom>
+				<geo:voisin rdf:resource="COM_18135" />
+				<geo:voisin rdf:resource="COM_18193" />
+				<geo:voisin rdf:resource="COM_18216" />
+				<geo:voisin rdf:resource="COM_18266" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36186">
+						<geo:code_commune>36186</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Christophe-en-Boucherie</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36236">
+						<geo:code_commune>36236</geo:code_commune>
+						<geo:nom xml:lang="fr">Vicq-Exemplet</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18230">
+				<geo:code_commune>18230</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pierre-les-Bois</geo:nom>
+				<geo:voisin rdf:resource="COM_18010" />
+				<geo:voisin rdf:resource="COM_18059" />
+				<geo:voisin rdf:resource="COM_18112" />
+				<geo:voisin rdf:resource="COM_18135" />
+				<geo:voisin rdf:resource="COM_18136" />
+				<geo:voisin rdf:resource="COM_18153" />
+				<geo:voisin rdf:resource="COM_18230" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1812">
+		<geo:code_canton>1812</geo:code_canton>
+		<geo:nom xml:lang="fr">Dun-sur-Auron</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18087"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18040">
+				<geo:code_commune>18040</geo:code_commune>
+				<geo:nom xml:lang="fr">Bussy</geo:nom>
+				<geo:voisin rdf:resource="COM_18040" />
+				<geo:voisin rdf:resource="COM_18045" />
+				<geo:voisin rdf:resource="COM_18068" />
+				<geo:voisin rdf:resource="COM_18087" />
+				<geo:voisin rdf:resource="COM_18121" />
+				<geo:voisin rdf:resource="COM_18173" />
+				<geo:voisin rdf:resource="COM_18289" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18045">
+				<geo:code_commune>18045</geo:code_commune>
+				<geo:nom xml:lang="fr">Chalivoy-Milon</geo:nom>
+				<geo:voisin rdf:resource="COM_18021" />
+				<geo:voisin rdf:resource="COM_18031" />
+				<geo:voisin rdf:resource="COM_18040" />
+				<geo:voisin rdf:resource="COM_18045" />
+				<geo:voisin rdf:resource="COM_18060" />
+				<geo:voisin rdf:resource="COM_18068" />
+				<geo:voisin rdf:resource="COM_18121" />
+				<geo:voisin rdf:resource="COM_18261" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18068">
+				<geo:code_commune>18068</geo:code_commune>
+				<geo:nom xml:lang="fr">Cogny</geo:nom>
+				<geo:voisin rdf:resource="COM_18040" />
+				<geo:voisin rdf:resource="COM_18045" />
+				<geo:voisin rdf:resource="COM_18068" />
+				<geo:voisin rdf:resource="COM_18087" />
+				<geo:voisin rdf:resource="COM_18261" />
+				<geo:voisin rdf:resource="COM_18277" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18071">
+				<geo:code_commune>18071</geo:code_commune>
+				<geo:nom xml:lang="fr">Contres</geo:nom>
+				<geo:voisin rdf:resource="COM_18071" />
+				<geo:voisin rdf:resource="COM_18087" />
+				<geo:voisin rdf:resource="COM_18142" />
+				<geo:voisin rdf:resource="COM_18177" />
+				<geo:voisin rdf:resource="COM_18212" />
+				<geo:voisin rdf:resource="COM_18268" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18087">
+				<geo:code_commune>18087</geo:code_commune>
+				<geo:nom xml:lang="fr">Dun-sur-Auron</geo:nom>
+				<geo:voisin rdf:resource="COM_18040" />
+				<geo:voisin rdf:resource="COM_18068" />
+				<geo:voisin rdf:resource="COM_18071" />
+				<geo:voisin rdf:resource="COM_18087" />
+				<geo:voisin rdf:resource="COM_18177" />
+				<geo:voisin rdf:resource="COM_18204" />
+				<geo:voisin rdf:resource="COM_18212" />
+				<geo:voisin rdf:resource="COM_18277" />
+				<geo:voisin rdf:resource="COM_18289" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18121">
+				<geo:code_commune>18121</geo:code_commune>
+				<geo:nom xml:lang="fr">Lantan</geo:nom>
+				<geo:voisin rdf:resource="COM_18031" />
+				<geo:voisin rdf:resource="COM_18040" />
+				<geo:voisin rdf:resource="COM_18045" />
+				<geo:voisin rdf:resource="COM_18121" />
+				<geo:voisin rdf:resource="COM_18173" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18173">
+				<geo:code_commune>18173</geo:code_commune>
+				<geo:nom xml:lang="fr">Osmery</geo:nom>
+				<geo:voisin rdf:resource="COM_18031" />
+				<geo:voisin rdf:resource="COM_18040" />
+				<geo:voisin rdf:resource="COM_18119" />
+				<geo:voisin rdf:resource="COM_18121" />
+				<geo:voisin rdf:resource="COM_18131" />
+				<geo:voisin rdf:resource="COM_18173" />
+				<geo:voisin rdf:resource="COM_18191" />
+				<geo:voisin rdf:resource="COM_18289" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18177">
+				<geo:code_commune>18177</geo:code_commune>
+				<geo:nom xml:lang="fr">Parnay</geo:nom>
+				<geo:voisin rdf:resource="COM_18013" />
+				<geo:voisin rdf:resource="COM_18071" />
+				<geo:voisin rdf:resource="COM_18087" />
+				<geo:voisin rdf:resource="COM_18142" />
+				<geo:voisin rdf:resource="COM_18177" />
+				<geo:voisin rdf:resource="COM_18277" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18191">
+				<geo:code_commune>18191</geo:code_commune>
+				<geo:nom xml:lang="fr">Raymond</geo:nom>
+				<geo:voisin rdf:resource="COM_18027" />
+				<geo:voisin rdf:resource="COM_18072" />
+				<geo:voisin rdf:resource="COM_18119" />
+				<geo:voisin rdf:resource="COM_18131" />
+				<geo:voisin rdf:resource="COM_18173" />
+				<geo:voisin rdf:resource="COM_18191" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18204">
+				<geo:code_commune>18204</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Denis-de-Palin</geo:nom>
+				<geo:voisin rdf:resource="COM_18006" />
+				<geo:voisin rdf:resource="COM_18087" />
+				<geo:voisin rdf:resource="COM_18204" />
+				<geo:voisin rdf:resource="COM_18212" />
+				<geo:voisin rdf:resource="COM_18218" />
+				<geo:voisin rdf:resource="COM_18288" />
+				<geo:voisin rdf:resource="COM_18289" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18212">
+				<geo:code_commune>18212</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Germain-des-Bois</geo:nom>
+				<geo:voisin rdf:resource="COM_18063" />
+				<geo:voisin rdf:resource="COM_18071" />
+				<geo:voisin rdf:resource="COM_18087" />
+				<geo:voisin rdf:resource="COM_18126" />
+				<geo:voisin rdf:resource="COM_18204" />
+				<geo:voisin rdf:resource="COM_18212" />
+				<geo:voisin rdf:resource="COM_18248" />
+				<geo:voisin rdf:resource="COM_18250" />
+				<geo:voisin rdf:resource="COM_18268" />
+				<geo:voisin rdf:resource="COM_18288" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18277">
+				<geo:code_commune>18277</geo:code_commune>
+				<geo:nom xml:lang="fr">Verneuil</geo:nom>
+				<geo:voisin rdf:resource="COM_18013" />
+				<geo:voisin rdf:resource="COM_18068" />
+				<geo:voisin rdf:resource="COM_18087" />
+				<geo:voisin rdf:resource="COM_18177" />
+				<geo:voisin rdf:resource="COM_18183" />
+				<geo:voisin rdf:resource="COM_18261" />
+				<geo:voisin rdf:resource="COM_18277" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1813">
+		<geo:code_canton>1813</geo:code_canton>
+		<geo:nom xml:lang="fr">Graçay</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18103"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18085">
+				<geo:code_commune>18085</geo:code_commune>
+				<geo:nom xml:lang="fr">Dampierre-en-Graçay</geo:nom>
+				<geo:voisin rdf:resource="COM_18085" />
+				<geo:voisin rdf:resource="COM_18100" />
+				<geo:voisin rdf:resource="COM_18140" />
+				<geo:voisin rdf:resource="COM_18167" />
+				<geo:voisin rdf:resource="COM_18210" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18100">
+				<geo:code_commune>18100</geo:code_commune>
+				<geo:nom xml:lang="fr">Genouilly</geo:nom>
+				<geo:voisin rdf:resource="COM_18085" />
+				<geo:voisin rdf:resource="COM_18100" />
+				<geo:voisin rdf:resource="COM_18103" />
+				<geo:voisin rdf:resource="COM_18167" />
+				<geo:voisin rdf:resource="COM_18210" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36004">
+						<geo:code_commune>36004</geo:code_commune>
+						<geo:nom xml:lang="fr">Anjouin</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41122">
+						<geo:code_commune>41122</geo:code_commune>
+						<geo:nom xml:lang="fr">Maray</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18103">
+				<geo:code_commune>18103</geo:code_commune>
+				<geo:nom xml:lang="fr">Graçay</geo:nom>
+				<geo:voisin rdf:resource="COM_18100" />
+				<geo:voisin rdf:resource="COM_18103" />
+				<geo:voisin rdf:resource="COM_18167" />
+				<geo:voisin rdf:resource="COM_18228" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36004">
+						<geo:code_commune>36004</geo:code_commune>
+						<geo:nom xml:lang="fr">Anjouin</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36102">
+						<geo:code_commune>36102</geo:code_commune>
+						<geo:nom xml:lang="fr">Luçay-le-Libre</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36122">
+						<geo:code_commune>36122</geo:code_commune>
+						<geo:nom xml:lang="fr">Meunet-sur-Vatan</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36147">
+						<geo:code_commune>36147</geo:code_commune>
+						<geo:nom xml:lang="fr">Orville</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36170">
+						<geo:code_commune>36170</geo:code_commune>
+						<geo:nom xml:lang="fr">Reboursin</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18167">
+				<geo:code_commune>18167</geo:code_commune>
+				<geo:nom xml:lang="fr">Nohant-en-Graçay</geo:nom>
+				<geo:voisin rdf:resource="COM_18085" />
+				<geo:voisin rdf:resource="COM_18100" />
+				<geo:voisin rdf:resource="COM_18103" />
+				<geo:voisin rdf:resource="COM_18140" />
+				<geo:voisin rdf:resource="COM_18167" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36102">
+						<geo:code_commune>36102</geo:code_commune>
+						<geo:nom xml:lang="fr">Luçay-le-Libre</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36205">
+						<geo:code_commune>36205</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Pierre-de-Jards</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18210">
+				<geo:code_commune>18210</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Georges-sur-la-Prée</geo:nom>
+				<geo:voisin rdf:resource="COM_18085" />
+				<geo:voisin rdf:resource="COM_18100" />
+				<geo:voisin rdf:resource="COM_18140" />
+				<geo:voisin rdf:resource="COM_18150" />
+				<geo:voisin rdf:resource="COM_18210" />
+				<geo:voisin rdf:resource="COM_18214" />
+				<geo:voisin rdf:resource="COM_18263" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41122">
+						<geo:code_commune>41122</geo:code_commune>
+						<geo:nom xml:lang="fr">Maray</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18228">
+				<geo:code_commune>18228</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Outrille</geo:nom>
+				<geo:voisin rdf:resource="COM_18103" />
+				<geo:voisin rdf:resource="COM_18228" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36147">
+						<geo:code_commune>36147</geo:code_commune>
+						<geo:nom xml:lang="fr">Orville</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36170">
+						<geo:code_commune>36170</geo:code_commune>
+						<geo:nom xml:lang="fr">Reboursin</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36191">
+						<geo:code_commune>36191</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Florentin</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1814">
+		<geo:code_canton>1814</geo:code_canton>
+		<geo:nom xml:lang="fr">La Guerche-sur-l'Aubois</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18108"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18007">
+				<geo:code_commune>18007</geo:code_commune>
+				<geo:nom xml:lang="fr">Apremont-sur-Allier</geo:nom>
+				<geo:voisin rdf:resource="COM_18007" />
+				<geo:voisin rdf:resource="COM_18048" />
+				<geo:voisin rdf:resource="COM_18082" />
+				<geo:voisin rdf:resource="COM_18108" />
+				<geo:voisin rdf:resource="COM_18164" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58126">
+						<geo:code_commune>58126</geo:code_commune>
+						<geo:nom xml:lang="fr">Gimouille</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58225">
+						<geo:code_commune>58225</geo:code_commune>
+						<geo:nom xml:lang="fr">Saincaize-Meauce</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18048">
+				<geo:code_commune>18048</geo:code_commune>
+				<geo:nom xml:lang="fr">La Chapelle-Hugon</geo:nom>
+				<geo:voisin rdf:resource="COM_18007" />
+				<geo:voisin rdf:resource="COM_18048" />
+				<geo:voisin rdf:resource="COM_18101" />
+				<geo:voisin rdf:resource="COM_18106" />
+				<geo:voisin rdf:resource="COM_18108" />
+				<geo:voisin rdf:resource="COM_18164" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18062">
+				<geo:code_commune>18062</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Chautay</geo:nom>
+				<geo:voisin rdf:resource="COM_18062" />
+				<geo:voisin rdf:resource="COM_18082" />
+				<geo:voisin rdf:resource="COM_18108" />
+				<geo:voisin rdf:resource="COM_18143" />
+				<geo:voisin rdf:resource="COM_18215" />
+				<geo:voisin rdf:resource="COM_18265" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18075">
+				<geo:code_commune>18075</geo:code_commune>
+				<geo:nom xml:lang="fr">Cours-les-Barres</geo:nom>
+				<geo:voisin rdf:resource="COM_18075" />
+				<geo:voisin rdf:resource="COM_18082" />
+				<geo:voisin rdf:resource="COM_18118" />
+				<geo:voisin rdf:resource="COM_18265" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58117">
+						<geo:code_commune>58117</geo:code_commune>
+						<geo:nom xml:lang="fr">Fourchambault</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58121">
+						<geo:code_commune>58121</geo:code_commune>
+						<geo:nom xml:lang="fr">Garchizy</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58124">
+						<geo:code_commune>58124</geo:code_commune>
+						<geo:nom xml:lang="fr">Germigny-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58160">
+						<geo:code_commune>58160</geo:code_commune>
+						<geo:nom xml:lang="fr">Marzy</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18082">
+				<geo:code_commune>18082</geo:code_commune>
+				<geo:nom xml:lang="fr">Cuffy</geo:nom>
+				<geo:voisin rdf:resource="COM_18007" />
+				<geo:voisin rdf:resource="COM_18062" />
+				<geo:voisin rdf:resource="COM_18075" />
+				<geo:voisin rdf:resource="COM_18082" />
+				<geo:voisin rdf:resource="COM_18108" />
+				<geo:voisin rdf:resource="COM_18265" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58126">
+						<geo:code_commune>58126</geo:code_commune>
+						<geo:nom xml:lang="fr">Gimouille</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58160">
+						<geo:code_commune>58160</geo:code_commune>
+						<geo:nom xml:lang="fr">Marzy</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18101">
+				<geo:code_commune>18101</geo:code_commune>
+				<geo:nom xml:lang="fr">Germigny-l'Exempt</geo:nom>
+				<geo:voisin rdf:resource="COM_18048" />
+				<geo:voisin rdf:resource="COM_18080" />
+				<geo:voisin rdf:resource="COM_18101" />
+				<geo:voisin rdf:resource="COM_18106" />
+				<geo:voisin rdf:resource="COM_18108" />
+				<geo:voisin rdf:resource="COM_18113" />
+				<geo:voisin rdf:resource="COM_18175" />
+				<geo:voisin rdf:resource="COM_18275" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18108">
+				<geo:code_commune>18108</geo:code_commune>
+				<geo:nom xml:lang="fr">La Guerche-sur-l'Aubois</geo:nom>
+				<geo:voisin rdf:resource="COM_18007" />
+				<geo:voisin rdf:resource="COM_18048" />
+				<geo:voisin rdf:resource="COM_18062" />
+				<geo:voisin rdf:resource="COM_18082" />
+				<geo:voisin rdf:resource="COM_18101" />
+				<geo:voisin rdf:resource="COM_18108" />
+				<geo:voisin rdf:resource="COM_18113" />
+				<geo:voisin rdf:resource="COM_18160" />
+				<geo:voisin rdf:resource="COM_18215" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18118">
+				<geo:code_commune>18118</geo:code_commune>
+				<geo:nom xml:lang="fr">Jouet-sur-l'Aubois</geo:nom>
+				<geo:voisin rdf:resource="COM_18075" />
+				<geo:voisin rdf:resource="COM_18118" />
+				<geo:voisin rdf:resource="COM_18139" />
+				<geo:voisin rdf:resource="COM_18143" />
+				<geo:voisin rdf:resource="COM_18265" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58124">
+						<geo:code_commune>58124</geo:code_commune>
+						<geo:nom xml:lang="fr">Germigny-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18265">
+				<geo:code_commune>18265</geo:code_commune>
+				<geo:nom xml:lang="fr">Torteron</geo:nom>
+				<geo:voisin rdf:resource="COM_18062" />
+				<geo:voisin rdf:resource="COM_18075" />
+				<geo:voisin rdf:resource="COM_18082" />
+				<geo:voisin rdf:resource="COM_18118" />
+				<geo:voisin rdf:resource="COM_18143" />
+				<geo:voisin rdf:resource="COM_18265" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1815">
+		<geo:code_canton>1815</geo:code_canton>
+		<geo:nom xml:lang="fr">Henrichemont</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18109"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18001">
+				<geo:code_commune>18001</geo:code_commune>
+				<geo:nom xml:lang="fr">Achères</geo:nom>
+				<geo:voisin rdf:resource="COM_18001" />
+				<geo:voisin rdf:resource="COM_18109" />
+				<geo:voisin rdf:resource="COM_18115" />
+				<geo:voisin rdf:resource="COM_18145" />
+				<geo:voisin rdf:resource="COM_18149" />
+				<geo:voisin rdf:resource="COM_18189" />
+				<geo:voisin rdf:resource="COM_18229" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18051">
+				<geo:code_commune>18051</geo:code_commune>
+				<geo:nom xml:lang="fr">La Chapelotte</geo:nom>
+				<geo:voisin rdf:resource="COM_18051" />
+				<geo:voisin rdf:resource="COM_18109" />
+				<geo:voisin rdf:resource="COM_18111" />
+				<geo:voisin rdf:resource="COM_18115" />
+				<geo:voisin rdf:resource="COM_18117" />
+				<geo:voisin rdf:resource="COM_18162" />
+				<geo:voisin rdf:resource="COM_18168" />
+				<geo:voisin rdf:resource="COM_18249" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18109">
+				<geo:code_commune>18109</geo:code_commune>
+				<geo:nom xml:lang="fr">Henrichemont</geo:nom>
+				<geo:voisin rdf:resource="COM_18001" />
+				<geo:voisin rdf:resource="COM_18051" />
+				<geo:voisin rdf:resource="COM_18109" />
+				<geo:voisin rdf:resource="COM_18111" />
+				<geo:voisin rdf:resource="COM_18115" />
+				<geo:voisin rdf:resource="COM_18145" />
+				<geo:voisin rdf:resource="COM_18156" />
+				<geo:voisin rdf:resource="COM_18176" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18111">
+				<geo:code_commune>18111</geo:code_commune>
+				<geo:nom xml:lang="fr">Humbligny</geo:nom>
+				<geo:voisin rdf:resource="COM_18051" />
+				<geo:voisin rdf:resource="COM_18109" />
+				<geo:voisin rdf:resource="COM_18111" />
+				<geo:voisin rdf:resource="COM_18151" />
+				<geo:voisin rdf:resource="COM_18156" />
+				<geo:voisin rdf:resource="COM_18162" />
+				<geo:voisin rdf:resource="COM_18163" />
+				<geo:voisin rdf:resource="COM_18202" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18151">
+				<geo:code_commune>18151</geo:code_commune>
+				<geo:nom xml:lang="fr">Montigny</geo:nom>
+				<geo:voisin rdf:resource="COM_18019" />
+				<geo:voisin rdf:resource="COM_18111" />
+				<geo:voisin rdf:resource="COM_18116" />
+				<geo:voisin rdf:resource="COM_18151" />
+				<geo:voisin rdf:resource="COM_18163" />
+				<geo:voisin rdf:resource="COM_18194" />
+				<geo:voisin rdf:resource="COM_18202" />
+				<geo:voisin rdf:resource="COM_18272" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18162">
+				<geo:code_commune>18162</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuilly-en-Sancerre</geo:nom>
+				<geo:voisin rdf:resource="COM_18051" />
+				<geo:voisin rdf:resource="COM_18079" />
+				<geo:voisin rdf:resource="COM_18111" />
+				<geo:voisin rdf:resource="COM_18162" />
+				<geo:voisin rdf:resource="COM_18163" />
+				<geo:voisin rdf:resource="COM_18249" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18163">
+				<geo:code_commune>18163</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuvy-Deux-Clochers</geo:nom>
+				<geo:voisin rdf:resource="COM_18079" />
+				<geo:voisin rdf:resource="COM_18111" />
+				<geo:voisin rdf:resource="COM_18151" />
+				<geo:voisin rdf:resource="COM_18162" />
+				<geo:voisin rdf:resource="COM_18163" />
+				<geo:voisin rdf:resource="COM_18272" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1816">
+		<geo:code_canton>1816</geo:code_canton>
+		<geo:nom xml:lang="fr">Léré</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18125"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18026">
+				<geo:code_commune>18026</geo:code_commune>
+				<geo:nom xml:lang="fr">Belleville-sur-Loire</geo:nom>
+				<geo:voisin rdf:resource="COM_18026" />
+				<geo:voisin rdf:resource="COM_18243" />
+				<geo:voisin rdf:resource="COM_18246" />
+				<geo:voisin rdf:resource="COM_18257" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45029">
+						<geo:code_commune>45029</geo:code_commune>
+						<geo:nom xml:lang="fr">Beaulieu-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58193">
+						<geo:code_commune>58193</geo:code_commune>
+						<geo:nom xml:lang="fr">Neuvy-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18032">
+				<geo:code_commune>18032</geo:code_commune>
+				<geo:nom xml:lang="fr">Boulleret</geo:nom>
+				<geo:voisin rdf:resource="COM_18020" />
+				<geo:voisin rdf:resource="COM_18032" />
+				<geo:voisin rdf:resource="COM_18125" />
+				<geo:voisin rdf:resource="COM_18208" />
+				<geo:voisin rdf:resource="COM_18246" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58044">
+						<geo:code_commune>58044</geo:code_commune>
+						<geo:nom xml:lang="fr">La Celle-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58086">
+						<geo:code_commune>58086</geo:code_commune>
+						<geo:nom xml:lang="fr">Cosne-Cours-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58187">
+						<geo:code_commune>58187</geo:code_commune>
+						<geo:nom xml:lang="fr">Myennes</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18125">
+				<geo:code_commune>18125</geo:code_commune>
+				<geo:nom xml:lang="fr">Léré</geo:nom>
+				<geo:voisin rdf:resource="COM_18032" />
+				<geo:voisin rdf:resource="COM_18125" />
+				<geo:voisin rdf:resource="COM_18246" />
+				<geo:voisin rdf:resource="COM_18257" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58044">
+						<geo:code_commune>58044</geo:code_commune>
+						<geo:nom xml:lang="fr">La Celle-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18208">
+				<geo:code_commune>18208</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Gemme-en-Sancerrois</geo:nom>
+				<geo:voisin rdf:resource="COM_18020" />
+				<geo:voisin rdf:resource="COM_18032" />
+				<geo:voisin rdf:resource="COM_18208" />
+				<geo:voisin rdf:resource="COM_18246" />
+				<geo:voisin rdf:resource="COM_18256" />
+				<geo:voisin rdf:resource="COM_18258" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18243">
+				<geo:code_commune>18243</geo:code_commune>
+				<geo:nom xml:lang="fr">Santranges</geo:nom>
+				<geo:voisin rdf:resource="COM_18026" />
+				<geo:voisin rdf:resource="COM_18243" />
+				<geo:voisin rdf:resource="COM_18246" />
+				<geo:voisin rdf:resource="COM_18257" />
+				<geo:voisin rdf:resource="COM_18259" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45029">
+						<geo:code_commune>45029</geo:code_commune>
+						<geo:nom xml:lang="fr">Beaulieu-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45087">
+						<geo:code_commune>45087</geo:code_commune>
+						<geo:nom xml:lang="fr">Châtillon-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45251">
+						<geo:code_commune>45251</geo:code_commune>
+						<geo:nom xml:lang="fr">Pierrefitte-ès-Bois</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18246">
+				<geo:code_commune>18246</geo:code_commune>
+				<geo:nom xml:lang="fr">Savigny-en-Sancerre</geo:nom>
+				<geo:voisin rdf:resource="COM_18014" />
+				<geo:voisin rdf:resource="COM_18026" />
+				<geo:voisin rdf:resource="COM_18032" />
+				<geo:voisin rdf:resource="COM_18125" />
+				<geo:voisin rdf:resource="COM_18208" />
+				<geo:voisin rdf:resource="COM_18243" />
+				<geo:voisin rdf:resource="COM_18246" />
+				<geo:voisin rdf:resource="COM_18256" />
+				<geo:voisin rdf:resource="COM_18257" />
+				<geo:voisin rdf:resource="COM_18259" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18257">
+				<geo:code_commune>18257</geo:code_commune>
+				<geo:nom xml:lang="fr">Sury-près-Léré</geo:nom>
+				<geo:voisin rdf:resource="COM_18026" />
+				<geo:voisin rdf:resource="COM_18125" />
+				<geo:voisin rdf:resource="COM_18243" />
+				<geo:voisin rdf:resource="COM_18246" />
+				<geo:voisin rdf:resource="COM_18257" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58044">
+						<geo:code_commune>58044</geo:code_commune>
+						<geo:nom xml:lang="fr">La Celle-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58193">
+						<geo:code_commune>58193</geo:code_commune>
+						<geo:nom xml:lang="fr">Neuvy-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1817">
+		<geo:code_canton>1817</geo:code_canton>
+		<geo:nom xml:lang="fr">Levet</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18126"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18006">
+				<geo:code_commune>18006</geo:code_commune>
+				<geo:nom xml:lang="fr">Annoix</geo:nom>
+				<geo:voisin rdf:resource="COM_18006" />
+				<geo:voisin rdf:resource="COM_18081" />
+				<geo:voisin rdf:resource="COM_18204" />
+				<geo:voisin rdf:resource="COM_18218" />
+				<geo:voisin rdf:resource="COM_18289" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18008">
+				<geo:code_commune>18008</geo:code_commune>
+				<geo:nom xml:lang="fr">Arçay</geo:nom>
+				<geo:voisin rdf:resource="COM_18008" />
+				<geo:voisin rdf:resource="COM_18122" />
+				<geo:voisin rdf:resource="COM_18126" />
+				<geo:voisin rdf:resource="COM_18129" />
+				<geo:voisin rdf:resource="COM_18201" />
+				<geo:voisin rdf:resource="COM_18222" />
+				<geo:voisin rdf:resource="COM_18255" />
+				<geo:voisin rdf:resource="COM_18267" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18122">
+				<geo:code_commune>18122</geo:code_commune>
+				<geo:nom xml:lang="fr">Lapan</geo:nom>
+				<geo:voisin rdf:resource="COM_18008" />
+				<geo:voisin rdf:resource="COM_18073" />
+				<geo:voisin rdf:resource="COM_18122" />
+				<geo:voisin rdf:resource="COM_18133" />
+				<geo:voisin rdf:resource="COM_18188" />
+				<geo:voisin rdf:resource="COM_18201" />
+				<geo:voisin rdf:resource="COM_18222" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18126">
+				<geo:code_commune>18126</geo:code_commune>
+				<geo:nom xml:lang="fr">Levet</geo:nom>
+				<geo:voisin rdf:resource="COM_18008" />
+				<geo:voisin rdf:resource="COM_18126" />
+				<geo:voisin rdf:resource="COM_18129" />
+				<geo:voisin rdf:resource="COM_18212" />
+				<geo:voisin rdf:resource="COM_18222" />
+				<geo:voisin rdf:resource="COM_18248" />
+				<geo:voisin rdf:resource="COM_18250" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18129">
+				<geo:code_commune>18129</geo:code_commune>
+				<geo:nom xml:lang="fr">Lissay-Lochy</geo:nom>
+				<geo:voisin rdf:resource="COM_18008" />
+				<geo:voisin rdf:resource="COM_18126" />
+				<geo:voisin rdf:resource="COM_18129" />
+				<geo:voisin rdf:resource="COM_18180" />
+				<geo:voisin rdf:resource="COM_18248" />
+				<geo:voisin rdf:resource="COM_18267" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18180">
+				<geo:code_commune>18180</geo:code_commune>
+				<geo:nom xml:lang="fr">Plaimpied-Givaudins</geo:nom>
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18129" />
+				<geo:voisin rdf:resource="COM_18180" />
+				<geo:voisin rdf:resource="COM_18218" />
+				<geo:voisin rdf:resource="COM_18248" />
+				<geo:voisin rdf:resource="COM_18254" />
+				<geo:voisin rdf:resource="COM_18267" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18201">
+				<geo:code_commune>18201</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Caprais</geo:nom>
+				<geo:voisin rdf:resource="COM_18008" />
+				<geo:voisin rdf:resource="COM_18122" />
+				<geo:voisin rdf:resource="COM_18133" />
+				<geo:voisin rdf:resource="COM_18201" />
+				<geo:voisin rdf:resource="COM_18207" />
+				<geo:voisin rdf:resource="COM_18255" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18218">
+				<geo:code_commune>18218</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Just</geo:nom>
+				<geo:voisin rdf:resource="COM_18006" />
+				<geo:voisin rdf:resource="COM_18081" />
+				<geo:voisin rdf:resource="COM_18180" />
+				<geo:voisin rdf:resource="COM_18204" />
+				<geo:voisin rdf:resource="COM_18218" />
+				<geo:voisin rdf:resource="COM_18248" />
+				<geo:voisin rdf:resource="COM_18254" />
+				<geo:voisin rdf:resource="COM_18288" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18222">
+				<geo:code_commune>18222</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Lunaise</geo:nom>
+				<geo:voisin rdf:resource="COM_18008" />
+				<geo:voisin rdf:resource="COM_18058" />
+				<geo:voisin rdf:resource="COM_18073" />
+				<geo:voisin rdf:resource="COM_18122" />
+				<geo:voisin rdf:resource="COM_18126" />
+				<geo:voisin rdf:resource="COM_18222" />
+				<geo:voisin rdf:resource="COM_18250" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18248">
+				<geo:code_commune>18248</geo:code_commune>
+				<geo:nom xml:lang="fr">Senneçay</geo:nom>
+				<geo:voisin rdf:resource="COM_18126" />
+				<geo:voisin rdf:resource="COM_18129" />
+				<geo:voisin rdf:resource="COM_18180" />
+				<geo:voisin rdf:resource="COM_18212" />
+				<geo:voisin rdf:resource="COM_18218" />
+				<geo:voisin rdf:resource="COM_18248" />
+				<geo:voisin rdf:resource="COM_18288" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18254">
+				<geo:code_commune>18254</geo:code_commune>
+				<geo:nom xml:lang="fr">Soye-en-Septaine</geo:nom>
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18081" />
+				<geo:voisin rdf:resource="COM_18174" />
+				<geo:voisin rdf:resource="COM_18180" />
+				<geo:voisin rdf:resource="COM_18218" />
+				<geo:voisin rdf:resource="COM_18247" />
+				<geo:voisin rdf:resource="COM_18254" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18267">
+				<geo:code_commune>18267</geo:code_commune>
+				<geo:nom xml:lang="fr">Trouy</geo:nom>
+				<geo:voisin rdf:resource="COM_18008" />
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18129" />
+				<geo:voisin rdf:resource="COM_18180" />
+				<geo:voisin rdf:resource="COM_18255" />
+				<geo:voisin rdf:resource="COM_18267" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18288">
+				<geo:code_commune>18288</geo:code_commune>
+				<geo:nom xml:lang="fr">Vorly</geo:nom>
+				<geo:voisin rdf:resource="COM_18204" />
+				<geo:voisin rdf:resource="COM_18212" />
+				<geo:voisin rdf:resource="COM_18218" />
+				<geo:voisin rdf:resource="COM_18248" />
+				<geo:voisin rdf:resource="COM_18288" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1818">
+		<geo:code_canton>1818</geo:code_canton>
+		<geo:nom xml:lang="fr">Lignières</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18127"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18043">
+				<geo:code_commune>18043</geo:code_commune>
+				<geo:nom xml:lang="fr">La Celle-Condé</geo:nom>
+				<geo:voisin rdf:resource="COM_18043" />
+				<geo:voisin rdf:resource="COM_18065" />
+				<geo:voisin rdf:resource="COM_18127" />
+				<geo:voisin rdf:resource="COM_18152" />
+				<geo:voisin rdf:resource="COM_18216" />
+				<geo:voisin rdf:resource="COM_18283" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18065">
+				<geo:code_commune>18065</geo:code_commune>
+				<geo:nom xml:lang="fr">Chezal-Benoît</geo:nom>
+				<geo:voisin rdf:resource="COM_18043" />
+				<geo:voisin rdf:resource="COM_18065" />
+				<geo:voisin rdf:resource="COM_18137" />
+				<geo:voisin rdf:resource="COM_18199" />
+				<geo:voisin rdf:resource="COM_18216" />
+				<geo:voisin rdf:resource="COM_18283" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36169">
+						<geo:code_commune>36169</geo:code_commune>
+						<geo:nom xml:lang="fr">Pruniers</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36181">
+						<geo:code_commune>36181</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Aubin</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36215">
+						<geo:code_commune>36215</geo:code_commune>
+						<geo:nom xml:lang="fr">Ségry</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18114">
+				<geo:code_commune>18114</geo:code_commune>
+				<geo:nom xml:lang="fr">Ineuil</geo:nom>
+				<geo:voisin rdf:resource="COM_18046" />
+				<geo:voisin rdf:resource="COM_18112" />
+				<geo:voisin rdf:resource="COM_18114" />
+				<geo:voisin rdf:resource="COM_18127" />
+				<geo:voisin rdf:resource="COM_18152" />
+				<geo:voisin rdf:resource="COM_18153" />
+				<geo:voisin rdf:resource="COM_18236" />
+				<geo:voisin rdf:resource="COM_18266" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18127">
+				<geo:code_commune>18127</geo:code_commune>
+				<geo:nom xml:lang="fr">Lignières</geo:nom>
+				<geo:voisin rdf:resource="COM_18043" />
+				<geo:voisin rdf:resource="COM_18114" />
+				<geo:voisin rdf:resource="COM_18127" />
+				<geo:voisin rdf:resource="COM_18152" />
+				<geo:voisin rdf:resource="COM_18216" />
+				<geo:voisin rdf:resource="COM_18266" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18152">
+				<geo:code_commune>18152</geo:code_commune>
+				<geo:nom xml:lang="fr">Montlouis</geo:nom>
+				<geo:voisin rdf:resource="COM_18043" />
+				<geo:voisin rdf:resource="COM_18114" />
+				<geo:voisin rdf:resource="COM_18127" />
+				<geo:voisin rdf:resource="COM_18152" />
+				<geo:voisin rdf:resource="COM_18236" />
+				<geo:voisin rdf:resource="COM_18273" />
+				<geo:voisin rdf:resource="COM_18283" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18199">
+				<geo:code_commune>18199</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Baudel</geo:nom>
+				<geo:voisin rdf:resource="COM_18065" />
+				<geo:voisin rdf:resource="COM_18137" />
+				<geo:voisin rdf:resource="COM_18188" />
+				<geo:voisin rdf:resource="COM_18199" />
+				<geo:voisin rdf:resource="COM_18273" />
+				<geo:voisin rdf:resource="COM_18283" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18216">
+				<geo:code_commune>18216</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Hilaire-en-Lignières</geo:nom>
+				<geo:voisin rdf:resource="COM_18043" />
+				<geo:voisin rdf:resource="COM_18065" />
+				<geo:voisin rdf:resource="COM_18127" />
+				<geo:voisin rdf:resource="COM_18193" />
+				<geo:voisin rdf:resource="COM_18216" />
+				<geo:voisin rdf:resource="COM_18266" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36017">
+						<geo:code_commune>36017</geo:code_commune>
+						<geo:nom xml:lang="fr">La Berthenoux</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36169">
+						<geo:code_commune>36169</geo:code_commune>
+						<geo:nom xml:lang="fr">Pruniers</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36186">
+						<geo:code_commune>36186</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Christophe-en-Boucherie</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18266">
+				<geo:code_commune>18266</geo:code_commune>
+				<geo:nom xml:lang="fr">Touchay</geo:nom>
+				<geo:voisin rdf:resource="COM_18112" />
+				<geo:voisin rdf:resource="COM_18114" />
+				<geo:voisin rdf:resource="COM_18127" />
+				<geo:voisin rdf:resource="COM_18135" />
+				<geo:voisin rdf:resource="COM_18193" />
+				<geo:voisin rdf:resource="COM_18216" />
+				<geo:voisin rdf:resource="COM_18266" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18283">
+				<geo:code_commune>18283</geo:code_commune>
+				<geo:nom xml:lang="fr">Villecelin</geo:nom>
+				<geo:voisin rdf:resource="COM_18043" />
+				<geo:voisin rdf:resource="COM_18065" />
+				<geo:voisin rdf:resource="COM_18152" />
+				<geo:voisin rdf:resource="COM_18199" />
+				<geo:voisin rdf:resource="COM_18273" />
+				<geo:voisin rdf:resource="COM_18283" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1819">
+		<geo:code_canton>1819</geo:code_canton>
+		<geo:nom xml:lang="fr">Lury-sur-Arnon</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18134"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18036">
+				<geo:code_commune>18036</geo:code_commune>
+				<geo:nom xml:lang="fr">Brinay</geo:nom>
+				<geo:voisin rdf:resource="COM_18036" />
+				<geo:voisin rdf:resource="COM_18044" />
+				<geo:voisin rdf:resource="COM_18096" />
+				<geo:voisin rdf:resource="COM_18134" />
+				<geo:voisin rdf:resource="COM_18148" />
+				<geo:voisin rdf:resource="COM_18190" />
+				<geo:voisin rdf:resource="COM_18279" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18044">
+				<geo:code_commune>18044</geo:code_commune>
+				<geo:nom xml:lang="fr">Cerbois</geo:nom>
+				<geo:voisin rdf:resource="COM_18036" />
+				<geo:voisin rdf:resource="COM_18044" />
+				<geo:voisin rdf:resource="COM_18124" />
+				<geo:voisin rdf:resource="COM_18128" />
+				<geo:voisin rdf:resource="COM_18134" />
+				<geo:voisin rdf:resource="COM_18186" />
+				<geo:voisin rdf:resource="COM_18190" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18064">
+				<geo:code_commune>18064</geo:code_commune>
+				<geo:nom xml:lang="fr">Chéry</geo:nom>
+				<geo:voisin rdf:resource="COM_18064" />
+				<geo:voisin rdf:resource="COM_18124" />
+				<geo:voisin rdf:resource="COM_18134" />
+				<geo:voisin rdf:resource="COM_18140" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36171">
+						<geo:code_commune>36171</geo:code_commune>
+						<geo:nom xml:lang="fr">Reuilly</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36205">
+						<geo:code_commune>36205</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Pierre-de-Jards</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18124">
+				<geo:code_commune>18124</geo:code_commune>
+				<geo:nom xml:lang="fr">Lazenay</geo:nom>
+				<geo:voisin rdf:resource="COM_18044" />
+				<geo:voisin rdf:resource="COM_18064" />
+				<geo:voisin rdf:resource="COM_18124" />
+				<geo:voisin rdf:resource="COM_18128" />
+				<geo:voisin rdf:resource="COM_18134" />
+				<geo:voisin rdf:resource="COM_18181" />
+				<geo:voisin rdf:resource="COM_18182" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36065">
+						<geo:code_commune>36065</geo:code_commune>
+						<geo:nom xml:lang="fr">Diou</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36125">
+						<geo:code_commune>36125</geo:code_commune>
+						<geo:nom xml:lang="fr">Migny</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36171">
+						<geo:code_commune>36171</geo:code_commune>
+						<geo:nom xml:lang="fr">Reuilly</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18128">
+				<geo:code_commune>18128</geo:code_commune>
+				<geo:nom xml:lang="fr">Limeux</geo:nom>
+				<geo:voisin rdf:resource="COM_18044" />
+				<geo:voisin rdf:resource="COM_18124" />
+				<geo:voisin rdf:resource="COM_18128" />
+				<geo:voisin rdf:resource="COM_18181" />
+				<geo:voisin rdf:resource="COM_18186" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18134">
+				<geo:code_commune>18134</geo:code_commune>
+				<geo:nom xml:lang="fr">Lury-sur-Arnon</geo:nom>
+				<geo:voisin rdf:resource="COM_18036" />
+				<geo:voisin rdf:resource="COM_18044" />
+				<geo:voisin rdf:resource="COM_18064" />
+				<geo:voisin rdf:resource="COM_18124" />
+				<geo:voisin rdf:resource="COM_18134" />
+				<geo:voisin rdf:resource="COM_18140" />
+				<geo:voisin rdf:resource="COM_18148" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18148">
+				<geo:code_commune>18148</geo:code_commune>
+				<geo:nom xml:lang="fr">Méreau</geo:nom>
+				<geo:voisin rdf:resource="COM_18036" />
+				<geo:voisin rdf:resource="COM_18134" />
+				<geo:voisin rdf:resource="COM_18140" />
+				<geo:voisin rdf:resource="COM_18148" />
+				<geo:voisin rdf:resource="COM_18214" />
+				<geo:voisin rdf:resource="COM_18279" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18186">
+				<geo:code_commune>18186</geo:code_commune>
+				<geo:nom xml:lang="fr">Preuilly</geo:nom>
+				<geo:voisin rdf:resource="COM_18044" />
+				<geo:voisin rdf:resource="COM_18128" />
+				<geo:voisin rdf:resource="COM_18181" />
+				<geo:voisin rdf:resource="COM_18186" />
+				<geo:voisin rdf:resource="COM_18190" />
+				<geo:voisin rdf:resource="COM_18237" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18190">
+				<geo:code_commune>18190</geo:code_commune>
+				<geo:nom xml:lang="fr">Quincy</geo:nom>
+				<geo:voisin rdf:resource="COM_18036" />
+				<geo:voisin rdf:resource="COM_18044" />
+				<geo:voisin rdf:resource="COM_18096" />
+				<geo:voisin rdf:resource="COM_18141" />
+				<geo:voisin rdf:resource="COM_18186" />
+				<geo:voisin rdf:resource="COM_18190" />
+				<geo:voisin rdf:resource="COM_18237" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1820">
+		<geo:code_canton>1820</geo:code_canton>
+		<geo:nom xml:lang="fr">Mehun-sur-Yèvre</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18141"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18005">
+				<geo:code_commune>18005</geo:code_commune>
+				<geo:nom xml:lang="fr">Allouis</geo:nom>
+				<geo:voisin rdf:resource="COM_18004" />
+				<geo:voisin rdf:resource="COM_18005" />
+				<geo:voisin rdf:resource="COM_18028" />
+				<geo:voisin rdf:resource="COM_18096" />
+				<geo:voisin rdf:resource="COM_18141" />
+				<geo:voisin rdf:resource="COM_18206" />
+				<geo:voisin rdf:resource="COM_18219" />
+				<geo:voisin rdf:resource="COM_18281" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18028">
+				<geo:code_commune>18028</geo:code_commune>
+				<geo:nom xml:lang="fr">Berry-Bouy</geo:nom>
+				<geo:voisin rdf:resource="COM_18005" />
+				<geo:voisin rdf:resource="COM_18028" />
+				<geo:voisin rdf:resource="COM_18138" />
+				<geo:voisin rdf:resource="COM_18141" />
+				<geo:voisin rdf:resource="COM_18205" />
+				<geo:voisin rdf:resource="COM_18206" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18096">
+				<geo:code_commune>18096</geo:code_commune>
+				<geo:nom xml:lang="fr">Foëcy</geo:nom>
+				<geo:voisin rdf:resource="COM_18005" />
+				<geo:voisin rdf:resource="COM_18036" />
+				<geo:voisin rdf:resource="COM_18096" />
+				<geo:voisin rdf:resource="COM_18141" />
+				<geo:voisin rdf:resource="COM_18190" />
+				<geo:voisin rdf:resource="COM_18279" />
+				<geo:voisin rdf:resource="COM_18281" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18141">
+				<geo:code_commune>18141</geo:code_commune>
+				<geo:nom xml:lang="fr">Mehun-sur-Yèvre</geo:nom>
+				<geo:voisin rdf:resource="COM_18005" />
+				<geo:voisin rdf:resource="COM_18028" />
+				<geo:voisin rdf:resource="COM_18096" />
+				<geo:voisin rdf:resource="COM_18138" />
+				<geo:voisin rdf:resource="COM_18141" />
+				<geo:voisin rdf:resource="COM_18190" />
+				<geo:voisin rdf:resource="COM_18237" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18237">
+				<geo:code_commune>18237</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Thorette</geo:nom>
+				<geo:voisin rdf:resource="COM_18138" />
+				<geo:voisin rdf:resource="COM_18141" />
+				<geo:voisin rdf:resource="COM_18157" />
+				<geo:voisin rdf:resource="COM_18181" />
+				<geo:voisin rdf:resource="COM_18186" />
+				<geo:voisin rdf:resource="COM_18190" />
+				<geo:voisin rdf:resource="COM_18237" />
+				<geo:voisin rdf:resource="COM_18285" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1821">
+		<geo:code_canton>1821</geo:code_canton>
+		<geo:nom xml:lang="fr">Nérondes</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18160"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18031">
+				<geo:code_commune>18031</geo:code_commune>
+				<geo:nom xml:lang="fr">Blet</geo:nom>
+				<geo:voisin rdf:resource="COM_18031" />
+				<geo:voisin rdf:resource="COM_18045" />
+				<geo:voisin rdf:resource="COM_18054" />
+				<geo:voisin rdf:resource="COM_18060" />
+				<geo:voisin rdf:resource="COM_18102" />
+				<geo:voisin rdf:resource="COM_18121" />
+				<geo:voisin rdf:resource="COM_18131" />
+				<geo:voisin rdf:resource="COM_18173" />
+				<geo:voisin rdf:resource="COM_18195" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18054">
+				<geo:code_commune>18054</geo:code_commune>
+				<geo:nom xml:lang="fr">Charly</geo:nom>
+				<geo:voisin rdf:resource="COM_18031" />
+				<geo:voisin rdf:resource="COM_18054" />
+				<geo:voisin rdf:resource="COM_18072" />
+				<geo:voisin rdf:resource="COM_18131" />
+				<geo:voisin rdf:resource="COM_18175" />
+				<geo:voisin rdf:resource="COM_18195" />
+				<geo:voisin rdf:resource="COM_18275" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18072">
+				<geo:code_commune>18072</geo:code_commune>
+				<geo:nom xml:lang="fr">Cornusse</geo:nom>
+				<geo:voisin rdf:resource="COM_18027" />
+				<geo:voisin rdf:resource="COM_18054" />
+				<geo:voisin rdf:resource="COM_18072" />
+				<geo:voisin rdf:resource="COM_18095" />
+				<geo:voisin rdf:resource="COM_18131" />
+				<geo:voisin rdf:resource="COM_18175" />
+				<geo:voisin rdf:resource="COM_18191" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18080">
+				<geo:code_commune>18080</geo:code_commune>
+				<geo:nom xml:lang="fr">Croisy</geo:nom>
+				<geo:voisin rdf:resource="COM_18080" />
+				<geo:voisin rdf:resource="COM_18095" />
+				<geo:voisin rdf:resource="COM_18101" />
+				<geo:voisin rdf:resource="COM_18113" />
+				<geo:voisin rdf:resource="COM_18175" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18095">
+				<geo:code_commune>18095</geo:code_commune>
+				<geo:nom xml:lang="fr">Flavigny</geo:nom>
+				<geo:voisin rdf:resource="COM_18027" />
+				<geo:voisin rdf:resource="COM_18072" />
+				<geo:voisin rdf:resource="COM_18080" />
+				<geo:voisin rdf:resource="COM_18095" />
+				<geo:voisin rdf:resource="COM_18113" />
+				<geo:voisin rdf:resource="COM_18175" />
+				<geo:voisin rdf:resource="COM_18260" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18113">
+				<geo:code_commune>18113</geo:code_commune>
+				<geo:nom xml:lang="fr">Ignol</geo:nom>
+				<geo:voisin rdf:resource="COM_18080" />
+				<geo:voisin rdf:resource="COM_18095" />
+				<geo:voisin rdf:resource="COM_18101" />
+				<geo:voisin rdf:resource="COM_18108" />
+				<geo:voisin rdf:resource="COM_18113" />
+				<geo:voisin rdf:resource="COM_18160" />
+				<geo:voisin rdf:resource="COM_18260" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18131">
+				<geo:code_commune>18131</geo:code_commune>
+				<geo:nom xml:lang="fr">Lugny-Bourbonnais</geo:nom>
+				<geo:voisin rdf:resource="COM_18031" />
+				<geo:voisin rdf:resource="COM_18054" />
+				<geo:voisin rdf:resource="COM_18072" />
+				<geo:voisin rdf:resource="COM_18131" />
+				<geo:voisin rdf:resource="COM_18173" />
+				<geo:voisin rdf:resource="COM_18191" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18143">
+				<geo:code_commune>18143</geo:code_commune>
+				<geo:nom xml:lang="fr">Menetou-Couture</geo:nom>
+				<geo:voisin rdf:resource="COM_18062" />
+				<geo:voisin rdf:resource="COM_18099" />
+				<geo:voisin rdf:resource="COM_18118" />
+				<geo:voisin rdf:resource="COM_18139" />
+				<geo:voisin rdf:resource="COM_18143" />
+				<geo:voisin rdf:resource="COM_18184" />
+				<geo:voisin rdf:resource="COM_18215" />
+				<geo:voisin rdf:resource="COM_18265" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18154">
+				<geo:code_commune>18154</geo:code_commune>
+				<geo:nom xml:lang="fr">Mornay-Berry</geo:nom>
+				<geo:voisin rdf:resource="COM_18056" />
+				<geo:voisin rdf:resource="COM_18099" />
+				<geo:voisin rdf:resource="COM_18154" />
+				<geo:voisin rdf:resource="COM_18215" />
+				<geo:voisin rdf:resource="COM_18286" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18160">
+				<geo:code_commune>18160</geo:code_commune>
+				<geo:nom xml:lang="fr">Nérondes</geo:nom>
+				<geo:voisin rdf:resource="COM_18027" />
+				<geo:voisin rdf:resource="COM_18056" />
+				<geo:voisin rdf:resource="COM_18108" />
+				<geo:voisin rdf:resource="COM_18113" />
+				<geo:voisin rdf:resource="COM_18123" />
+				<geo:voisin rdf:resource="COM_18160" />
+				<geo:voisin rdf:resource="COM_18215" />
+				<geo:voisin rdf:resource="COM_18260" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18175">
+				<geo:code_commune>18175</geo:code_commune>
+				<geo:nom xml:lang="fr">Ourouer-les-Bourdelins</geo:nom>
+				<geo:voisin rdf:resource="COM_18054" />
+				<geo:voisin rdf:resource="COM_18072" />
+				<geo:voisin rdf:resource="COM_18080" />
+				<geo:voisin rdf:resource="COM_18095" />
+				<geo:voisin rdf:resource="COM_18101" />
+				<geo:voisin rdf:resource="COM_18175" />
+				<geo:voisin rdf:resource="COM_18275" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18215">
+				<geo:code_commune>18215</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Hilaire-de-Gondilly</geo:nom>
+				<geo:voisin rdf:resource="COM_18056" />
+				<geo:voisin rdf:resource="COM_18062" />
+				<geo:voisin rdf:resource="COM_18099" />
+				<geo:voisin rdf:resource="COM_18108" />
+				<geo:voisin rdf:resource="COM_18143" />
+				<geo:voisin rdf:resource="COM_18154" />
+				<geo:voisin rdf:resource="COM_18160" />
+				<geo:voisin rdf:resource="COM_18215" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18260">
+				<geo:code_commune>18260</geo:code_commune>
+				<geo:nom xml:lang="fr">Tendron</geo:nom>
+				<geo:voisin rdf:resource="COM_18027" />
+				<geo:voisin rdf:resource="COM_18095" />
+				<geo:voisin rdf:resource="COM_18113" />
+				<geo:voisin rdf:resource="COM_18160" />
+				<geo:voisin rdf:resource="COM_18260" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1822">
+		<geo:code_canton>1822</geo:code_canton>
+		<geo:nom xml:lang="fr">Saint-Amand-Montrond</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18197"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18034">
+				<geo:code_commune>18034</geo:code_commune>
+				<geo:nom xml:lang="fr">Bouzais</geo:nom>
+				<geo:voisin rdf:resource="COM_18009" />
+				<geo:voisin rdf:resource="COM_18034" />
+				<geo:voisin rdf:resource="COM_18171" />
+				<geo:voisin rdf:resource="COM_18172" />
+				<geo:voisin rdf:resource="COM_18197" />
+				<geo:voisin rdf:resource="COM_18209" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18038">
+				<geo:code_commune>18038</geo:code_commune>
+				<geo:nom xml:lang="fr">Bruère-Allichamps</geo:nom>
+				<geo:voisin rdf:resource="COM_18038" />
+				<geo:voisin rdf:resource="COM_18042" />
+				<geo:voisin rdf:resource="COM_18091" />
+				<geo:voisin rdf:resource="COM_18169" />
+				<geo:voisin rdf:resource="COM_18172" />
+				<geo:voisin rdf:resource="COM_18197" />
+				<geo:voisin rdf:resource="COM_18221" />
+				<geo:voisin rdf:resource="COM_18268" />
+				<geo:voisin rdf:resource="COM_18270" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18042">
+				<geo:code_commune>18042</geo:code_commune>
+				<geo:nom xml:lang="fr">La Celle</geo:nom>
+				<geo:voisin rdf:resource="COM_18038" />
+				<geo:voisin rdf:resource="COM_18042" />
+				<geo:voisin rdf:resource="COM_18142" />
+				<geo:voisin rdf:resource="COM_18197" />
+				<geo:voisin rdf:resource="COM_18268" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18069">
+				<geo:code_commune>18069</geo:code_commune>
+				<geo:nom xml:lang="fr">Colombiers</geo:nom>
+				<geo:voisin rdf:resource="COM_18002" />
+				<geo:voisin rdf:resource="COM_18069" />
+				<geo:voisin rdf:resource="COM_18076" />
+				<geo:voisin rdf:resource="COM_18086" />
+				<geo:voisin rdf:resource="COM_18197" />
+				<geo:voisin rdf:resource="COM_18231" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18086">
+				<geo:code_commune>18086</geo:code_commune>
+				<geo:nom xml:lang="fr">Drevant</geo:nom>
+				<geo:voisin rdf:resource="COM_18002" />
+				<geo:voisin rdf:resource="COM_18069" />
+				<geo:voisin rdf:resource="COM_18086" />
+				<geo:voisin rdf:resource="COM_18107" />
+				<geo:voisin rdf:resource="COM_18197" />
+				<geo:voisin rdf:resource="COM_18209" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18091">
+				<geo:code_commune>18091</geo:code_commune>
+				<geo:nom xml:lang="fr">Farges-Allichamps</geo:nom>
+				<geo:voisin rdf:resource="COM_18038" />
+				<geo:voisin rdf:resource="COM_18091" />
+				<geo:voisin rdf:resource="COM_18169" />
+				<geo:voisin rdf:resource="COM_18270" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18107">
+				<geo:code_commune>18107</geo:code_commune>
+				<geo:nom xml:lang="fr">La Groutte</geo:nom>
+				<geo:voisin rdf:resource="COM_18002" />
+				<geo:voisin rdf:resource="COM_18086" />
+				<geo:voisin rdf:resource="COM_18107" />
+				<geo:voisin rdf:resource="COM_18209" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18136">
+				<geo:code_commune>18136</geo:code_commune>
+				<geo:nom xml:lang="fr">Marçais</geo:nom>
+				<geo:voisin rdf:resource="COM_18009" />
+				<geo:voisin rdf:resource="COM_18010" />
+				<geo:voisin rdf:resource="COM_18130" />
+				<geo:voisin rdf:resource="COM_18136" />
+				<geo:voisin rdf:resource="COM_18153" />
+				<geo:voisin rdf:resource="COM_18171" />
+				<geo:voisin rdf:resource="COM_18230" />
+				<geo:voisin rdf:resource="COM_18270" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18142">
+				<geo:code_commune>18142</geo:code_commune>
+				<geo:nom xml:lang="fr">Meillant</geo:nom>
+				<geo:voisin rdf:resource="COM_18013" />
+				<geo:voisin rdf:resource="COM_18042" />
+				<geo:voisin rdf:resource="COM_18071" />
+				<geo:voisin rdf:resource="COM_18142" />
+				<geo:voisin rdf:resource="COM_18177" />
+				<geo:voisin rdf:resource="COM_18197" />
+				<geo:voisin rdf:resource="COM_18268" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18169">
+				<geo:code_commune>18169</geo:code_commune>
+				<geo:nom xml:lang="fr">Nozières</geo:nom>
+				<geo:voisin rdf:resource="COM_18038" />
+				<geo:voisin rdf:resource="COM_18091" />
+				<geo:voisin rdf:resource="COM_18169" />
+				<geo:voisin rdf:resource="COM_18171" />
+				<geo:voisin rdf:resource="COM_18172" />
+				<geo:voisin rdf:resource="COM_18270" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18171">
+				<geo:code_commune>18171</geo:code_commune>
+				<geo:nom xml:lang="fr">Orcenais</geo:nom>
+				<geo:voisin rdf:resource="COM_18009" />
+				<geo:voisin rdf:resource="COM_18034" />
+				<geo:voisin rdf:resource="COM_18136" />
+				<geo:voisin rdf:resource="COM_18169" />
+				<geo:voisin rdf:resource="COM_18171" />
+				<geo:voisin rdf:resource="COM_18172" />
+				<geo:voisin rdf:resource="COM_18270" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18172">
+				<geo:code_commune>18172</geo:code_commune>
+				<geo:nom xml:lang="fr">Orval</geo:nom>
+				<geo:voisin rdf:resource="COM_18034" />
+				<geo:voisin rdf:resource="COM_18038" />
+				<geo:voisin rdf:resource="COM_18169" />
+				<geo:voisin rdf:resource="COM_18171" />
+				<geo:voisin rdf:resource="COM_18172" />
+				<geo:voisin rdf:resource="COM_18197" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18197">
+				<geo:code_commune>18197</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Amand-Montrond</geo:nom>
+				<geo:voisin rdf:resource="COM_18013" />
+				<geo:voisin rdf:resource="COM_18034" />
+				<geo:voisin rdf:resource="COM_18038" />
+				<geo:voisin rdf:resource="COM_18042" />
+				<geo:voisin rdf:resource="COM_18069" />
+				<geo:voisin rdf:resource="COM_18086" />
+				<geo:voisin rdf:resource="COM_18142" />
+				<geo:voisin rdf:resource="COM_18172" />
+				<geo:voisin rdf:resource="COM_18197" />
+				<geo:voisin rdf:resource="COM_18209" />
+				<geo:voisin rdf:resource="COM_18231" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1823">
+		<geo:code_canton>1823</geo:code_canton>
+		<geo:nom xml:lang="fr">Saint-Martin-d'Auxigny</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18223"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18004">
+				<geo:code_commune>18004</geo:code_commune>
+				<geo:nom xml:lang="fr">Allogny</geo:nom>
+				<geo:voisin rdf:resource="COM_18004" />
+				<geo:voisin rdf:resource="COM_18005" />
+				<geo:voisin rdf:resource="COM_18149" />
+				<geo:voisin rdf:resource="COM_18165" />
+				<geo:voisin rdf:resource="COM_18206" />
+				<geo:voisin rdf:resource="COM_18219" />
+				<geo:voisin rdf:resource="COM_18223" />
+				<geo:voisin rdf:resource="COM_18290" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18097">
+				<geo:code_commune>18097</geo:code_commune>
+				<geo:nom xml:lang="fr">Fussy</geo:nom>
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18097" />
+				<geo:voisin rdf:resource="COM_18179" />
+				<geo:voisin rdf:resource="COM_18211" />
+				<geo:voisin rdf:resource="COM_18226" />
+				<geo:voisin rdf:resource="COM_18271" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18145">
+				<geo:code_commune>18145</geo:code_commune>
+				<geo:nom xml:lang="fr">Menetou-Salon</geo:nom>
+				<geo:voisin rdf:resource="COM_18001" />
+				<geo:voisin rdf:resource="COM_18109" />
+				<geo:voisin rdf:resource="COM_18145" />
+				<geo:voisin rdf:resource="COM_18176" />
+				<geo:voisin rdf:resource="COM_18189" />
+				<geo:voisin rdf:resource="COM_18253" />
+				<geo:voisin rdf:resource="COM_18280" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18179">
+				<geo:code_commune>18179</geo:code_commune>
+				<geo:nom xml:lang="fr">Pigny</geo:nom>
+				<geo:voisin rdf:resource="COM_18097" />
+				<geo:voisin rdf:resource="COM_18179" />
+				<geo:voisin rdf:resource="COM_18211" />
+				<geo:voisin rdf:resource="COM_18226" />
+				<geo:voisin rdf:resource="COM_18280" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18189">
+				<geo:code_commune>18189</geo:code_commune>
+				<geo:nom xml:lang="fr">Quantilly</geo:nom>
+				<geo:voisin rdf:resource="COM_18001" />
+				<geo:voisin rdf:resource="COM_18145" />
+				<geo:voisin rdf:resource="COM_18189" />
+				<geo:voisin rdf:resource="COM_18211" />
+				<geo:voisin rdf:resource="COM_18223" />
+				<geo:voisin rdf:resource="COM_18229" />
+				<geo:voisin rdf:resource="COM_18280" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18206">
+				<geo:code_commune>18206</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Éloy-de-Gy</geo:nom>
+				<geo:voisin rdf:resource="COM_18004" />
+				<geo:voisin rdf:resource="COM_18005" />
+				<geo:voisin rdf:resource="COM_18028" />
+				<geo:voisin rdf:resource="COM_18205" />
+				<geo:voisin rdf:resource="COM_18206" />
+				<geo:voisin rdf:resource="COM_18223" />
+				<geo:voisin rdf:resource="COM_18271" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18211">
+				<geo:code_commune>18211</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Georges-sur-Moulon</geo:nom>
+				<geo:voisin rdf:resource="COM_18097" />
+				<geo:voisin rdf:resource="COM_18179" />
+				<geo:voisin rdf:resource="COM_18189" />
+				<geo:voisin rdf:resource="COM_18211" />
+				<geo:voisin rdf:resource="COM_18223" />
+				<geo:voisin rdf:resource="COM_18271" />
+				<geo:voisin rdf:resource="COM_18280" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18223">
+				<geo:code_commune>18223</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Martin-d'Auxigny</geo:nom>
+				<geo:voisin rdf:resource="COM_18004" />
+				<geo:voisin rdf:resource="COM_18149" />
+				<geo:voisin rdf:resource="COM_18189" />
+				<geo:voisin rdf:resource="COM_18206" />
+				<geo:voisin rdf:resource="COM_18211" />
+				<geo:voisin rdf:resource="COM_18223" />
+				<geo:voisin rdf:resource="COM_18229" />
+				<geo:voisin rdf:resource="COM_18271" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18229">
+				<geo:code_commune>18229</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Palais</geo:nom>
+				<geo:voisin rdf:resource="COM_18001" />
+				<geo:voisin rdf:resource="COM_18149" />
+				<geo:voisin rdf:resource="COM_18189" />
+				<geo:voisin rdf:resource="COM_18223" />
+				<geo:voisin rdf:resource="COM_18229" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18271">
+				<geo:code_commune>18271</geo:code_commune>
+				<geo:nom xml:lang="fr">Vasselay</geo:nom>
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18097" />
+				<geo:voisin rdf:resource="COM_18205" />
+				<geo:voisin rdf:resource="COM_18206" />
+				<geo:voisin rdf:resource="COM_18211" />
+				<geo:voisin rdf:resource="COM_18223" />
+				<geo:voisin rdf:resource="COM_18271" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18280">
+				<geo:code_commune>18280</geo:code_commune>
+				<geo:nom xml:lang="fr">Vignoux-sous-les-Aix</geo:nom>
+				<geo:voisin rdf:resource="COM_18145" />
+				<geo:voisin rdf:resource="COM_18179" />
+				<geo:voisin rdf:resource="COM_18189" />
+				<geo:voisin rdf:resource="COM_18211" />
+				<geo:voisin rdf:resource="COM_18226" />
+				<geo:voisin rdf:resource="COM_18253" />
+				<geo:voisin rdf:resource="COM_18280" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1824">
+		<geo:code_canton>1824</geo:code_canton>
+		<geo:nom xml:lang="fr">Sancergues</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18240"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18012">
+				<geo:code_commune>18012</geo:code_commune>
+				<geo:nom xml:lang="fr">Argenvières</geo:nom>
+				<geo:voisin rdf:resource="COM_18012" />
+				<geo:voisin rdf:resource="COM_18049" />
+				<geo:voisin rdf:resource="COM_18120" />
+				<geo:voisin rdf:resource="COM_18220" />
+				<geo:voisin rdf:resource="COM_18224" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58059">
+						<geo:code_commune>58059</geo:code_commune>
+						<geo:nom xml:lang="fr">La Charité-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58155">
+						<geo:code_commune>58155</geo:code_commune>
+						<geo:nom xml:lang="fr">La Marche</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18025">
+				<geo:code_commune>18025</geo:code_commune>
+				<geo:nom xml:lang="fr">Beffes</geo:nom>
+				<geo:voisin rdf:resource="COM_18025" />
+				<geo:voisin rdf:resource="COM_18120" />
+				<geo:voisin rdf:resource="COM_18139" />
+				<geo:voisin rdf:resource="COM_18184" />
+				<geo:voisin rdf:resource="COM_18220" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58124">
+						<geo:code_commune>58124</geo:code_commune>
+						<geo:nom xml:lang="fr">Germigny-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58298">
+						<geo:code_commune>58298</geo:code_commune>
+						<geo:nom xml:lang="fr">Tronsanges</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18049">
+				<geo:code_commune>18049</geo:code_commune>
+				<geo:nom xml:lang="fr">La Chapelle-Montlinard</geo:nom>
+				<geo:voisin rdf:resource="COM_18012" />
+				<geo:voisin rdf:resource="COM_18049" />
+				<geo:voisin rdf:resource="COM_18110" />
+				<geo:voisin rdf:resource="COM_18224" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58059">
+						<geo:code_commune>58059</geo:code_commune>
+						<geo:nom xml:lang="fr">La Charité-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58164">
+						<geo:code_commune>58164</geo:code_commune>
+						<geo:nom xml:lang="fr">Mesves-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18053">
+				<geo:code_commune>18053</geo:code_commune>
+				<geo:nom xml:lang="fr">Charentonnay</geo:nom>
+				<geo:voisin rdf:resource="COM_18053" />
+				<geo:voisin rdf:resource="COM_18077" />
+				<geo:voisin rdf:resource="COM_18099" />
+				<geo:voisin rdf:resource="COM_18120" />
+				<geo:voisin rdf:resource="COM_18132" />
+				<geo:voisin rdf:resource="COM_18240" />
+				<geo:voisin rdf:resource="COM_18251" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18061">
+				<geo:code_commune>18061</geo:code_commune>
+				<geo:nom xml:lang="fr">Chaumoux-Marcilly</geo:nom>
+				<geo:voisin rdf:resource="COM_18061" />
+				<geo:voisin rdf:resource="COM_18077" />
+				<geo:voisin rdf:resource="COM_18090" />
+				<geo:voisin rdf:resource="COM_18105" />
+				<geo:voisin rdf:resource="COM_18132" />
+				<geo:voisin rdf:resource="COM_18251" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18077">
+				<geo:code_commune>18077</geo:code_commune>
+				<geo:nom xml:lang="fr">Couy</geo:nom>
+				<geo:voisin rdf:resource="COM_18053" />
+				<geo:voisin rdf:resource="COM_18061" />
+				<geo:voisin rdf:resource="COM_18077" />
+				<geo:voisin rdf:resource="COM_18099" />
+				<geo:voisin rdf:resource="COM_18105" />
+				<geo:voisin rdf:resource="COM_18251" />
+				<geo:voisin rdf:resource="COM_18286" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18090">
+				<geo:code_commune>18090</geo:code_commune>
+				<geo:nom xml:lang="fr">Étréchy</geo:nom>
+				<geo:voisin rdf:resource="COM_18019" />
+				<geo:voisin rdf:resource="COM_18035" />
+				<geo:voisin rdf:resource="COM_18061" />
+				<geo:voisin rdf:resource="COM_18090" />
+				<geo:voisin rdf:resource="COM_18104" />
+				<geo:voisin rdf:resource="COM_18105" />
+				<geo:voisin rdf:resource="COM_18132" />
+				<geo:voisin rdf:resource="COM_18194" />
+				<geo:voisin rdf:resource="COM_18282" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18099">
+				<geo:code_commune>18099</geo:code_commune>
+				<geo:nom xml:lang="fr">Garigny</geo:nom>
+				<geo:voisin rdf:resource="COM_18053" />
+				<geo:voisin rdf:resource="COM_18077" />
+				<geo:voisin rdf:resource="COM_18099" />
+				<geo:voisin rdf:resource="COM_18120" />
+				<geo:voisin rdf:resource="COM_18143" />
+				<geo:voisin rdf:resource="COM_18154" />
+				<geo:voisin rdf:resource="COM_18184" />
+				<geo:voisin rdf:resource="COM_18215" />
+				<geo:voisin rdf:resource="COM_18286" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18104">
+				<geo:code_commune>18104</geo:code_commune>
+				<geo:nom xml:lang="fr">Groises</geo:nom>
+				<geo:voisin rdf:resource="COM_18019" />
+				<geo:voisin rdf:resource="COM_18090" />
+				<geo:voisin rdf:resource="COM_18094" />
+				<geo:voisin rdf:resource="COM_18104" />
+				<geo:voisin rdf:resource="COM_18116" />
+				<geo:voisin rdf:resource="COM_18132" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18110">
+				<geo:code_commune>18110</geo:code_commune>
+				<geo:nom xml:lang="fr">Herry</geo:nom>
+				<geo:voisin rdf:resource="COM_18049" />
+				<geo:voisin rdf:resource="COM_18074" />
+				<geo:voisin rdf:resource="COM_18094" />
+				<geo:voisin rdf:resource="COM_18110" />
+				<geo:voisin rdf:resource="COM_18200" />
+				<geo:voisin rdf:resource="COM_18224" />
+				<geo:voisin rdf:resource="COM_18240" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58164">
+						<geo:code_commune>58164</geo:code_commune>
+						<geo:nom xml:lang="fr">Mesves-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58215">
+						<geo:code_commune>58215</geo:code_commune>
+						<geo:nom xml:lang="fr">Pouilly-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18120">
+				<geo:code_commune>18120</geo:code_commune>
+				<geo:nom xml:lang="fr">Jussy-le-Chaudrier</geo:nom>
+				<geo:voisin rdf:resource="COM_18012" />
+				<geo:voisin rdf:resource="COM_18025" />
+				<geo:voisin rdf:resource="COM_18053" />
+				<geo:voisin rdf:resource="COM_18099" />
+				<geo:voisin rdf:resource="COM_18120" />
+				<geo:voisin rdf:resource="COM_18139" />
+				<geo:voisin rdf:resource="COM_18184" />
+				<geo:voisin rdf:resource="COM_18220" />
+				<geo:voisin rdf:resource="COM_18224" />
+				<geo:voisin rdf:resource="COM_18240" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18132">
+				<geo:code_commune>18132</geo:code_commune>
+				<geo:nom xml:lang="fr">Lugny-Champagne</geo:nom>
+				<geo:voisin rdf:resource="COM_18053" />
+				<geo:voisin rdf:resource="COM_18061" />
+				<geo:voisin rdf:resource="COM_18090" />
+				<geo:voisin rdf:resource="COM_18094" />
+				<geo:voisin rdf:resource="COM_18104" />
+				<geo:voisin rdf:resource="COM_18132" />
+				<geo:voisin rdf:resource="COM_18240" />
+				<geo:voisin rdf:resource="COM_18251" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18139">
+				<geo:code_commune>18139</geo:code_commune>
+				<geo:nom xml:lang="fr">Marseilles-lès-Aubigny</geo:nom>
+				<geo:voisin rdf:resource="COM_18025" />
+				<geo:voisin rdf:resource="COM_18118" />
+				<geo:voisin rdf:resource="COM_18120" />
+				<geo:voisin rdf:resource="COM_18139" />
+				<geo:voisin rdf:resource="COM_18143" />
+				<geo:voisin rdf:resource="COM_18184" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58124">
+						<geo:code_commune>58124</geo:code_commune>
+						<geo:nom xml:lang="fr">Germigny-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18184">
+				<geo:code_commune>18184</geo:code_commune>
+				<geo:nom xml:lang="fr">Précy</geo:nom>
+				<geo:voisin rdf:resource="COM_18025" />
+				<geo:voisin rdf:resource="COM_18099" />
+				<geo:voisin rdf:resource="COM_18120" />
+				<geo:voisin rdf:resource="COM_18139" />
+				<geo:voisin rdf:resource="COM_18143" />
+				<geo:voisin rdf:resource="COM_18184" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18220">
+				<geo:code_commune>18220</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Léger-le-Petit</geo:nom>
+				<geo:voisin rdf:resource="COM_18012" />
+				<geo:voisin rdf:resource="COM_18025" />
+				<geo:voisin rdf:resource="COM_18120" />
+				<geo:voisin rdf:resource="COM_18220" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58155">
+						<geo:code_commune>58155</geo:code_commune>
+						<geo:nom xml:lang="fr">La Marche</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58298">
+						<geo:code_commune>58298</geo:code_commune>
+						<geo:nom xml:lang="fr">Tronsanges</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18224">
+				<geo:code_commune>18224</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Martin-des-Champs</geo:nom>
+				<geo:voisin rdf:resource="COM_18012" />
+				<geo:voisin rdf:resource="COM_18049" />
+				<geo:voisin rdf:resource="COM_18110" />
+				<geo:voisin rdf:resource="COM_18120" />
+				<geo:voisin rdf:resource="COM_18224" />
+				<geo:voisin rdf:resource="COM_18240" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18240">
+				<geo:code_commune>18240</geo:code_commune>
+				<geo:nom xml:lang="fr">Sancergues</geo:nom>
+				<geo:voisin rdf:resource="COM_18053" />
+				<geo:voisin rdf:resource="COM_18094" />
+				<geo:voisin rdf:resource="COM_18110" />
+				<geo:voisin rdf:resource="COM_18120" />
+				<geo:voisin rdf:resource="COM_18132" />
+				<geo:voisin rdf:resource="COM_18224" />
+				<geo:voisin rdf:resource="COM_18240" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18251">
+				<geo:code_commune>18251</geo:code_commune>
+				<geo:nom xml:lang="fr">Sévry</geo:nom>
+				<geo:voisin rdf:resource="COM_18053" />
+				<geo:voisin rdf:resource="COM_18061" />
+				<geo:voisin rdf:resource="COM_18077" />
+				<geo:voisin rdf:resource="COM_18132" />
+				<geo:voisin rdf:resource="COM_18251" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1825">
+		<geo:code_canton>1825</geo:code_canton>
+		<geo:nom xml:lang="fr">Sancerre</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18241"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18020">
+				<geo:code_commune>18020</geo:code_commune>
+				<geo:nom xml:lang="fr">Bannay</geo:nom>
+				<geo:voisin rdf:resource="COM_18020" />
+				<geo:voisin rdf:resource="COM_18032" />
+				<geo:voisin rdf:resource="COM_18208" />
+				<geo:voisin rdf:resource="COM_18233" />
+				<geo:voisin rdf:resource="COM_18258" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58086">
+						<geo:code_commune>58086</geo:code_commune>
+						<geo:nom xml:lang="fr">Cosne-Cours-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58295">
+						<geo:code_commune>58295</geo:code_commune>
+						<geo:nom xml:lang="fr">Tracy-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18039">
+				<geo:code_commune>18039</geo:code_commune>
+				<geo:nom xml:lang="fr">Bué</geo:nom>
+				<geo:voisin rdf:resource="COM_18039" />
+				<geo:voisin rdf:resource="COM_18079" />
+				<geo:voisin rdf:resource="COM_18144" />
+				<geo:voisin rdf:resource="COM_18241" />
+				<geo:voisin rdf:resource="COM_18272" />
+				<geo:voisin rdf:resource="COM_18287" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18074">
+				<geo:code_commune>18074</geo:code_commune>
+				<geo:nom xml:lang="fr">Couargues</geo:nom>
+				<geo:voisin rdf:resource="COM_18074" />
+				<geo:voisin rdf:resource="COM_18110" />
+				<geo:voisin rdf:resource="COM_18200" />
+				<geo:voisin rdf:resource="COM_18262" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58215">
+						<geo:code_commune>58215</geo:code_commune>
+						<geo:nom xml:lang="fr">Pouilly-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58295">
+						<geo:code_commune>58295</geo:code_commune>
+						<geo:nom xml:lang="fr">Tracy-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18079">
+				<geo:code_commune>18079</geo:code_commune>
+				<geo:nom xml:lang="fr">Crézancy-en-Sancerre</geo:nom>
+				<geo:voisin rdf:resource="COM_18039" />
+				<geo:voisin rdf:resource="COM_18079" />
+				<geo:voisin rdf:resource="COM_18144" />
+				<geo:voisin rdf:resource="COM_18162" />
+				<geo:voisin rdf:resource="COM_18163" />
+				<geo:voisin rdf:resource="COM_18249" />
+				<geo:voisin rdf:resource="COM_18272" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18094">
+				<geo:code_commune>18094</geo:code_commune>
+				<geo:nom xml:lang="fr">Feux</geo:nom>
+				<geo:voisin rdf:resource="COM_18094" />
+				<geo:voisin rdf:resource="COM_18098" />
+				<geo:voisin rdf:resource="COM_18104" />
+				<geo:voisin rdf:resource="COM_18110" />
+				<geo:voisin rdf:resource="COM_18116" />
+				<geo:voisin rdf:resource="COM_18132" />
+				<geo:voisin rdf:resource="COM_18200" />
+				<geo:voisin rdf:resource="COM_18240" />
+				<geo:voisin rdf:resource="COM_18287" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18098">
+				<geo:code_commune>18098</geo:code_commune>
+				<geo:nom xml:lang="fr">Gardefort</geo:nom>
+				<geo:voisin rdf:resource="COM_18094" />
+				<geo:voisin rdf:resource="COM_18098" />
+				<geo:voisin rdf:resource="COM_18116" />
+				<geo:voisin rdf:resource="COM_18272" />
+				<geo:voisin rdf:resource="COM_18287" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18116">
+				<geo:code_commune>18116</geo:code_commune>
+				<geo:nom xml:lang="fr">Jalognes</geo:nom>
+				<geo:voisin rdf:resource="COM_18019" />
+				<geo:voisin rdf:resource="COM_18094" />
+				<geo:voisin rdf:resource="COM_18098" />
+				<geo:voisin rdf:resource="COM_18104" />
+				<geo:voisin rdf:resource="COM_18116" />
+				<geo:voisin rdf:resource="COM_18151" />
+				<geo:voisin rdf:resource="COM_18272" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18144">
+				<geo:code_commune>18144</geo:code_commune>
+				<geo:nom xml:lang="fr">Menetou-Râtel</geo:nom>
+				<geo:voisin rdf:resource="COM_18039" />
+				<geo:voisin rdf:resource="COM_18079" />
+				<geo:voisin rdf:resource="COM_18117" />
+				<geo:voisin rdf:resource="COM_18144" />
+				<geo:voisin rdf:resource="COM_18168" />
+				<geo:voisin rdf:resource="COM_18241" />
+				<geo:voisin rdf:resource="COM_18249" />
+				<geo:voisin rdf:resource="COM_18256" />
+				<geo:voisin rdf:resource="COM_18258" />
+				<geo:voisin rdf:resource="COM_18274" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18146">
+				<geo:code_commune>18146</geo:code_commune>
+				<geo:nom xml:lang="fr">Ménétréol-sous-Sancerre</geo:nom>
+				<geo:voisin rdf:resource="COM_18146" />
+				<geo:voisin rdf:resource="COM_18233" />
+				<geo:voisin rdf:resource="COM_18241" />
+				<geo:voisin rdf:resource="COM_18262" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58295">
+						<geo:code_commune>58295</geo:code_commune>
+						<geo:nom xml:lang="fr">Tracy-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18200">
+				<geo:code_commune>18200</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Bouize</geo:nom>
+				<geo:voisin rdf:resource="COM_18074" />
+				<geo:voisin rdf:resource="COM_18094" />
+				<geo:voisin rdf:resource="COM_18110" />
+				<geo:voisin rdf:resource="COM_18200" />
+				<geo:voisin rdf:resource="COM_18262" />
+				<geo:voisin rdf:resource="COM_18287" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18233">
+				<geo:code_commune>18233</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Satur</geo:nom>
+				<geo:voisin rdf:resource="COM_18020" />
+				<geo:voisin rdf:resource="COM_18146" />
+				<geo:voisin rdf:resource="COM_18233" />
+				<geo:voisin rdf:resource="COM_18241" />
+				<geo:voisin rdf:resource="COM_18258" />
+				<geo:voisin rdf:resource="COM_18274" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58295">
+						<geo:code_commune>58295</geo:code_commune>
+						<geo:nom xml:lang="fr">Tracy-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18241">
+				<geo:code_commune>18241</geo:code_commune>
+				<geo:nom xml:lang="fr">Sancerre</geo:nom>
+				<geo:voisin rdf:resource="COM_18039" />
+				<geo:voisin rdf:resource="COM_18144" />
+				<geo:voisin rdf:resource="COM_18146" />
+				<geo:voisin rdf:resource="COM_18233" />
+				<geo:voisin rdf:resource="COM_18241" />
+				<geo:voisin rdf:resource="COM_18262" />
+				<geo:voisin rdf:resource="COM_18274" />
+				<geo:voisin rdf:resource="COM_18287" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18249">
+				<geo:code_commune>18249</geo:code_commune>
+				<geo:nom xml:lang="fr">Sens-Beaujeu</geo:nom>
+				<geo:voisin rdf:resource="COM_18051" />
+				<geo:voisin rdf:resource="COM_18079" />
+				<geo:voisin rdf:resource="COM_18117" />
+				<geo:voisin rdf:resource="COM_18144" />
+				<geo:voisin rdf:resource="COM_18162" />
+				<geo:voisin rdf:resource="COM_18168" />
+				<geo:voisin rdf:resource="COM_18249" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18258">
+				<geo:code_commune>18258</geo:code_commune>
+				<geo:nom xml:lang="fr">Sury-en-Vaux</geo:nom>
+				<geo:voisin rdf:resource="COM_18020" />
+				<geo:voisin rdf:resource="COM_18144" />
+				<geo:voisin rdf:resource="COM_18208" />
+				<geo:voisin rdf:resource="COM_18233" />
+				<geo:voisin rdf:resource="COM_18256" />
+				<geo:voisin rdf:resource="COM_18258" />
+				<geo:voisin rdf:resource="COM_18274" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18262">
+				<geo:code_commune>18262</geo:code_commune>
+				<geo:nom xml:lang="fr">Thauvenay</geo:nom>
+				<geo:voisin rdf:resource="COM_18074" />
+				<geo:voisin rdf:resource="COM_18146" />
+				<geo:voisin rdf:resource="COM_18200" />
+				<geo:voisin rdf:resource="COM_18241" />
+				<geo:voisin rdf:resource="COM_18262" />
+				<geo:voisin rdf:resource="COM_18287" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58295">
+						<geo:code_commune>58295</geo:code_commune>
+						<geo:nom xml:lang="fr">Tracy-sur-Loire</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18272">
+				<geo:code_commune>18272</geo:code_commune>
+				<geo:nom xml:lang="fr">Veaugues</geo:nom>
+				<geo:voisin rdf:resource="COM_18039" />
+				<geo:voisin rdf:resource="COM_18079" />
+				<geo:voisin rdf:resource="COM_18098" />
+				<geo:voisin rdf:resource="COM_18116" />
+				<geo:voisin rdf:resource="COM_18151" />
+				<geo:voisin rdf:resource="COM_18163" />
+				<geo:voisin rdf:resource="COM_18272" />
+				<geo:voisin rdf:resource="COM_18287" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18274">
+				<geo:code_commune>18274</geo:code_commune>
+				<geo:nom xml:lang="fr">Verdigny</geo:nom>
+				<geo:voisin rdf:resource="COM_18144" />
+				<geo:voisin rdf:resource="COM_18233" />
+				<geo:voisin rdf:resource="COM_18241" />
+				<geo:voisin rdf:resource="COM_18258" />
+				<geo:voisin rdf:resource="COM_18274" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18287">
+				<geo:code_commune>18287</geo:code_commune>
+				<geo:nom xml:lang="fr">Vinon</geo:nom>
+				<geo:voisin rdf:resource="COM_18039" />
+				<geo:voisin rdf:resource="COM_18094" />
+				<geo:voisin rdf:resource="COM_18098" />
+				<geo:voisin rdf:resource="COM_18200" />
+				<geo:voisin rdf:resource="COM_18241" />
+				<geo:voisin rdf:resource="COM_18262" />
+				<geo:voisin rdf:resource="COM_18272" />
+				<geo:voisin rdf:resource="COM_18287" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1826">
+		<geo:code_canton>1826</geo:code_canton>
+		<geo:nom xml:lang="fr">Sancoins</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18242"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18017">
+				<geo:code_commune>18017</geo:code_commune>
+				<geo:nom xml:lang="fr">Augy-sur-Aubois</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03155">
+						<geo:code_commune>03155</geo:code_commune>
+						<geo:nom xml:lang="fr">Lurcy-Lévis</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18017" />
+				<geo:voisin rdf:resource="COM_18102" />
+				<geo:voisin rdf:resource="COM_18161" />
+				<geo:voisin rdf:resource="COM_18196" />
+				<geo:voisin rdf:resource="COM_18242" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18060">
+				<geo:code_commune>18060</geo:code_commune>
+				<geo:nom xml:lang="fr">Chaumont</geo:nom>
+				<geo:voisin rdf:resource="COM_18021" />
+				<geo:voisin rdf:resource="COM_18031" />
+				<geo:voisin rdf:resource="COM_18045" />
+				<geo:voisin rdf:resource="COM_18060" />
+				<geo:voisin rdf:resource="COM_18102" />
+				<geo:voisin rdf:resource="COM_18161" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18102">
+				<geo:code_commune>18102</geo:code_commune>
+				<geo:nom xml:lang="fr">Givardon</geo:nom>
+				<geo:voisin rdf:resource="COM_18017" />
+				<geo:voisin rdf:resource="COM_18031" />
+				<geo:voisin rdf:resource="COM_18060" />
+				<geo:voisin rdf:resource="COM_18102" />
+				<geo:voisin rdf:resource="COM_18161" />
+				<geo:voisin rdf:resource="COM_18195" />
+				<geo:voisin rdf:resource="COM_18242" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18106">
+				<geo:code_commune>18106</geo:code_commune>
+				<geo:nom xml:lang="fr">Grossouvre</geo:nom>
+				<geo:voisin rdf:resource="COM_18048" />
+				<geo:voisin rdf:resource="COM_18101" />
+				<geo:voisin rdf:resource="COM_18106" />
+				<geo:voisin rdf:resource="COM_18164" />
+				<geo:voisin rdf:resource="COM_18242" />
+				<geo:voisin rdf:resource="COM_18275" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18155">
+				<geo:code_commune>18155</geo:code_commune>
+				<geo:nom xml:lang="fr">Mornay-sur-Allier</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03064">
+						<geo:code_commune>03064</geo:code_commune>
+						<geo:nom xml:lang="fr">Château-sur-Allier</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18155" />
+				<geo:voisin rdf:resource="COM_18164" />
+				<geo:voisin rdf:resource="COM_18242" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58138">
+						<geo:code_commune>58138</geo:code_commune>
+						<geo:nom xml:lang="fr">Langeron</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58144">
+						<geo:code_commune>58144</geo:code_commune>
+						<geo:nom xml:lang="fr">Livry</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58158">
+						<geo:code_commune>58158</geo:code_commune>
+						<geo:nom xml:lang="fr">Mars-sur-Allier</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18161">
+				<geo:code_commune>18161</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuilly-en-Dun</geo:nom>
+				<geo:voisin rdf:resource="COM_18017" />
+				<geo:voisin rdf:resource="COM_18021" />
+				<geo:voisin rdf:resource="COM_18029" />
+				<geo:voisin rdf:resource="COM_18060" />
+				<geo:voisin rdf:resource="COM_18102" />
+				<geo:voisin rdf:resource="COM_18161" />
+				<geo:voisin rdf:resource="COM_18196" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18164">
+				<geo:code_commune>18164</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuvy-le-Barrois</geo:nom>
+				<geo:voisin rdf:resource="COM_18007" />
+				<geo:voisin rdf:resource="COM_18048" />
+				<geo:voisin rdf:resource="COM_18106" />
+				<geo:voisin rdf:resource="COM_18155" />
+				<geo:voisin rdf:resource="COM_18164" />
+				<geo:voisin rdf:resource="COM_18242" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58158">
+						<geo:code_commune>58158</geo:code_commune>
+						<geo:nom xml:lang="fr">Mars-sur-Allier</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_58225">
+						<geo:code_commune>58225</geo:code_commune>
+						<geo:nom xml:lang="fr">Saincaize-Meauce</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18195">
+				<geo:code_commune>18195</geo:code_commune>
+				<geo:nom xml:lang="fr">Sagonne</geo:nom>
+				<geo:voisin rdf:resource="COM_18031" />
+				<geo:voisin rdf:resource="COM_18054" />
+				<geo:voisin rdf:resource="COM_18102" />
+				<geo:voisin rdf:resource="COM_18195" />
+				<geo:voisin rdf:resource="COM_18242" />
+				<geo:voisin rdf:resource="COM_18275" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18196">
+				<geo:code_commune>18196</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Aignan-des-Noyers</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03155">
+						<geo:code_commune>03155</geo:code_commune>
+						<geo:nom xml:lang="fr">Lurcy-Lévis</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03296">
+						<geo:code_commune>03296</geo:code_commune>
+						<geo:nom xml:lang="fr">Valigny</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18017" />
+				<geo:voisin rdf:resource="COM_18029" />
+				<geo:voisin rdf:resource="COM_18161" />
+				<geo:voisin rdf:resource="COM_18196" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18242">
+				<geo:code_commune>18242</geo:code_commune>
+				<geo:nom xml:lang="fr">Sancoins</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03064">
+						<geo:code_commune>03064</geo:code_commune>
+						<geo:nom xml:lang="fr">Château-sur-Allier</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03155">
+						<geo:code_commune>03155</geo:code_commune>
+						<geo:nom xml:lang="fr">Lurcy-Lévis</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18017" />
+				<geo:voisin rdf:resource="COM_18102" />
+				<geo:voisin rdf:resource="COM_18106" />
+				<geo:voisin rdf:resource="COM_18155" />
+				<geo:voisin rdf:resource="COM_18164" />
+				<geo:voisin rdf:resource="COM_18195" />
+				<geo:voisin rdf:resource="COM_18242" />
+				<geo:voisin rdf:resource="COM_18275" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18275">
+				<geo:code_commune>18275</geo:code_commune>
+				<geo:nom xml:lang="fr">Vereaux</geo:nom>
+				<geo:voisin rdf:resource="COM_18054" />
+				<geo:voisin rdf:resource="COM_18101" />
+				<geo:voisin rdf:resource="COM_18106" />
+				<geo:voisin rdf:resource="COM_18175" />
+				<geo:voisin rdf:resource="COM_18195" />
+				<geo:voisin rdf:resource="COM_18242" />
+				<geo:voisin rdf:resource="COM_18275" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1827">
+		<geo:code_canton>1827</geo:code_canton>
+		<geo:nom xml:lang="fr">Saulzais-le-Potier</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18245"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18002">
+				<geo:code_commune>18002</geo:code_commune>
+				<geo:nom xml:lang="fr">Ainay-le-Vieil</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03143">
+						<geo:code_commune>03143</geo:code_commune>
+						<geo:nom xml:lang="fr">Lételon</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18002" />
+				<geo:voisin rdf:resource="COM_18041" />
+				<geo:voisin rdf:resource="COM_18069" />
+				<geo:voisin rdf:resource="COM_18076" />
+				<geo:voisin rdf:resource="COM_18086" />
+				<geo:voisin rdf:resource="COM_18107" />
+				<geo:voisin rdf:resource="COM_18178" />
+				<geo:voisin rdf:resource="COM_18209" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18009">
+				<geo:code_commune>18009</geo:code_commune>
+				<geo:nom xml:lang="fr">Arcomps</geo:nom>
+				<geo:voisin rdf:resource="COM_18009" />
+				<geo:voisin rdf:resource="COM_18034" />
+				<geo:voisin rdf:resource="COM_18093" />
+				<geo:voisin rdf:resource="COM_18130" />
+				<geo:voisin rdf:resource="COM_18136" />
+				<geo:voisin rdf:resource="COM_18171" />
+				<geo:voisin rdf:resource="COM_18209" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18041">
+				<geo:code_commune>18041</geo:code_commune>
+				<geo:nom xml:lang="fr">La Celette</geo:nom>
+				<geo:voisin rdf:resource="COM_18002" />
+				<geo:voisin rdf:resource="COM_18041" />
+				<geo:voisin rdf:resource="COM_18089" />
+				<geo:voisin rdf:resource="COM_18093" />
+				<geo:voisin rdf:resource="COM_18178" />
+				<geo:voisin rdf:resource="COM_18209" />
+				<geo:voisin rdf:resource="COM_18245" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18089">
+				<geo:code_commune>18089</geo:code_commune>
+				<geo:nom xml:lang="fr">Épineuil-le-Fleuriel</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03168">
+						<geo:code_commune>03168</geo:code_commune>
+						<geo:nom xml:lang="fr">Meaulne</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03297">
+						<geo:code_commune>03297</geo:code_commune>
+						<geo:nom xml:lang="fr">Vallon-en-Sully</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18041" />
+				<geo:voisin rdf:resource="COM_18089" />
+				<geo:voisin rdf:resource="COM_18178" />
+				<geo:voisin rdf:resource="COM_18238" />
+				<geo:voisin rdf:resource="COM_18245" />
+				<geo:voisin rdf:resource="COM_18278" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18093">
+				<geo:code_commune>18093</geo:code_commune>
+				<geo:nom xml:lang="fr">Faverdines</geo:nom>
+				<geo:voisin rdf:resource="COM_18009" />
+				<geo:voisin rdf:resource="COM_18041" />
+				<geo:voisin rdf:resource="COM_18093" />
+				<geo:voisin rdf:resource="COM_18130" />
+				<geo:voisin rdf:resource="COM_18209" />
+				<geo:voisin rdf:resource="COM_18245" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18130">
+				<geo:code_commune>18130</geo:code_commune>
+				<geo:nom xml:lang="fr">Loye-sur-Arnon</geo:nom>
+				<geo:voisin rdf:resource="COM_18009" />
+				<geo:voisin rdf:resource="COM_18010" />
+				<geo:voisin rdf:resource="COM_18093" />
+				<geo:voisin rdf:resource="COM_18130" />
+				<geo:voisin rdf:resource="COM_18136" />
+				<geo:voisin rdf:resource="COM_18192" />
+				<geo:voisin rdf:resource="COM_18203" />
+				<geo:voisin rdf:resource="COM_18245" />
+				<geo:voisin rdf:resource="COM_18278" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18178">
+				<geo:code_commune>18178</geo:code_commune>
+				<geo:nom xml:lang="fr">La Perche</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03143">
+						<geo:code_commune>03143</geo:code_commune>
+						<geo:nom xml:lang="fr">Lételon</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03168">
+						<geo:code_commune>03168</geo:code_commune>
+						<geo:nom xml:lang="fr">Meaulne</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03293">
+						<geo:code_commune>03293</geo:code_commune>
+						<geo:nom xml:lang="fr">Urçay</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18002" />
+				<geo:voisin rdf:resource="COM_18041" />
+				<geo:voisin rdf:resource="COM_18089" />
+				<geo:voisin rdf:resource="COM_18178" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18209">
+				<geo:code_commune>18209</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Georges-de-Poisieux</geo:nom>
+				<geo:voisin rdf:resource="COM_18002" />
+				<geo:voisin rdf:resource="COM_18009" />
+				<geo:voisin rdf:resource="COM_18034" />
+				<geo:voisin rdf:resource="COM_18041" />
+				<geo:voisin rdf:resource="COM_18086" />
+				<geo:voisin rdf:resource="COM_18093" />
+				<geo:voisin rdf:resource="COM_18107" />
+				<geo:voisin rdf:resource="COM_18197" />
+				<geo:voisin rdf:resource="COM_18209" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18238">
+				<geo:code_commune>18238</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Vitte</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03225">
+						<geo:code_commune>03225</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Désiré</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03297">
+						<geo:code_commune>03297</geo:code_commune>
+						<geo:nom xml:lang="fr">Vallon-en-Sully</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18089" />
+				<geo:voisin rdf:resource="COM_18238" />
+				<geo:voisin rdf:resource="COM_18278" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18245">
+				<geo:code_commune>18245</geo:code_commune>
+				<geo:nom xml:lang="fr">Saulzais-le-Potier</geo:nom>
+				<geo:voisin rdf:resource="COM_18041" />
+				<geo:voisin rdf:resource="COM_18089" />
+				<geo:voisin rdf:resource="COM_18093" />
+				<geo:voisin rdf:resource="COM_18130" />
+				<geo:voisin rdf:resource="COM_18245" />
+				<geo:voisin rdf:resource="COM_18278" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18278">
+				<geo:code_commune>18278</geo:code_commune>
+				<geo:nom xml:lang="fr">Vesdun</geo:nom>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_03225">
+						<geo:code_commune>03225</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Désiré</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin rdf:resource="COM_18083" />
+				<geo:voisin rdf:resource="COM_18089" />
+				<geo:voisin rdf:resource="COM_18130" />
+				<geo:voisin rdf:resource="COM_18203" />
+				<geo:voisin rdf:resource="COM_18238" />
+				<geo:voisin rdf:resource="COM_18245" />
+				<geo:voisin rdf:resource="COM_18278" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1828">
+		<geo:code_canton>1828</geo:code_canton>
+		<geo:nom xml:lang="fr">Vailly-sur-Sauldre</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18269"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18014">
+				<geo:code_commune>18014</geo:code_commune>
+				<geo:nom xml:lang="fr">Assigny</geo:nom>
+				<geo:voisin rdf:resource="COM_18014" />
+				<geo:voisin rdf:resource="COM_18117" />
+				<geo:voisin rdf:resource="COM_18246" />
+				<geo:voisin rdf:resource="COM_18256" />
+				<geo:voisin rdf:resource="COM_18259" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18022">
+				<geo:code_commune>18022</geo:code_commune>
+				<geo:nom xml:lang="fr">Barlieu</geo:nom>
+				<geo:voisin rdf:resource="COM_18022" />
+				<geo:voisin rdf:resource="COM_18030" />
+				<geo:voisin rdf:resource="COM_18070" />
+				<geo:voisin rdf:resource="COM_18084" />
+				<geo:voisin rdf:resource="COM_18269" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45064">
+						<geo:code_commune>45064</geo:code_commune>
+						<geo:nom xml:lang="fr">Cernoy-en-Berry</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45251">
+						<geo:code_commune>45251</geo:code_commune>
+						<geo:nom xml:lang="fr">Pierrefitte-ès-Bois</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18070">
+				<geo:code_commune>18070</geo:code_commune>
+				<geo:nom xml:lang="fr">Concressault</geo:nom>
+				<geo:voisin rdf:resource="COM_18022" />
+				<geo:voisin rdf:resource="COM_18030" />
+				<geo:voisin rdf:resource="COM_18070" />
+				<geo:voisin rdf:resource="COM_18084" />
+				<geo:voisin rdf:resource="COM_18170" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18084">
+				<geo:code_commune>18084</geo:code_commune>
+				<geo:nom xml:lang="fr">Dampierre-en-Crot</geo:nom>
+				<geo:voisin rdf:resource="COM_18022" />
+				<geo:voisin rdf:resource="COM_18070" />
+				<geo:voisin rdf:resource="COM_18084" />
+				<geo:voisin rdf:resource="COM_18170" />
+				<geo:voisin rdf:resource="COM_18269" />
+				<geo:voisin rdf:resource="COM_18284" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18117">
+				<geo:code_commune>18117</geo:code_commune>
+				<geo:nom xml:lang="fr">Jars</geo:nom>
+				<geo:voisin rdf:resource="COM_18014" />
+				<geo:voisin rdf:resource="COM_18051" />
+				<geo:voisin rdf:resource="COM_18115" />
+				<geo:voisin rdf:resource="COM_18117" />
+				<geo:voisin rdf:resource="COM_18144" />
+				<geo:voisin rdf:resource="COM_18168" />
+				<geo:voisin rdf:resource="COM_18249" />
+				<geo:voisin rdf:resource="COM_18256" />
+				<geo:voisin rdf:resource="COM_18259" />
+				<geo:voisin rdf:resource="COM_18264" />
+				<geo:voisin rdf:resource="COM_18284" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18168">
+				<geo:code_commune>18168</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Noyer</geo:nom>
+				<geo:voisin rdf:resource="COM_18051" />
+				<geo:voisin rdf:resource="COM_18117" />
+				<geo:voisin rdf:resource="COM_18144" />
+				<geo:voisin rdf:resource="COM_18168" />
+				<geo:voisin rdf:resource="COM_18249" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18256">
+				<geo:code_commune>18256</geo:code_commune>
+				<geo:nom xml:lang="fr">Subligny</geo:nom>
+				<geo:voisin rdf:resource="COM_18014" />
+				<geo:voisin rdf:resource="COM_18117" />
+				<geo:voisin rdf:resource="COM_18144" />
+				<geo:voisin rdf:resource="COM_18208" />
+				<geo:voisin rdf:resource="COM_18246" />
+				<geo:voisin rdf:resource="COM_18256" />
+				<geo:voisin rdf:resource="COM_18258" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18259">
+				<geo:code_commune>18259</geo:code_commune>
+				<geo:nom xml:lang="fr">Sury-ès-Bois</geo:nom>
+				<geo:voisin rdf:resource="COM_18014" />
+				<geo:voisin rdf:resource="COM_18117" />
+				<geo:voisin rdf:resource="COM_18243" />
+				<geo:voisin rdf:resource="COM_18246" />
+				<geo:voisin rdf:resource="COM_18259" />
+				<geo:voisin rdf:resource="COM_18264" />
+				<geo:voisin rdf:resource="COM_18269" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45251">
+						<geo:code_commune>45251</geo:code_commune>
+						<geo:nom xml:lang="fr">Pierrefitte-ès-Bois</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18264">
+				<geo:code_commune>18264</geo:code_commune>
+				<geo:nom xml:lang="fr">Thou</geo:nom>
+				<geo:voisin rdf:resource="COM_18117" />
+				<geo:voisin rdf:resource="COM_18259" />
+				<geo:voisin rdf:resource="COM_18264" />
+				<geo:voisin rdf:resource="COM_18269" />
+				<geo:voisin rdf:resource="COM_18284" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18269">
+				<geo:code_commune>18269</geo:code_commune>
+				<geo:nom xml:lang="fr">Vailly-sur-Sauldre</geo:nom>
+				<geo:voisin rdf:resource="COM_18022" />
+				<geo:voisin rdf:resource="COM_18084" />
+				<geo:voisin rdf:resource="COM_18259" />
+				<geo:voisin rdf:resource="COM_18264" />
+				<geo:voisin rdf:resource="COM_18269" />
+				<geo:voisin rdf:resource="COM_18284" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_45251">
+						<geo:code_commune>45251</geo:code_commune>
+						<geo:nom xml:lang="fr">Pierrefitte-ès-Bois</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18284">
+				<geo:code_commune>18284</geo:code_commune>
+				<geo:nom xml:lang="fr">Villegenon</geo:nom>
+				<geo:voisin rdf:resource="COM_18084" />
+				<geo:voisin rdf:resource="COM_18115" />
+				<geo:voisin rdf:resource="COM_18117" />
+				<geo:voisin rdf:resource="COM_18170" />
+				<geo:voisin rdf:resource="COM_18264" />
+				<geo:voisin rdf:resource="COM_18269" />
+				<geo:voisin rdf:resource="COM_18284" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1829">
+		<geo:code_canton>1829</geo:code_canton>
+		<geo:nom xml:lang="fr">Vierzon  1er Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18279"/>
+		<geo:fraction_cantonale rdf:resource="COM_18279" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1830">
+		<geo:code_canton>1830</geo:code_canton>
+		<geo:nom xml:lang="fr">Vierzon  2e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18279"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18140">
+				<geo:code_commune>18140</geo:code_commune>
+				<geo:nom xml:lang="fr">Massay</geo:nom>
+				<geo:voisin rdf:resource="COM_18064" />
+				<geo:voisin rdf:resource="COM_18085" />
+				<geo:voisin rdf:resource="COM_18134" />
+				<geo:voisin rdf:resource="COM_18140" />
+				<geo:voisin rdf:resource="COM_18148" />
+				<geo:voisin rdf:resource="COM_18167" />
+				<geo:voisin rdf:resource="COM_18210" />
+				<geo:voisin rdf:resource="COM_18214" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_36205">
+						<geo:code_commune>36205</geo:code_commune>
+						<geo:nom xml:lang="fr">Saint-Pierre-de-Jards</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18150">
+				<geo:code_commune>18150</geo:code_commune>
+				<geo:nom xml:lang="fr">Méry-sur-Cher</geo:nom>
+				<geo:voisin rdf:resource="COM_18150" />
+				<geo:voisin rdf:resource="COM_18210" />
+				<geo:voisin rdf:resource="COM_18214" />
+				<geo:voisin rdf:resource="COM_18263" />
+				<geo:voisin rdf:resource="COM_18279" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41256">
+						<geo:code_commune>41256</geo:code_commune>
+						<geo:nom xml:lang="fr">Theillay</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18159">
+				<geo:code_commune>18159</geo:code_commune>
+				<geo:nom xml:lang="fr">Nançay</geo:nom>
+				<geo:voisin rdf:resource="COM_18159" />
+				<geo:voisin rdf:resource="COM_18165" />
+				<geo:voisin rdf:resource="COM_18185" />
+				<geo:voisin rdf:resource="COM_18290" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41168">
+						<geo:code_commune>41168</geo:code_commune>
+						<geo:nom xml:lang="fr">Orçay</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41232">
+						<geo:code_commune>41232</geo:code_commune>
+						<geo:nom xml:lang="fr">Salbris</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41249">
+						<geo:code_commune>41249</geo:code_commune>
+						<geo:nom xml:lang="fr">Souesmes</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41256">
+						<geo:code_commune>41256</geo:code_commune>
+						<geo:nom xml:lang="fr">Theillay</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18165">
+				<geo:code_commune>18165</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuvy-sur-Barangeon</geo:nom>
+				<geo:voisin rdf:resource="COM_18004" />
+				<geo:voisin rdf:resource="COM_18149" />
+				<geo:voisin rdf:resource="COM_18159" />
+				<geo:voisin rdf:resource="COM_18165" />
+				<geo:voisin rdf:resource="COM_18185" />
+				<geo:voisin rdf:resource="COM_18290" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18214">
+				<geo:code_commune>18214</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Hilaire-de-Court</geo:nom>
+				<geo:voisin rdf:resource="COM_18140" />
+				<geo:voisin rdf:resource="COM_18148" />
+				<geo:voisin rdf:resource="COM_18150" />
+				<geo:voisin rdf:resource="COM_18210" />
+				<geo:voisin rdf:resource="COM_18214" />
+				<geo:voisin rdf:resource="COM_18279" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18219">
+				<geo:code_commune>18219</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Laurent</geo:nom>
+				<geo:voisin rdf:resource="COM_18004" />
+				<geo:voisin rdf:resource="COM_18005" />
+				<geo:voisin rdf:resource="COM_18219" />
+				<geo:voisin rdf:resource="COM_18279" />
+				<geo:voisin rdf:resource="COM_18281" />
+				<geo:voisin rdf:resource="COM_18290" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41168">
+						<geo:code_commune>41168</geo:code_commune>
+						<geo:nom xml:lang="fr">Orçay</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18263">
+				<geo:code_commune>18263</geo:code_commune>
+				<geo:nom xml:lang="fr">Thénioux</geo:nom>
+				<geo:voisin rdf:resource="COM_18150" />
+				<geo:voisin rdf:resource="COM_18210" />
+				<geo:voisin rdf:resource="COM_18263" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41044">
+						<geo:code_commune>41044</geo:code_commune>
+						<geo:nom xml:lang="fr">Châtres-sur-Cher</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41122">
+						<geo:code_commune>41122</geo:code_commune>
+						<geo:nom xml:lang="fr">Maray</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41256">
+						<geo:code_commune>41256</geo:code_commune>
+						<geo:nom xml:lang="fr">Theillay</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:fraction_cantonale rdf:resource="COM_18279" />
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18281">
+				<geo:code_commune>18281</geo:code_commune>
+				<geo:nom xml:lang="fr">Vignoux-sur-Barangeon</geo:nom>
+				<geo:voisin rdf:resource="COM_18005" />
+				<geo:voisin rdf:resource="COM_18096" />
+				<geo:voisin rdf:resource="COM_18219" />
+				<geo:voisin rdf:resource="COM_18279" />
+				<geo:voisin rdf:resource="COM_18281" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18290">
+				<geo:code_commune>18290</geo:code_commune>
+				<geo:nom xml:lang="fr">Vouzeron</geo:nom>
+				<geo:voisin rdf:resource="COM_18004" />
+				<geo:voisin rdf:resource="COM_18159" />
+				<geo:voisin rdf:resource="COM_18165" />
+				<geo:voisin rdf:resource="COM_18219" />
+				<geo:voisin rdf:resource="COM_18290" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41168">
+						<geo:code_commune>41168</geo:code_commune>
+						<geo:nom xml:lang="fr">Orçay</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1831">
+		<geo:code_canton>1831</geo:code_canton>
+		<geo:nom xml:lang="fr">Bourges  2e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18033"/>
+		<geo:fraction_cantonale rdf:resource="COM_18033" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1832">
+		<geo:code_canton>1832</geo:code_canton>
+		<geo:nom xml:lang="fr">Bourges  3e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18033"/>
+		<geo:fraction_cantonale rdf:resource="COM_18033" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1833">
+		<geo:code_canton>1833</geo:code_canton>
+		<geo:nom xml:lang="fr">Bourges  4e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18033"/>
+		<geo:fraction_cantonale rdf:resource="COM_18033" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1834">
+		<geo:code_canton>1834</geo:code_canton>
+		<geo:nom xml:lang="fr">Bourges  5e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18033"/>
+		<geo:fraction_cantonale rdf:resource="COM_18033" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_1835">
+		<geo:code_canton>1835</geo:code_canton>
+		<geo:nom xml:lang="fr">Saint-Doulchard</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_18205"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18050">
+				<geo:code_commune>18050</geo:code_commune>
+				<geo:nom xml:lang="fr">La Chapelle-Saint-Ursin</geo:nom>
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18050" />
+				<geo:voisin rdf:resource="COM_18138" />
+				<geo:voisin rdf:resource="COM_18157" />
+				<geo:voisin rdf:resource="COM_18255" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18138">
+				<geo:code_commune>18138</geo:code_commune>
+				<geo:nom xml:lang="fr">Marmagne</geo:nom>
+				<geo:voisin rdf:resource="COM_18028" />
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18050" />
+				<geo:voisin rdf:resource="COM_18138" />
+				<geo:voisin rdf:resource="COM_18141" />
+				<geo:voisin rdf:resource="COM_18157" />
+				<geo:voisin rdf:resource="COM_18205" />
+				<geo:voisin rdf:resource="COM_18237" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18205">
+				<geo:code_commune>18205</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Doulchard</geo:nom>
+				<geo:voisin rdf:resource="COM_18028" />
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18138" />
+				<geo:voisin rdf:resource="COM_18205" />
+				<geo:voisin rdf:resource="COM_18206" />
+				<geo:voisin rdf:resource="COM_18271" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Pseudo-canton rdf:about="CAN_1898">
+		<geo:code_INSEE>1898</geo:code_INSEE>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18033">
+				<geo:code_commune>18033</geo:code_commune>
+				<geo:nom xml:lang="fr">Bourges</geo:nom>
+				<geo:voisin rdf:resource="COM_18033" />
+				<geo:voisin rdf:resource="COM_18050" />
+				<geo:voisin rdf:resource="COM_18097" />
+				<geo:voisin rdf:resource="COM_18138" />
+				<geo:voisin rdf:resource="COM_18174" />
+				<geo:voisin rdf:resource="COM_18180" />
+				<geo:voisin rdf:resource="COM_18205" />
+				<geo:voisin rdf:resource="COM_18213" />
+				<geo:voisin rdf:resource="COM_18226" />
+				<geo:voisin rdf:resource="COM_18254" />
+				<geo:voisin rdf:resource="COM_18255" />
+				<geo:voisin rdf:resource="COM_18267" />
+				<geo:voisin rdf:resource="COM_18271" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Pseudo-canton>
+
+	<geo:Pseudo-canton rdf:about="CAN_1899">
+		<geo:code_INSEE>1899</geo:code_INSEE>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_18279">
+				<geo:code_commune>18279</geo:code_commune>
+				<geo:nom xml:lang="fr">Vierzon</geo:nom>
+				<geo:voisin rdf:resource="COM_18036" />
+				<geo:voisin rdf:resource="COM_18096" />
+				<geo:voisin rdf:resource="COM_18148" />
+				<geo:voisin rdf:resource="COM_18150" />
+				<geo:voisin rdf:resource="COM_18214" />
+				<geo:voisin rdf:resource="COM_18219" />
+				<geo:voisin rdf:resource="COM_18279" />
+				<geo:voisin rdf:resource="COM_18281" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41168">
+						<geo:code_commune>41168</geo:code_commune>
+						<geo:nom xml:lang="fr">Orçay</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_41256">
+						<geo:code_commune>41256</geo:code_commune>
+						<geo:nom xml:lang="fr">Theillay</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Pseudo-canton>
+
+</rdf:RDF>

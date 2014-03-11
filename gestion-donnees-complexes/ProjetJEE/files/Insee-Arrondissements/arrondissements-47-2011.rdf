@@ -1,0 +1,2193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/arrondissements-47-2011.rdf">
+		<dc:title xml:lang="fr">Arrondissements du département de Lot-et-Garonne (47)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Arrondissement rdf:about="ARR_471">
+		<geo:code_arrondissement>471</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Agen</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_47001"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4701">
+				<geo:code_canton>4701</geo:code_canton>
+				<geo:nom xml:lang="fr">Agen-Centre</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4702">
+				<geo:code_canton>4702</geo:code_canton>
+				<geo:nom xml:lang="fr">Agen-Nord-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4703">
+				<geo:code_canton>4703</geo:code_canton>
+				<geo:nom xml:lang="fr">Astaffort</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4704">
+				<geo:code_canton>4704</geo:code_canton>
+				<geo:nom xml:lang="fr">Beauville</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4715">
+				<geo:code_canton>4715</geo:code_canton>
+				<geo:nom xml:lang="fr">Laplume</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4716">
+				<geo:code_canton>4716</geo:code_canton>
+				<geo:nom xml:lang="fr">Laroque-Timbaut</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4727">
+				<geo:code_canton>4727</geo:code_canton>
+				<geo:nom xml:lang="fr">Port-Sainte-Marie</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4728">
+				<geo:code_canton>4728</geo:code_canton>
+				<geo:nom xml:lang="fr">Prayssas</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4729">
+				<geo:code_canton>4729</geo:code_canton>
+				<geo:nom xml:lang="fr">Puymirol</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4736">
+				<geo:code_canton>4736</geo:code_canton>
+				<geo:nom xml:lang="fr">Agen-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4737">
+				<geo:code_canton>4737</geo:code_canton>
+				<geo:nom xml:lang="fr">Agen-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4740">
+				<geo:code_canton>4740</geo:code_canton>
+				<geo:nom xml:lang="fr">Agen-Sud-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47001">
+				<geo:code_commune>47001</geo:code_commune>
+				<geo:nom xml:lang="fr">Agen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47004">
+				<geo:code_commune>47004</geo:code_commune>
+				<geo:nom xml:lang="fr">Aiguillon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47015">
+				<geo:code_commune>47015</geo:code_commune>
+				<geo:nom xml:lang="fr">Astaffort</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47016">
+				<geo:code_commune>47016</geo:code_commune>
+				<geo:nom xml:lang="fr">Aubiac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47019">
+				<geo:code_commune>47019</geo:code_commune>
+				<geo:nom xml:lang="fr">Bajamont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47022">
+				<geo:code_commune>47022</geo:code_commune>
+				<geo:nom xml:lang="fr">Bazens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47025">
+				<geo:code_commune>47025</geo:code_commune>
+				<geo:nom xml:lang="fr">Beauville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47030">
+				<geo:code_commune>47030</geo:code_commune>
+				<geo:nom xml:lang="fr">Blaymont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47031">
+				<geo:code_commune>47031</geo:code_commune>
+				<geo:nom xml:lang="fr">Boé</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47032">
+				<geo:code_commune>47032</geo:code_commune>
+				<geo:nom xml:lang="fr">Bon-Encontre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47038">
+				<geo:code_commune>47038</geo:code_commune>
+				<geo:nom xml:lang="fr">Bourran</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47040">
+				<geo:code_commune>47040</geo:code_commune>
+				<geo:nom xml:lang="fr">Brax</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47050">
+				<geo:code_commune>47050</geo:code_commune>
+				<geo:nom xml:lang="fr">Cassignas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47051">
+				<geo:code_commune>47051</geo:code_commune>
+				<geo:nom xml:lang="fr">Castelculier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47053">
+				<geo:code_commune>47053</geo:code_commune>
+				<geo:nom xml:lang="fr">Castella</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47060">
+				<geo:code_commune>47060</geo:code_commune>
+				<geo:nom xml:lang="fr">Caudecoste</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47062">
+				<geo:code_commune>47062</geo:code_commune>
+				<geo:nom xml:lang="fr">Cauzac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47066">
+				<geo:code_commune>47066</geo:code_commune>
+				<geo:nom xml:lang="fr">Clermont-Dessous</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47067">
+				<geo:code_commune>47067</geo:code_commune>
+				<geo:nom xml:lang="fr">Clermont-Soubiran</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47069">
+				<geo:code_commune>47069</geo:code_commune>
+				<geo:nom xml:lang="fr">Colayrac-Saint-Cirq</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47073">
+				<geo:code_commune>47073</geo:code_commune>
+				<geo:nom xml:lang="fr">Cours</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47075">
+				<geo:code_commune>47075</geo:code_commune>
+				<geo:nom xml:lang="fr">La Croix-Blanche</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47076">
+				<geo:code_commune>47076</geo:code_commune>
+				<geo:nom xml:lang="fr">Cuq</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47082">
+				<geo:code_commune>47082</geo:code_commune>
+				<geo:nom xml:lang="fr">Dondas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47087">
+				<geo:code_commune>47087</geo:code_commune>
+				<geo:nom xml:lang="fr">Engayrac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47091">
+				<geo:code_commune>47091</geo:code_commune>
+				<geo:nom xml:lang="fr">Estillac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47092">
+				<geo:code_commune>47092</geo:code_commune>
+				<geo:nom xml:lang="fr">Fals</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47100">
+				<geo:code_commune>47100</geo:code_commune>
+				<geo:nom xml:lang="fr">Foulayronnes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47104">
+				<geo:code_commune>47104</geo:code_commune>
+				<geo:nom xml:lang="fr">Frégimont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47107">
+				<geo:code_commune>47107</geo:code_commune>
+				<geo:nom xml:lang="fr">Galapian</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47111">
+				<geo:code_commune>47111</geo:code_commune>
+				<geo:nom xml:lang="fr">Granges-sur-Lot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47113">
+				<geo:code_commune>47113</geo:code_commune>
+				<geo:nom xml:lang="fr">Grayssas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47125">
+				<geo:code_commune>47125</geo:code_commune>
+				<geo:nom xml:lang="fr">Lacépède</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47128">
+				<geo:code_commune>47128</geo:code_commune>
+				<geo:nom xml:lang="fr">Lafox</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47129">
+				<geo:code_commune>47129</geo:code_commune>
+				<geo:nom xml:lang="fr">Lagarrigue</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47137">
+				<geo:code_commune>47137</geo:code_commune>
+				<geo:nom xml:lang="fr">Laplume</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47138">
+				<geo:code_commune>47138</geo:code_commune>
+				<geo:nom xml:lang="fr">Laroque-Timbaut</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47140">
+				<geo:code_commune>47140</geo:code_commune>
+				<geo:nom xml:lang="fr">Laugnac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47145">
+				<geo:code_commune>47145</geo:code_commune>
+				<geo:nom xml:lang="fr">Layrac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47154">
+				<geo:code_commune>47154</geo:code_commune>
+				<geo:nom xml:lang="fr">Lusignan-Petit</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47155">
+				<geo:code_commune>47155</geo:code_commune>
+				<geo:nom xml:lang="fr">Madaillan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47158">
+				<geo:code_commune>47158</geo:code_commune>
+				<geo:nom xml:lang="fr">Marmont-Pachas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47169">
+				<geo:code_commune>47169</geo:code_commune>
+				<geo:nom xml:lang="fr">Moirax</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47171">
+				<geo:code_commune>47171</geo:code_commune>
+				<geo:nom xml:lang="fr">Monbalen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47190">
+				<geo:code_commune>47190</geo:code_commune>
+				<geo:nom xml:lang="fr">Montpezat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47196">
+				<geo:code_commune>47196</geo:code_commune>
+				<geo:nom xml:lang="fr">Nicole</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47201">
+				<geo:code_commune>47201</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Passage</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47209">
+				<geo:code_commune>47209</geo:code_commune>
+				<geo:nom xml:lang="fr">Pont-du-Casse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47210">
+				<geo:code_commune>47210</geo:code_commune>
+				<geo:nom xml:lang="fr">Port-Sainte-Marie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47213">
+				<geo:code_commune>47213</geo:code_commune>
+				<geo:nom xml:lang="fr">Prayssas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47217">
+				<geo:code_commune>47217</geo:code_commune>
+				<geo:nom xml:lang="fr">Puymirol</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47225">
+				<geo:code_commune>47225</geo:code_commune>
+				<geo:nom xml:lang="fr">Roquefort</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47234">
+				<geo:code_commune>47234</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Caprais-de-Lerm</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47238">
+				<geo:code_commune>47238</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Colombe-en-Bruilhois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47246">
+				<geo:code_commune>47246</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Hilaire-de-Lusignan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47248">
+				<geo:code_commune>47248</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jean-de-Thurac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47255">
+				<geo:code_commune>47255</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Martin-de-Beauville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47260">
+				<geo:code_commune>47260</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Maurin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47262">
+				<geo:code_commune>47262</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Nicolas-de-la-Balerme</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47269">
+				<geo:code_commune>47269</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pierre-de-Clairac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47273">
+				<geo:code_commune>47273</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Robert</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47274">
+				<geo:code_commune>47274</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Romain-le-Noble</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47275">
+				<geo:code_commune>47275</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Salvy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47276">
+				<geo:code_commune>47276</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Sardos</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47279">
+				<geo:code_commune>47279</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Sixte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47281">
+				<geo:code_commune>47281</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Urcisse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47288">
+				<geo:code_commune>47288</geo:code_commune>
+				<geo:nom xml:lang="fr">Sauvagnas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47289">
+				<geo:code_commune>47289</geo:code_commune>
+				<geo:nom xml:lang="fr">La Sauvetat-de-Savères</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47293">
+				<geo:code_commune>47293</geo:code_commune>
+				<geo:nom xml:lang="fr">Sauveterre-Saint-Denis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47300">
+				<geo:code_commune>47300</geo:code_commune>
+				<geo:nom xml:lang="fr">Sérignac-sur-Garonne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47305">
+				<geo:code_commune>47305</geo:code_commune>
+				<geo:nom xml:lang="fr">Tayrac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_472">
+		<geo:code_arrondissement>472</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Marmande</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_47157"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4705">
+				<geo:code_canton>4705</geo:code_canton>
+				<geo:nom xml:lang="fr">Bouglon</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4708">
+				<geo:code_canton>4708</geo:code_canton>
+				<geo:nom xml:lang="fr">Castelmoron-sur-Lot</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4711">
+				<geo:code_canton>4711</geo:code_canton>
+				<geo:nom xml:lang="fr">Duras</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4717">
+				<geo:code_canton>4717</geo:code_canton>
+				<geo:nom xml:lang="fr">Lauzun</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4719">
+				<geo:code_canton>4719</geo:code_canton>
+				<geo:nom xml:lang="fr">Marmande-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4720">
+				<geo:code_canton>4720</geo:code_canton>
+				<geo:nom xml:lang="fr">Le Mas-d'Agenais</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4721">
+				<geo:code_canton>4721</geo:code_canton>
+				<geo:nom xml:lang="fr">Meilhan-sur-Garonne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4731">
+				<geo:code_canton>4731</geo:code_canton>
+				<geo:nom xml:lang="fr">Seyches</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4732">
+				<geo:code_canton>4732</geo:code_canton>
+				<geo:nom xml:lang="fr">Tonneins</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4738">
+				<geo:code_canton>4738</geo:code_canton>
+				<geo:nom xml:lang="fr">Marmande-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47002">
+				<geo:code_commune>47002</geo:code_commune>
+				<geo:nom xml:lang="fr">Agmé</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47003">
+				<geo:code_commune>47003</geo:code_commune>
+				<geo:nom xml:lang="fr">Agnac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47005">
+				<geo:code_commune>47005</geo:code_commune>
+				<geo:nom xml:lang="fr">Allemans-du-Dropt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47010">
+				<geo:code_commune>47010</geo:code_commune>
+				<geo:nom xml:lang="fr">Antagnac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47013">
+				<geo:code_commune>47013</geo:code_commune>
+				<geo:nom xml:lang="fr">Argenton</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47014">
+				<geo:code_commune>47014</geo:code_commune>
+				<geo:nom xml:lang="fr">Armillac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47018">
+				<geo:code_commune>47018</geo:code_commune>
+				<geo:nom xml:lang="fr">Auriac-sur-Dropt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47020">
+				<geo:code_commune>47020</geo:code_commune>
+				<geo:nom xml:lang="fr">Baleyssagues</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47024">
+				<geo:code_commune>47024</geo:code_commune>
+				<geo:nom xml:lang="fr">Beaupuy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47028">
+				<geo:code_commune>47028</geo:code_commune>
+				<geo:nom xml:lang="fr">Birac-sur-Trec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47034">
+				<geo:code_commune>47034</geo:code_commune>
+				<geo:nom xml:lang="fr">Bouglon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47035">
+				<geo:code_commune>47035</geo:code_commune>
+				<geo:nom xml:lang="fr">Bourgougnague</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47042">
+				<geo:code_commune>47042</geo:code_commune>
+				<geo:nom xml:lang="fr">Brugnac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47046">
+				<geo:code_commune>47046</geo:code_commune>
+				<geo:nom xml:lang="fr">Calonges</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47047">
+				<geo:code_commune>47047</geo:code_commune>
+				<geo:nom xml:lang="fr">Cambes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47054">
+				<geo:code_commune>47054</geo:code_commune>
+				<geo:nom xml:lang="fr">Castelmoron-sur-Lot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47056">
+				<geo:code_commune>47056</geo:code_commune>
+				<geo:nom xml:lang="fr">Castelnau-sur-Gupie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47059">
+				<geo:code_commune>47059</geo:code_commune>
+				<geo:nom xml:lang="fr">Caubon-Saint-Sauveur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47061">
+				<geo:code_commune>47061</geo:code_commune>
+				<geo:nom xml:lang="fr">Caumont-sur-Garonne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47065">
+				<geo:code_commune>47065</geo:code_commune>
+				<geo:nom xml:lang="fr">Clairac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47068">
+				<geo:code_commune>47068</geo:code_commune>
+				<geo:nom xml:lang="fr">Cocumont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47071">
+				<geo:code_commune>47071</geo:code_commune>
+				<geo:nom xml:lang="fr">Coulx</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47074">
+				<geo:code_commune>47074</geo:code_commune>
+				<geo:nom xml:lang="fr">Couthures-sur-Garonne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47086">
+				<geo:code_commune>47086</geo:code_commune>
+				<geo:nom xml:lang="fr">Duras</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47088">
+				<geo:code_commune>47088</geo:code_commune>
+				<geo:nom xml:lang="fr">Escassefort</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47089">
+				<geo:code_commune>47089</geo:code_commune>
+				<geo:nom xml:lang="fr">Esclottes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47094">
+				<geo:code_commune>47094</geo:code_commune>
+				<geo:nom xml:lang="fr">Fauguerolles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47095">
+				<geo:code_commune>47095</geo:code_commune>
+				<geo:nom xml:lang="fr">Fauillet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47101">
+				<geo:code_commune>47101</geo:code_commune>
+				<geo:nom xml:lang="fr">Fourques-sur-Garonne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47108">
+				<geo:code_commune>47108</geo:code_commune>
+				<geo:nom xml:lang="fr">Gaujac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47110">
+				<geo:code_commune>47110</geo:code_commune>
+				<geo:nom xml:lang="fr">Gontaud-de-Nogaret</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47112">
+				<geo:code_commune>47112</geo:code_commune>
+				<geo:nom xml:lang="fr">Grateloup-Saint-Gayrand</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47114">
+				<geo:code_commune>47114</geo:code_commune>
+				<geo:nom xml:lang="fr">Grézet-Cavagnan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47115">
+				<geo:code_commune>47115</geo:code_commune>
+				<geo:nom xml:lang="fr">Guérin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47118">
+				<geo:code_commune>47118</geo:code_commune>
+				<geo:nom xml:lang="fr">Hautesvignes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47120">
+				<geo:code_commune>47120</geo:code_commune>
+				<geo:nom xml:lang="fr">Jusix</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47121">
+				<geo:code_commune>47121</geo:code_commune>
+				<geo:nom xml:lang="fr">Labastide-Castel-Amouroux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47122">
+				<geo:code_commune>47122</geo:code_commune>
+				<geo:nom xml:lang="fr">Labretonie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47126">
+				<geo:code_commune>47126</geo:code_commune>
+				<geo:nom xml:lang="fr">Lachapelle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47127">
+				<geo:code_commune>47127</geo:code_commune>
+				<geo:nom xml:lang="fr">Lafitte-sur-Lot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47130">
+				<geo:code_commune>47130</geo:code_commune>
+				<geo:nom xml:lang="fr">Lagruère</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47131">
+				<geo:code_commune>47131</geo:code_commune>
+				<geo:nom xml:lang="fr">Lagupie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47135">
+				<geo:code_commune>47135</geo:code_commune>
+				<geo:nom xml:lang="fr">Laparade</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47136">
+				<geo:code_commune>47136</geo:code_commune>
+				<geo:nom xml:lang="fr">Laperche</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47142">
+				<geo:code_commune>47142</geo:code_commune>
+				<geo:nom xml:lang="fr">Lauzun</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47144">
+				<geo:code_commune>47144</geo:code_commune>
+				<geo:nom xml:lang="fr">Lavergne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47147">
+				<geo:code_commune>47147</geo:code_commune>
+				<geo:nom xml:lang="fr">Lévignac-de-Guyenne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47150">
+				<geo:code_commune>47150</geo:code_commune>
+				<geo:nom xml:lang="fr">Longueville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47151">
+				<geo:code_commune>47151</geo:code_commune>
+				<geo:nom xml:lang="fr">Loubès-Bernac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47156">
+				<geo:code_commune>47156</geo:code_commune>
+				<geo:nom xml:lang="fr">Marcellus</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47157">
+				<geo:code_commune>47157</geo:code_commune>
+				<geo:nom xml:lang="fr">Marmande</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47159">
+				<geo:code_commune>47159</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Mas-d'Agenais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47163">
+				<geo:code_commune>47163</geo:code_commune>
+				<geo:nom xml:lang="fr">Mauvezin-sur-Gupie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47165">
+				<geo:code_commune>47165</geo:code_commune>
+				<geo:nom xml:lang="fr">Meilhan-sur-Garonne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47168">
+				<geo:code_commune>47168</geo:code_commune>
+				<geo:nom xml:lang="fr">Miramont-de-Guyenne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47187">
+				<geo:code_commune>47187</geo:code_commune>
+				<geo:nom xml:lang="fr">Monteton</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47188">
+				<geo:code_commune>47188</geo:code_commune>
+				<geo:nom xml:lang="fr">Montignac-de-Lauzun</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47189">
+				<geo:code_commune>47189</geo:code_commune>
+				<geo:nom xml:lang="fr">Montignac-Toupinerie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47191">
+				<geo:code_commune>47191</geo:code_commune>
+				<geo:nom xml:lang="fr">Montpouillan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47194">
+				<geo:code_commune>47194</geo:code_commune>
+				<geo:nom xml:lang="fr">Moustier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47199">
+				<geo:code_commune>47199</geo:code_commune>
+				<geo:nom xml:lang="fr">Pardaillan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47204">
+				<geo:code_commune>47204</geo:code_commune>
+				<geo:nom xml:lang="fr">Peyrière</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47212">
+				<geo:code_commune>47212</geo:code_commune>
+				<geo:nom xml:lang="fr">Poussignac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47216">
+				<geo:code_commune>47216</geo:code_commune>
+				<geo:nom xml:lang="fr">Puymiclan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47218">
+				<geo:code_commune>47218</geo:code_commune>
+				<geo:nom xml:lang="fr">Puysserampion</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47224">
+				<geo:code_commune>47224</geo:code_commune>
+				<geo:nom xml:lang="fr">Romestaing</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47226">
+				<geo:code_commune>47226</geo:code_commune>
+				<geo:nom xml:lang="fr">Roumagne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47227">
+				<geo:code_commune>47227</geo:code_commune>
+				<geo:nom xml:lang="fr">Ruffiac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47229">
+				<geo:code_commune>47229</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Astier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47231">
+				<geo:code_commune>47231</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Avit</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47232">
+				<geo:code_commune>47232</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Barthélemy-d'Agenais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47233">
+				<geo:code_commune>47233</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Bazeille</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47235">
+				<geo:code_commune>47235</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Colomb-de-Lauzun</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47236">
+				<geo:code_commune>47236</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Colombe-de-Duras</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47244">
+				<geo:code_commune>47244</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Gemme-Martaillac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47245">
+				<geo:code_commune>47245</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Géraud</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47247">
+				<geo:code_commune>47247</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jean-de-Duras</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47253">
+				<geo:code_commune>47253</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Marthe</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47257">
+				<geo:code_commune>47257</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Martin-Petit</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47263">
+				<geo:code_commune>47263</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pardoux-du-Breuil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47264">
+				<geo:code_commune>47264</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pardoux-Isaac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47271">
+				<geo:code_commune>47271</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pierre-sur-Dropt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47277">
+				<geo:code_commune>47277</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Sauveur-de-Meilhan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47278">
+				<geo:code_commune>47278</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Sernin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47285">
+				<geo:code_commune>47285</geo:code_commune>
+				<geo:nom xml:lang="fr">Samazan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47290">
+				<geo:code_commune>47290</geo:code_commune>
+				<geo:nom xml:lang="fr">La Sauvetat-du-Dropt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47294">
+				<geo:code_commune>47294</geo:code_commune>
+				<geo:nom xml:lang="fr">Savignac-de-Duras</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47296">
+				<geo:code_commune>47296</geo:code_commune>
+				<geo:nom xml:lang="fr">Ségalas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47298">
+				<geo:code_commune>47298</geo:code_commune>
+				<geo:nom xml:lang="fr">Sénestis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47301">
+				<geo:code_commune>47301</geo:code_commune>
+				<geo:nom xml:lang="fr">Seyches</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47303">
+				<geo:code_commune>47303</geo:code_commune>
+				<geo:nom xml:lang="fr">Soumensac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47304">
+				<geo:code_commune>47304</geo:code_commune>
+				<geo:nom xml:lang="fr">Taillebourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47310">
+				<geo:code_commune>47310</geo:code_commune>
+				<geo:nom xml:lang="fr">Tonneins</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47316">
+				<geo:code_commune>47316</geo:code_commune>
+				<geo:nom xml:lang="fr">Varès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47317">
+				<geo:code_commune>47317</geo:code_commune>
+				<geo:nom xml:lang="fr">Verteuil-d'Agenais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47321">
+				<geo:code_commune>47321</geo:code_commune>
+				<geo:nom xml:lang="fr">Villeneuve-de-Duras</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47325">
+				<geo:code_commune>47325</geo:code_commune>
+				<geo:nom xml:lang="fr">Villeton</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47326">
+				<geo:code_commune>47326</geo:code_commune>
+				<geo:nom xml:lang="fr">Virazeil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_473">
+		<geo:code_arrondissement>473</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Villeneuve-sur-Lot</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_47323"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4706">
+				<geo:code_canton>4706</geo:code_canton>
+				<geo:nom xml:lang="fr">Cancon</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4709">
+				<geo:code_canton>4709</geo:code_canton>
+				<geo:nom xml:lang="fr">Castillonnès</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4713">
+				<geo:code_canton>4713</geo:code_canton>
+				<geo:nom xml:lang="fr">Fumel</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4723">
+				<geo:code_canton>4723</geo:code_canton>
+				<geo:nom xml:lang="fr">Monclar</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4724">
+				<geo:code_canton>4724</geo:code_canton>
+				<geo:nom xml:lang="fr">Monflanquin</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4726">
+				<geo:code_canton>4726</geo:code_canton>
+				<geo:nom xml:lang="fr">Penne-d'Agenais</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4730">
+				<geo:code_canton>4730</geo:code_canton>
+				<geo:nom xml:lang="fr">Sainte-Livrade-sur-Lot</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4733">
+				<geo:code_canton>4733</geo:code_canton>
+				<geo:nom xml:lang="fr">Tournon-d'Agenais</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4734">
+				<geo:code_canton>4734</geo:code_canton>
+				<geo:nom xml:lang="fr">Villeneuve-sur-Lot-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4735">
+				<geo:code_canton>4735</geo:code_canton>
+				<geo:nom xml:lang="fr">Villeréal</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4739">
+				<geo:code_canton>4739</geo:code_canton>
+				<geo:nom xml:lang="fr">Villeneuve-sur-Lot-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47006">
+				<geo:code_commune>47006</geo:code_commune>
+				<geo:nom xml:lang="fr">Allez-et-Cazeneuve</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47011">
+				<geo:code_commune>47011</geo:code_commune>
+				<geo:nom xml:lang="fr">Anthé</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47017">
+				<geo:code_commune>47017</geo:code_commune>
+				<geo:nom xml:lang="fr">Auradou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47023">
+				<geo:code_commune>47023</geo:code_commune>
+				<geo:nom xml:lang="fr">Beaugas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47027">
+				<geo:code_commune>47027</geo:code_commune>
+				<geo:nom xml:lang="fr">Bias</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47029">
+				<geo:code_commune>47029</geo:code_commune>
+				<geo:nom xml:lang="fr">Blanquefort-sur-Briolance</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47033">
+				<geo:code_commune>47033</geo:code_commune>
+				<geo:nom xml:lang="fr">Boudy-de-Beauregard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47036">
+				<geo:code_commune>47036</geo:code_commune>
+				<geo:nom xml:lang="fr">Bourlens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47037">
+				<geo:code_commune>47037</geo:code_commune>
+				<geo:nom xml:lang="fr">Bournel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47044">
+				<geo:code_commune>47044</geo:code_commune>
+				<geo:nom xml:lang="fr">Cahuzac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47048">
+				<geo:code_commune>47048</geo:code_commune>
+				<geo:nom xml:lang="fr">Cancon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47049">
+				<geo:code_commune>47049</geo:code_commune>
+				<geo:nom xml:lang="fr">Casseneuil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47055">
+				<geo:code_commune>47055</geo:code_commune>
+				<geo:nom xml:lang="fr">Castelnaud-de-Gratecambe</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47057">
+				<geo:code_commune>47057</geo:code_commune>
+				<geo:nom xml:lang="fr">Castillonnès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47063">
+				<geo:code_commune>47063</geo:code_commune>
+				<geo:nom xml:lang="fr">Cavarc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47064">
+				<geo:code_commune>47064</geo:code_commune>
+				<geo:nom xml:lang="fr">Cazideroque</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47070">
+				<geo:code_commune>47070</geo:code_commune>
+				<geo:nom xml:lang="fr">Condezaygues</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47072">
+				<geo:code_commune>47072</geo:code_commune>
+				<geo:nom xml:lang="fr">Courbiac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47077">
+				<geo:code_commune>47077</geo:code_commune>
+				<geo:nom xml:lang="fr">Cuzorn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47079">
+				<geo:code_commune>47079</geo:code_commune>
+				<geo:nom xml:lang="fr">Dausse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47080">
+				<geo:code_commune>47080</geo:code_commune>
+				<geo:nom xml:lang="fr">Dévillac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47081">
+				<geo:code_commune>47081</geo:code_commune>
+				<geo:nom xml:lang="fr">Dolmayrac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47083">
+				<geo:code_commune>47083</geo:code_commune>
+				<geo:nom xml:lang="fr">Doudrac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47084">
+				<geo:code_commune>47084</geo:code_commune>
+				<geo:nom xml:lang="fr">Douzains</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47096">
+				<geo:code_commune>47096</geo:code_commune>
+				<geo:nom xml:lang="fr">Ferrensac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47099">
+				<geo:code_commune>47099</geo:code_commune>
+				<geo:nom xml:lang="fr">Fongrave</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47105">
+				<geo:code_commune>47105</geo:code_commune>
+				<geo:nom xml:lang="fr">Frespech</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47106">
+				<geo:code_commune>47106</geo:code_commune>
+				<geo:nom xml:lang="fr">Fumel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47109">
+				<geo:code_commune>47109</geo:code_commune>
+				<geo:nom xml:lang="fr">Gavaudun</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47117">
+				<geo:code_commune>47117</geo:code_commune>
+				<geo:nom xml:lang="fr">Hautefage-la-Tour</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47123">
+				<geo:code_commune>47123</geo:code_commune>
+				<geo:nom xml:lang="fr">Lacapelle-Biron</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47124">
+				<geo:code_commune>47124</geo:code_commune>
+				<geo:nom xml:lang="fr">Lacaussade</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47132">
+				<geo:code_commune>47132</geo:code_commune>
+				<geo:nom xml:lang="fr">Lalandusse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47141">
+				<geo:code_commune>47141</geo:code_commune>
+				<geo:nom xml:lang="fr">Laussou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47146">
+				<geo:code_commune>47146</geo:code_commune>
+				<geo:nom xml:lang="fr">Lédat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47152">
+				<geo:code_commune>47152</geo:code_commune>
+				<geo:nom xml:lang="fr">Lougratte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47160">
+				<geo:code_commune>47160</geo:code_commune>
+				<geo:nom xml:lang="fr">Masquières</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47161">
+				<geo:code_commune>47161</geo:code_commune>
+				<geo:nom xml:lang="fr">Massels</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47162">
+				<geo:code_commune>47162</geo:code_commune>
+				<geo:nom xml:lang="fr">Massoulès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47164">
+				<geo:code_commune>47164</geo:code_commune>
+				<geo:nom xml:lang="fr">Mazières-Naresse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47170">
+				<geo:code_commune>47170</geo:code_commune>
+				<geo:nom xml:lang="fr">Monbahus</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47173">
+				<geo:code_commune>47173</geo:code_commune>
+				<geo:nom xml:lang="fr">Monclar</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47175">
+				<geo:code_commune>47175</geo:code_commune>
+				<geo:nom xml:lang="fr">Monflanquin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47178">
+				<geo:code_commune>47178</geo:code_commune>
+				<geo:nom xml:lang="fr">Monségur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47179">
+				<geo:code_commune>47179</geo:code_commune>
+				<geo:nom xml:lang="fr">Monsempron-Libos</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47181">
+				<geo:code_commune>47181</geo:code_commune>
+				<geo:nom xml:lang="fr">Montagnac-sur-Lède</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47182">
+				<geo:code_commune>47182</geo:code_commune>
+				<geo:nom xml:lang="fr">Montastruc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47183">
+				<geo:code_commune>47183</geo:code_commune>
+				<geo:nom xml:lang="fr">Montauriol</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47184">
+				<geo:code_commune>47184</geo:code_commune>
+				<geo:nom xml:lang="fr">Montaut</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47185">
+				<geo:code_commune>47185</geo:code_commune>
+				<geo:nom xml:lang="fr">Montayral</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47192">
+				<geo:code_commune>47192</geo:code_commune>
+				<geo:nom xml:lang="fr">Monviel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47193">
+				<geo:code_commune>47193</geo:code_commune>
+				<geo:nom xml:lang="fr">Moulinet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47198">
+				<geo:code_commune>47198</geo:code_commune>
+				<geo:nom xml:lang="fr">Pailloles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47200">
+				<geo:code_commune>47200</geo:code_commune>
+				<geo:nom xml:lang="fr">Parranquet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47202">
+				<geo:code_commune>47202</geo:code_commune>
+				<geo:nom xml:lang="fr">Paulhiac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47203">
+				<geo:code_commune>47203</geo:code_commune>
+				<geo:nom xml:lang="fr">Penne-d'Agenais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47206">
+				<geo:code_commune>47206</geo:code_commune>
+				<geo:nom xml:lang="fr">Pinel-Hauterive</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47215">
+				<geo:code_commune>47215</geo:code_commune>
+				<geo:nom xml:lang="fr">Pujols</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47219">
+				<geo:code_commune>47219</geo:code_commune>
+				<geo:nom xml:lang="fr">Rayet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47223">
+				<geo:code_commune>47223</geo:code_commune>
+				<geo:nom xml:lang="fr">Rives</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47228">
+				<geo:code_commune>47228</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Antoine-de-Ficalba</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47230">
+				<geo:code_commune>47230</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Aubin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47237">
+				<geo:code_commune>47237</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Colombe-de-Villeneuve</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47239">
+				<geo:code_commune>47239</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Étienne-de-Fougères</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47240">
+				<geo:code_commune>47240</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Étienne-de-Villeréal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47241">
+				<geo:code_commune>47241</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Eutrope-de-Born</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47242">
+				<geo:code_commune>47242</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Front-sur-Lémance</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47252">
+				<geo:code_commune>47252</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Livrade-sur-Lot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47256">
+				<geo:code_commune>47256</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Martin-de-Villeréal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47259">
+				<geo:code_commune>47259</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Maurice-de-Lestapel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47265">
+				<geo:code_commune>47265</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pastour</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47272">
+				<geo:code_commune>47272</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Quentin-du-Dropt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47280">
+				<geo:code_commune>47280</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Sylvestre-sur-Lot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47283">
+				<geo:code_commune>47283</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Vite</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47284">
+				<geo:code_commune>47284</geo:code_commune>
+				<geo:nom xml:lang="fr">Salles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47291">
+				<geo:code_commune>47291</geo:code_commune>
+				<geo:nom xml:lang="fr">La Sauvetat-sur-Lède</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47292">
+				<geo:code_commune>47292</geo:code_commune>
+				<geo:nom xml:lang="fr">Sauveterre-la-Lémance</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47295">
+				<geo:code_commune>47295</geo:code_commune>
+				<geo:nom xml:lang="fr">Savignac-sur-Leyze</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47297">
+				<geo:code_commune>47297</geo:code_commune>
+				<geo:nom xml:lang="fr">Sembas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47299">
+				<geo:code_commune>47299</geo:code_commune>
+				<geo:nom xml:lang="fr">Sérignac-Péboudou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47306">
+				<geo:code_commune>47306</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Temple-sur-Lot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47307">
+				<geo:code_commune>47307</geo:code_commune>
+				<geo:nom xml:lang="fr">Thézac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47309">
+				<geo:code_commune>47309</geo:code_commune>
+				<geo:nom xml:lang="fr">Tombeboeuf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47311">
+				<geo:code_commune>47311</geo:code_commune>
+				<geo:nom xml:lang="fr">Tourliac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47312">
+				<geo:code_commune>47312</geo:code_commune>
+				<geo:nom xml:lang="fr">Tournon-d'Agenais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47313">
+				<geo:code_commune>47313</geo:code_commune>
+				<geo:nom xml:lang="fr">Tourtrès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47314">
+				<geo:code_commune>47314</geo:code_commune>
+				<geo:nom xml:lang="fr">Trémons</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47315">
+				<geo:code_commune>47315</geo:code_commune>
+				<geo:nom xml:lang="fr">Trentels</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47319">
+				<geo:code_commune>47319</geo:code_commune>
+				<geo:nom xml:lang="fr">Villebramar</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47323">
+				<geo:code_commune>47323</geo:code_commune>
+				<geo:nom xml:lang="fr">Villeneuve-sur-Lot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47324">
+				<geo:code_commune>47324</geo:code_commune>
+				<geo:nom xml:lang="fr">Villeréal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47328">
+				<geo:code_commune>47328</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Georges</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_474">
+		<geo:code_arrondissement>474</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Nérac</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_47195"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4707">
+				<geo:code_canton>4707</geo:code_canton>
+				<geo:nom xml:lang="fr">Casteljaloux</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4710">
+				<geo:code_canton>4710</geo:code_canton>
+				<geo:nom xml:lang="fr">Damazan</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4712">
+				<geo:code_canton>4712</geo:code_canton>
+				<geo:nom xml:lang="fr">Francescas</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4714">
+				<geo:code_canton>4714</geo:code_canton>
+				<geo:nom xml:lang="fr">Houeillès</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4718">
+				<geo:code_canton>4718</geo:code_canton>
+				<geo:nom xml:lang="fr">Lavardac</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4722">
+				<geo:code_canton>4722</geo:code_canton>
+				<geo:nom xml:lang="fr">Mézin</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_4725">
+				<geo:code_canton>4725</geo:code_canton>
+				<geo:nom xml:lang="fr">Nérac</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47007">
+				<geo:code_commune>47007</geo:code_commune>
+				<geo:nom xml:lang="fr">Allons</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47008">
+				<geo:code_commune>47008</geo:code_commune>
+				<geo:nom xml:lang="fr">Ambrus</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47009">
+				<geo:code_commune>47009</geo:code_commune>
+				<geo:nom xml:lang="fr">Andiran</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47012">
+				<geo:code_commune>47012</geo:code_commune>
+				<geo:nom xml:lang="fr">Anzex</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47021">
+				<geo:code_commune>47021</geo:code_commune>
+				<geo:nom xml:lang="fr">Barbaste</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47026">
+				<geo:code_commune>47026</geo:code_commune>
+				<geo:nom xml:lang="fr">Beauziac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47039">
+				<geo:code_commune>47039</geo:code_commune>
+				<geo:nom xml:lang="fr">Boussès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47041">
+				<geo:code_commune>47041</geo:code_commune>
+				<geo:nom xml:lang="fr">Bruch</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47043">
+				<geo:code_commune>47043</geo:code_commune>
+				<geo:nom xml:lang="fr">Buzet-sur-Baïse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47045">
+				<geo:code_commune>47045</geo:code_commune>
+				<geo:nom xml:lang="fr">Calignac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47052">
+				<geo:code_commune>47052</geo:code_commune>
+				<geo:nom xml:lang="fr">Casteljaloux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47058">
+				<geo:code_commune>47058</geo:code_commune>
+				<geo:nom xml:lang="fr">Caubeyres</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47078">
+				<geo:code_commune>47078</geo:code_commune>
+				<geo:nom xml:lang="fr">Damazan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47085">
+				<geo:code_commune>47085</geo:code_commune>
+				<geo:nom xml:lang="fr">Durance</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47090">
+				<geo:code_commune>47090</geo:code_commune>
+				<geo:nom xml:lang="fr">Espiens</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47093">
+				<geo:code_commune>47093</geo:code_commune>
+				<geo:nom xml:lang="fr">Fargues-sur-Ourbise</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47097">
+				<geo:code_commune>47097</geo:code_commune>
+				<geo:nom xml:lang="fr">Feugarolles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47098">
+				<geo:code_commune>47098</geo:code_commune>
+				<geo:nom xml:lang="fr">Fieux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47102">
+				<geo:code_commune>47102</geo:code_commune>
+				<geo:nom xml:lang="fr">Francescas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47103">
+				<geo:code_commune>47103</geo:code_commune>
+				<geo:nom xml:lang="fr">Fréchou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47119">
+				<geo:code_commune>47119</geo:code_commune>
+				<geo:nom xml:lang="fr">Houeillès</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47133">
+				<geo:code_commune>47133</geo:code_commune>
+				<geo:nom xml:lang="fr">Lamontjoie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47134">
+				<geo:code_commune>47134</geo:code_commune>
+				<geo:nom xml:lang="fr">Lannes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47139">
+				<geo:code_commune>47139</geo:code_commune>
+				<geo:nom xml:lang="fr">Lasserre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47143">
+				<geo:code_commune>47143</geo:code_commune>
+				<geo:nom xml:lang="fr">Lavardac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47148">
+				<geo:code_commune>47148</geo:code_commune>
+				<geo:nom xml:lang="fr">Leyritz-Moncassin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47167">
+				<geo:code_commune>47167</geo:code_commune>
+				<geo:nom xml:lang="fr">Mézin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47172">
+				<geo:code_commune>47172</geo:code_commune>
+				<geo:nom xml:lang="fr">Moncaut</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47174">
+				<geo:code_commune>47174</geo:code_commune>
+				<geo:nom xml:lang="fr">Moncrabeau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47176">
+				<geo:code_commune>47176</geo:code_commune>
+				<geo:nom xml:lang="fr">Mongaillard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47177">
+				<geo:code_commune>47177</geo:code_commune>
+				<geo:nom xml:lang="fr">Monheurt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47180">
+				<geo:code_commune>47180</geo:code_commune>
+				<geo:nom xml:lang="fr">Montagnac-sur-Auvignon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47186">
+				<geo:code_commune>47186</geo:code_commune>
+				<geo:nom xml:lang="fr">Montesquieu</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47195">
+				<geo:code_commune>47195</geo:code_commune>
+				<geo:nom xml:lang="fr">Nérac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47197">
+				<geo:code_commune>47197</geo:code_commune>
+				<geo:nom xml:lang="fr">Nomdieu</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47205">
+				<geo:code_commune>47205</geo:code_commune>
+				<geo:nom xml:lang="fr">Pindères</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47207">
+				<geo:code_commune>47207</geo:code_commune>
+				<geo:nom xml:lang="fr">Pompiey</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47208">
+				<geo:code_commune>47208</geo:code_commune>
+				<geo:nom xml:lang="fr">Pompogne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47211">
+				<geo:code_commune>47211</geo:code_commune>
+				<geo:nom xml:lang="fr">Poudenas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47214">
+				<geo:code_commune>47214</geo:code_commune>
+				<geo:nom xml:lang="fr">Puch-d'Agenais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47220">
+				<geo:code_commune>47220</geo:code_commune>
+				<geo:nom xml:lang="fr">Razimet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47221">
+				<geo:code_commune>47221</geo:code_commune>
+				<geo:nom xml:lang="fr">Réaup-Lisse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47222">
+				<geo:code_commune>47222</geo:code_commune>
+				<geo:nom xml:lang="fr">La Réunion</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47249">
+				<geo:code_commune>47249</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Laurent</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47250">
+				<geo:code_commune>47250</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Léger</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47251">
+				<geo:code_commune>47251</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Léon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47254">
+				<geo:code_commune>47254</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Martin-Curton</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47258">
+				<geo:code_commune>47258</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Maure-de-Peyriac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47266">
+				<geo:code_commune>47266</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pé-Saint-Simon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47267">
+				<geo:code_commune>47267</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pierre-de-Buzet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47282">
+				<geo:code_commune>47282</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Vincent-de-Lamontjoie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47286">
+				<geo:code_commune>47286</geo:code_commune>
+				<geo:nom xml:lang="fr">Sauméjan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47287">
+				<geo:code_commune>47287</geo:code_commune>
+				<geo:nom xml:lang="fr">Saumont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47302">
+				<geo:code_commune>47302</geo:code_commune>
+				<geo:nom xml:lang="fr">Sos</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47308">
+				<geo:code_commune>47308</geo:code_commune>
+				<geo:nom xml:lang="fr">Thouars-sur-Garonne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47318">
+				<geo:code_commune>47318</geo:code_commune>
+				<geo:nom xml:lang="fr">Vianne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47320">
+				<geo:code_commune>47320</geo:code_commune>
+				<geo:nom xml:lang="fr">Villefranche-du-Queyran</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_47327">
+				<geo:code_commune>47327</geo:code_commune>
+				<geo:nom xml:lang="fr">Xaintrailles</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+</rdf:RDF>

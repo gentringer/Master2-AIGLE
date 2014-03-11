@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:padding="15dip">
+ 
+  <TextView
+    android:id="@+id/TextView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Saisir le nom du bar/pub à ajouter :"
+    
+    android:paddingBottom="10dip" />
+ 
+  <EditText
+      android:id="@+id/EditText1"
+      android:layout_width="fill_parent"
+      android:layout_height="35dp"
+      android:layout_below="@id/TextView1"
+      android:background="@drawable/customize_edittext" />
+ 
+</RelativeLayout>

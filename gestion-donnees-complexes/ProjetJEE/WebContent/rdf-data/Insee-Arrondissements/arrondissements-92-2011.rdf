@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/arrondissements-92-2011.rdf">
+		<dc:title xml:lang="fr">Arrondissements du département des Hauts-de-Seine (92)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Arrondissement rdf:about="ARR_921">
+		<geo:code_arrondissement>921</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Antony</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_92002"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9201">
+				<geo:code_canton>9201</geo:code_canton>
+				<geo:nom xml:lang="fr">Antony</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9204">
+				<geo:code_canton>9204</geo:code_canton>
+				<geo:nom xml:lang="fr">Bagneux</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9209">
+				<geo:code_canton>9209</geo:code_canton>
+				<geo:nom xml:lang="fr">Bourg-la-Reine</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9210">
+				<geo:code_canton>9210</geo:code_canton>
+				<geo:nom xml:lang="fr">Châtillon</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9212">
+				<geo:code_canton>9212</geo:code_canton>
+				<geo:nom xml:lang="fr">Clamart</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9225">
+				<geo:code_canton>9225</geo:code_canton>
+				<geo:nom xml:lang="fr">Malakoff</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9227">
+				<geo:code_canton>9227</geo:code_canton>
+				<geo:nom xml:lang="fr">Montrouge</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9232">
+				<geo:code_canton>9232</geo:code_canton>
+				<geo:nom xml:lang="fr">Le Plessis-Robinson</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9236">
+				<geo:code_canton>9236</geo:code_canton>
+				<geo:nom xml:lang="fr">Sceaux</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9239">
+				<geo:code_canton>9239</geo:code_canton>
+				<geo:nom xml:lang="fr">Vanves</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9241">
+				<geo:code_canton>9241</geo:code_canton>
+				<geo:nom xml:lang="fr">Châtenay-Malabry</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9243">
+				<geo:code_canton>9243</geo:code_canton>
+				<geo:nom xml:lang="fr">Fontenay-aux-Roses</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92002">
+				<geo:code_commune>92002</geo:code_commune>
+				<geo:nom xml:lang="fr">Antony</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92007">
+				<geo:code_commune>92007</geo:code_commune>
+				<geo:nom xml:lang="fr">Bagneux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92014">
+				<geo:code_commune>92014</geo:code_commune>
+				<geo:nom xml:lang="fr">Bourg-la-Reine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92019">
+				<geo:code_commune>92019</geo:code_commune>
+				<geo:nom xml:lang="fr">Châtenay-Malabry</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92020">
+				<geo:code_commune>92020</geo:code_commune>
+				<geo:nom xml:lang="fr">Châtillon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92023">
+				<geo:code_commune>92023</geo:code_commune>
+				<geo:nom xml:lang="fr">Clamart</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92032">
+				<geo:code_commune>92032</geo:code_commune>
+				<geo:nom xml:lang="fr">Fontenay-aux-Roses</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92046">
+				<geo:code_commune>92046</geo:code_commune>
+				<geo:nom xml:lang="fr">Malakoff</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92049">
+				<geo:code_commune>92049</geo:code_commune>
+				<geo:nom xml:lang="fr">Montrouge</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92060">
+				<geo:code_commune>92060</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Plessis-Robinson</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92071">
+				<geo:code_commune>92071</geo:code_commune>
+				<geo:nom xml:lang="fr">Sceaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92075">
+				<geo:code_commune>92075</geo:code_commune>
+				<geo:nom xml:lang="fr">Vanves</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_922">
+		<geo:code_arrondissement>922</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Nanterre</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_92050"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9202">
+				<geo:code_canton>9202</geo:code_canton>
+				<geo:nom xml:lang="fr">Asnières-sur-Seine-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9203">
+				<geo:code_canton>9203</geo:code_canton>
+				<geo:nom xml:lang="fr">Asnières-sur-Seine-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9205">
+				<geo:code_canton>9205</geo:code_canton>
+				<geo:nom xml:lang="fr">Bois-Colombes</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9213">
+				<geo:code_canton>9213</geo:code_canton>
+				<geo:nom xml:lang="fr">Clichy</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9214">
+				<geo:code_canton>9214</geo:code_canton>
+				<geo:nom xml:lang="fr">Colombes-Nord-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9215">
+				<geo:code_canton>9215</geo:code_canton>
+				<geo:nom xml:lang="fr">Colombes-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9216">
+				<geo:code_canton>9216</geo:code_canton>
+				<geo:nom xml:lang="fr">Courbevoie-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9217">
+				<geo:code_canton>9217</geo:code_canton>
+				<geo:nom xml:lang="fr">Courbevoie-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9218">
+				<geo:code_canton>9218</geo:code_canton>
+				<geo:nom xml:lang="fr">Garches</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9219">
+				<geo:code_canton>9219</geo:code_canton>
+				<geo:nom xml:lang="fr">La Garenne-Colombes</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9220">
+				<geo:code_canton>9220</geo:code_canton>
+				<geo:nom xml:lang="fr">Gennevilliers-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9223">
+				<geo:code_canton>9223</geo:code_canton>
+				<geo:nom xml:lang="fr">Levallois-Perret-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9224">
+				<geo:code_canton>9224</geo:code_canton>
+				<geo:nom xml:lang="fr">Levallois-Perret-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9228">
+				<geo:code_canton>9228</geo:code_canton>
+				<geo:nom xml:lang="fr">Nanterre-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9229">
+				<geo:code_canton>9229</geo:code_canton>
+				<geo:nom xml:lang="fr">Nanterre-Sud-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9230">
+				<geo:code_canton>9230</geo:code_canton>
+				<geo:nom xml:lang="fr">Neuilly-sur-Seine-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9231">
+				<geo:code_canton>9231</geo:code_canton>
+				<geo:nom xml:lang="fr">Neuilly-sur-Seine-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9233">
+				<geo:code_canton>9233</geo:code_canton>
+				<geo:nom xml:lang="fr">Puteaux</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9234">
+				<geo:code_canton>9234</geo:code_canton>
+				<geo:nom xml:lang="fr">Rueil-Malmaison</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9238">
+				<geo:code_canton>9238</geo:code_canton>
+				<geo:nom xml:lang="fr">Suresnes</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9240">
+				<geo:code_canton>9240</geo:code_canton>
+				<geo:nom xml:lang="fr">Villeneuve-la-Garenne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9242">
+				<geo:code_canton>9242</geo:code_canton>
+				<geo:nom xml:lang="fr">Colombes-Nord-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9244">
+				<geo:code_canton>9244</geo:code_canton>
+				<geo:nom xml:lang="fr">Gennevilliers-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9245">
+				<geo:code_canton>9245</geo:code_canton>
+				<geo:nom xml:lang="fr">Nanterre-Sud-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92004">
+				<geo:code_commune>92004</geo:code_commune>
+				<geo:nom xml:lang="fr">Asnières-sur-Seine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92009">
+				<geo:code_commune>92009</geo:code_commune>
+				<geo:nom xml:lang="fr">Bois-Colombes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92024">
+				<geo:code_commune>92024</geo:code_commune>
+				<geo:nom xml:lang="fr">Clichy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92025">
+				<geo:code_commune>92025</geo:code_commune>
+				<geo:nom xml:lang="fr">Colombes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92026">
+				<geo:code_commune>92026</geo:code_commune>
+				<geo:nom xml:lang="fr">Courbevoie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92033">
+				<geo:code_commune>92033</geo:code_commune>
+				<geo:nom xml:lang="fr">Garches</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92035">
+				<geo:code_commune>92035</geo:code_commune>
+				<geo:nom xml:lang="fr">La Garenne-Colombes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92036">
+				<geo:code_commune>92036</geo:code_commune>
+				<geo:nom xml:lang="fr">Gennevilliers</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92044">
+				<geo:code_commune>92044</geo:code_commune>
+				<geo:nom xml:lang="fr">Levallois-Perret</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92050">
+				<geo:code_commune>92050</geo:code_commune>
+				<geo:nom xml:lang="fr">Nanterre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92051">
+				<geo:code_commune>92051</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuilly-sur-Seine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92062">
+				<geo:code_commune>92062</geo:code_commune>
+				<geo:nom xml:lang="fr">Puteaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92063">
+				<geo:code_commune>92063</geo:code_commune>
+				<geo:nom xml:lang="fr">Rueil-Malmaison</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92073">
+				<geo:code_commune>92073</geo:code_commune>
+				<geo:nom xml:lang="fr">Suresnes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92078">
+				<geo:code_commune>92078</geo:code_commune>
+				<geo:nom xml:lang="fr">Villeneuve-la-Garenne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_923">
+		<geo:code_arrondissement>923</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Boulogne-Billancourt</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_92012"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9206">
+				<geo:code_canton>9206</geo:code_canton>
+				<geo:nom xml:lang="fr">Boulogne-Billancourt-Nord-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9207">
+				<geo:code_canton>9207</geo:code_canton>
+				<geo:nom xml:lang="fr">Boulogne-Billancourt-Nord-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9208">
+				<geo:code_canton>9208</geo:code_canton>
+				<geo:nom xml:lang="fr">Boulogne-Billancourt-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9211">
+				<geo:code_canton>9211</geo:code_canton>
+				<geo:nom xml:lang="fr">Chaville</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9221">
+				<geo:code_canton>9221</geo:code_canton>
+				<geo:nom xml:lang="fr">Issy-les-Moulineaux-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9222">
+				<geo:code_canton>9222</geo:code_canton>
+				<geo:nom xml:lang="fr">Issy-les-Moulineaux-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9226">
+				<geo:code_canton>9226</geo:code_canton>
+				<geo:nom xml:lang="fr">Meudon</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9235">
+				<geo:code_canton>9235</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Cloud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_9237">
+				<geo:code_canton>9237</geo:code_canton>
+				<geo:nom xml:lang="fr">Sèvres</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92012">
+				<geo:code_commune>92012</geo:code_commune>
+				<geo:nom xml:lang="fr">Boulogne-Billancourt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92022">
+				<geo:code_commune>92022</geo:code_commune>
+				<geo:nom xml:lang="fr">Chaville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92040">
+				<geo:code_commune>92040</geo:code_commune>
+				<geo:nom xml:lang="fr">Issy-les-Moulineaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92047">
+				<geo:code_commune>92047</geo:code_commune>
+				<geo:nom xml:lang="fr">Marnes-la-Coquette</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92048">
+				<geo:code_commune>92048</geo:code_commune>
+				<geo:nom xml:lang="fr">Meudon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92064">
+				<geo:code_commune>92064</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Cloud</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92072">
+				<geo:code_commune>92072</geo:code_commune>
+				<geo:nom xml:lang="fr">Sèvres</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92076">
+				<geo:code_commune>92076</geo:code_commune>
+				<geo:nom xml:lang="fr">Vaucresson</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_92077">
+				<geo:code_commune>92077</geo:code_commune>
+				<geo:nom xml:lang="fr">Ville-d'Avray</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+</rdf:RDF>

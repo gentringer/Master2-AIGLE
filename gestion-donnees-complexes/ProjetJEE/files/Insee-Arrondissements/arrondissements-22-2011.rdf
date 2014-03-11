@@ -1,0 +1,2589 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/arrondissements-22-2011.rdf">
+		<dc:title xml:lang="fr">Arrondissements du département des Côtes-d'Armor (22)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Arrondissement rdf:about="ARR_221">
+		<geo:code_arrondissement>221</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Dinan</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_22050"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2204">
+				<geo:code_canton>2204</geo:code_canton>
+				<geo:nom xml:lang="fr">Broons</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2206">
+				<geo:code_canton>2206</geo:code_canton>
+				<geo:nom xml:lang="fr">Caulnes</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2209">
+				<geo:code_canton>2209</geo:code_canton>
+				<geo:nom xml:lang="fr">Collinée</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2211">
+				<geo:code_canton>2211</geo:code_canton>
+				<geo:nom xml:lang="fr">Dinan-Est</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2212">
+				<geo:code_canton>2212</geo:code_canton>
+				<geo:nom xml:lang="fr">Dinan-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2214">
+				<geo:code_canton>2214</geo:code_canton>
+				<geo:nom xml:lang="fr">Évran</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2217">
+				<geo:code_canton>2217</geo:code_canton>
+				<geo:nom xml:lang="fr">Jugon-les-Lacs</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2224">
+				<geo:code_canton>2224</geo:code_canton>
+				<geo:nom xml:lang="fr">Matignon</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2225">
+				<geo:code_canton>2225</geo:code_canton>
+				<geo:nom xml:lang="fr">Merdrignac</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2230">
+				<geo:code_canton>2230</geo:code_canton>
+				<geo:nom xml:lang="fr">Plancoët</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2231">
+				<geo:code_canton>2231</geo:code_canton>
+				<geo:nom xml:lang="fr">Plélan-le-Petit</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2237">
+				<geo:code_canton>2237</geo:code_canton>
+				<geo:nom xml:lang="fr">Ploubalay</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22003">
+				<geo:code_commune>22003</geo:code_commune>
+				<geo:nom xml:lang="fr">Aucaleuc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22008">
+				<geo:code_commune>22008</geo:code_commune>
+				<geo:nom xml:lang="fr">Bobital</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22012">
+				<geo:code_commune>22012</geo:code_commune>
+				<geo:nom xml:lang="fr">La Bouillie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22014">
+				<geo:code_commune>22014</geo:code_commune>
+				<geo:nom xml:lang="fr">Bourseul</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22020">
+				<geo:code_commune>22020</geo:code_commune>
+				<geo:nom xml:lang="fr">Broons</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22021">
+				<geo:code_commune>22021</geo:code_commune>
+				<geo:nom xml:lang="fr">Brusvily</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22026">
+				<geo:code_commune>22026</geo:code_commune>
+				<geo:nom xml:lang="fr">Calorguen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22032">
+				<geo:code_commune>22032</geo:code_commune>
+				<geo:nom xml:lang="fr">Caulnes</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22035">
+				<geo:code_commune>22035</geo:code_commune>
+				<geo:nom xml:lang="fr">Les Champs-Géraux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22036">
+				<geo:code_commune>22036</geo:code_commune>
+				<geo:nom xml:lang="fr">La Chapelle-Blanche</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22046">
+				<geo:code_commune>22046</geo:code_commune>
+				<geo:nom xml:lang="fr">Collinée</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22048">
+				<geo:code_commune>22048</geo:code_commune>
+				<geo:nom xml:lang="fr">Corseul</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22049">
+				<geo:code_commune>22049</geo:code_commune>
+				<geo:nom xml:lang="fr">Créhen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22050">
+				<geo:code_commune>22050</geo:code_commune>
+				<geo:nom xml:lang="fr">Dinan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22051">
+				<geo:code_commune>22051</geo:code_commune>
+				<geo:nom xml:lang="fr">Dolo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22053">
+				<geo:code_commune>22053</geo:code_commune>
+				<geo:nom xml:lang="fr">Éréac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22056">
+				<geo:code_commune>22056</geo:code_commune>
+				<geo:nom xml:lang="fr">Évran</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22062">
+				<geo:code_commune>22062</geo:code_commune>
+				<geo:nom xml:lang="fr">Gomené</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22066">
+				<geo:code_commune>22066</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Gouray</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22069">
+				<geo:code_commune>22069</geo:code_commune>
+				<geo:nom xml:lang="fr">Guenroc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22071">
+				<geo:code_commune>22071</geo:code_commune>
+				<geo:nom xml:lang="fr">Guitté</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22076">
+				<geo:code_commune>22076</geo:code_commune>
+				<geo:nom xml:lang="fr">Hénanbihen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22077">
+				<geo:code_commune>22077</geo:code_commune>
+				<geo:nom xml:lang="fr">Hénansal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22082">
+				<geo:code_commune>22082</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Hinglé</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22083">
+				<geo:code_commune>22083</geo:code_commune>
+				<geo:nom xml:lang="fr">Illifaut</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22084">
+				<geo:code_commune>22084</geo:code_commune>
+				<geo:nom xml:lang="fr">Jugon-les-Lacs</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22094">
+				<geo:code_commune>22094</geo:code_commune>
+				<geo:nom xml:lang="fr">Lancieux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22096">
+				<geo:code_commune>22096</geo:code_commune>
+				<geo:nom xml:lang="fr">Landébia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22097">
+				<geo:code_commune>22097</geo:code_commune>
+				<geo:nom xml:lang="fr">La Landec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22102">
+				<geo:code_commune>22102</geo:code_commune>
+				<geo:nom xml:lang="fr">Langourla</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22103">
+				<geo:code_commune>22103</geo:code_commune>
+				<geo:nom xml:lang="fr">Langrolay-sur-Rance</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22104">
+				<geo:code_commune>22104</geo:code_commune>
+				<geo:nom xml:lang="fr">Languédias</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22105">
+				<geo:code_commune>22105</geo:code_commune>
+				<geo:nom xml:lang="fr">Languenan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22114">
+				<geo:code_commune>22114</geo:code_commune>
+				<geo:nom xml:lang="fr">Lanrelas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22118">
+				<geo:code_commune>22118</geo:code_commune>
+				<geo:nom xml:lang="fr">Lanvallay</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22122">
+				<geo:code_commune>22122</geo:code_commune>
+				<geo:nom xml:lang="fr">Laurenan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22123">
+				<geo:code_commune>22123</geo:code_commune>
+				<geo:nom xml:lang="fr">Léhon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22133">
+				<geo:code_commune>22133</geo:code_commune>
+				<geo:nom xml:lang="fr">Loscouët-sur-Meu</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22143">
+				<geo:code_commune>22143</geo:code_commune>
+				<geo:nom xml:lang="fr">Matignon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22145">
+				<geo:code_commune>22145</geo:code_commune>
+				<geo:nom xml:lang="fr">Mégrit</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22147">
+				<geo:code_commune>22147</geo:code_commune>
+				<geo:nom xml:lang="fr">Merdrignac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22148">
+				<geo:code_commune>22148</geo:code_commune>
+				<geo:nom xml:lang="fr">Mérillac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22172">
+				<geo:code_commune>22172</geo:code_commune>
+				<geo:nom xml:lang="fr">Plancoët</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22174">
+				<geo:code_commune>22174</geo:code_commune>
+				<geo:nom xml:lang="fr">Pléboulle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22175">
+				<geo:code_commune>22175</geo:code_commune>
+				<geo:nom xml:lang="fr">Plédéliac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22179">
+				<geo:code_commune>22179</geo:code_commune>
+				<geo:nom xml:lang="fr">Fréhel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22180">
+				<geo:code_commune>22180</geo:code_commune>
+				<geo:nom xml:lang="fr">Plélan-le-Petit</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22185">
+				<geo:code_commune>22185</geo:code_commune>
+				<geo:nom xml:lang="fr">Plénée-Jugon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22190">
+				<geo:code_commune>22190</geo:code_commune>
+				<geo:nom xml:lang="fr">Pleslin-Trigavou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22192">
+				<geo:code_commune>22192</geo:code_commune>
+				<geo:nom xml:lang="fr">Plessix-Balisson</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22193">
+				<geo:code_commune>22193</geo:code_commune>
+				<geo:nom xml:lang="fr">Plestan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22197">
+				<geo:code_commune>22197</geo:code_commune>
+				<geo:nom xml:lang="fr">Pleudihen-sur-Rance</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22200">
+				<geo:code_commune>22200</geo:code_commune>
+				<geo:nom xml:lang="fr">Pléven</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22201">
+				<geo:code_commune>22201</geo:code_commune>
+				<geo:nom xml:lang="fr">Plévenon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22205">
+				<geo:code_commune>22205</geo:code_commune>
+				<geo:nom xml:lang="fr">Plorec-sur-Arguenon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22208">
+				<geo:code_commune>22208</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouasne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22209">
+				<geo:code_commune>22209</geo:code_commune>
+				<geo:nom xml:lang="fr">Ploubalay</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22213">
+				<geo:code_commune>22213</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouër-sur-Rance</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22237">
+				<geo:code_commune>22237</geo:code_commune>
+				<geo:nom xml:lang="fr">Pluduno</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22239">
+				<geo:code_commune>22239</geo:code_commune>
+				<geo:nom xml:lang="fr">Plumaudan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22240">
+				<geo:code_commune>22240</geo:code_commune>
+				<geo:nom xml:lang="fr">Plumaugat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22259">
+				<geo:code_commune>22259</geo:code_commune>
+				<geo:nom xml:lang="fr">Quévert</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22263">
+				<geo:code_commune>22263</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Quiou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22267">
+				<geo:code_commune>22267</geo:code_commune>
+				<geo:nom xml:lang="fr">Rouillac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22268">
+				<geo:code_commune>22268</geo:code_commune>
+				<geo:nom xml:lang="fr">Ruca</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22274">
+				<geo:code_commune>22274</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-André-des-Eaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22280">
+				<geo:code_commune>22280</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Carné</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22282">
+				<geo:code_commune>22282</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Cast-le-Guildo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22286">
+				<geo:code_commune>22286</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Denoual</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22292">
+				<geo:code_commune>22292</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Gilles-du-Mené</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22297">
+				<geo:code_commune>22297</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Gouéno</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22299">
+				<geo:code_commune>22299</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Hélen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22302">
+				<geo:code_commune>22302</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jacut-de-la-Mer</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22303">
+				<geo:code_commune>22303</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jacut-du-Mené</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22305">
+				<geo:code_commune>22305</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jouan-de-l'Isle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22306">
+				<geo:code_commune>22306</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Judoce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22308">
+				<geo:code_commune>22308</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Juvat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22309">
+				<geo:code_commune>22309</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Launeuc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22311">
+				<geo:code_commune>22311</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Lormel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22312">
+				<geo:code_commune>22312</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Maden</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22315">
+				<geo:code_commune>22315</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Maudez</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22317">
+				<geo:code_commune>22317</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Méloir-des-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22318">
+				<geo:code_commune>22318</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Michel-de-Plélan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22323">
+				<geo:code_commune>22323</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pôtan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22327">
+				<geo:code_commune>22327</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Samson-sur-Rance</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22333">
+				<geo:code_commune>22333</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Vran</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22337">
+				<geo:code_commune>22337</geo:code_commune>
+				<geo:nom xml:lang="fr">Sévignac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22339">
+				<geo:code_commune>22339</geo:code_commune>
+				<geo:nom xml:lang="fr">Taden</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22341">
+				<geo:code_commune>22341</geo:code_commune>
+				<geo:nom xml:lang="fr">Tramain</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22342">
+				<geo:code_commune>22342</geo:code_commune>
+				<geo:nom xml:lang="fr">Trébédan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22348">
+				<geo:code_commune>22348</geo:code_commune>
+				<geo:nom xml:lang="fr">Trédias</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22352">
+				<geo:code_commune>22352</geo:code_commune>
+				<geo:nom xml:lang="fr">Tréfumel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22357">
+				<geo:code_commune>22357</geo:code_commune>
+				<geo:nom xml:lang="fr">Trégon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22364">
+				<geo:code_commune>22364</geo:code_commune>
+				<geo:nom xml:lang="fr">Trélivan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22368">
+				<geo:code_commune>22368</geo:code_commune>
+				<geo:nom xml:lang="fr">Tréméreuc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22369">
+				<geo:code_commune>22369</geo:code_commune>
+				<geo:nom xml:lang="fr">Trémeur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22371">
+				<geo:code_commune>22371</geo:code_commune>
+				<geo:nom xml:lang="fr">Trémorel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22380">
+				<geo:code_commune>22380</geo:code_commune>
+				<geo:nom xml:lang="fr">Trévron</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22385">
+				<geo:code_commune>22385</geo:code_commune>
+				<geo:nom xml:lang="fr">La Vicomté-sur-Rance</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22388">
+				<geo:code_commune>22388</geo:code_commune>
+				<geo:nom xml:lang="fr">Vildé-Guingalan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22391">
+				<geo:code_commune>22391</geo:code_commune>
+				<geo:nom xml:lang="fr">Yvignac-la-Tour</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_222">
+		<geo:code_arrondissement>222</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Guingamp</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_22070"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2201">
+				<geo:code_canton>2201</geo:code_canton>
+				<geo:nom xml:lang="fr">Bégard</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2202">
+				<geo:code_canton>2202</geo:code_canton>
+				<geo:nom xml:lang="fr">Belle-Isle-en-Terre</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2203">
+				<geo:code_canton>2203</geo:code_canton>
+				<geo:nom xml:lang="fr">Bourbriac</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2205">
+				<geo:code_canton>2205</geo:code_canton>
+				<geo:nom xml:lang="fr">Callac</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2215">
+				<geo:code_canton>2215</geo:code_canton>
+				<geo:nom xml:lang="fr">Gouarec</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2216">
+				<geo:code_canton>2216</geo:code_canton>
+				<geo:nom xml:lang="fr">Guingamp</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2223">
+				<geo:code_canton>2223</geo:code_canton>
+				<geo:nom xml:lang="fr">Maël-Carhaix</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2227">
+				<geo:code_canton>2227</geo:code_canton>
+				<geo:nom xml:lang="fr">Mûr-de-Bretagne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2235">
+				<geo:code_canton>2235</geo:code_canton>
+				<geo:nom xml:lang="fr">Plouagat</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2240">
+				<geo:code_canton>2240</geo:code_canton>
+				<geo:nom xml:lang="fr">Pontrieux</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2243">
+				<geo:code_canton>2243</geo:code_canton>
+				<geo:nom xml:lang="fr">Rostrenen</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2246">
+				<geo:code_canton>2246</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Nicolas-du-Pélem</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22004">
+				<geo:code_commune>22004</geo:code_commune>
+				<geo:nom xml:lang="fr">Bégard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22005">
+				<geo:code_commune>22005</geo:code_commune>
+				<geo:nom xml:lang="fr">Belle-Isle-en-Terre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22013">
+				<geo:code_commune>22013</geo:code_commune>
+				<geo:nom xml:lang="fr">Bourbriac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22018">
+				<geo:code_commune>22018</geo:code_commune>
+				<geo:nom xml:lang="fr">Brélidy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22019">
+				<geo:code_commune>22019</geo:code_commune>
+				<geo:nom xml:lang="fr">Bringolo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22023">
+				<geo:code_commune>22023</geo:code_commune>
+				<geo:nom xml:lang="fr">Bulat-Pestivien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22024">
+				<geo:code_commune>22024</geo:code_commune>
+				<geo:nom xml:lang="fr">Calanhel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22025">
+				<geo:code_commune>22025</geo:code_commune>
+				<geo:nom xml:lang="fr">Callac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22029">
+				<geo:code_commune>22029</geo:code_commune>
+				<geo:nom xml:lang="fr">Canihuel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22031">
+				<geo:code_commune>22031</geo:code_commune>
+				<geo:nom xml:lang="fr">Carnoët</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22033">
+				<geo:code_commune>22033</geo:code_commune>
+				<geo:nom xml:lang="fr">Caurel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22037">
+				<geo:code_commune>22037</geo:code_commune>
+				<geo:nom xml:lang="fr">La Chapelle-Neuve</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22040">
+				<geo:code_commune>22040</geo:code_commune>
+				<geo:nom xml:lang="fr">Coadout</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22052">
+				<geo:code_commune>22052</geo:code_commune>
+				<geo:nom xml:lang="fr">Duault</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22061">
+				<geo:code_commune>22061</geo:code_commune>
+				<geo:nom xml:lang="fr">Glomel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22064">
+				<geo:code_commune>22064</geo:code_commune>
+				<geo:nom xml:lang="fr">Gouarec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22065">
+				<geo:code_commune>22065</geo:code_commune>
+				<geo:nom xml:lang="fr">Goudelin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22067">
+				<geo:code_commune>22067</geo:code_commune>
+				<geo:nom xml:lang="fr">Grâces</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22070">
+				<geo:code_commune>22070</geo:code_commune>
+				<geo:nom xml:lang="fr">Guingamp</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22072">
+				<geo:code_commune>22072</geo:code_commune>
+				<geo:nom xml:lang="fr">Gurunhuel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22087">
+				<geo:code_commune>22087</geo:code_commune>
+				<geo:nom xml:lang="fr">Kergrist-Moëlou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22088">
+				<geo:code_commune>22088</geo:code_commune>
+				<geo:nom xml:lang="fr">Kerien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22091">
+				<geo:code_commune>22091</geo:code_commune>
+				<geo:nom xml:lang="fr">Kermoroc'h</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22092">
+				<geo:code_commune>22092</geo:code_commune>
+				<geo:nom xml:lang="fr">Kerpert</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22095">
+				<geo:code_commune>22095</geo:code_commune>
+				<geo:nom xml:lang="fr">Landebaëron</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22107">
+				<geo:code_commune>22107</geo:code_commune>
+				<geo:nom xml:lang="fr">Laniscat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22115">
+				<geo:code_commune>22115</geo:code_commune>
+				<geo:nom xml:lang="fr">Lanrivain</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22116">
+				<geo:code_commune>22116</geo:code_commune>
+				<geo:nom xml:lang="fr">Lanrodec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22124">
+				<geo:code_commune>22124</geo:code_commune>
+				<geo:nom xml:lang="fr">Lescouët-Gouarec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22128">
+				<geo:code_commune>22128</geo:code_commune>
+				<geo:nom xml:lang="fr">Locarn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22129">
+				<geo:code_commune>22129</geo:code_commune>
+				<geo:nom xml:lang="fr">Loc-Envel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22132">
+				<geo:code_commune>22132</geo:code_commune>
+				<geo:nom xml:lang="fr">Lohuec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22135">
+				<geo:code_commune>22135</geo:code_commune>
+				<geo:nom xml:lang="fr">Louargat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22137">
+				<geo:code_commune>22137</geo:code_commune>
+				<geo:nom xml:lang="fr">Maël-Carhaix</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22138">
+				<geo:code_commune>22138</geo:code_commune>
+				<geo:nom xml:lang="fr">Maël-Pestivien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22139">
+				<geo:code_commune>22139</geo:code_commune>
+				<geo:nom xml:lang="fr">Magoar</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22146">
+				<geo:code_commune>22146</geo:code_commune>
+				<geo:nom xml:lang="fr">Mellionnec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22156">
+				<geo:code_commune>22156</geo:code_commune>
+				<geo:nom xml:lang="fr">Moustéru</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22157">
+				<geo:code_commune>22157</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Moustoir</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22158">
+				<geo:code_commune>22158</geo:code_commune>
+				<geo:nom xml:lang="fr">Mûr-de-Bretagne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22161">
+				<geo:code_commune>22161</geo:code_commune>
+				<geo:nom xml:lang="fr">Pabu</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22163">
+				<geo:code_commune>22163</geo:code_commune>
+				<geo:nom xml:lang="fr">Paule</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22164">
+				<geo:code_commune>22164</geo:code_commune>
+				<geo:nom xml:lang="fr">Pédernec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22167">
+				<geo:code_commune>22167</geo:code_commune>
+				<geo:nom xml:lang="fr">Perret</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22169">
+				<geo:code_commune>22169</geo:code_commune>
+				<geo:nom xml:lang="fr">Peumerit-Quintin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22181">
+				<geo:code_commune>22181</geo:code_commune>
+				<geo:nom xml:lang="fr">Plélauff</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22189">
+				<geo:code_commune>22189</geo:code_commune>
+				<geo:nom xml:lang="fr">Plésidy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22202">
+				<geo:code_commune>22202</geo:code_commune>
+				<geo:nom xml:lang="fr">Plévin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22204">
+				<geo:code_commune>22204</geo:code_commune>
+				<geo:nom xml:lang="fr">Ploëzal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22206">
+				<geo:code_commune>22206</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouagat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22212">
+				<geo:code_commune>22212</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouëc-du-Trieux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22216">
+				<geo:code_commune>22216</geo:code_commune>
+				<geo:nom xml:lang="fr">Plougonver</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22220">
+				<geo:code_commune>22220</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouguernével</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22223">
+				<geo:code_commune>22223</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouisy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22225">
+				<geo:code_commune>22225</geo:code_commune>
+				<geo:nom xml:lang="fr">Ploumagoar</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22229">
+				<geo:code_commune>22229</geo:code_commune>
+				<geo:nom xml:lang="fr">Plounévez-Quintin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22231">
+				<geo:code_commune>22231</geo:code_commune>
+				<geo:nom xml:lang="fr">Plourac'h</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22243">
+				<geo:code_commune>22243</geo:code_commune>
+				<geo:nom xml:lang="fr">Plusquellec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22249">
+				<geo:code_commune>22249</geo:code_commune>
+				<geo:nom xml:lang="fr">Pont-Melvez</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22250">
+				<geo:code_commune>22250</geo:code_commune>
+				<geo:nom xml:lang="fr">Pontrieux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22256">
+				<geo:code_commune>22256</geo:code_commune>
+				<geo:nom xml:lang="fr">Quemper-Guézennec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22266">
+				<geo:code_commune>22266</geo:code_commune>
+				<geo:nom xml:lang="fr">Rostrenen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22269">
+				<geo:code_commune>22269</geo:code_commune>
+				<geo:nom xml:lang="fr">Runan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22271">
+				<geo:code_commune>22271</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Adrien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22272">
+				<geo:code_commune>22272</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Agathon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22283">
+				<geo:code_commune>22283</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Clet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22284">
+				<geo:code_commune>22284</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Connan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22285">
+				<geo:code_commune>22285</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Connec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22289">
+				<geo:code_commune>22289</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Fiacre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22290">
+				<geo:code_commune>22290</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Gelven</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22293">
+				<geo:code_commune>22293</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Gilles-les-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22294">
+				<geo:code_commune>22294</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Gilles-Pligeaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22295">
+				<geo:code_commune>22295</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Gilles-Vieux-Marché</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22298">
+				<geo:code_commune>22298</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Guen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22304">
+				<geo:code_commune>22304</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jean-Kerdaniel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22310">
+				<geo:code_commune>22310</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Laurent</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22320">
+				<geo:code_commune>22320</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Nicodème</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22321">
+				<geo:code_commune>22321</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Nicolas-du-Pélem</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22322">
+				<geo:code_commune>22322</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Péver</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22328">
+				<geo:code_commune>22328</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Servais</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22331">
+				<geo:code_commune>22331</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Tréphine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22334">
+				<geo:code_commune>22334</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Igeaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22335">
+				<geo:code_commune>22335</geo:code_commune>
+				<geo:nom xml:lang="fr">Senven-Léhart</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22338">
+				<geo:code_commune>22338</geo:code_commune>
+				<geo:nom xml:lang="fr">Squiffiec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22344">
+				<geo:code_commune>22344</geo:code_commune>
+				<geo:nom xml:lang="fr">Trébrivan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22351">
+				<geo:code_commune>22351</geo:code_commune>
+				<geo:nom xml:lang="fr">Treffrin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22354">
+				<geo:code_commune>22354</geo:code_commune>
+				<geo:nom xml:lang="fr">Tréglamus</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22358">
+				<geo:code_commune>22358</geo:code_commune>
+				<geo:nom xml:lang="fr">Trégonneau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22365">
+				<geo:code_commune>22365</geo:code_commune>
+				<geo:nom xml:lang="fr">Trémargat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22373">
+				<geo:code_commune>22373</geo:code_commune>
+				<geo:nom xml:lang="fr">Tréogan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_223">
+		<geo:code_arrondissement>223</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Lannion</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_22113"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2219">
+				<geo:code_canton>2219</geo:code_canton>
+				<geo:nom xml:lang="fr">Lannion</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2221">
+				<geo:code_canton>2221</geo:code_canton>
+				<geo:nom xml:lang="fr">Lézardrieux</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2229">
+				<geo:code_canton>2229</geo:code_canton>
+				<geo:nom xml:lang="fr">Perros-Guirec</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2233">
+				<geo:code_canton>2233</geo:code_canton>
+				<geo:nom xml:lang="fr">Plestin-les-Grèves</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2236">
+				<geo:code_canton>2236</geo:code_canton>
+				<geo:nom xml:lang="fr">Plouaret</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2242">
+				<geo:code_canton>2242</geo:code_canton>
+				<geo:nom xml:lang="fr">La Roche-Derrien</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2247">
+				<geo:code_canton>2247</geo:code_canton>
+				<geo:nom xml:lang="fr">Tréguier</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22006">
+				<geo:code_commune>22006</geo:code_commune>
+				<geo:nom xml:lang="fr">Berhet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22028">
+				<geo:code_commune>22028</geo:code_commune>
+				<geo:nom xml:lang="fr">Camlez</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22030">
+				<geo:code_commune>22030</geo:code_commune>
+				<geo:nom xml:lang="fr">Caouënnec-Lanvézéac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22034">
+				<geo:code_commune>22034</geo:code_commune>
+				<geo:nom xml:lang="fr">Cavan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22041">
+				<geo:code_commune>22041</geo:code_commune>
+				<geo:nom xml:lang="fr">Coatascorn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22042">
+				<geo:code_commune>22042</geo:code_commune>
+				<geo:nom xml:lang="fr">Coatréven</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22078">
+				<geo:code_commune>22078</geo:code_commune>
+				<geo:nom xml:lang="fr">Hengoat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22085">
+				<geo:code_commune>22085</geo:code_commune>
+				<geo:nom xml:lang="fr">Kerbors</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22090">
+				<geo:code_commune>22090</geo:code_commune>
+				<geo:nom xml:lang="fr">Kermaria-Sulard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22101">
+				<geo:code_commune>22101</geo:code_commune>
+				<geo:nom xml:lang="fr">Langoat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22110">
+				<geo:code_commune>22110</geo:code_commune>
+				<geo:nom xml:lang="fr">Lanmérin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22111">
+				<geo:code_commune>22111</geo:code_commune>
+				<geo:nom xml:lang="fr">Lanmodez</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22113">
+				<geo:code_commune>22113</geo:code_commune>
+				<geo:nom xml:lang="fr">Lannion</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22119">
+				<geo:code_commune>22119</geo:code_commune>
+				<geo:nom xml:lang="fr">Lanvellec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22127">
+				<geo:code_commune>22127</geo:code_commune>
+				<geo:nom xml:lang="fr">Lézardrieux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22131">
+				<geo:code_commune>22131</geo:code_commune>
+				<geo:nom xml:lang="fr">Loguivy-Plougras</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22134">
+				<geo:code_commune>22134</geo:code_commune>
+				<geo:nom xml:lang="fr">Louannec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22141">
+				<geo:code_commune>22141</geo:code_commune>
+				<geo:nom xml:lang="fr">Mantallot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22152">
+				<geo:code_commune>22152</geo:code_commune>
+				<geo:nom xml:lang="fr">Minihy-Tréguier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22166">
+				<geo:code_commune>22166</geo:code_commune>
+				<geo:nom xml:lang="fr">Penvénan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22168">
+				<geo:code_commune>22168</geo:code_commune>
+				<geo:nom xml:lang="fr">Perros-Guirec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22194">
+				<geo:code_commune>22194</geo:code_commune>
+				<geo:nom xml:lang="fr">Plestin-les-Grèves</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22195">
+				<geo:code_commune>22195</geo:code_commune>
+				<geo:nom xml:lang="fr">Pleubian</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22196">
+				<geo:code_commune>22196</geo:code_commune>
+				<geo:nom xml:lang="fr">Pleudaniel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22198">
+				<geo:code_commune>22198</geo:code_commune>
+				<geo:nom xml:lang="fr">Pleumeur-Bodou</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22199">
+				<geo:code_commune>22199</geo:code_commune>
+				<geo:nom xml:lang="fr">Pleumeur-Gautier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22207">
+				<geo:code_commune>22207</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouaret</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22211">
+				<geo:code_commune>22211</geo:code_commune>
+				<geo:nom xml:lang="fr">Ploubezre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22217">
+				<geo:code_commune>22217</geo:code_commune>
+				<geo:nom xml:lang="fr">Plougras</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22218">
+				<geo:code_commune>22218</geo:code_commune>
+				<geo:nom xml:lang="fr">Plougrescant</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22221">
+				<geo:code_commune>22221</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouguiel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22224">
+				<geo:code_commune>22224</geo:code_commune>
+				<geo:nom xml:lang="fr">Ploulec'h</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22226">
+				<geo:code_commune>22226</geo:code_commune>
+				<geo:nom xml:lang="fr">Ploumilliau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22227">
+				<geo:code_commune>22227</geo:code_commune>
+				<geo:nom xml:lang="fr">Plounérin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22228">
+				<geo:code_commune>22228</geo:code_commune>
+				<geo:nom xml:lang="fr">Plounévez-Moëdec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22235">
+				<geo:code_commune>22235</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouzélambre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22238">
+				<geo:code_commune>22238</geo:code_commune>
+				<geo:nom xml:lang="fr">Plufur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22245">
+				<geo:code_commune>22245</geo:code_commune>
+				<geo:nom xml:lang="fr">Pluzunet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22247">
+				<geo:code_commune>22247</geo:code_commune>
+				<geo:nom xml:lang="fr">Pommerit-Jaudy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22253">
+				<geo:code_commune>22253</geo:code_commune>
+				<geo:nom xml:lang="fr">Pouldouran</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22254">
+				<geo:code_commune>22254</geo:code_commune>
+				<geo:nom xml:lang="fr">Prat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22257">
+				<geo:code_commune>22257</geo:code_commune>
+				<geo:nom xml:lang="fr">Quemperven</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22264">
+				<geo:code_commune>22264</geo:code_commune>
+				<geo:nom xml:lang="fr">La Roche-Derrien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22265">
+				<geo:code_commune>22265</geo:code_commune>
+				<geo:nom xml:lang="fr">Rospez</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22319">
+				<geo:code_commune>22319</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Michel-en-Grève</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22324">
+				<geo:code_commune>22324</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Quay-Perros</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22340">
+				<geo:code_commune>22340</geo:code_commune>
+				<geo:nom xml:lang="fr">Tonquédec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22343">
+				<geo:code_commune>22343</geo:code_commune>
+				<geo:nom xml:lang="fr">Trébeurden</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22347">
+				<geo:code_commune>22347</geo:code_commune>
+				<geo:nom xml:lang="fr">Trédarzec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22349">
+				<geo:code_commune>22349</geo:code_commune>
+				<geo:nom xml:lang="fr">Trédrez-Locquémeau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22350">
+				<geo:code_commune>22350</geo:code_commune>
+				<geo:nom xml:lang="fr">Tréduder</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22353">
+				<geo:code_commune>22353</geo:code_commune>
+				<geo:nom xml:lang="fr">Trégastel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22359">
+				<geo:code_commune>22359</geo:code_commune>
+				<geo:nom xml:lang="fr">Trégrom</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22362">
+				<geo:code_commune>22362</geo:code_commune>
+				<geo:nom xml:lang="fr">Tréguier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22363">
+				<geo:code_commune>22363</geo:code_commune>
+				<geo:nom xml:lang="fr">Trélévern</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22366">
+				<geo:code_commune>22366</geo:code_commune>
+				<geo:nom xml:lang="fr">Trémel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22379">
+				<geo:code_commune>22379</geo:code_commune>
+				<geo:nom xml:lang="fr">Trévou-Tréguignec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22381">
+				<geo:code_commune>22381</geo:code_commune>
+				<geo:nom xml:lang="fr">Trézény</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22383">
+				<geo:code_commune>22383</geo:code_commune>
+				<geo:nom xml:lang="fr">Troguéry</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22387">
+				<geo:code_commune>22387</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Vieux-Marché</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_224">
+		<geo:code_arrondissement>224</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Saint-Brieuc</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_22278"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2207">
+				<geo:code_canton>2207</geo:code_canton>
+				<geo:nom xml:lang="fr">Châtelaudren</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2208">
+				<geo:code_canton>2208</geo:code_canton>
+				<geo:nom xml:lang="fr">La Chèze</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2210">
+				<geo:code_canton>2210</geo:code_canton>
+				<geo:nom xml:lang="fr">Corlay</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2213">
+				<geo:code_canton>2213</geo:code_canton>
+				<geo:nom xml:lang="fr">Étables-sur-Mer</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2218">
+				<geo:code_canton>2218</geo:code_canton>
+				<geo:nom xml:lang="fr">Lamballe</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2220">
+				<geo:code_canton>2220</geo:code_canton>
+				<geo:nom xml:lang="fr">Lanvollon</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2222">
+				<geo:code_canton>2222</geo:code_canton>
+				<geo:nom xml:lang="fr">Loudéac</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2226">
+				<geo:code_canton>2226</geo:code_canton>
+				<geo:nom xml:lang="fr">Moncontour</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2228">
+				<geo:code_canton>2228</geo:code_canton>
+				<geo:nom xml:lang="fr">Paimpol</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2232">
+				<geo:code_canton>2232</geo:code_canton>
+				<geo:nom xml:lang="fr">Pléneuf-Val-André</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2234">
+				<geo:code_canton>2234</geo:code_canton>
+				<geo:nom xml:lang="fr">Ploeuc-sur-Lié</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2238">
+				<geo:code_canton>2238</geo:code_canton>
+				<geo:nom xml:lang="fr">Plouguenast</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2239">
+				<geo:code_canton>2239</geo:code_canton>
+				<geo:nom xml:lang="fr">Plouha</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2241">
+				<geo:code_canton>2241</geo:code_canton>
+				<geo:nom xml:lang="fr">Quintin</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2244">
+				<geo:code_canton>2244</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Brieuc-Nord</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2245">
+				<geo:code_canton>2245</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Brieuc-Sud</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2248">
+				<geo:code_canton>2248</geo:code_canton>
+				<geo:nom xml:lang="fr">Uzel</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2249">
+				<geo:code_canton>2249</geo:code_canton>
+				<geo:nom xml:lang="fr">Langueux</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2250">
+				<geo:code_canton>2250</geo:code_canton>
+				<geo:nom xml:lang="fr">Plérin</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2251">
+				<geo:code_canton>2251</geo:code_canton>
+				<geo:nom xml:lang="fr">Ploufragan</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2252">
+				<geo:code_canton>2252</geo:code_canton>
+				<geo:nom xml:lang="fr">Saint-Brieuc-Ouest</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22001">
+				<geo:code_commune>22001</geo:code_commune>
+				<geo:nom xml:lang="fr">Allineuc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22002">
+				<geo:code_commune>22002</geo:code_commune>
+				<geo:nom xml:lang="fr">Andel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22007">
+				<geo:code_commune>22007</geo:code_commune>
+				<geo:nom xml:lang="fr">Binic</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22009">
+				<geo:code_commune>22009</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Bodéo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22011">
+				<geo:code_commune>22011</geo:code_commune>
+				<geo:nom xml:lang="fr">Boqueho</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22015">
+				<geo:code_commune>22015</geo:code_commune>
+				<geo:nom xml:lang="fr">Bréhand</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22016">
+				<geo:code_commune>22016</geo:code_commune>
+				<geo:nom xml:lang="fr">Île-de-Bréhat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22027">
+				<geo:code_commune>22027</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Cambout</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22038">
+				<geo:code_commune>22038</geo:code_commune>
+				<geo:nom xml:lang="fr">Châtelaudren</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22039">
+				<geo:code_commune>22039</geo:code_commune>
+				<geo:nom xml:lang="fr">La Chèze</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22043">
+				<geo:code_commune>22043</geo:code_commune>
+				<geo:nom xml:lang="fr">Coëtlogon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22044">
+				<geo:code_commune>22044</geo:code_commune>
+				<geo:nom xml:lang="fr">Coëtmieux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22045">
+				<geo:code_commune>22045</geo:code_commune>
+				<geo:nom xml:lang="fr">Cohiniac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22047">
+				<geo:code_commune>22047</geo:code_commune>
+				<geo:nom xml:lang="fr">Corlay</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22054">
+				<geo:code_commune>22054</geo:code_commune>
+				<geo:nom xml:lang="fr">Erquy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22055">
+				<geo:code_commune>22055</geo:code_commune>
+				<geo:nom xml:lang="fr">Étables-sur-Mer</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22057">
+				<geo:code_commune>22057</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Faouët</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22058">
+				<geo:code_commune>22058</geo:code_commune>
+				<geo:nom xml:lang="fr">La Ferrière</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22059">
+				<geo:code_commune>22059</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Foeil</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22060">
+				<geo:code_commune>22060</geo:code_commune>
+				<geo:nom xml:lang="fr">Gausson</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22063">
+				<geo:code_commune>22063</geo:code_commune>
+				<geo:nom xml:lang="fr">Gommenec'h</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22068">
+				<geo:code_commune>22068</geo:code_commune>
+				<geo:nom xml:lang="fr">Grâce-Uzel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22073">
+				<geo:code_commune>22073</geo:code_commune>
+				<geo:nom xml:lang="fr">La Harmoye</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22074">
+				<geo:code_commune>22074</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Haut-Corlay</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22075">
+				<geo:code_commune>22075</geo:code_commune>
+				<geo:nom xml:lang="fr">Hémonstoir</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22079">
+				<geo:code_commune>22079</geo:code_commune>
+				<geo:nom xml:lang="fr">Hénon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22080">
+				<geo:code_commune>22080</geo:code_commune>
+				<geo:nom xml:lang="fr">L'Hermitage-Lorge</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22081">
+				<geo:code_commune>22081</geo:code_commune>
+				<geo:nom xml:lang="fr">Hillion</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22086">
+				<geo:code_commune>22086</geo:code_commune>
+				<geo:nom xml:lang="fr">Kerfot</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22093">
+				<geo:code_commune>22093</geo:code_commune>
+				<geo:nom xml:lang="fr">Lamballe</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22098">
+				<geo:code_commune>22098</geo:code_commune>
+				<geo:nom xml:lang="fr">Landéhen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22099">
+				<geo:code_commune>22099</geo:code_commune>
+				<geo:nom xml:lang="fr">Lanfains</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22100">
+				<geo:code_commune>22100</geo:code_commune>
+				<geo:nom xml:lang="fr">Langast</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22106">
+				<geo:code_commune>22106</geo:code_commune>
+				<geo:nom xml:lang="fr">Langueux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22108">
+				<geo:code_commune>22108</geo:code_commune>
+				<geo:nom xml:lang="fr">Lanleff</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22109">
+				<geo:code_commune>22109</geo:code_commune>
+				<geo:nom xml:lang="fr">Lanloup</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22112">
+				<geo:code_commune>22112</geo:code_commune>
+				<geo:nom xml:lang="fr">Lannebert</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22117">
+				<geo:code_commune>22117</geo:code_commune>
+				<geo:nom xml:lang="fr">Lantic</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22121">
+				<geo:code_commune>22121</geo:code_commune>
+				<geo:nom xml:lang="fr">Lanvollon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22126">
+				<geo:code_commune>22126</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Leslay</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22136">
+				<geo:code_commune>22136</geo:code_commune>
+				<geo:nom xml:lang="fr">Loudéac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22140">
+				<geo:code_commune>22140</geo:code_commune>
+				<geo:nom xml:lang="fr">La Malhoure</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22144">
+				<geo:code_commune>22144</geo:code_commune>
+				<geo:nom xml:lang="fr">La Méaugon</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22149">
+				<geo:code_commune>22149</geo:code_commune>
+				<geo:nom xml:lang="fr">Merléac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22150">
+				<geo:code_commune>22150</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Merzer</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22151">
+				<geo:code_commune>22151</geo:code_commune>
+				<geo:nom xml:lang="fr">Meslin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22153">
+				<geo:code_commune>22153</geo:code_commune>
+				<geo:nom xml:lang="fr">Moncontour</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22154">
+				<geo:code_commune>22154</geo:code_commune>
+				<geo:nom xml:lang="fr">Morieux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22155">
+				<geo:code_commune>22155</geo:code_commune>
+				<geo:nom xml:lang="fr">La Motte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22160">
+				<geo:code_commune>22160</geo:code_commune>
+				<geo:nom xml:lang="fr">Noyal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22162">
+				<geo:code_commune>22162</geo:code_commune>
+				<geo:nom xml:lang="fr">Paimpol</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22165">
+				<geo:code_commune>22165</geo:code_commune>
+				<geo:nom xml:lang="fr">Penguily</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22170">
+				<geo:code_commune>22170</geo:code_commune>
+				<geo:nom xml:lang="fr">Plaine-Haute</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22171">
+				<geo:code_commune>22171</geo:code_commune>
+				<geo:nom xml:lang="fr">Plaintel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22173">
+				<geo:code_commune>22173</geo:code_commune>
+				<geo:nom xml:lang="fr">Planguenoual</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22176">
+				<geo:code_commune>22176</geo:code_commune>
+				<geo:nom xml:lang="fr">Plédran</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22177">
+				<geo:code_commune>22177</geo:code_commune>
+				<geo:nom xml:lang="fr">Pléguien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22178">
+				<geo:code_commune>22178</geo:code_commune>
+				<geo:nom xml:lang="fr">Pléhédel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22182">
+				<geo:code_commune>22182</geo:code_commune>
+				<geo:nom xml:lang="fr">Plélo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22183">
+				<geo:code_commune>22183</geo:code_commune>
+				<geo:nom xml:lang="fr">Plémet</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22184">
+				<geo:code_commune>22184</geo:code_commune>
+				<geo:nom xml:lang="fr">Plémy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22186">
+				<geo:code_commune>22186</geo:code_commune>
+				<geo:nom xml:lang="fr">Pléneuf-Val-André</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22187">
+				<geo:code_commune>22187</geo:code_commune>
+				<geo:nom xml:lang="fr">Plérin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22188">
+				<geo:code_commune>22188</geo:code_commune>
+				<geo:nom xml:lang="fr">Plerneuf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22191">
+				<geo:code_commune>22191</geo:code_commune>
+				<geo:nom xml:lang="fr">Plessala</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22203">
+				<geo:code_commune>22203</geo:code_commune>
+				<geo:nom xml:lang="fr">Ploeuc-sur-Lié</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22210">
+				<geo:code_commune>22210</geo:code_commune>
+				<geo:nom xml:lang="fr">Ploubazlanec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22214">
+				<geo:code_commune>22214</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouézec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22215">
+				<geo:code_commune>22215</geo:code_commune>
+				<geo:nom xml:lang="fr">Ploufragan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22219">
+				<geo:code_commune>22219</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouguenast</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22222">
+				<geo:code_commune>22222</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouha</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22232">
+				<geo:code_commune>22232</geo:code_commune>
+				<geo:nom xml:lang="fr">Plourhan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22233">
+				<geo:code_commune>22233</geo:code_commune>
+				<geo:nom xml:lang="fr">Plourivo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22234">
+				<geo:code_commune>22234</geo:code_commune>
+				<geo:nom xml:lang="fr">Plouvara</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22236">
+				<geo:code_commune>22236</geo:code_commune>
+				<geo:nom xml:lang="fr">Pludual</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22241">
+				<geo:code_commune>22241</geo:code_commune>
+				<geo:nom xml:lang="fr">Plumieux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22242">
+				<geo:code_commune>22242</geo:code_commune>
+				<geo:nom xml:lang="fr">Plurien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22244">
+				<geo:code_commune>22244</geo:code_commune>
+				<geo:nom xml:lang="fr">Plussulien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22246">
+				<geo:code_commune>22246</geo:code_commune>
+				<geo:nom xml:lang="fr">Pommeret</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22248">
+				<geo:code_commune>22248</geo:code_commune>
+				<geo:nom xml:lang="fr">Pommerit-le-Vicomte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22251">
+				<geo:code_commune>22251</geo:code_commune>
+				<geo:nom xml:lang="fr">Pordic</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22255">
+				<geo:code_commune>22255</geo:code_commune>
+				<geo:nom xml:lang="fr">La Prénessaye</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22258">
+				<geo:code_commune>22258</geo:code_commune>
+				<geo:nom xml:lang="fr">Quessoy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22260">
+				<geo:code_commune>22260</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Quillio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22261">
+				<geo:code_commune>22261</geo:code_commune>
+				<geo:nom xml:lang="fr">Quintenic</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22262">
+				<geo:code_commune>22262</geo:code_commune>
+				<geo:nom xml:lang="fr">Quintin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22273">
+				<geo:code_commune>22273</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Alban</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22275">
+				<geo:code_commune>22275</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Barnabé</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22276">
+				<geo:code_commune>22276</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Bihy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22277">
+				<geo:code_commune>22277</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Brandan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22278">
+				<geo:code_commune>22278</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Brieuc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22279">
+				<geo:code_commune>22279</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Caradec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22281">
+				<geo:code_commune>22281</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Carreuc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22287">
+				<geo:code_commune>22287</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Donan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22288">
+				<geo:code_commune>22288</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Étienne-du-Gué-de-l'Isle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22291">
+				<geo:code_commune>22291</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Gildas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22296">
+				<geo:code_commune>22296</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Glen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22300">
+				<geo:code_commune>22300</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Hervé</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22307">
+				<geo:code_commune>22307</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Julien</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22313">
+				<geo:code_commune>22313</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Martin-des-Prés</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22314">
+				<geo:code_commune>22314</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Maudan</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22316">
+				<geo:code_commune>22316</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Mayeux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22325">
+				<geo:code_commune>22325</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Quay-Portrieux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22326">
+				<geo:code_commune>22326</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Rieul</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22330">
+				<geo:code_commune>22330</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Thélo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22332">
+				<geo:code_commune>22332</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Trimoël</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22345">
+				<geo:code_commune>22345</geo:code_commune>
+				<geo:nom xml:lang="fr">Trébry</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22346">
+				<geo:code_commune>22346</geo:code_commune>
+				<geo:nom xml:lang="fr">Trédaniel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22356">
+				<geo:code_commune>22356</geo:code_commune>
+				<geo:nom xml:lang="fr">Trégomeur</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22360">
+				<geo:code_commune>22360</geo:code_commune>
+				<geo:nom xml:lang="fr">Trégueux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22361">
+				<geo:code_commune>22361</geo:code_commune>
+				<geo:nom xml:lang="fr">Tréguidel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22367">
+				<geo:code_commune>22367</geo:code_commune>
+				<geo:nom xml:lang="fr">Tréméloir</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22370">
+				<geo:code_commune>22370</geo:code_commune>
+				<geo:nom xml:lang="fr">Tréméven</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22372">
+				<geo:code_commune>22372</geo:code_commune>
+				<geo:nom xml:lang="fr">Trémuson</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22375">
+				<geo:code_commune>22375</geo:code_commune>
+				<geo:nom xml:lang="fr">Tressignaux</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22376">
+				<geo:code_commune>22376</geo:code_commune>
+				<geo:nom xml:lang="fr">Trévé</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22377">
+				<geo:code_commune>22377</geo:code_commune>
+				<geo:nom xml:lang="fr">Tréveneuc</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22378">
+				<geo:code_commune>22378</geo:code_commune>
+				<geo:nom xml:lang="fr">Trévérec</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22384">
+				<geo:code_commune>22384</geo:code_commune>
+				<geo:nom xml:lang="fr">Uzel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22386">
+				<geo:code_commune>22386</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Vieux-Bourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22389">
+				<geo:code_commune>22389</geo:code_commune>
+				<geo:nom xml:lang="fr">Yffiniac</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_22390">
+				<geo:code_commune>22390</geo:code_commune>
+				<geo:nom xml:lang="fr">Yvias</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+</rdf:RDF>

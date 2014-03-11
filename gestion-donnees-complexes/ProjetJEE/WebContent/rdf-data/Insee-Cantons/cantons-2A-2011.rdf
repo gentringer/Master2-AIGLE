@@ -1,0 +1,1848 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/cantons-2A-2011.rdf">
+		<dc:title xml:lang="fr">Cantons et communes du département de la Corse-du-Sud (2A)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Canton rdf:about="CAN_2A01">
+		<geo:code_canton>2A01</geo:code_canton>
+		<geo:nom xml:lang="fr">Ajaccio  1er Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A004"/>
+		<geo:fraction_cantonale rdf:resource="COM_2A004" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A02">
+		<geo:code_canton>2A02</geo:code_canton>
+		<geo:nom xml:lang="fr">Bastelica</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A031"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A031">
+				<geo:code_commune>2A031</geo:code_commune>
+				<geo:nom xml:lang="fr">Bastelica</geo:nom>
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A040" />
+				<geo:voisin rdf:resource="COM_2A085" />
+				<geo:voisin rdf:resource="COM_2A089" />
+				<geo:voisin rdf:resource="COM_2A104" />
+				<geo:voisin rdf:resource="COM_2A119" />
+				<geo:voisin rdf:resource="COM_2A130" />
+				<geo:voisin rdf:resource="COM_2A133" />
+				<geo:voisin rdf:resource="COM_2A200" />
+				<geo:voisin rdf:resource="COM_2A209" />
+				<geo:voisin rdf:resource="COM_2A253" />
+				<geo:voisin rdf:resource="COM_2A312" />
+				<geo:voisin rdf:resource="COM_2A322" />
+				<geo:voisin rdf:resource="COM_2A324" />
+				<geo:voisin rdf:resource="COM_2A326" />
+				<geo:voisin rdf:resource="COM_2A330" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B124">
+						<geo:code_commune>2B124</geo:code_commune>
+						<geo:nom xml:lang="fr">Ghisoni</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A085">
+				<geo:code_commune>2A085</geo:code_commune>
+				<geo:nom xml:lang="fr">Cauro</geo:nom>
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A032" />
+				<geo:voisin rdf:resource="COM_2A085" />
+				<geo:voisin rdf:resource="COM_2A104" />
+				<geo:voisin rdf:resource="COM_2A130" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A104">
+				<geo:code_commune>2A104</geo:code_commune>
+				<geo:nom xml:lang="fr">Eccica-Suarella</geo:nom>
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A032" />
+				<geo:voisin rdf:resource="COM_2A085" />
+				<geo:voisin rdf:resource="COM_2A104" />
+				<geo:voisin rdf:resource="COM_2A181" />
+				<geo:voisin rdf:resource="COM_2A326" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A181">
+				<geo:code_commune>2A181</geo:code_commune>
+				<geo:nom xml:lang="fr">Ocana</geo:nom>
+				<geo:voisin rdf:resource="COM_2A032" />
+				<geo:voisin rdf:resource="COM_2A103" />
+				<geo:voisin rdf:resource="COM_2A104" />
+				<geo:voisin rdf:resource="COM_2A181" />
+				<geo:voisin rdf:resource="COM_2A326" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A326">
+				<geo:code_commune>2A326</geo:code_commune>
+				<geo:nom xml:lang="fr">Tolla</geo:nom>
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A103" />
+				<geo:voisin rdf:resource="COM_2A104" />
+				<geo:voisin rdf:resource="COM_2A181" />
+				<geo:voisin rdf:resource="COM_2A209" />
+				<geo:voisin rdf:resource="COM_2A326" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A06">
+		<geo:code_canton>2A06</geo:code_canton>
+		<geo:nom xml:lang="fr">Celavo-Mezzana</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A040"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A040">
+				<geo:code_commune>2A040</geo:code_commune>
+				<geo:nom xml:lang="fr">Bocognano</geo:nom>
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A040" />
+				<geo:voisin rdf:resource="COM_2A204" />
+				<geo:voisin rdf:resource="COM_2A324" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B124">
+						<geo:code_commune>2B124</geo:code_commune>
+						<geo:nom xml:lang="fr">Ghisoni</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B354">
+						<geo:code_commune>2B354</geo:code_commune>
+						<geo:nom xml:lang="fr">Vivario</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A062">
+				<geo:code_commune>2A062</geo:code_commune>
+				<geo:nom xml:lang="fr">Carbuccia</geo:nom>
+				<geo:voisin rdf:resource="COM_2A062" />
+				<geo:voisin rdf:resource="COM_2A209" />
+				<geo:voisin rdf:resource="COM_2A323" />
+				<geo:voisin rdf:resource="COM_2A330" />
+				<geo:voisin rdf:resource="COM_2A345" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A103">
+				<geo:code_commune>2A103</geo:code_commune>
+				<geo:nom xml:lang="fr">Cuttoli-Corticchiato</geo:nom>
+				<geo:voisin rdf:resource="COM_2A032" />
+				<geo:voisin rdf:resource="COM_2A103" />
+				<geo:voisin rdf:resource="COM_2A181" />
+				<geo:voisin rdf:resource="COM_2A209" />
+				<geo:voisin rdf:resource="COM_2A271" />
+				<geo:voisin rdf:resource="COM_2A326" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A209">
+				<geo:code_commune>2A209</geo:code_commune>
+				<geo:nom xml:lang="fr">Peri</geo:nom>
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A062" />
+				<geo:voisin rdf:resource="COM_2A103" />
+				<geo:voisin rdf:resource="COM_2A209" />
+				<geo:voisin rdf:resource="COM_2A271" />
+				<geo:voisin rdf:resource="COM_2A323" />
+				<geo:voisin rdf:resource="COM_2A326" />
+				<geo:voisin rdf:resource="COM_2A330" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A271">
+				<geo:code_commune>2A271</geo:code_commune>
+				<geo:nom xml:lang="fr">Sarrola-Carcopino</geo:nom>
+				<geo:voisin rdf:resource="COM_2A001" />
+				<geo:voisin rdf:resource="COM_2A004" />
+				<geo:voisin rdf:resource="COM_2A017" />
+				<geo:voisin rdf:resource="COM_2A032" />
+				<geo:voisin rdf:resource="COM_2A060" />
+				<geo:voisin rdf:resource="COM_2A103" />
+				<geo:voisin rdf:resource="COM_2A209" />
+				<geo:voisin rdf:resource="COM_2A270" />
+				<geo:voisin rdf:resource="COM_2A271" />
+				<geo:voisin rdf:resource="COM_2A323" />
+				<geo:voisin rdf:resource="COM_2A336" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A323">
+				<geo:code_commune>2A323</geo:code_commune>
+				<geo:nom xml:lang="fr">Tavaco</geo:nom>
+				<geo:voisin rdf:resource="COM_2A062" />
+				<geo:voisin rdf:resource="COM_2A209" />
+				<geo:voisin rdf:resource="COM_2A270" />
+				<geo:voisin rdf:resource="COM_2A271" />
+				<geo:voisin rdf:resource="COM_2A323" />
+				<geo:voisin rdf:resource="COM_2A345" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A324">
+				<geo:code_commune>2A324</geo:code_commune>
+				<geo:nom xml:lang="fr">Tavera</geo:nom>
+				<geo:voisin rdf:resource="COM_2A027" />
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A040" />
+				<geo:voisin rdf:resource="COM_2A204" />
+				<geo:voisin rdf:resource="COM_2A259" />
+				<geo:voisin rdf:resource="COM_2A324" />
+				<geo:voisin rdf:resource="COM_2A330" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A330">
+				<geo:code_commune>2A330</geo:code_commune>
+				<geo:nom xml:lang="fr">Ucciani</geo:nom>
+				<geo:voisin rdf:resource="COM_2A027" />
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A062" />
+				<geo:voisin rdf:resource="COM_2A209" />
+				<geo:voisin rdf:resource="COM_2A324" />
+				<geo:voisin rdf:resource="COM_2A330" />
+				<geo:voisin rdf:resource="COM_2A345" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A336">
+				<geo:code_commune>2A336</geo:code_commune>
+				<geo:nom xml:lang="fr">Valle-di-Mezzana</geo:nom>
+				<geo:voisin rdf:resource="COM_2A017" />
+				<geo:voisin rdf:resource="COM_2A048" />
+				<geo:voisin rdf:resource="COM_2A060" />
+				<geo:voisin rdf:resource="COM_2A271" />
+				<geo:voisin rdf:resource="COM_2A295" />
+				<geo:voisin rdf:resource="COM_2A336" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A345">
+				<geo:code_commune>2A345</geo:code_commune>
+				<geo:nom xml:lang="fr">Vero</geo:nom>
+				<geo:voisin rdf:resource="COM_2A027" />
+				<geo:voisin rdf:resource="COM_2A062" />
+				<geo:voisin rdf:resource="COM_2A144" />
+				<geo:voisin rdf:resource="COM_2A266" />
+				<geo:voisin rdf:resource="COM_2A270" />
+				<geo:voisin rdf:resource="COM_2A323" />
+				<geo:voisin rdf:resource="COM_2A330" />
+				<geo:voisin rdf:resource="COM_2A345" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A07">
+		<geo:code_canton>2A07</geo:code_canton>
+		<geo:nom xml:lang="fr">Bonifacio</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A041"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A041">
+				<geo:code_commune>2A041</geo:code_commune>
+				<geo:nom xml:lang="fr">Bonifacio</geo:nom>
+				<geo:voisin rdf:resource="COM_2A041" />
+				<geo:voisin rdf:resource="COM_2A114" />
+				<geo:voisin rdf:resource="COM_2A247" />
+				<geo:voisin rdf:resource="COM_2A288" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A22">
+		<geo:code_canton>2A22</geo:code_canton>
+		<geo:nom xml:lang="fr">Levie</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A142"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A061">
+				<geo:code_commune>2A061</geo:code_commune>
+				<geo:nom xml:lang="fr">Carbini</geo:nom>
+				<geo:voisin rdf:resource="COM_2A061" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A247" />
+				<geo:voisin rdf:resource="COM_2A300" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A142">
+				<geo:code_commune>2A142</geo:code_commune>
+				<geo:nom xml:lang="fr">Levie</geo:nom>
+				<geo:voisin rdf:resource="COM_2A011" />
+				<geo:voisin rdf:resource="COM_2A061" />
+				<geo:voisin rdf:resource="COM_2A114" />
+				<geo:voisin rdf:resource="COM_2A115" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A158" />
+				<geo:voisin rdf:resource="COM_2A215" />
+				<geo:voisin rdf:resource="COM_2A247" />
+				<geo:voisin rdf:resource="COM_2A254" />
+				<geo:voisin rdf:resource="COM_2A272" />
+				<geo:voisin rdf:resource="COM_2A278" />
+				<geo:voisin rdf:resource="COM_2A285" />
+				<geo:voisin rdf:resource="COM_2A288" />
+				<geo:voisin rdf:resource="COM_2A300" />
+				<geo:voisin rdf:resource="COM_2A308" />
+				<geo:voisin rdf:resource="COM_2A363" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A300">
+				<geo:code_commune>2A300</geo:code_commune>
+				<geo:nom xml:lang="fr">San-Gavino-di-Carbini</geo:nom>
+				<geo:voisin rdf:resource="COM_2A061" />
+				<geo:voisin rdf:resource="COM_2A139" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A247" />
+				<geo:voisin rdf:resource="COM_2A254" />
+				<geo:voisin rdf:resource="COM_2A300" />
+				<geo:voisin rdf:resource="COM_2A362" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A362">
+				<geo:code_commune>2A362</geo:code_commune>
+				<geo:nom xml:lang="fr">Zonza</geo:nom>
+				<geo:voisin rdf:resource="COM_2A092" />
+				<geo:voisin rdf:resource="COM_2A139" />
+				<geo:voisin rdf:resource="COM_2A254" />
+				<geo:voisin rdf:resource="COM_2A300" />
+				<geo:voisin rdf:resource="COM_2A362" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A30">
+		<geo:code_canton>2A30</geo:code_canton>
+		<geo:nom xml:lang="fr">Olmeto</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A189"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A018">
+				<geo:code_commune>2A018</geo:code_commune>
+				<geo:nom xml:lang="fr">Arbellara</geo:nom>
+				<geo:voisin rdf:resource="COM_2A018" />
+				<geo:voisin rdf:resource="COM_2A118" />
+				<geo:voisin rdf:resource="COM_2A146" />
+				<geo:voisin rdf:resource="COM_2A191" />
+				<geo:voisin rdf:resource="COM_2A272" />
+				<geo:voisin rdf:resource="COM_2A349" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A118">
+				<geo:code_commune>2A118</geo:code_commune>
+				<geo:nom xml:lang="fr">Fozzano</geo:nom>
+				<geo:voisin rdf:resource="COM_2A018" />
+				<geo:voisin rdf:resource="COM_2A118" />
+				<geo:voisin rdf:resource="COM_2A146" />
+				<geo:voisin rdf:resource="COM_2A160" />
+				<geo:voisin rdf:resource="COM_2A189" />
+				<geo:voisin rdf:resource="COM_2A211" />
+				<geo:voisin rdf:resource="COM_2A310" />
+				<geo:voisin rdf:resource="COM_2A349" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A189">
+				<geo:code_commune>2A189</geo:code_commune>
+				<geo:nom xml:lang="fr">Olmeto</geo:nom>
+				<geo:voisin rdf:resource="COM_2A071" />
+				<geo:voisin rdf:resource="COM_2A118" />
+				<geo:voisin rdf:resource="COM_2A189" />
+				<geo:voisin rdf:resource="COM_2A211" />
+				<geo:voisin rdf:resource="COM_2A249" />
+				<geo:voisin rdf:resource="COM_2A276" />
+				<geo:voisin rdf:resource="COM_2A284" />
+				<geo:voisin rdf:resource="COM_2A349" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A249">
+				<geo:code_commune>2A249</geo:code_commune>
+				<geo:nom xml:lang="fr">Propriano</geo:nom>
+				<geo:voisin rdf:resource="COM_2A035" />
+				<geo:voisin rdf:resource="COM_2A038" />
+				<geo:voisin rdf:resource="COM_2A129" />
+				<geo:voisin rdf:resource="COM_2A189" />
+				<geo:voisin rdf:resource="COM_2A249" />
+				<geo:voisin rdf:resource="COM_2A272" />
+				<geo:voisin rdf:resource="COM_2A349" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A310">
+				<geo:code_commune>2A310</geo:code_commune>
+				<geo:nom xml:lang="fr">Santa-Maria-Figaniella</geo:nom>
+				<geo:voisin rdf:resource="COM_2A066" />
+				<geo:voisin rdf:resource="COM_2A118" />
+				<geo:voisin rdf:resource="COM_2A146" />
+				<geo:voisin rdf:resource="COM_2A160" />
+				<geo:voisin rdf:resource="COM_2A211" />
+				<geo:voisin rdf:resource="COM_2A310" />
+				<geo:voisin rdf:resource="COM_2A357" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A349">
+				<geo:code_commune>2A349</geo:code_commune>
+				<geo:nom xml:lang="fr">Viggianello</geo:nom>
+				<geo:voisin rdf:resource="COM_2A018" />
+				<geo:voisin rdf:resource="COM_2A118" />
+				<geo:voisin rdf:resource="COM_2A189" />
+				<geo:voisin rdf:resource="COM_2A249" />
+				<geo:voisin rdf:resource="COM_2A272" />
+				<geo:voisin rdf:resource="COM_2A349" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A34">
+		<geo:code_canton>2A34</geo:code_canton>
+		<geo:nom xml:lang="fr">Petreto-Bicchisano</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A211"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A021">
+				<geo:code_commune>2A021</geo:code_commune>
+				<geo:nom xml:lang="fr">Argiusta-Moriccio</geo:nom>
+				<geo:voisin rdf:resource="COM_2A021" />
+				<geo:voisin rdf:resource="COM_2A024" />
+				<geo:voisin rdf:resource="COM_2A117" />
+				<geo:voisin rdf:resource="COM_2A160" />
+				<geo:voisin rdf:resource="COM_2A186" />
+				<geo:voisin rdf:resource="COM_2A360" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A071">
+				<geo:code_commune>2A071</geo:code_commune>
+				<geo:nom xml:lang="fr">Casalabriva</geo:nom>
+				<geo:voisin rdf:resource="COM_2A071" />
+				<geo:voisin rdf:resource="COM_2A189" />
+				<geo:voisin rdf:resource="COM_2A211" />
+				<geo:voisin rdf:resource="COM_2A232" />
+				<geo:voisin rdf:resource="COM_2A284" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A160">
+				<geo:code_commune>2A160</geo:code_commune>
+				<geo:nom xml:lang="fr">Moca-Croce</geo:nom>
+				<geo:voisin rdf:resource="COM_2A021" />
+				<geo:voisin rdf:resource="COM_2A024" />
+				<geo:voisin rdf:resource="COM_2A118" />
+				<geo:voisin rdf:resource="COM_2A160" />
+				<geo:voisin rdf:resource="COM_2A211" />
+				<geo:voisin rdf:resource="COM_2A310" />
+				<geo:voisin rdf:resource="COM_2A357" />
+				<geo:voisin rdf:resource="COM_2A360" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A186">
+				<geo:code_commune>2A186</geo:code_commune>
+				<geo:nom xml:lang="fr">Olivese</geo:nom>
+				<geo:voisin rdf:resource="COM_2A021" />
+				<geo:voisin rdf:resource="COM_2A024" />
+				<geo:voisin rdf:resource="COM_2A094" />
+				<geo:voisin rdf:resource="COM_2A117" />
+				<geo:voisin rdf:resource="COM_2A186" />
+				<geo:voisin rdf:resource="COM_2A358" />
+				<geo:voisin rdf:resource="COM_2A359" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A211">
+				<geo:code_commune>2A211</geo:code_commune>
+				<geo:nom xml:lang="fr">Petreto-Bicchisano</geo:nom>
+				<geo:voisin rdf:resource="COM_2A071" />
+				<geo:voisin rdf:resource="COM_2A118" />
+				<geo:voisin rdf:resource="COM_2A132" />
+				<geo:voisin rdf:resource="COM_2A160" />
+				<geo:voisin rdf:resource="COM_2A189" />
+				<geo:voisin rdf:resource="COM_2A211" />
+				<geo:voisin rdf:resource="COM_2A232" />
+				<geo:voisin rdf:resource="COM_2A310" />
+				<geo:voisin rdf:resource="COM_2A331" />
+				<geo:voisin rdf:resource="COM_2A360" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A284">
+				<geo:code_commune>2A284</geo:code_commune>
+				<geo:nom xml:lang="fr">Sollacaro</geo:nom>
+				<geo:voisin rdf:resource="COM_2A071" />
+				<geo:voisin rdf:resource="COM_2A091" />
+				<geo:voisin rdf:resource="COM_2A189" />
+				<geo:voisin rdf:resource="COM_2A232" />
+				<geo:voisin rdf:resource="COM_2A276" />
+				<geo:voisin rdf:resource="COM_2A284" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A35">
+		<geo:code_canton>2A35</geo:code_canton>
+		<geo:nom xml:lang="fr">Les Deux-Sevi</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A212"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A065">
+				<geo:code_commune>2A065</geo:code_commune>
+				<geo:nom xml:lang="fr">Cargèse</geo:nom>
+				<geo:voisin rdf:resource="COM_2A065" />
+				<geo:voisin rdf:resource="COM_2A154" />
+				<geo:voisin rdf:resource="COM_2A212" />
+				<geo:voisin rdf:resource="COM_2A348" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A100">
+				<geo:code_commune>2A100</geo:code_commune>
+				<geo:nom xml:lang="fr">Cristinacce</geo:nom>
+				<geo:voisin rdf:resource="COM_2A100" />
+				<geo:voisin rdf:resource="COM_2A108" />
+				<geo:voisin rdf:resource="COM_2A141" />
+				<geo:voisin rdf:resource="COM_2A154" />
+				<geo:voisin rdf:resource="COM_2A258" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B007">
+						<geo:code_commune>2B007</geo:code_commune>
+						<geo:nom xml:lang="fr">Albertacce</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A108">
+				<geo:code_commune>2A108</geo:code_commune>
+				<geo:nom xml:lang="fr">Évisa</geo:nom>
+				<geo:voisin rdf:resource="COM_2A100" />
+				<geo:voisin rdf:resource="COM_2A108" />
+				<geo:voisin rdf:resource="COM_2A154" />
+				<geo:voisin rdf:resource="COM_2A198" />
+				<geo:voisin rdf:resource="COM_2A279" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B007">
+						<geo:code_commune>2B007</geo:code_commune>
+						<geo:nom xml:lang="fr">Albertacce</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B153">
+						<geo:code_commune>2B153</geo:code_commune>
+						<geo:nom xml:lang="fr">Manso</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A154">
+				<geo:code_commune>2A154</geo:code_commune>
+				<geo:nom xml:lang="fr">Marignana</geo:nom>
+				<geo:voisin rdf:resource="COM_2A028" />
+				<geo:voisin rdf:resource="COM_2A065" />
+				<geo:voisin rdf:resource="COM_2A100" />
+				<geo:voisin rdf:resource="COM_2A108" />
+				<geo:voisin rdf:resource="COM_2A154" />
+				<geo:voisin rdf:resource="COM_2A198" />
+				<geo:voisin rdf:resource="COM_2A212" />
+				<geo:voisin rdf:resource="COM_2A258" />
+				<geo:voisin rdf:resource="COM_2A348" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A197">
+				<geo:code_commune>2A197</geo:code_commune>
+				<geo:nom xml:lang="fr">Osani</geo:nom>
+				<geo:voisin rdf:resource="COM_2A197" />
+				<geo:voisin rdf:resource="COM_2A203" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B121">
+						<geo:code_commune>2B121</geo:code_commune>
+						<geo:nom xml:lang="fr">Galéria</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A198">
+				<geo:code_commune>2A198</geo:code_commune>
+				<geo:nom xml:lang="fr">Ota</geo:nom>
+				<geo:voisin rdf:resource="COM_2A108" />
+				<geo:voisin rdf:resource="COM_2A154" />
+				<geo:voisin rdf:resource="COM_2A198" />
+				<geo:voisin rdf:resource="COM_2A212" />
+				<geo:voisin rdf:resource="COM_2A279" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A203">
+				<geo:code_commune>2A203</geo:code_commune>
+				<geo:nom xml:lang="fr">Partinello</geo:nom>
+				<geo:voisin rdf:resource="COM_2A197" />
+				<geo:voisin rdf:resource="COM_2A203" />
+				<geo:voisin rdf:resource="COM_2A279" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B121">
+						<geo:code_commune>2B121</geo:code_commune>
+						<geo:nom xml:lang="fr">Galéria</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B153">
+						<geo:code_commune>2B153</geo:code_commune>
+						<geo:nom xml:lang="fr">Manso</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A212">
+				<geo:code_commune>2A212</geo:code_commune>
+				<geo:nom xml:lang="fr">Piana</geo:nom>
+				<geo:voisin rdf:resource="COM_2A065" />
+				<geo:voisin rdf:resource="COM_2A154" />
+				<geo:voisin rdf:resource="COM_2A198" />
+				<geo:voisin rdf:resource="COM_2A212" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A279">
+				<geo:code_commune>2A279</geo:code_commune>
+				<geo:nom xml:lang="fr">Serriera</geo:nom>
+				<geo:voisin rdf:resource="COM_2A108" />
+				<geo:voisin rdf:resource="COM_2A198" />
+				<geo:voisin rdf:resource="COM_2A203" />
+				<geo:voisin rdf:resource="COM_2A279" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B121">
+						<geo:code_commune>2B121</geo:code_commune>
+						<geo:nom xml:lang="fr">Galéria</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B153">
+						<geo:code_commune>2B153</geo:code_commune>
+						<geo:nom xml:lang="fr">Manso</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A40">
+		<geo:code_canton>2A40</geo:code_canton>
+		<geo:nom xml:lang="fr">Porto-Vecchio</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A247"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A092">
+				<geo:code_commune>2A092</geo:code_commune>
+				<geo:nom xml:lang="fr">Conca</geo:nom>
+				<geo:voisin rdf:resource="COM_2A092" />
+				<geo:voisin rdf:resource="COM_2A254" />
+				<geo:voisin rdf:resource="COM_2A269" />
+				<geo:voisin rdf:resource="COM_2A362" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A139">
+				<geo:code_commune>2A139</geo:code_commune>
+				<geo:nom xml:lang="fr">Lecci</geo:nom>
+				<geo:voisin rdf:resource="COM_2A139" />
+				<geo:voisin rdf:resource="COM_2A247" />
+				<geo:voisin rdf:resource="COM_2A300" />
+				<geo:voisin rdf:resource="COM_2A362" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A247">
+				<geo:code_commune>2A247</geo:code_commune>
+				<geo:nom xml:lang="fr">Porto-Vecchio</geo:nom>
+				<geo:voisin rdf:resource="COM_2A041" />
+				<geo:voisin rdf:resource="COM_2A061" />
+				<geo:voisin rdf:resource="COM_2A139" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A247" />
+				<geo:voisin rdf:resource="COM_2A288" />
+				<geo:voisin rdf:resource="COM_2A300" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A269">
+				<geo:code_commune>2A269</geo:code_commune>
+				<geo:nom xml:lang="fr">Sari-Solenzara</geo:nom>
+				<geo:voisin rdf:resource="COM_2A092" />
+				<geo:voisin rdf:resource="COM_2A254" />
+				<geo:voisin rdf:resource="COM_2A269" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B283">
+						<geo:code_commune>2B283</geo:code_commune>
+						<geo:nom xml:lang="fr">Solaro</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A48">
+		<geo:code_canton>2A48</geo:code_canton>
+		<geo:nom xml:lang="fr">Santa-Maria-Siché</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A312"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A008">
+				<geo:code_commune>2A008</geo:code_commune>
+				<geo:nom xml:lang="fr">Albitreccia</geo:nom>
+				<geo:voisin rdf:resource="COM_2A008" />
+				<geo:voisin rdf:resource="COM_2A064" />
+				<geo:voisin rdf:resource="COM_2A091" />
+				<geo:voisin rdf:resource="COM_2A130" />
+				<geo:voisin rdf:resource="COM_2A132" />
+				<geo:voisin rdf:resource="COM_2A228" />
+				<geo:voisin rdf:resource="COM_2A331" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A026">
+				<geo:code_commune>2A026</geo:code_commune>
+				<geo:nom xml:lang="fr">Azilone-Ampaza</geo:nom>
+				<geo:voisin rdf:resource="COM_2A026" />
+				<geo:voisin rdf:resource="COM_2A117" />
+				<geo:voisin rdf:resource="COM_2A119" />
+				<geo:voisin rdf:resource="COM_2A312" />
+				<geo:voisin rdf:resource="COM_2A358" />
+				<geo:voisin rdf:resource="COM_2A360" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A056">
+				<geo:code_commune>2A056</geo:code_commune>
+				<geo:nom xml:lang="fr">Campo</geo:nom>
+				<geo:voisin rdf:resource="COM_2A056" />
+				<geo:voisin rdf:resource="COM_2A119" />
+				<geo:voisin rdf:resource="COM_2A253" />
+				<geo:voisin rdf:resource="COM_2A312" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A064">
+				<geo:code_commune>2A064</geo:code_commune>
+				<geo:nom xml:lang="fr">Cardo-Torgia</geo:nom>
+				<geo:voisin rdf:resource="COM_2A008" />
+				<geo:voisin rdf:resource="COM_2A064" />
+				<geo:voisin rdf:resource="COM_2A130" />
+				<geo:voisin rdf:resource="COM_2A312" />
+				<geo:voisin rdf:resource="COM_2A331" />
+				<geo:voisin rdf:resource="COM_2A360" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A091">
+				<geo:code_commune>2A091</geo:code_commune>
+				<geo:nom xml:lang="fr">Cognocoli-Monticchi</geo:nom>
+				<geo:voisin rdf:resource="COM_2A008" />
+				<geo:voisin rdf:resource="COM_2A091" />
+				<geo:voisin rdf:resource="COM_2A098" />
+				<geo:voisin rdf:resource="COM_2A132" />
+				<geo:voisin rdf:resource="COM_2A228" />
+				<geo:voisin rdf:resource="COM_2A232" />
+				<geo:voisin rdf:resource="COM_2A276" />
+				<geo:voisin rdf:resource="COM_2A284" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A098">
+				<geo:code_commune>2A098</geo:code_commune>
+				<geo:nom xml:lang="fr">Coti-Chiavari</geo:nom>
+				<geo:voisin rdf:resource="COM_2A091" />
+				<geo:voisin rdf:resource="COM_2A098" />
+				<geo:voisin rdf:resource="COM_2A228" />
+				<geo:voisin rdf:resource="COM_2A276" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A117">
+				<geo:code_commune>2A117</geo:code_commune>
+				<geo:nom xml:lang="fr">Forciolo</geo:nom>
+				<geo:voisin rdf:resource="COM_2A021" />
+				<geo:voisin rdf:resource="COM_2A026" />
+				<geo:voisin rdf:resource="COM_2A117" />
+				<geo:voisin rdf:resource="COM_2A186" />
+				<geo:voisin rdf:resource="COM_2A358" />
+				<geo:voisin rdf:resource="COM_2A360" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A119">
+				<geo:code_commune>2A119</geo:code_commune>
+				<geo:nom xml:lang="fr">Frasseto</geo:nom>
+				<geo:voisin rdf:resource="COM_2A026" />
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A056" />
+				<geo:voisin rdf:resource="COM_2A119" />
+				<geo:voisin rdf:resource="COM_2A133" />
+				<geo:voisin rdf:resource="COM_2A253" />
+				<geo:voisin rdf:resource="COM_2A312" />
+				<geo:voisin rdf:resource="COM_2A358" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A130">
+				<geo:code_commune>2A130</geo:code_commune>
+				<geo:nom xml:lang="fr">Grosseto-Prugna</geo:nom>
+				<geo:voisin rdf:resource="COM_2A004" />
+				<geo:voisin rdf:resource="COM_2A008" />
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A032" />
+				<geo:voisin rdf:resource="COM_2A064" />
+				<geo:voisin rdf:resource="COM_2A085" />
+				<geo:voisin rdf:resource="COM_2A130" />
+				<geo:voisin rdf:resource="COM_2A312" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A132">
+				<geo:code_commune>2A132</geo:code_commune>
+				<geo:nom xml:lang="fr">Guargualé</geo:nom>
+				<geo:voisin rdf:resource="COM_2A008" />
+				<geo:voisin rdf:resource="COM_2A091" />
+				<geo:voisin rdf:resource="COM_2A132" />
+				<geo:voisin rdf:resource="COM_2A211" />
+				<geo:voisin rdf:resource="COM_2A232" />
+				<geo:voisin rdf:resource="COM_2A331" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A228">
+				<geo:code_commune>2A228</geo:code_commune>
+				<geo:nom xml:lang="fr">Pietrosella</geo:nom>
+				<geo:voisin rdf:resource="COM_2A008" />
+				<geo:voisin rdf:resource="COM_2A091" />
+				<geo:voisin rdf:resource="COM_2A098" />
+				<geo:voisin rdf:resource="COM_2A228" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A232">
+				<geo:code_commune>2A232</geo:code_commune>
+				<geo:nom xml:lang="fr">Pila-Canale</geo:nom>
+				<geo:voisin rdf:resource="COM_2A071" />
+				<geo:voisin rdf:resource="COM_2A091" />
+				<geo:voisin rdf:resource="COM_2A132" />
+				<geo:voisin rdf:resource="COM_2A211" />
+				<geo:voisin rdf:resource="COM_2A232" />
+				<geo:voisin rdf:resource="COM_2A284" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A253">
+				<geo:code_commune>2A253</geo:code_commune>
+				<geo:nom xml:lang="fr">Quasquara</geo:nom>
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A056" />
+				<geo:voisin rdf:resource="COM_2A119" />
+				<geo:voisin rdf:resource="COM_2A253" />
+				<geo:voisin rdf:resource="COM_2A312" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A276">
+				<geo:code_commune>2A276</geo:code_commune>
+				<geo:nom xml:lang="fr">Serra-di-Ferro</geo:nom>
+				<geo:voisin rdf:resource="COM_2A091" />
+				<geo:voisin rdf:resource="COM_2A098" />
+				<geo:voisin rdf:resource="COM_2A189" />
+				<geo:voisin rdf:resource="COM_2A276" />
+				<geo:voisin rdf:resource="COM_2A284" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A312">
+				<geo:code_commune>2A312</geo:code_commune>
+				<geo:nom xml:lang="fr">Santa-Maria-Siché</geo:nom>
+				<geo:voisin rdf:resource="COM_2A026" />
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A056" />
+				<geo:voisin rdf:resource="COM_2A064" />
+				<geo:voisin rdf:resource="COM_2A119" />
+				<geo:voisin rdf:resource="COM_2A130" />
+				<geo:voisin rdf:resource="COM_2A253" />
+				<geo:voisin rdf:resource="COM_2A312" />
+				<geo:voisin rdf:resource="COM_2A360" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A331">
+				<geo:code_commune>2A331</geo:code_commune>
+				<geo:nom xml:lang="fr">Urbalacone</geo:nom>
+				<geo:voisin rdf:resource="COM_2A008" />
+				<geo:voisin rdf:resource="COM_2A064" />
+				<geo:voisin rdf:resource="COM_2A132" />
+				<geo:voisin rdf:resource="COM_2A211" />
+				<geo:voisin rdf:resource="COM_2A331" />
+				<geo:voisin rdf:resource="COM_2A360" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A360">
+				<geo:code_commune>2A360</geo:code_commune>
+				<geo:nom xml:lang="fr">Zigliara</geo:nom>
+				<geo:voisin rdf:resource="COM_2A021" />
+				<geo:voisin rdf:resource="COM_2A026" />
+				<geo:voisin rdf:resource="COM_2A064" />
+				<geo:voisin rdf:resource="COM_2A117" />
+				<geo:voisin rdf:resource="COM_2A160" />
+				<geo:voisin rdf:resource="COM_2A211" />
+				<geo:voisin rdf:resource="COM_2A312" />
+				<geo:voisin rdf:resource="COM_2A331" />
+				<geo:voisin rdf:resource="COM_2A360" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A51">
+		<geo:code_canton>2A51</geo:code_canton>
+		<geo:nom xml:lang="fr">Cruzini-Cinarca</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A270"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A014">
+				<geo:code_commune>2A014</geo:code_commune>
+				<geo:nom xml:lang="fr">Ambiegna</geo:nom>
+				<geo:voisin rdf:resource="COM_2A014" />
+				<geo:voisin rdf:resource="COM_2A019" />
+				<geo:voisin rdf:resource="COM_2A022" />
+				<geo:voisin rdf:resource="COM_2A070" />
+				<geo:voisin rdf:resource="COM_2A090" />
+				<geo:voisin rdf:resource="COM_2A270" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A022">
+				<geo:code_commune>2A022</geo:code_commune>
+				<geo:nom xml:lang="fr">Arro</geo:nom>
+				<geo:voisin rdf:resource="COM_2A014" />
+				<geo:voisin rdf:resource="COM_2A019" />
+				<geo:voisin rdf:resource="COM_2A022" />
+				<geo:voisin rdf:resource="COM_2A144" />
+				<geo:voisin rdf:resource="COM_2A270" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A027">
+				<geo:code_commune>2A027</geo:code_commune>
+				<geo:nom xml:lang="fr">Azzana</geo:nom>
+				<geo:voisin rdf:resource="COM_2A027" />
+				<geo:voisin rdf:resource="COM_2A131" />
+				<geo:voisin rdf:resource="COM_2A240" />
+				<geo:voisin rdf:resource="COM_2A259" />
+				<geo:voisin rdf:resource="COM_2A266" />
+				<geo:voisin rdf:resource="COM_2A324" />
+				<geo:voisin rdf:resource="COM_2A330" />
+				<geo:voisin rdf:resource="COM_2A345" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A048">
+				<geo:code_commune>2A048</geo:code_commune>
+				<geo:nom xml:lang="fr">Calcatoggio</geo:nom>
+				<geo:voisin rdf:resource="COM_2A017" />
+				<geo:voisin rdf:resource="COM_2A048" />
+				<geo:voisin rdf:resource="COM_2A295" />
+				<geo:voisin rdf:resource="COM_2A336" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A060">
+				<geo:code_commune>2A060</geo:code_commune>
+				<geo:nom xml:lang="fr">Cannelle</geo:nom>
+				<geo:voisin rdf:resource="COM_2A060" />
+				<geo:voisin rdf:resource="COM_2A070" />
+				<geo:voisin rdf:resource="COM_2A270" />
+				<geo:voisin rdf:resource="COM_2A271" />
+				<geo:voisin rdf:resource="COM_2A295" />
+				<geo:voisin rdf:resource="COM_2A336" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A070">
+				<geo:code_commune>2A070</geo:code_commune>
+				<geo:nom xml:lang="fr">Casaglione</geo:nom>
+				<geo:voisin rdf:resource="COM_2A014" />
+				<geo:voisin rdf:resource="COM_2A060" />
+				<geo:voisin rdf:resource="COM_2A070" />
+				<geo:voisin rdf:resource="COM_2A090" />
+				<geo:voisin rdf:resource="COM_2A270" />
+				<geo:voisin rdf:resource="COM_2A295" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A144">
+				<geo:code_commune>2A144</geo:code_commune>
+				<geo:nom xml:lang="fr">Lopigna</geo:nom>
+				<geo:voisin rdf:resource="COM_2A019" />
+				<geo:voisin rdf:resource="COM_2A022" />
+				<geo:voisin rdf:resource="COM_2A144" />
+				<geo:voisin rdf:resource="COM_2A262" />
+				<geo:voisin rdf:resource="COM_2A266" />
+				<geo:voisin rdf:resource="COM_2A270" />
+				<geo:voisin rdf:resource="COM_2A345" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A204">
+				<geo:code_commune>2A204</geo:code_commune>
+				<geo:nom xml:lang="fr">Pastricciola</geo:nom>
+				<geo:voisin rdf:resource="COM_2A040" />
+				<geo:voisin rdf:resource="COM_2A131" />
+				<geo:voisin rdf:resource="COM_2A204" />
+				<geo:voisin rdf:resource="COM_2A259" />
+				<geo:voisin rdf:resource="COM_2A324" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B354">
+						<geo:code_commune>2B354</geo:code_commune>
+						<geo:nom xml:lang="fr">Vivario</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A259">
+				<geo:code_commune>2A259</geo:code_commune>
+				<geo:nom xml:lang="fr">Rezza</geo:nom>
+				<geo:voisin rdf:resource="COM_2A027" />
+				<geo:voisin rdf:resource="COM_2A131" />
+				<geo:voisin rdf:resource="COM_2A204" />
+				<geo:voisin rdf:resource="COM_2A259" />
+				<geo:voisin rdf:resource="COM_2A324" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A262">
+				<geo:code_commune>2A262</geo:code_commune>
+				<geo:nom xml:lang="fr">Rosazia</geo:nom>
+				<geo:voisin rdf:resource="COM_2A019" />
+				<geo:voisin rdf:resource="COM_2A144" />
+				<geo:voisin rdf:resource="COM_2A174" />
+				<geo:voisin rdf:resource="COM_2A240" />
+				<geo:voisin rdf:resource="COM_2A262" />
+				<geo:voisin rdf:resource="COM_2A266" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A266">
+				<geo:code_commune>2A266</geo:code_commune>
+				<geo:nom xml:lang="fr">Salice</geo:nom>
+				<geo:voisin rdf:resource="COM_2A027" />
+				<geo:voisin rdf:resource="COM_2A144" />
+				<geo:voisin rdf:resource="COM_2A240" />
+				<geo:voisin rdf:resource="COM_2A262" />
+				<geo:voisin rdf:resource="COM_2A266" />
+				<geo:voisin rdf:resource="COM_2A345" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A270">
+				<geo:code_commune>2A270</geo:code_commune>
+				<geo:nom xml:lang="fr">Sari-d'Orcino</geo:nom>
+				<geo:voisin rdf:resource="COM_2A014" />
+				<geo:voisin rdf:resource="COM_2A022" />
+				<geo:voisin rdf:resource="COM_2A060" />
+				<geo:voisin rdf:resource="COM_2A070" />
+				<geo:voisin rdf:resource="COM_2A144" />
+				<geo:voisin rdf:resource="COM_2A270" />
+				<geo:voisin rdf:resource="COM_2A271" />
+				<geo:voisin rdf:resource="COM_2A323" />
+				<geo:voisin rdf:resource="COM_2A345" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A295">
+				<geo:code_commune>2A295</geo:code_commune>
+				<geo:nom xml:lang="fr">Sant'Andréa-d'Orcino</geo:nom>
+				<geo:voisin rdf:resource="COM_2A048" />
+				<geo:voisin rdf:resource="COM_2A060" />
+				<geo:voisin rdf:resource="COM_2A070" />
+				<geo:voisin rdf:resource="COM_2A295" />
+				<geo:voisin rdf:resource="COM_2A336" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A53">
+		<geo:code_canton>2A53</geo:code_canton>
+		<geo:nom xml:lang="fr">Sartène</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A272"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A035">
+				<geo:code_commune>2A035</geo:code_commune>
+				<geo:nom xml:lang="fr">Belvédère-Campomoro</geo:nom>
+				<geo:voisin rdf:resource="COM_2A035" />
+				<geo:voisin rdf:resource="COM_2A129" />
+				<geo:voisin rdf:resource="COM_2A249" />
+				<geo:voisin rdf:resource="COM_2A272" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A038">
+				<geo:code_commune>2A038</geo:code_commune>
+				<geo:nom xml:lang="fr">Bilia</geo:nom>
+				<geo:voisin rdf:resource="COM_2A038" />
+				<geo:voisin rdf:resource="COM_2A129" />
+				<geo:voisin rdf:resource="COM_2A249" />
+				<geo:voisin rdf:resource="COM_2A272" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A115">
+				<geo:code_commune>2A115</geo:code_commune>
+				<geo:nom xml:lang="fr">Foce</geo:nom>
+				<geo:voisin rdf:resource="COM_2A115" />
+				<geo:voisin rdf:resource="COM_2A128" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A272" />
+				<geo:voisin rdf:resource="COM_2A308" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A127">
+				<geo:code_commune>2A127</geo:code_commune>
+				<geo:nom xml:lang="fr">Giuncheto</geo:nom>
+				<geo:voisin rdf:resource="COM_2A127" />
+				<geo:voisin rdf:resource="COM_2A272" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A128">
+				<geo:code_commune>2A128</geo:code_commune>
+				<geo:nom xml:lang="fr">Granace</geo:nom>
+				<geo:voisin rdf:resource="COM_2A115" />
+				<geo:voisin rdf:resource="COM_2A128" />
+				<geo:voisin rdf:resource="COM_2A191" />
+				<geo:voisin rdf:resource="COM_2A272" />
+				<geo:voisin rdf:resource="COM_2A308" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A129">
+				<geo:code_commune>2A129</geo:code_commune>
+				<geo:nom xml:lang="fr">Grossa</geo:nom>
+				<geo:voisin rdf:resource="COM_2A035" />
+				<geo:voisin rdf:resource="COM_2A038" />
+				<geo:voisin rdf:resource="COM_2A129" />
+				<geo:voisin rdf:resource="COM_2A249" />
+				<geo:voisin rdf:resource="COM_2A272" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A272">
+				<geo:code_commune>2A272</geo:code_commune>
+				<geo:nom xml:lang="fr">Sartène</geo:nom>
+				<geo:voisin rdf:resource="COM_2A018" />
+				<geo:voisin rdf:resource="COM_2A035" />
+				<geo:voisin rdf:resource="COM_2A038" />
+				<geo:voisin rdf:resource="COM_2A115" />
+				<geo:voisin rdf:resource="COM_2A127" />
+				<geo:voisin rdf:resource="COM_2A128" />
+				<geo:voisin rdf:resource="COM_2A129" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A163" />
+				<geo:voisin rdf:resource="COM_2A191" />
+				<geo:voisin rdf:resource="COM_2A215" />
+				<geo:voisin rdf:resource="COM_2A249" />
+				<geo:voisin rdf:resource="COM_2A272" />
+				<geo:voisin rdf:resource="COM_2A349" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A55">
+		<geo:code_canton>2A55</geo:code_canton>
+		<geo:nom xml:lang="fr">Tallano-Scopamène</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A278"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A011">
+				<geo:code_commune>2A011</geo:code_commune>
+				<geo:nom xml:lang="fr">Altagène</geo:nom>
+				<geo:voisin rdf:resource="COM_2A011" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A158" />
+				<geo:voisin rdf:resource="COM_2A278" />
+				<geo:voisin rdf:resource="COM_2A308" />
+				<geo:voisin rdf:resource="COM_2A363" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A024">
+				<geo:code_commune>2A024</geo:code_commune>
+				<geo:nom xml:lang="fr">Aullène</geo:nom>
+				<geo:voisin rdf:resource="COM_2A021" />
+				<geo:voisin rdf:resource="COM_2A024" />
+				<geo:voisin rdf:resource="COM_2A160" />
+				<geo:voisin rdf:resource="COM_2A186" />
+				<geo:voisin rdf:resource="COM_2A278" />
+				<geo:voisin rdf:resource="COM_2A357" />
+				<geo:voisin rdf:resource="COM_2A359" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A066">
+				<geo:code_commune>2A066</geo:code_commune>
+				<geo:nom xml:lang="fr">Cargiaca</geo:nom>
+				<geo:voisin rdf:resource="COM_2A066" />
+				<geo:voisin rdf:resource="COM_2A146" />
+				<geo:voisin rdf:resource="COM_2A308" />
+				<geo:voisin rdf:resource="COM_2A310" />
+				<geo:voisin rdf:resource="COM_2A357" />
+				<geo:voisin rdf:resource="COM_2A363" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A146">
+				<geo:code_commune>2A146</geo:code_commune>
+				<geo:nom xml:lang="fr">Loreto-di-Tallano</geo:nom>
+				<geo:voisin rdf:resource="COM_2A018" />
+				<geo:voisin rdf:resource="COM_2A066" />
+				<geo:voisin rdf:resource="COM_2A118" />
+				<geo:voisin rdf:resource="COM_2A146" />
+				<geo:voisin rdf:resource="COM_2A191" />
+				<geo:voisin rdf:resource="COM_2A308" />
+				<geo:voisin rdf:resource="COM_2A310" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A158">
+				<geo:code_commune>2A158</geo:code_commune>
+				<geo:nom xml:lang="fr">Mela</geo:nom>
+				<geo:voisin rdf:resource="COM_2A011" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A158" />
+				<geo:voisin rdf:resource="COM_2A308" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A191">
+				<geo:code_commune>2A191</geo:code_commune>
+				<geo:nom xml:lang="fr">Olmiccia</geo:nom>
+				<geo:voisin rdf:resource="COM_2A018" />
+				<geo:voisin rdf:resource="COM_2A128" />
+				<geo:voisin rdf:resource="COM_2A146" />
+				<geo:voisin rdf:resource="COM_2A191" />
+				<geo:voisin rdf:resource="COM_2A272" />
+				<geo:voisin rdf:resource="COM_2A308" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A254">
+				<geo:code_commune>2A254</geo:code_commune>
+				<geo:nom xml:lang="fr">Quenza</geo:nom>
+				<geo:voisin rdf:resource="COM_2A092" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A254" />
+				<geo:voisin rdf:resource="COM_2A269" />
+				<geo:voisin rdf:resource="COM_2A278" />
+				<geo:voisin rdf:resource="COM_2A285" />
+				<geo:voisin rdf:resource="COM_2A300" />
+				<geo:voisin rdf:resource="COM_2A359" />
+				<geo:voisin rdf:resource="COM_2A362" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B283">
+						<geo:code_commune>2B283</geo:code_commune>
+						<geo:nom xml:lang="fr">Solaro</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A278">
+				<geo:code_commune>2A278</geo:code_commune>
+				<geo:nom xml:lang="fr">Serra-di-Scopamène</geo:nom>
+				<geo:voisin rdf:resource="COM_2A011" />
+				<geo:voisin rdf:resource="COM_2A024" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A254" />
+				<geo:voisin rdf:resource="COM_2A278" />
+				<geo:voisin rdf:resource="COM_2A285" />
+				<geo:voisin rdf:resource="COM_2A357" />
+				<geo:voisin rdf:resource="COM_2A359" />
+				<geo:voisin rdf:resource="COM_2A363" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A285">
+				<geo:code_commune>2A285</geo:code_commune>
+				<geo:nom xml:lang="fr">Sorbollano</geo:nom>
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A254" />
+				<geo:voisin rdf:resource="COM_2A278" />
+				<geo:voisin rdf:resource="COM_2A285" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A308">
+				<geo:code_commune>2A308</geo:code_commune>
+				<geo:nom xml:lang="fr">Sainte-Lucie-de-Tallano</geo:nom>
+				<geo:voisin rdf:resource="COM_2A011" />
+				<geo:voisin rdf:resource="COM_2A066" />
+				<geo:voisin rdf:resource="COM_2A115" />
+				<geo:voisin rdf:resource="COM_2A128" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A146" />
+				<geo:voisin rdf:resource="COM_2A158" />
+				<geo:voisin rdf:resource="COM_2A191" />
+				<geo:voisin rdf:resource="COM_2A308" />
+				<geo:voisin rdf:resource="COM_2A363" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A357">
+				<geo:code_commune>2A357</geo:code_commune>
+				<geo:nom xml:lang="fr">Zérubia</geo:nom>
+				<geo:voisin rdf:resource="COM_2A024" />
+				<geo:voisin rdf:resource="COM_2A066" />
+				<geo:voisin rdf:resource="COM_2A160" />
+				<geo:voisin rdf:resource="COM_2A278" />
+				<geo:voisin rdf:resource="COM_2A310" />
+				<geo:voisin rdf:resource="COM_2A357" />
+				<geo:voisin rdf:resource="COM_2A363" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A363">
+				<geo:code_commune>2A363</geo:code_commune>
+				<geo:nom xml:lang="fr">Zoza</geo:nom>
+				<geo:voisin rdf:resource="COM_2A011" />
+				<geo:voisin rdf:resource="COM_2A066" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A278" />
+				<geo:voisin rdf:resource="COM_2A308" />
+				<geo:voisin rdf:resource="COM_2A357" />
+				<geo:voisin rdf:resource="COM_2A363" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A61">
+		<geo:code_canton>2A61</geo:code_canton>
+		<geo:nom xml:lang="fr">Les Deux-Sorru</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A348"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A019">
+				<geo:code_commune>2A019</geo:code_commune>
+				<geo:nom xml:lang="fr">Arbori</geo:nom>
+				<geo:voisin rdf:resource="COM_2A014" />
+				<geo:voisin rdf:resource="COM_2A019" />
+				<geo:voisin rdf:resource="COM_2A022" />
+				<geo:voisin rdf:resource="COM_2A090" />
+				<geo:voisin rdf:resource="COM_2A144" />
+				<geo:voisin rdf:resource="COM_2A174" />
+				<geo:voisin rdf:resource="COM_2A262" />
+				<geo:voisin rdf:resource="COM_2A348" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A028">
+				<geo:code_commune>2A028</geo:code_commune>
+				<geo:nom xml:lang="fr">Balogna</geo:nom>
+				<geo:voisin rdf:resource="COM_2A028" />
+				<geo:voisin rdf:resource="COM_2A154" />
+				<geo:voisin rdf:resource="COM_2A258" />
+				<geo:voisin rdf:resource="COM_2A348" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A090">
+				<geo:code_commune>2A090</geo:code_commune>
+				<geo:nom xml:lang="fr">Coggia</geo:nom>
+				<geo:voisin rdf:resource="COM_2A014" />
+				<geo:voisin rdf:resource="COM_2A019" />
+				<geo:voisin rdf:resource="COM_2A070" />
+				<geo:voisin rdf:resource="COM_2A090" />
+				<geo:voisin rdf:resource="COM_2A348" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A131">
+				<geo:code_commune>2A131</geo:code_commune>
+				<geo:nom xml:lang="fr">Guagno</geo:nom>
+				<geo:voisin rdf:resource="COM_2A027" />
+				<geo:voisin rdf:resource="COM_2A131" />
+				<geo:voisin rdf:resource="COM_2A196" />
+				<geo:voisin rdf:resource="COM_2A204" />
+				<geo:voisin rdf:resource="COM_2A240" />
+				<geo:voisin rdf:resource="COM_2A259" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B096">
+						<geo:code_commune>2B096</geo:code_commune>
+						<geo:nom xml:lang="fr">Corte</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B341">
+						<geo:code_commune>2B341</geo:code_commune>
+						<geo:nom xml:lang="fr">Venaco</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B354">
+						<geo:code_commune>2B354</geo:code_commune>
+						<geo:nom xml:lang="fr">Vivario</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A141">
+				<geo:code_commune>2A141</geo:code_commune>
+				<geo:nom xml:lang="fr">Letia</geo:nom>
+				<geo:voisin rdf:resource="COM_2A100" />
+				<geo:voisin rdf:resource="COM_2A141" />
+				<geo:voisin rdf:resource="COM_2A174" />
+				<geo:voisin rdf:resource="COM_2A240" />
+				<geo:voisin rdf:resource="COM_2A258" />
+				<geo:voisin rdf:resource="COM_2A282" />
+				<geo:voisin rdf:resource="COM_2A348" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B007">
+						<geo:code_commune>2B007</geo:code_commune>
+						<geo:nom xml:lang="fr">Albertacce</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B073">
+						<geo:code_commune>2B073</geo:code_commune>
+						<geo:nom xml:lang="fr">Casamaccioli</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B096">
+						<geo:code_commune>2B096</geo:code_commune>
+						<geo:nom xml:lang="fr">Corte</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A174">
+				<geo:code_commune>2A174</geo:code_commune>
+				<geo:nom xml:lang="fr">Murzo</geo:nom>
+				<geo:voisin rdf:resource="COM_2A019" />
+				<geo:voisin rdf:resource="COM_2A141" />
+				<geo:voisin rdf:resource="COM_2A174" />
+				<geo:voisin rdf:resource="COM_2A240" />
+				<geo:voisin rdf:resource="COM_2A262" />
+				<geo:voisin rdf:resource="COM_2A348" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A196">
+				<geo:code_commune>2A196</geo:code_commune>
+				<geo:nom xml:lang="fr">Orto</geo:nom>
+				<geo:voisin rdf:resource="COM_2A131" />
+				<geo:voisin rdf:resource="COM_2A196" />
+				<geo:voisin rdf:resource="COM_2A240" />
+				<geo:voisin rdf:resource="COM_2A282" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B096">
+						<geo:code_commune>2B096</geo:code_commune>
+						<geo:nom xml:lang="fr">Corte</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A240">
+				<geo:code_commune>2A240</geo:code_commune>
+				<geo:nom xml:lang="fr">Poggiolo</geo:nom>
+				<geo:voisin rdf:resource="COM_2A027" />
+				<geo:voisin rdf:resource="COM_2A131" />
+				<geo:voisin rdf:resource="COM_2A141" />
+				<geo:voisin rdf:resource="COM_2A174" />
+				<geo:voisin rdf:resource="COM_2A196" />
+				<geo:voisin rdf:resource="COM_2A240" />
+				<geo:voisin rdf:resource="COM_2A262" />
+				<geo:voisin rdf:resource="COM_2A266" />
+				<geo:voisin rdf:resource="COM_2A282" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A258">
+				<geo:code_commune>2A258</geo:code_commune>
+				<geo:nom xml:lang="fr">Renno</geo:nom>
+				<geo:voisin rdf:resource="COM_2A028" />
+				<geo:voisin rdf:resource="COM_2A100" />
+				<geo:voisin rdf:resource="COM_2A141" />
+				<geo:voisin rdf:resource="COM_2A154" />
+				<geo:voisin rdf:resource="COM_2A258" />
+				<geo:voisin rdf:resource="COM_2A348" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A282">
+				<geo:code_commune>2A282</geo:code_commune>
+				<geo:nom xml:lang="fr">Soccia</geo:nom>
+				<geo:voisin rdf:resource="COM_2A141" />
+				<geo:voisin rdf:resource="COM_2A196" />
+				<geo:voisin rdf:resource="COM_2A240" />
+				<geo:voisin rdf:resource="COM_2A282" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B096">
+						<geo:code_commune>2B096</geo:code_commune>
+						<geo:nom xml:lang="fr">Corte</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A348">
+				<geo:code_commune>2A348</geo:code_commune>
+				<geo:nom xml:lang="fr">Vico</geo:nom>
+				<geo:voisin rdf:resource="COM_2A019" />
+				<geo:voisin rdf:resource="COM_2A028" />
+				<geo:voisin rdf:resource="COM_2A065" />
+				<geo:voisin rdf:resource="COM_2A090" />
+				<geo:voisin rdf:resource="COM_2A141" />
+				<geo:voisin rdf:resource="COM_2A154" />
+				<geo:voisin rdf:resource="COM_2A174" />
+				<geo:voisin rdf:resource="COM_2A258" />
+				<geo:voisin rdf:resource="COM_2A348" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A62">
+		<geo:code_canton>2A62</geo:code_canton>
+		<geo:nom xml:lang="fr">Zicavo</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A359"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A089">
+				<geo:code_commune>2A089</geo:code_commune>
+				<geo:nom xml:lang="fr">Ciamannacce</geo:nom>
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A089" />
+				<geo:voisin rdf:resource="COM_2A099" />
+				<geo:voisin rdf:resource="COM_2A200" />
+				<geo:voisin rdf:resource="COM_2A268" />
+				<geo:voisin rdf:resource="COM_2A322" />
+				<geo:voisin rdf:resource="COM_2A359" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A094">
+				<geo:code_commune>2A094</geo:code_commune>
+				<geo:nom xml:lang="fr">Corrano</geo:nom>
+				<geo:voisin rdf:resource="COM_2A094" />
+				<geo:voisin rdf:resource="COM_2A133" />
+				<geo:voisin rdf:resource="COM_2A186" />
+				<geo:voisin rdf:resource="COM_2A358" />
+				<geo:voisin rdf:resource="COM_2A359" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A099">
+				<geo:code_commune>2A099</geo:code_commune>
+				<geo:nom xml:lang="fr">Cozzano</geo:nom>
+				<geo:voisin rdf:resource="COM_2A089" />
+				<geo:voisin rdf:resource="COM_2A099" />
+				<geo:voisin rdf:resource="COM_2A200" />
+				<geo:voisin rdf:resource="COM_2A359" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B277">
+						<geo:code_commune>2B277</geo:code_commune>
+						<geo:nom xml:lang="fr">Serra-di-Fiumorbo</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B365">
+						<geo:code_commune>2B365</geo:code_commune>
+						<geo:nom xml:lang="fr">San-Gavino-di-Fiumorbo</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B366">
+						<geo:code_commune>2B366</geo:code_commune>
+						<geo:nom xml:lang="fr">Chisa</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A133">
+				<geo:code_commune>2A133</geo:code_commune>
+				<geo:nom xml:lang="fr">Guitera-les-Bains</geo:nom>
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A094" />
+				<geo:voisin rdf:resource="COM_2A119" />
+				<geo:voisin rdf:resource="COM_2A133" />
+				<geo:voisin rdf:resource="COM_2A322" />
+				<geo:voisin rdf:resource="COM_2A358" />
+				<geo:voisin rdf:resource="COM_2A359" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A200">
+				<geo:code_commune>2A200</geo:code_commune>
+				<geo:nom xml:lang="fr">Palneca</geo:nom>
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A089" />
+				<geo:voisin rdf:resource="COM_2A099" />
+				<geo:voisin rdf:resource="COM_2A200" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B124">
+						<geo:code_commune>2B124</geo:code_commune>
+						<geo:nom xml:lang="fr">Ghisoni</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B135">
+						<geo:code_commune>2B135</geo:code_commune>
+						<geo:nom xml:lang="fr">Isolaccio-di-Fiumorbo</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B365">
+						<geo:code_commune>2B365</geo:code_commune>
+						<geo:nom xml:lang="fr">San-Gavino-di-Fiumorbo</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A268">
+				<geo:code_commune>2A268</geo:code_commune>
+				<geo:nom xml:lang="fr">Sampolo</geo:nom>
+				<geo:voisin rdf:resource="COM_2A089" />
+				<geo:voisin rdf:resource="COM_2A268" />
+				<geo:voisin rdf:resource="COM_2A322" />
+				<geo:voisin rdf:resource="COM_2A359" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A322">
+				<geo:code_commune>2A322</geo:code_commune>
+				<geo:nom xml:lang="fr">Tasso</geo:nom>
+				<geo:voisin rdf:resource="COM_2A031" />
+				<geo:voisin rdf:resource="COM_2A089" />
+				<geo:voisin rdf:resource="COM_2A133" />
+				<geo:voisin rdf:resource="COM_2A268" />
+				<geo:voisin rdf:resource="COM_2A322" />
+				<geo:voisin rdf:resource="COM_2A359" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A358">
+				<geo:code_commune>2A358</geo:code_commune>
+				<geo:nom xml:lang="fr">Zévaco</geo:nom>
+				<geo:voisin rdf:resource="COM_2A026" />
+				<geo:voisin rdf:resource="COM_2A094" />
+				<geo:voisin rdf:resource="COM_2A117" />
+				<geo:voisin rdf:resource="COM_2A119" />
+				<geo:voisin rdf:resource="COM_2A133" />
+				<geo:voisin rdf:resource="COM_2A186" />
+				<geo:voisin rdf:resource="COM_2A358" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A359">
+				<geo:code_commune>2A359</geo:code_commune>
+				<geo:nom xml:lang="fr">Zicavo</geo:nom>
+				<geo:voisin rdf:resource="COM_2A024" />
+				<geo:voisin rdf:resource="COM_2A089" />
+				<geo:voisin rdf:resource="COM_2A094" />
+				<geo:voisin rdf:resource="COM_2A099" />
+				<geo:voisin rdf:resource="COM_2A133" />
+				<geo:voisin rdf:resource="COM_2A186" />
+				<geo:voisin rdf:resource="COM_2A254" />
+				<geo:voisin rdf:resource="COM_2A268" />
+				<geo:voisin rdf:resource="COM_2A278" />
+				<geo:voisin rdf:resource="COM_2A322" />
+				<geo:voisin rdf:resource="COM_2A359" />
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B283">
+						<geo:code_commune>2B283</geo:code_commune>
+						<geo:nom xml:lang="fr">Solaro</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+				<geo:voisin>
+					<geo:Commune rdf:about="COM_2B366">
+						<geo:code_commune>2B366</geo:code_commune>
+						<geo:nom xml:lang="fr">Chisa</geo:nom>
+					</geo:Commune>
+				</geo:voisin>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A63">
+		<geo:code_canton>2A63</geo:code_canton>
+		<geo:nom xml:lang="fr">Ajaccio  2e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A004"/>
+		<geo:fraction_cantonale rdf:resource="COM_2A004" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A64">
+		<geo:code_canton>2A64</geo:code_canton>
+		<geo:nom xml:lang="fr">Ajaccio  3e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A004"/>
+		<geo:fraction_cantonale rdf:resource="COM_2A004" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A65">
+		<geo:code_canton>2A65</geo:code_canton>
+		<geo:nom xml:lang="fr">Ajaccio  4e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A004"/>
+		<geo:fraction_cantonale rdf:resource="COM_2A004" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A66">
+		<geo:code_canton>2A66</geo:code_canton>
+		<geo:nom xml:lang="fr">Ajaccio  5e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A004"/>
+		<geo:fraction_cantonale rdf:resource="COM_2A004" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A70">
+		<geo:code_canton>2A70</geo:code_canton>
+		<geo:nom xml:lang="fr">Figari</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A114"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A114">
+				<geo:code_commune>2A114</geo:code_commune>
+				<geo:nom xml:lang="fr">Figari</geo:nom>
+				<geo:voisin rdf:resource="COM_2A041" />
+				<geo:voisin rdf:resource="COM_2A114" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A215" />
+				<geo:voisin rdf:resource="COM_2A288" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A163">
+				<geo:code_commune>2A163</geo:code_commune>
+				<geo:nom xml:lang="fr">Monacia-d'Aullène</geo:nom>
+				<geo:voisin rdf:resource="COM_2A163" />
+				<geo:voisin rdf:resource="COM_2A215" />
+				<geo:voisin rdf:resource="COM_2A272" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A215">
+				<geo:code_commune>2A215</geo:code_commune>
+				<geo:nom xml:lang="fr">Pianottoli-Caldarello</geo:nom>
+				<geo:voisin rdf:resource="COM_2A114" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A163" />
+				<geo:voisin rdf:resource="COM_2A215" />
+				<geo:voisin rdf:resource="COM_2A272" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A288">
+				<geo:code_commune>2A288</geo:code_commune>
+				<geo:nom xml:lang="fr">Sotta</geo:nom>
+				<geo:voisin rdf:resource="COM_2A041" />
+				<geo:voisin rdf:resource="COM_2A114" />
+				<geo:voisin rdf:resource="COM_2A142" />
+				<geo:voisin rdf:resource="COM_2A247" />
+				<geo:voisin rdf:resource="COM_2A288" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A72">
+		<geo:code_canton>2A72</geo:code_canton>
+		<geo:nom xml:lang="fr">Ajaccio  6e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A004"/>
+		<geo:fraction_cantonale rdf:resource="COM_2A004" />
+	</geo:Canton>
+
+	<geo:Canton rdf:about="CAN_2A73">
+		<geo:code_canton>2A73</geo:code_canton>
+		<geo:nom xml:lang="fr">Ajaccio  7e  Canton</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2A004"/>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A001">
+				<geo:code_commune>2A001</geo:code_commune>
+				<geo:nom xml:lang="fr">Afa</geo:nom>
+				<geo:voisin rdf:resource="COM_2A001" />
+				<geo:voisin rdf:resource="COM_2A004" />
+				<geo:voisin rdf:resource="COM_2A006" />
+				<geo:voisin rdf:resource="COM_2A017" />
+				<geo:voisin rdf:resource="COM_2A271" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:fraction_cantonale rdf:resource="COM_2A004" />
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A006">
+				<geo:code_commune>2A006</geo:code_commune>
+				<geo:nom xml:lang="fr">Alata</geo:nom>
+				<geo:voisin rdf:resource="COM_2A001" />
+				<geo:voisin rdf:resource="COM_2A004" />
+				<geo:voisin rdf:resource="COM_2A006" />
+				<geo:voisin rdf:resource="COM_2A017" />
+				<geo:voisin rdf:resource="COM_2A351" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A017">
+				<geo:code_commune>2A017</geo:code_commune>
+				<geo:nom xml:lang="fr">Appietto</geo:nom>
+				<geo:voisin rdf:resource="COM_2A001" />
+				<geo:voisin rdf:resource="COM_2A006" />
+				<geo:voisin rdf:resource="COM_2A017" />
+				<geo:voisin rdf:resource="COM_2A048" />
+				<geo:voisin rdf:resource="COM_2A271" />
+				<geo:voisin rdf:resource="COM_2A336" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A032">
+				<geo:code_commune>2A032</geo:code_commune>
+				<geo:nom xml:lang="fr">Bastelicaccia</geo:nom>
+				<geo:voisin rdf:resource="COM_2A004" />
+				<geo:voisin rdf:resource="COM_2A032" />
+				<geo:voisin rdf:resource="COM_2A085" />
+				<geo:voisin rdf:resource="COM_2A103" />
+				<geo:voisin rdf:resource="COM_2A104" />
+				<geo:voisin rdf:resource="COM_2A130" />
+				<geo:voisin rdf:resource="COM_2A181" />
+				<geo:voisin rdf:resource="COM_2A271" />
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A351">
+				<geo:code_commune>2A351</geo:code_commune>
+				<geo:nom xml:lang="fr">Villanova</geo:nom>
+				<geo:voisin rdf:resource="COM_2A004" />
+				<geo:voisin rdf:resource="COM_2A006" />
+				<geo:voisin rdf:resource="COM_2A351" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Canton>
+
+	<geo:Pseudo-canton rdf:about="CAN_2A98">
+		<geo:code_INSEE>2A98</geo:code_INSEE>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2A004">
+				<geo:code_commune>2A004</geo:code_commune>
+				<geo:nom xml:lang="fr">Ajaccio</geo:nom>
+				<geo:voisin rdf:resource="COM_2A001" />
+				<geo:voisin rdf:resource="COM_2A004" />
+				<geo:voisin rdf:resource="COM_2A006" />
+				<geo:voisin rdf:resource="COM_2A032" />
+				<geo:voisin rdf:resource="COM_2A130" />
+				<geo:voisin rdf:resource="COM_2A271" />
+				<geo:voisin rdf:resource="COM_2A351" />
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Pseudo-canton>
+
+</rdf:RDF>

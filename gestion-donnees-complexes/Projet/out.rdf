@@ -1,0 +1,430 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:geo="http://rdf.insee.fr/geo/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <owl:Ontology rdf:about="http://rdf.insee.fr/geo/ontologie-geo-2006.rdf">
+    <owl:versionInfo xml:lang="fr">Version 1.0 - 2006-07-18</owl:versionInfo>
+    <rdfs:label xml:lang="fr">Ontologie du Code Officiel Géographique INSEE</rdfs:label>
+  </owl:Ontology>
+  <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+  <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#token"/>
+  <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#boolean"/>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Type_administratif"/>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Suppression_fusion">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://rdf.insee.fr/geo/Evenement"/>
+    </rdfs:subClassOf>
+    <rdfs:label>Suppression fusion</rdfs:label>
+    <rdfs:comment>Suppression ou fusion de territoires</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Modification_de_groupement">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/groupement_modifie"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://rdf.insee.fr/geo/Evenement"/>
+    </rdfs:subClassOf>
+    <rdfs:label xml:lang="fr">Sortie de groupement</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/NUTS_3">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://rdf.insee.fr/geo/NUTS"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/NUTS_1">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:TransitiveProperty rdf:about="http://rdf.insee.fr/geo/subdivision"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class rdf:about="http://rdf.insee.fr/geo/NUTS_2"/>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://rdf.insee.fr/geo/NUTS"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Echange_de_parcelles">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://rdf.insee.fr/geo/Evenement"/>
+    </rdfs:subClassOf>
+    <rdfs:label>Echange de parcelles</rdfs:label>
+    <rdfs:comment>Echange de parcelles entre territoires</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/LAU_1">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://rdf.insee.fr/geo/LAU"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Groupement_de_pays">
+    <rdfs:label xml:lang="fr">Groupement de pays</rdfs:label>
+    <rdfs:comment xml:lang="fr">Exemples : Communauté Européenne, OCDE, OTAN, Pays arabes ...</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Pays_ou_Territoire">
+    <rdfs:comment>Pays ou subdivision géopolitique d'un pays</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Evenement">
+    <rdfs:label xml:lang="en">Evénement</rdfs:label>
+    <rdfs:comment>Classe générique de tous les événements liés à la création ou à la modification de territoires, principalement de communes</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Commune">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/chef-lieu"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >0</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://rdf.insee.fr/geo/Territoire_FR"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://rdf.insee.fr/geo/LAU_2"/>
+    </rdfs:subClassOf>
+    <rdfs:label xml:lang="fr">Commune</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Pays">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:label xml:lang="fr">Pays</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Departement">
+    <rdfs:subClassOf rdf:resource="http://www.geonames.org/ontology#A.ADM2"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://rdf.insee.fr/geo/Territoire_FR"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/NUTS_3"/>
+    <rdfs:label>Département</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Changement_de_departement_ou_arrondissement">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/territoire_modifie"/>
+        </owl:onProperty>
+        <owl:allValuesFrom rdf:resource="http://rdf.insee.fr/geo/Commune"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Evenement"/>
+    <rdfs:label xml:lang="fr">Changement de département ou d'arrondissement</rdfs:label>
+    <rdfs:comment>Changement de rattachement administratif d'une commune</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Changement_de_nom">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Evenement"/>
+    <rdfs:label>Changement de nom</rdfs:label>
+    <rdfs:comment>Changement de l'intitulé du territoire</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/NUTS">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:label xml:lang="fr">Unité Territoriale Statistique</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/NUTS_2">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/NUTS"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Modification_cantonale">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Evenement"/>
+    <rdfs:comment>Modification de la structure d'un ou plusieurs cantons</rdfs:comment>
+    <rdfs:label>Modification cantonale</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Pseudo-canton">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:TransitiveProperty rdf:about="http://rdf.insee.fr/geo/subdivision"/>
+        </owl:onProperty>
+        <owl:allValuesFrom rdf:resource="http://rdf.insee.fr/geo/Commune"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://rdf.insee.fr/geo/Territoire_FR"/>
+    </rdfs:subClassOf>
+    <rdfs:label xml:lang="fr">Pseudo-canton</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Arrondissement_municipal">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://rdf.insee.fr/geo/Territoire_FR"/>
+    </rdfs:subClassOf>
+    <rdfs:label xml:lang="fr">Arrondissement municipal</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Transfert_de_chef-lieu">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/ancien_chef-lieu"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/nouveau_chef-lieu"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Evenement"/>
+    <rdfs:comment>Changement de la commune chef-lieu d'un territoire</rdfs:comment>
+    <rdfs:label>Transfert de chef-lieu</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Territoire_FR">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:comment>Subdivision administrative du territoire français</rdfs:comment>
+    <rdfs:label>Territoire français</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Collectivite_territoriale">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Territoire_FR"/>
+    <rdfs:label xml:lang="fr">Collectivité territoriale</rdfs:label>
+    <rdfs:comment xml:lang="fr">Collectivité territoriale d'outre-mer. Inclut les TOM et les territoires à statut particulier.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Region">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Territoire_FR"/>
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/NUTS_2"/>
+    <rdfs:label>Région</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Creation_ou_retablissement">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Evenement"/>
+    <rdfs:comment>Création ou rétablissemnt d'un territoire</rdfs:comment>
+    <rdfs:label>Création ou rétablissement</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Arrondissement">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Territoire_FR"/>
+    <rdfs:label xml:lang="fr">Arrondissement</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/Canton">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Territoire_FR"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/LAU">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:label xml:lang="fr">Unité Administrative Locale</rdfs:label>
+    <rdfs:label xml:lang="en">Local Administrative Unit</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://rdf.insee.fr/geo/LAU_2">
+    <rdfs:subClassOf rdf:resource="http://rdf.insee.fr/geo/LAU"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/chef-lieu">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Commune"/>
+    <rdfs:label xml:lang="fr">chef-lieu</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:comment xml:lang="fr">la commune siège des institutions administratives du territoire</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/ancien_chef-lieu">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Commune"/>
+    <rdfs:label xml:lang="fr">ancien chef-lieu</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Transfert_de_chef-lieu"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/centroide">
+    <rdfs:range rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    <rdfs:label xml:lang="fr">centroïde</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Commune"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/pays_sortant">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Modification_de_groupement"/>
+    <rdfs:comment xml:lang="fr">pays sortant</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/chef-lieu_de_commune">
+    <rdfs:range rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    <rdfs:label xml:lang="fr">chef-lieu de commune</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Commune"/>
+    <rdfs:comment xml:lang="fr">position géographique de la mairie</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/fraction_cantonale">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Commune"/>
+    <rdfs:label xml:lang="fr">fraction cantonale</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Canton"/>
+    <rdfs:comment xml:lang="fr">Indique une commune dont une fraction seulement est incluse dans le canton</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/pays_entrant">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Modification_de_groupement"/>
+    <rdfs:comment xml:lang="fr">pays entrant</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/nouveau_chef-lieu">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Commune"/>
+    <rdfs:label xml:lang="fr">nouveau chef-lieu</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Transfert_de_chef-lieu"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/territoire_origine">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Changement_de_departement_ou_arrondissement"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/resultante">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Suppression_fusion"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/modification">
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/territoire_modifie"/>
+    </owl:inverseOf>
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Evenement"/>
+    <rdfs:label xml:lang="fr">modification</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:comment>une modification intervenue pour ce territoire</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/rattachement">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Changement_de_departement_ou_arrondissement"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/groupement_modifie">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Groupement_de_pays"/>
+    <rdfs:label xml:lang="fr">groupement modifié</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Modification_de_groupement"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/territoire_modifie">
+    <owl:inverseOf rdf:resource="http://rdf.insee.fr/geo/modification"/>
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Evenement"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/role_administratif">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Type_administratif"/>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Commune"/>
+    <rdfs:comment xml:lang="fr">Indique un rôle de la commune en tant que chef-lieu de circonscription administrative : Préfecture, Sous-préfecture ...</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://rdf.insee.fr/geo/membre">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Groupement_de_pays"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/nom">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    <rdfs:label xml:lang="fr">nom</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+    <rdfs:label xml:lang="fr">longitude</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/code_canton">
+    <rdfs:subPropertyOf>
+      <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/code_INSEE"/>
+    </rdfs:subPropertyOf>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    <rdfs:label xml:lang="fr">code canton</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Canton"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/code_commune">
+    <rdfs:subPropertyOf>
+      <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/code_INSEE"/>
+    </rdfs:subPropertyOf>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    <rdfs:label xml:lang="fr">code commune</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Commune"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/code_region">
+    <rdfs:subPropertyOf>
+      <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/code_INSEE"/>
+    </rdfs:subPropertyOf>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    <rdfs:label xml:lang="fr">code région</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Region"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+    <rdfs:label xml:lang="fr">latitude</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/code_ISO">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    <rdfs:label xml:lang="fr">code ISO</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Pays"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/code_arrondissement">
+    <rdfs:subPropertyOf>
+      <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/code_INSEE"/>
+    </rdfs:subPropertyOf>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    <rdfs:label xml:lang="fr">code arrondissement</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Arrondissement"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#alt">
+    <rdfs:label xml:lang="fr">altitude</rdfs:label>
+    <rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/code_INSEE">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    <rdfs:label xml:lang="fr">code INSEE</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:comment xml:lang="fr">Propriété générique à utiliser pour les types de territoire pour lesquels un type de code plus spécifique n'est pas défini</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/code_pays">
+    <rdfs:subPropertyOf rdf:resource="http://rdf.insee.fr/geo/code_INSEE"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    <rdfs:label xml:lang="fr">code pays</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Pays"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://rdf.insee.fr/geo/code_departement">
+    <rdfs:subPropertyOf rdf:resource="http://rdf.insee.fr/geo/code_INSEE"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    <rdfs:label xml:lang="fr">code département</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Departement"/>
+  </owl:DatatypeProperty>
+  <owl:TransitiveProperty rdf:about="http://rdf.insee.fr/geo/subdivision">
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:comment>une subdivision administrative de ce territoire</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:TransitiveProperty>
+  <owl:SymmetricProperty rdf:about="http://rdf.insee.fr/geo/voisin">
+    <owl:inverseOf rdf:resource="http://rdf.insee.fr/geo/voisin"/>
+    <rdfs:range rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:comment>un territoire ayant une frontière commune</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:SymmetricProperty>
+  <owl:FunctionalProperty rdf:about="http://rdf.insee.fr/geo/description">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+    <rdfs:label xml:lang="fr">description</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Evenement"/>
+    <rdfs:comment>description de la modification</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://rdf.insee.fr/geo/date">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:label xml:lang="fr">date</rdfs:label>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Evenement"/>
+    <rdfs:comment>date de la modification</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://rdf.insee.fr/geo/vivant">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="http://rdf.insee.fr/geo/Pays_ou_Territoire"/>
+    <rdfs:comment>La valeur par défaut 'true' indique que le territoire existe actuellement. La valeur 'false' indique un territoire mort suite à un événement de modification.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+  <geo:Type_administratif rdf:about="http://rdf.insee.fr/geo/Prefecture">
+    <rdfs:label xml:lang="fr">Préfecture</rdfs:label>
+  </geo:Type_administratif>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  <geo:Type_administratif rdf:about="http://rdf.insee.fr/geo/Capitale">
+    <rdfs:label xml:lang="fr">Capitale</rdfs:label>
+  </geo:Type_administratif>
+  <geo:Type_administratif rdf:about="http://rdf.insee.fr/geo/Sous-prefecture">
+    <rdfs:label xml:lang="fr">Sous-préfecture</rdfs:label>
+  </geo:Type_administratif>
+  <gn:A.ADM2/>
+  <geo:Type_administratif rdf:about="http://rdf.insee.fr/geo/Chef-lieu_de_canton">
+    <rdfs:label xml:lang="fr">Chef-lieu de canton</rdfs:label>
+  </geo:Type_administratif>
+  <geo:Type_administratif rdf:about="http://rdf.insee.fr/geo/Prefecture_de_region">
+    <rdfs:label xml:lang="fr">Préfecture de région</rdfs:label>
+  </geo:Type_administratif>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+</rdf:RDF>

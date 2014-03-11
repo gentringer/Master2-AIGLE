@@ -1,0 +1,3483 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/arrondissements-67-2011.rdf">
+		<dc:title xml:lang="fr">Arrondissements du département du Bas-Rhin (67)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Arrondissement rdf:about="ARR_672">
+		<geo:code_arrondissement>672</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Haguenau</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_67180"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6703">
+				<geo:code_canton>6703</geo:code_canton>
+				<geo:nom xml:lang="fr">Bischwiller</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6709">
+				<geo:code_canton>6709</geo:code_canton>
+				<geo:nom xml:lang="fr">Haguenau</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6715">
+				<geo:code_canton>6715</geo:code_canton>
+				<geo:nom xml:lang="fr">Niederbronn-les-Bains</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67014">
+				<geo:code_commune>67014</geo:code_commune>
+				<geo:nom xml:lang="fr">Auenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67023">
+				<geo:code_commune>67023</geo:code_commune>
+				<geo:nom xml:lang="fr">Batzendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67035">
+				<geo:code_commune>67035</geo:code_commune>
+				<geo:nom xml:lang="fr">Berstheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67046">
+				<geo:code_commune>67046</geo:code_commune>
+				<geo:nom xml:lang="fr">Bischwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67048">
+				<geo:code_commune>67048</geo:code_commune>
+				<geo:nom xml:lang="fr">Bitschhoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67082">
+				<geo:code_commune>67082</geo:code_commune>
+				<geo:nom xml:lang="fr">Dalhunden</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67083">
+				<geo:code_commune>67083</geo:code_commune>
+				<geo:nom xml:lang="fr">Dambach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67087">
+				<geo:code_commune>67087</geo:code_commune>
+				<geo:nom xml:lang="fr">Dauendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67106">
+				<geo:code_commune>67106</geo:code_commune>
+				<geo:nom xml:lang="fr">Drusenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67123">
+				<geo:code_commune>67123</geo:code_commune>
+				<geo:nom xml:lang="fr">Engwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67140">
+				<geo:code_commune>67140</geo:code_commune>
+				<geo:nom xml:lang="fr">Forstfeld</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67142">
+				<geo:code_commune>67142</geo:code_commune>
+				<geo:nom xml:lang="fr">Fort-Louis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67174">
+				<geo:code_commune>67174</geo:code_commune>
+				<geo:nom xml:lang="fr">Gumbrechtshoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67176">
+				<geo:code_commune>67176</geo:code_commune>
+				<geo:nom xml:lang="fr">Gundershoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67180">
+				<geo:code_commune>67180</geo:code_commune>
+				<geo:nom xml:lang="fr">Haguenau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67194">
+				<geo:code_commune>67194</geo:code_commune>
+				<geo:nom xml:lang="fr">Herrlisheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67203">
+				<geo:code_commune>67203</geo:code_commune>
+				<geo:nom xml:lang="fr">Hochstett</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67215">
+				<geo:code_commune>67215</geo:code_commune>
+				<geo:nom xml:lang="fr">Huttendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67230">
+				<geo:code_commune>67230</geo:code_commune>
+				<geo:nom xml:lang="fr">Kaltenhouse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67231">
+				<geo:code_commune>67231</geo:code_commune>
+				<geo:nom xml:lang="fr">Kauffenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67238">
+				<geo:code_commune>67238</geo:code_commune>
+				<geo:nom xml:lang="fr">Kindwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67264">
+				<geo:code_commune>67264</geo:code_commune>
+				<geo:nom xml:lang="fr">Leutenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67291">
+				<geo:code_commune>67291</geo:code_commune>
+				<geo:nom xml:lang="fr">Mertzwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67292">
+				<geo:code_commune>67292</geo:code_commune>
+				<geo:nom xml:lang="fr">Mietesheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67304">
+				<geo:code_commune>67304</geo:code_commune>
+				<geo:nom xml:lang="fr">Morschwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67319">
+				<geo:code_commune>67319</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuhaeusel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67324">
+				<geo:code_commune>67324</geo:code_commune>
+				<geo:nom xml:lang="fr">Niederbronn-les-Bains</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67331">
+				<geo:code_commune>67331</geo:code_commune>
+				<geo:nom xml:lang="fr">Niederschaeffolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67340">
+				<geo:code_commune>67340</geo:code_commune>
+				<geo:nom xml:lang="fr">Oberbronn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67345">
+				<geo:code_commune>67345</geo:code_commune>
+				<geo:nom xml:lang="fr">Oberhoffen-sur-Moder</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67356">
+				<geo:code_commune>67356</geo:code_commune>
+				<geo:nom xml:lang="fr">Offendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67358">
+				<geo:code_commune>67358</geo:code_commune>
+				<geo:nom xml:lang="fr">Offwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67359">
+				<geo:code_commune>67359</geo:code_commune>
+				<geo:nom xml:lang="fr">Ohlungen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67388">
+				<geo:code_commune>67388</geo:code_commune>
+				<geo:nom xml:lang="fr">Reichshoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67405">
+				<geo:code_commune>67405</geo:code_commune>
+				<geo:nom xml:lang="fr">Roeschwoog</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67407">
+				<geo:code_commune>67407</geo:code_commune>
+				<geo:nom xml:lang="fr">Rohrwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67409">
+				<geo:code_commune>67409</geo:code_commune>
+				<geo:nom xml:lang="fr">Roppenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67415">
+				<geo:code_commune>67415</geo:code_commune>
+				<geo:nom xml:lang="fr">Rothbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67418">
+				<geo:code_commune>67418</geo:code_commune>
+				<geo:nom xml:lang="fr">Rountzenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67449">
+				<geo:code_commune>67449</geo:code_commune>
+				<geo:nom xml:lang="fr">Schirrhein</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67450">
+				<geo:code_commune>67450</geo:code_commune>
+				<geo:nom xml:lang="fr">Schirrhoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67458">
+				<geo:code_commune>67458</geo:code_commune>
+				<geo:nom xml:lang="fr">Schweighouse-sur-Moder</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67465">
+				<geo:code_commune>67465</geo:code_commune>
+				<geo:nom xml:lang="fr">Sessenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67472">
+				<geo:code_commune>67472</geo:code_commune>
+				<geo:nom xml:lang="fr">Soufflenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67476">
+				<geo:code_commune>67476</geo:code_commune>
+				<geo:nom xml:lang="fr">Stattmatten</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67496">
+				<geo:code_commune>67496</geo:code_commune>
+				<geo:nom xml:lang="fr">Uberach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67497">
+				<geo:code_commune>67497</geo:code_commune>
+				<geo:nom xml:lang="fr">Uhlwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67498">
+				<geo:code_commune>67498</geo:code_commune>
+				<geo:nom xml:lang="fr">Uhrwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67502">
+				<geo:code_commune>67502</geo:code_commune>
+				<geo:nom xml:lang="fr">Uttenhoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67510">
+				<geo:code_commune>67510</geo:code_commune>
+				<geo:nom xml:lang="fr">Wahlenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67512">
+				<geo:code_commune>67512</geo:code_commune>
+				<geo:nom xml:lang="fr">La Walck</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67523">
+				<geo:code_commune>67523</geo:code_commune>
+				<geo:nom xml:lang="fr">Weitbruch</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67536">
+				<geo:code_commune>67536</geo:code_commune>
+				<geo:nom xml:lang="fr">Windstein</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67540">
+				<geo:code_commune>67540</geo:code_commune>
+				<geo:nom xml:lang="fr">Wintershouse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67546">
+				<geo:code_commune>67546</geo:code_commune>
+				<geo:nom xml:lang="fr">Wittersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67558">
+				<geo:code_commune>67558</geo:code_commune>
+				<geo:nom xml:lang="fr">Zinswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_673">
+		<geo:code_arrondissement>673</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Molsheim</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_67300"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6714">
+				<geo:code_canton>6714</geo:code_canton>
+				<geo:nom xml:lang="fr">Molsheim</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6718">
+				<geo:code_canton>6718</geo:code_canton>
+				<geo:nom xml:lang="fr">Rosheim</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6719">
+				<geo:code_canton>6719</geo:code_canton>
+				<geo:nom xml:lang="fr">Saales</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6723">
+				<geo:code_canton>6723</geo:code_canton>
+				<geo:nom xml:lang="fr">Schirmeck</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6733">
+				<geo:code_canton>6733</geo:code_canton>
+				<geo:nom xml:lang="fr">Wasselonne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67008">
+				<geo:code_commune>67008</geo:code_commune>
+				<geo:nom xml:lang="fr">Altorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67016">
+				<geo:code_commune>67016</geo:code_commune>
+				<geo:nom xml:lang="fr">Avolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67018">
+				<geo:code_commune>67018</geo:code_commune>
+				<geo:nom xml:lang="fr">Balbronn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67020">
+				<geo:code_commune>67020</geo:code_commune>
+				<geo:nom xml:lang="fr">Barembach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67026">
+				<geo:code_commune>67026</geo:code_commune>
+				<geo:nom xml:lang="fr">Bellefosse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67027">
+				<geo:code_commune>67027</geo:code_commune>
+				<geo:nom xml:lang="fr">Belmont</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67030">
+				<geo:code_commune>67030</geo:code_commune>
+				<geo:nom xml:lang="fr">Bergbieten</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67045">
+				<geo:code_commune>67045</geo:code_commune>
+				<geo:nom xml:lang="fr">Bischoffsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67050">
+				<geo:code_commune>67050</geo:code_commune>
+				<geo:nom xml:lang="fr">Blancherupt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67052">
+				<geo:code_commune>67052</geo:code_commune>
+				<geo:nom xml:lang="fr">Boersch</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67059">
+				<geo:code_commune>67059</geo:code_commune>
+				<geo:nom xml:lang="fr">Bourg-Bruche</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67066">
+				<geo:code_commune>67066</geo:code_commune>
+				<geo:nom xml:lang="fr">La Broque</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67076">
+				<geo:code_commune>67076</geo:code_commune>
+				<geo:nom xml:lang="fr">Colroy-la-Roche</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67077">
+				<geo:code_commune>67077</geo:code_commune>
+				<geo:nom xml:lang="fr">Cosswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67080">
+				<geo:code_commune>67080</geo:code_commune>
+				<geo:nom xml:lang="fr">Dachstein</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67081">
+				<geo:code_commune>67081</geo:code_commune>
+				<geo:nom xml:lang="fr">Dahlenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67085">
+				<geo:code_commune>67085</geo:code_commune>
+				<geo:nom xml:lang="fr">Dangolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67098">
+				<geo:code_commune>67098</geo:code_commune>
+				<geo:nom xml:lang="fr">Dinsheim-sur-Bruche</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67101">
+				<geo:code_commune>67101</geo:code_commune>
+				<geo:nom xml:lang="fr">Dorlisheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67112">
+				<geo:code_commune>67112</geo:code_commune>
+				<geo:nom xml:lang="fr">Duttlenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67122">
+				<geo:code_commune>67122</geo:code_commune>
+				<geo:nom xml:lang="fr">Wangenbourg-Engenthal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67127">
+				<geo:code_commune>67127</geo:code_commune>
+				<geo:nom xml:lang="fr">Ergersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67128">
+				<geo:code_commune>67128</geo:code_commune>
+				<geo:nom xml:lang="fr">Ernolsheim-Bruche</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67139">
+				<geo:code_commune>67139</geo:code_commune>
+				<geo:nom xml:lang="fr">Flexbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67144">
+				<geo:code_commune>67144</geo:code_commune>
+				<geo:nom xml:lang="fr">Fouday</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67165">
+				<geo:code_commune>67165</geo:code_commune>
+				<geo:nom xml:lang="fr">Grandfontaine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67167">
+				<geo:code_commune>67167</geo:code_commune>
+				<geo:nom xml:lang="fr">Grendelbruch</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67168">
+				<geo:code_commune>67168</geo:code_commune>
+				<geo:nom xml:lang="fr">Gresswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67172">
+				<geo:code_commune>67172</geo:code_commune>
+				<geo:nom xml:lang="fr">Griesheim-près-Molsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67188">
+				<geo:code_commune>67188</geo:code_commune>
+				<geo:nom xml:lang="fr">Heiligenberg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67240">
+				<geo:code_commune>67240</geo:code_commune>
+				<geo:nom xml:lang="fr">Kirchheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67276">
+				<geo:code_commune>67276</geo:code_commune>
+				<geo:nom xml:lang="fr">Lutzelhouse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67282">
+				<geo:code_commune>67282</geo:code_commune>
+				<geo:nom xml:lang="fr">Marlenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67299">
+				<geo:code_commune>67299</geo:code_commune>
+				<geo:nom xml:lang="fr">Mollkirch</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67300">
+				<geo:code_commune>67300</geo:code_commune>
+				<geo:nom xml:lang="fr">Molsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67306">
+				<geo:code_commune>67306</geo:code_commune>
+				<geo:nom xml:lang="fr">Muhlbach-sur-Bruche</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67313">
+				<geo:code_commune>67313</geo:code_commune>
+				<geo:nom xml:lang="fr">Mutzig</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67314">
+				<geo:code_commune>67314</geo:code_commune>
+				<geo:nom xml:lang="fr">Natzwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67321">
+				<geo:code_commune>67321</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuviller-la-Roche</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67325">
+				<geo:code_commune>67325</geo:code_commune>
+				<geo:nom xml:lang="fr">Niederhaslach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67335">
+				<geo:code_commune>67335</geo:code_commune>
+				<geo:nom xml:lang="fr">Nordheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67342">
+				<geo:code_commune>67342</geo:code_commune>
+				<geo:nom xml:lang="fr">Oberhaslach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67354">
+				<geo:code_commune>67354</geo:code_commune>
+				<geo:nom xml:lang="fr">Odratzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67368">
+				<geo:code_commune>67368</geo:code_commune>
+				<geo:nom xml:lang="fr">Ottrott</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67377">
+				<geo:code_commune>67377</geo:code_commune>
+				<geo:nom xml:lang="fr">Plaine</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67384">
+				<geo:code_commune>67384</geo:code_commune>
+				<geo:nom xml:lang="fr">Ranrupt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67408">
+				<geo:code_commune>67408</geo:code_commune>
+				<geo:nom xml:lang="fr">Romanswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67410">
+				<geo:code_commune>67410</geo:code_commune>
+				<geo:nom xml:lang="fr">Rosenwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67411">
+				<geo:code_commune>67411</geo:code_commune>
+				<geo:nom xml:lang="fr">Rosheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67414">
+				<geo:code_commune>67414</geo:code_commune>
+				<geo:nom xml:lang="fr">Rothau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67420">
+				<geo:code_commune>67420</geo:code_commune>
+				<geo:nom xml:lang="fr">Russ</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67421">
+				<geo:code_commune>67421</geo:code_commune>
+				<geo:nom xml:lang="fr">Saales</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67424">
+				<geo:code_commune>67424</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Blaise-la-Roche</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67428">
+				<geo:code_commune>67428</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Nabor</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67436">
+				<geo:code_commune>67436</geo:code_commune>
+				<geo:nom xml:lang="fr">Saulxures</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67442">
+				<geo:code_commune>67442</geo:code_commune>
+				<geo:nom xml:lang="fr">Scharrachbergheim-Irmstett</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67448">
+				<geo:code_commune>67448</geo:code_commune>
+				<geo:nom xml:lang="fr">Schirmeck</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67470">
+				<geo:code_commune>67470</geo:code_commune>
+				<geo:nom xml:lang="fr">Solbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67473">
+				<geo:code_commune>67473</geo:code_commune>
+				<geo:nom xml:lang="fr">Soultz-les-Bains</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67480">
+				<geo:code_commune>67480</geo:code_commune>
+				<geo:nom xml:lang="fr">Still</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67492">
+				<geo:code_commune>67492</geo:code_commune>
+				<geo:nom xml:lang="fr">Traenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67500">
+				<geo:code_commune>67500</geo:code_commune>
+				<geo:nom xml:lang="fr">Urmatt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67513">
+				<geo:code_commune>67513</geo:code_commune>
+				<geo:nom xml:lang="fr">Waldersbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67517">
+				<geo:code_commune>67517</geo:code_commune>
+				<geo:nom xml:lang="fr">Wangen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67520">
+				<geo:code_commune>67520</geo:code_commune>
+				<geo:nom xml:lang="fr">Wasselonne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67525">
+				<geo:code_commune>67525</geo:code_commune>
+				<geo:nom xml:lang="fr">Westhoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67531">
+				<geo:code_commune>67531</geo:code_commune>
+				<geo:nom xml:lang="fr">Wildersbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67543">
+				<geo:code_commune>67543</geo:code_commune>
+				<geo:nom xml:lang="fr">Wisches</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67554">
+				<geo:code_commune>67554</geo:code_commune>
+				<geo:nom xml:lang="fr">Wolxheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_674">
+		<geo:code_arrondissement>674</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Saverne</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_67437"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6704">
+				<geo:code_canton>6704</geo:code_canton>
+				<geo:nom xml:lang="fr">Bouxwiller</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6706">
+				<geo:code_canton>6706</geo:code_canton>
+				<geo:nom xml:lang="fr">Drulingen</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6713">
+				<geo:code_canton>6713</geo:code_canton>
+				<geo:nom xml:lang="fr">Marmoutier</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6717">
+				<geo:code_canton>6717</geo:code_canton>
+				<geo:nom xml:lang="fr">La Petite-Pierre</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6720">
+				<geo:code_canton>6720</geo:code_canton>
+				<geo:nom xml:lang="fr">Sarre-Union</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6721">
+				<geo:code_canton>6721</geo:code_canton>
+				<geo:nom xml:lang="fr">Saverne</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67002">
+				<geo:code_commune>67002</geo:code_commune>
+				<geo:nom xml:lang="fr">Adamswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67004">
+				<geo:code_commune>67004</geo:code_commune>
+				<geo:nom xml:lang="fr">Allenwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67006">
+				<geo:code_commune>67006</geo:code_commune>
+				<geo:nom xml:lang="fr">Altenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67009">
+				<geo:code_commune>67009</geo:code_commune>
+				<geo:nom xml:lang="fr">Altwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67013">
+				<geo:code_commune>67013</geo:code_commune>
+				<geo:nom xml:lang="fr">Asswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67017">
+				<geo:code_commune>67017</geo:code_commune>
+				<geo:nom xml:lang="fr">Baerendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67029">
+				<geo:code_commune>67029</geo:code_commune>
+				<geo:nom xml:lang="fr">Berg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67036">
+				<geo:code_commune>67036</geo:code_commune>
+				<geo:nom xml:lang="fr">Bettwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67041">
+				<geo:code_commune>67041</geo:code_commune>
+				<geo:nom xml:lang="fr">Birkenwald</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67044">
+				<geo:code_commune>67044</geo:code_commune>
+				<geo:nom xml:lang="fr">Bischholtz</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67047">
+				<geo:code_commune>67047</geo:code_commune>
+				<geo:nom xml:lang="fr">Bissert</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67057">
+				<geo:code_commune>67057</geo:code_commune>
+				<geo:nom xml:lang="fr">Bosselshausen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67061">
+				<geo:code_commune>67061</geo:code_commune>
+				<geo:nom xml:lang="fr">Bouxwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67068">
+				<geo:code_commune>67068</geo:code_commune>
+				<geo:nom xml:lang="fr">Buswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67070">
+				<geo:code_commune>67070</geo:code_commune>
+				<geo:nom xml:lang="fr">Burbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67071">
+				<geo:code_commune>67071</geo:code_commune>
+				<geo:nom xml:lang="fr">Bust</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67072">
+				<geo:code_commune>67072</geo:code_commune>
+				<geo:nom xml:lang="fr">Butten</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67078">
+				<geo:code_commune>67078</geo:code_commune>
+				<geo:nom xml:lang="fr">Crastatt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67088">
+				<geo:code_commune>67088</geo:code_commune>
+				<geo:nom xml:lang="fr">Dehlingen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67089">
+				<geo:code_commune>67089</geo:code_commune>
+				<geo:nom xml:lang="fr">Dettwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67091">
+				<geo:code_commune>67091</geo:code_commune>
+				<geo:nom xml:lang="fr">Diedendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67095">
+				<geo:code_commune>67095</geo:code_commune>
+				<geo:nom xml:lang="fr">Diemeringen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67096">
+				<geo:code_commune>67096</geo:code_commune>
+				<geo:nom xml:lang="fr">Dimbsthal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67099">
+				<geo:code_commune>67099</geo:code_commune>
+				<geo:nom xml:lang="fr">Domfessel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67103">
+				<geo:code_commune>67103</geo:code_commune>
+				<geo:nom xml:lang="fr">Dossenheim-sur-Zinsel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67105">
+				<geo:code_commune>67105</geo:code_commune>
+				<geo:nom xml:lang="fr">Drulingen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67111">
+				<geo:code_commune>67111</geo:code_commune>
+				<geo:nom xml:lang="fr">Durstel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67117">
+				<geo:code_commune>67117</geo:code_commune>
+				<geo:nom xml:lang="fr">Eckartswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67126">
+				<geo:code_commune>67126</geo:code_commune>
+				<geo:nom xml:lang="fr">Erckartswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67129">
+				<geo:code_commune>67129</geo:code_commune>
+				<geo:nom xml:lang="fr">Ernolsheim-lès-Saverne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67133">
+				<geo:code_commune>67133</geo:code_commune>
+				<geo:nom xml:lang="fr">Eschbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67134">
+				<geo:code_commune>67134</geo:code_commune>
+				<geo:nom xml:lang="fr">Eschwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67136">
+				<geo:code_commune>67136</geo:code_commune>
+				<geo:nom xml:lang="fr">Eywiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67148">
+				<geo:code_commune>67148</geo:code_commune>
+				<geo:nom xml:lang="fr">Frohmuhl</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67149">
+				<geo:code_commune>67149</geo:code_commune>
+				<geo:nom xml:lang="fr">Furchhausen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67159">
+				<geo:code_commune>67159</geo:code_commune>
+				<geo:nom xml:lang="fr">Goerlingen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67161">
+				<geo:code_commune>67161</geo:code_commune>
+				<geo:nom xml:lang="fr">Gottenhouse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67162">
+				<geo:code_commune>67162</geo:code_commune>
+				<geo:nom xml:lang="fr">Gottesheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67178">
+				<geo:code_commune>67178</geo:code_commune>
+				<geo:nom xml:lang="fr">Gungwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67179">
+				<geo:code_commune>67179</geo:code_commune>
+				<geo:nom xml:lang="fr">Haegen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67183">
+				<geo:code_commune>67183</geo:code_commune>
+				<geo:nom xml:lang="fr">Harskirchen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67185">
+				<geo:code_commune>67185</geo:code_commune>
+				<geo:nom xml:lang="fr">Hattmatt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67190">
+				<geo:code_commune>67190</geo:code_commune>
+				<geo:nom xml:lang="fr">Hengwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67191">
+				<geo:code_commune>67191</geo:code_commune>
+				<geo:nom xml:lang="fr">Herbitzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67198">
+				<geo:code_commune>67198</geo:code_commune>
+				<geo:nom xml:lang="fr">Hinsbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67199">
+				<geo:code_commune>67199</geo:code_commune>
+				<geo:nom xml:lang="fr">Hinsingen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67201">
+				<geo:code_commune>67201</geo:code_commune>
+				<geo:nom xml:lang="fr">Hirschland</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67208">
+				<geo:code_commune>67208</geo:code_commune>
+				<geo:nom xml:lang="fr">Hohengoeft</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67222">
+				<geo:code_commune>67222</geo:code_commune>
+				<geo:nom xml:lang="fr">Ingwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67229">
+				<geo:code_commune>67229</geo:code_commune>
+				<geo:nom xml:lang="fr">Jetterswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67234">
+				<geo:code_commune>67234</geo:code_commune>
+				<geo:nom xml:lang="fr">Keskastel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67241">
+				<geo:code_commune>67241</geo:code_commune>
+				<geo:nom xml:lang="fr">Kirrberg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67242">
+				<geo:code_commune>67242</geo:code_commune>
+				<geo:nom xml:lang="fr">Kirrwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67244">
+				<geo:code_commune>67244</geo:code_commune>
+				<geo:nom xml:lang="fr">Kleingoeft</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67245">
+				<geo:code_commune>67245</geo:code_commune>
+				<geo:nom xml:lang="fr">Knoersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67258">
+				<geo:code_commune>67258</geo:code_commune>
+				<geo:nom xml:lang="fr">Landersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67265">
+				<geo:code_commune>67265</geo:code_commune>
+				<geo:nom xml:lang="fr">Lichtenberg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67269">
+				<geo:code_commune>67269</geo:code_commune>
+				<geo:nom xml:lang="fr">Littenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67272">
+				<geo:code_commune>67272</geo:code_commune>
+				<geo:nom xml:lang="fr">Lochwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67273">
+				<geo:code_commune>67273</geo:code_commune>
+				<geo:nom xml:lang="fr">Lohr</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67274">
+				<geo:code_commune>67274</geo:code_commune>
+				<geo:nom xml:lang="fr">Lorentzen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67275">
+				<geo:code_commune>67275</geo:code_commune>
+				<geo:nom xml:lang="fr">Lupstein</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67278">
+				<geo:code_commune>67278</geo:code_commune>
+				<geo:nom xml:lang="fr">Mackwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67279">
+				<geo:code_commune>67279</geo:code_commune>
+				<geo:nom xml:lang="fr">Maennolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67283">
+				<geo:code_commune>67283</geo:code_commune>
+				<geo:nom xml:lang="fr">Marmoutier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67289">
+				<geo:code_commune>67289</geo:code_commune>
+				<geo:nom xml:lang="fr">Menchhoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67302">
+				<geo:code_commune>67302</geo:code_commune>
+				<geo:nom xml:lang="fr">Monswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67307">
+				<geo:code_commune>67307</geo:code_commune>
+				<geo:nom xml:lang="fr">Mulhausen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67322">
+				<geo:code_commune>67322</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuwiller-lès-Saverne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67328">
+				<geo:code_commune>67328</geo:code_commune>
+				<geo:nom xml:lang="fr">Niedermodern</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67333">
+				<geo:code_commune>67333</geo:code_commune>
+				<geo:nom xml:lang="fr">Niedersoultzbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67347">
+				<geo:code_commune>67347</geo:code_commune>
+				<geo:nom xml:lang="fr">Obermodern-Zutzendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67352">
+				<geo:code_commune>67352</geo:code_commune>
+				<geo:nom xml:lang="fr">Obersoultzbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67355">
+				<geo:code_commune>67355</geo:code_commune>
+				<geo:nom xml:lang="fr">Oermingen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67366">
+				<geo:code_commune>67366</geo:code_commune>
+				<geo:nom xml:lang="fr">Ottersthal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67367">
+				<geo:code_commune>67367</geo:code_commune>
+				<geo:nom xml:lang="fr">Otterswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67369">
+				<geo:code_commune>67369</geo:code_commune>
+				<geo:nom xml:lang="fr">Ottwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67370">
+				<geo:code_commune>67370</geo:code_commune>
+				<geo:nom xml:lang="fr">Petersbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67371">
+				<geo:code_commune>67371</geo:code_commune>
+				<geo:nom xml:lang="fr">La Petite-Pierre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67372">
+				<geo:code_commune>67372</geo:code_commune>
+				<geo:nom xml:lang="fr">Pfaffenhoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67373">
+				<geo:code_commune>67373</geo:code_commune>
+				<geo:nom xml:lang="fr">Pfalzweyer</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67380">
+				<geo:code_commune>67380</geo:code_commune>
+				<geo:nom xml:lang="fr">Printzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67381">
+				<geo:code_commune>67381</geo:code_commune>
+				<geo:nom xml:lang="fr">Puberg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67383">
+				<geo:code_commune>67383</geo:code_commune>
+				<geo:nom xml:lang="fr">Rangen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67385">
+				<geo:code_commune>67385</geo:code_commune>
+				<geo:nom xml:lang="fr">Ratzwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67386">
+				<geo:code_commune>67386</geo:code_commune>
+				<geo:nom xml:lang="fr">Rauwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67391">
+				<geo:code_commune>67391</geo:code_commune>
+				<geo:nom xml:lang="fr">Reinhardsmunster</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67392">
+				<geo:code_commune>67392</geo:code_commune>
+				<geo:nom xml:lang="fr">Reipertswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67395">
+				<geo:code_commune>67395</geo:code_commune>
+				<geo:nom xml:lang="fr">Reutenbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67396">
+				<geo:code_commune>67396</geo:code_commune>
+				<geo:nom xml:lang="fr">Rexingen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67401">
+				<geo:code_commune>67401</geo:code_commune>
+				<geo:nom xml:lang="fr">Rimsdorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67413">
+				<geo:code_commune>67413</geo:code_commune>
+				<geo:nom xml:lang="fr">Rosteig</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67425">
+				<geo:code_commune>67425</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Jean-Saverne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67431">
+				<geo:code_commune>67431</geo:code_commune>
+				<geo:nom xml:lang="fr">Salenthal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67434">
+				<geo:code_commune>67434</geo:code_commune>
+				<geo:nom xml:lang="fr">Sarre-Union</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67435">
+				<geo:code_commune>67435</geo:code_commune>
+				<geo:nom xml:lang="fr">Sarrewerden</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67437">
+				<geo:code_commune>67437</geo:code_commune>
+				<geo:nom xml:lang="fr">Saverne</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67441">
+				<geo:code_commune>67441</geo:code_commune>
+				<geo:nom xml:lang="fr">Schalkendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67446">
+				<geo:code_commune>67446</geo:code_commune>
+				<geo:nom xml:lang="fr">Schillersdorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67454">
+				<geo:code_commune>67454</geo:code_commune>
+				<geo:nom xml:lang="fr">Schoenbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67456">
+				<geo:code_commune>67456</geo:code_commune>
+				<geo:nom xml:lang="fr">Schopperten</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67459">
+				<geo:code_commune>67459</geo:code_commune>
+				<geo:nom xml:lang="fr">Schwenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67467">
+				<geo:code_commune>67467</geo:code_commune>
+				<geo:nom xml:lang="fr">Siewiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67468">
+				<geo:code_commune>67468</geo:code_commune>
+				<geo:nom xml:lang="fr">Siltzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67469">
+				<geo:code_commune>67469</geo:code_commune>
+				<geo:nom xml:lang="fr">Singrist</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67475">
+				<geo:code_commune>67475</geo:code_commune>
+				<geo:nom xml:lang="fr">Sparsbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67478">
+				<geo:code_commune>67478</geo:code_commune>
+				<geo:nom xml:lang="fr">Steinbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67483">
+				<geo:code_commune>67483</geo:code_commune>
+				<geo:nom xml:lang="fr">Struth</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67488">
+				<geo:code_commune>67488</geo:code_commune>
+				<geo:nom xml:lang="fr">Thal-Drulingen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67489">
+				<geo:code_commune>67489</geo:code_commune>
+				<geo:nom xml:lang="fr">Thal-Marmoutier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67491">
+				<geo:code_commune>67491</geo:code_commune>
+				<geo:nom xml:lang="fr">Tieffenbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67503">
+				<geo:code_commune>67503</geo:code_commune>
+				<geo:nom xml:lang="fr">Uttwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67508">
+				<geo:code_commune>67508</geo:code_commune>
+				<geo:nom xml:lang="fr">Voellerdingen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67509">
+				<geo:code_commune>67509</geo:code_commune>
+				<geo:nom xml:lang="fr">Volksberg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67514">
+				<geo:code_commune>67514</geo:code_commune>
+				<geo:nom xml:lang="fr">Waldhambach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67515">
+				<geo:code_commune>67515</geo:code_commune>
+				<geo:nom xml:lang="fr">Waldolwisheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67521">
+				<geo:code_commune>67521</geo:code_commune>
+				<geo:nom xml:lang="fr">Weinbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67522">
+				<geo:code_commune>67522</geo:code_commune>
+				<geo:nom xml:lang="fr">Weislingen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67524">
+				<geo:code_commune>67524</geo:code_commune>
+				<geo:nom xml:lang="fr">Weiterswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67527">
+				<geo:code_commune>67527</geo:code_commune>
+				<geo:nom xml:lang="fr">Westhouse-Marmoutier</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67528">
+				<geo:code_commune>67528</geo:code_commune>
+				<geo:nom xml:lang="fr">Weyer</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67535">
+				<geo:code_commune>67535</geo:code_commune>
+				<geo:nom xml:lang="fr">Wimmenau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67538">
+				<geo:code_commune>67538</geo:code_commune>
+				<geo:nom xml:lang="fr">Wingen-sur-Moder</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67552">
+				<geo:code_commune>67552</geo:code_commune>
+				<geo:nom xml:lang="fr">Wolfskirchen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67553">
+				<geo:code_commune>67553</geo:code_commune>
+				<geo:nom xml:lang="fr">Wolschheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67555">
+				<geo:code_commune>67555</geo:code_commune>
+				<geo:nom xml:lang="fr">Zehnacker</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67556">
+				<geo:code_commune>67556</geo:code_commune>
+				<geo:nom xml:lang="fr">Zeinheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67559">
+				<geo:code_commune>67559</geo:code_commune>
+				<geo:nom xml:lang="fr">Zittersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_675">
+		<geo:code_arrondissement>675</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Sélestat-Erstein</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_67462"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6701">
+				<geo:code_canton>6701</geo:code_canton>
+				<geo:nom xml:lang="fr">Barr</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6702">
+				<geo:code_canton>6702</geo:code_canton>
+				<geo:nom xml:lang="fr">Benfeld</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6707">
+				<geo:code_canton>6707</geo:code_canton>
+				<geo:nom xml:lang="fr">Erstein</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6712">
+				<geo:code_canton>6712</geo:code_canton>
+				<geo:nom xml:lang="fr">Marckolsheim</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6716">
+				<geo:code_canton>6716</geo:code_canton>
+				<geo:nom xml:lang="fr">Obernai</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6724">
+				<geo:code_canton>6724</geo:code_canton>
+				<geo:nom xml:lang="fr">Sélestat</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6732">
+				<geo:code_canton>6732</geo:code_canton>
+				<geo:nom xml:lang="fr">Villé</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67003">
+				<geo:code_commune>67003</geo:code_commune>
+				<geo:nom xml:lang="fr">Albé</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67010">
+				<geo:code_commune>67010</geo:code_commune>
+				<geo:nom xml:lang="fr">Andlau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67011">
+				<geo:code_commune>67011</geo:code_commune>
+				<geo:nom xml:lang="fr">Artolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67019">
+				<geo:code_commune>67019</geo:code_commune>
+				<geo:nom xml:lang="fr">Baldenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67021">
+				<geo:code_commune>67021</geo:code_commune>
+				<geo:nom xml:lang="fr">Barr</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67022">
+				<geo:code_commune>67022</geo:code_commune>
+				<geo:nom xml:lang="fr">Bassemberg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67028">
+				<geo:code_commune>67028</geo:code_commune>
+				<geo:nom xml:lang="fr">Benfeld</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67031">
+				<geo:code_commune>67031</geo:code_commune>
+				<geo:nom xml:lang="fr">Bernardswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67032">
+				<geo:code_commune>67032</geo:code_commune>
+				<geo:nom xml:lang="fr">Bernardvillé</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67040">
+				<geo:code_commune>67040</geo:code_commune>
+				<geo:nom xml:lang="fr">Bindernheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67051">
+				<geo:code_commune>67051</geo:code_commune>
+				<geo:nom xml:lang="fr">Blienschwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67053">
+				<geo:code_commune>67053</geo:code_commune>
+				<geo:nom xml:lang="fr">Boesenbiesen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67054">
+				<geo:code_commune>67054</geo:code_commune>
+				<geo:nom xml:lang="fr">Bolsenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67055">
+				<geo:code_commune>67055</geo:code_commune>
+				<geo:nom xml:lang="fr">Boofzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67056">
+				<geo:code_commune>67056</geo:code_commune>
+				<geo:nom xml:lang="fr">Bootzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67060">
+				<geo:code_commune>67060</geo:code_commune>
+				<geo:nom xml:lang="fr">Bourgheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67062">
+				<geo:code_commune>67062</geo:code_commune>
+				<geo:nom xml:lang="fr">Breitenau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67063">
+				<geo:code_commune>67063</geo:code_commune>
+				<geo:nom xml:lang="fr">Breitenbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67073">
+				<geo:code_commune>67073</geo:code_commune>
+				<geo:nom xml:lang="fr">Châtenois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67084">
+				<geo:code_commune>67084</geo:code_commune>
+				<geo:nom xml:lang="fr">Dambach-la-Ville</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67086">
+				<geo:code_commune>67086</geo:code_commune>
+				<geo:nom xml:lang="fr">Daubensand</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67090">
+				<geo:code_commune>67090</geo:code_commune>
+				<geo:nom xml:lang="fr">Diebolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67092">
+				<geo:code_commune>67092</geo:code_commune>
+				<geo:nom xml:lang="fr">Dieffenbach-au-Val</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67094">
+				<geo:code_commune>67094</geo:code_commune>
+				<geo:nom xml:lang="fr">Dieffenthal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67115">
+				<geo:code_commune>67115</geo:code_commune>
+				<geo:nom xml:lang="fr">Ebersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67116">
+				<geo:code_commune>67116</geo:code_commune>
+				<geo:nom xml:lang="fr">Ebersmunster</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67120">
+				<geo:code_commune>67120</geo:code_commune>
+				<geo:nom xml:lang="fr">Eichhoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67121">
+				<geo:code_commune>67121</geo:code_commune>
+				<geo:nom xml:lang="fr">Elsenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67125">
+				<geo:code_commune>67125</geo:code_commune>
+				<geo:nom xml:lang="fr">Epfig</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67130">
+				<geo:code_commune>67130</geo:code_commune>
+				<geo:nom xml:lang="fr">Erstein</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67143">
+				<geo:code_commune>67143</geo:code_commune>
+				<geo:nom xml:lang="fr">Fouchy</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67146">
+				<geo:code_commune>67146</geo:code_commune>
+				<geo:nom xml:lang="fr">Friesenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67154">
+				<geo:code_commune>67154</geo:code_commune>
+				<geo:nom xml:lang="fr">Gerstheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67155">
+				<geo:code_commune>67155</geo:code_commune>
+				<geo:nom xml:lang="fr">Gertwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67164">
+				<geo:code_commune>67164</geo:code_commune>
+				<geo:nom xml:lang="fr">Goxwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67187">
+				<geo:code_commune>67187</geo:code_commune>
+				<geo:nom xml:lang="fr">Heidolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67189">
+				<geo:code_commune>67189</geo:code_commune>
+				<geo:nom xml:lang="fr">Heiligenstein</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67192">
+				<geo:code_commune>67192</geo:code_commune>
+				<geo:nom xml:lang="fr">Herbsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67195">
+				<geo:code_commune>67195</geo:code_commune>
+				<geo:nom xml:lang="fr">Hessenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67196">
+				<geo:code_commune>67196</geo:code_commune>
+				<geo:nom xml:lang="fr">Hilsenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67197">
+				<geo:code_commune>67197</geo:code_commune>
+				<geo:nom xml:lang="fr">Hindisheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67200">
+				<geo:code_commune>67200</geo:code_commune>
+				<geo:nom xml:lang="fr">Hipsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67210">
+				<geo:code_commune>67210</geo:code_commune>
+				<geo:nom xml:lang="fr">Le Hohwald</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67216">
+				<geo:code_commune>67216</geo:code_commune>
+				<geo:nom xml:lang="fr">Huttenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67217">
+				<geo:code_commune>67217</geo:code_commune>
+				<geo:nom xml:lang="fr">Ichtratzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67223">
+				<geo:code_commune>67223</geo:code_commune>
+				<geo:nom xml:lang="fr">Innenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67227">
+				<geo:code_commune>67227</geo:code_commune>
+				<geo:nom xml:lang="fr">Itterswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67233">
+				<geo:code_commune>67233</geo:code_commune>
+				<geo:nom xml:lang="fr">Kertzfeld</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67239">
+				<geo:code_commune>67239</geo:code_commune>
+				<geo:nom xml:lang="fr">Kintzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67246">
+				<geo:code_commune>67246</geo:code_commune>
+				<geo:nom xml:lang="fr">Kogenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67248">
+				<geo:code_commune>67248</geo:code_commune>
+				<geo:nom xml:lang="fr">Krautergersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67255">
+				<geo:code_commune>67255</geo:code_commune>
+				<geo:nom xml:lang="fr">Lalaye</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67266">
+				<geo:code_commune>67266</geo:code_commune>
+				<geo:nom xml:lang="fr">Limersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67277">
+				<geo:code_commune>67277</geo:code_commune>
+				<geo:nom xml:lang="fr">Mackenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67280">
+				<geo:code_commune>67280</geo:code_commune>
+				<geo:nom xml:lang="fr">Maisonsgoutte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67281">
+				<geo:code_commune>67281</geo:code_commune>
+				<geo:nom xml:lang="fr">Marckolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67285">
+				<geo:code_commune>67285</geo:code_commune>
+				<geo:nom xml:lang="fr">Matzenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67286">
+				<geo:code_commune>67286</geo:code_commune>
+				<geo:nom xml:lang="fr">Meistratzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67295">
+				<geo:code_commune>67295</geo:code_commune>
+				<geo:nom xml:lang="fr">Mittelbergheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67310">
+				<geo:code_commune>67310</geo:code_commune>
+				<geo:nom xml:lang="fr">Mussig</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67311">
+				<geo:code_commune>67311</geo:code_commune>
+				<geo:nom xml:lang="fr">Muttersholtz</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67317">
+				<geo:code_commune>67317</geo:code_commune>
+				<geo:nom xml:lang="fr">Neubois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67320">
+				<geo:code_commune>67320</geo:code_commune>
+				<geo:nom xml:lang="fr">Neuve-Église</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67329">
+				<geo:code_commune>67329</geo:code_commune>
+				<geo:nom xml:lang="fr">Niedernai</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67336">
+				<geo:code_commune>67336</geo:code_commune>
+				<geo:nom xml:lang="fr">Nordhouse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67337">
+				<geo:code_commune>67337</geo:code_commune>
+				<geo:nom xml:lang="fr">Nothalten</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67338">
+				<geo:code_commune>67338</geo:code_commune>
+				<geo:nom xml:lang="fr">Obenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67348">
+				<geo:code_commune>67348</geo:code_commune>
+				<geo:nom xml:lang="fr">Obernai</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67360">
+				<geo:code_commune>67360</geo:code_commune>
+				<geo:nom xml:lang="fr">Ohnenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67362">
+				<geo:code_commune>67362</geo:code_commune>
+				<geo:nom xml:lang="fr">Orschwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67364">
+				<geo:code_commune>67364</geo:code_commune>
+				<geo:nom xml:lang="fr">Osthouse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67387">
+				<geo:code_commune>67387</geo:code_commune>
+				<geo:nom xml:lang="fr">Reichsfeld</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67397">
+				<geo:code_commune>67397</geo:code_commune>
+				<geo:nom xml:lang="fr">Rhinau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67398">
+				<geo:code_commune>67398</geo:code_commune>
+				<geo:nom xml:lang="fr">Richtolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67412">
+				<geo:code_commune>67412</geo:code_commune>
+				<geo:nom xml:lang="fr">Rossfeld</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67422">
+				<geo:code_commune>67422</geo:code_commune>
+				<geo:nom xml:lang="fr">Saasenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67426">
+				<geo:code_commune>67426</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Martin</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67427">
+				<geo:code_commune>67427</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Maurice</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67429">
+				<geo:code_commune>67429</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pierre</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67430">
+				<geo:code_commune>67430</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Pierre-Bois</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67433">
+				<geo:code_commune>67433</geo:code_commune>
+				<geo:nom xml:lang="fr">Sand</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67438">
+				<geo:code_commune>67438</geo:code_commune>
+				<geo:nom xml:lang="fr">Schaeffersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67445">
+				<geo:code_commune>67445</geo:code_commune>
+				<geo:nom xml:lang="fr">Scherwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67453">
+				<geo:code_commune>67453</geo:code_commune>
+				<geo:nom xml:lang="fr">Schoenau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67461">
+				<geo:code_commune>67461</geo:code_commune>
+				<geo:nom xml:lang="fr">Schwobsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67462">
+				<geo:code_commune>67462</geo:code_commune>
+				<geo:nom xml:lang="fr">Sélestat</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67464">
+				<geo:code_commune>67464</geo:code_commune>
+				<geo:nom xml:lang="fr">Sermersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67477">
+				<geo:code_commune>67477</geo:code_commune>
+				<geo:nom xml:lang="fr">Steige</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67481">
+				<geo:code_commune>67481</geo:code_commune>
+				<geo:nom xml:lang="fr">Stotzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67486">
+				<geo:code_commune>67486</geo:code_commune>
+				<geo:nom xml:lang="fr">Sundhouse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67490">
+				<geo:code_commune>67490</geo:code_commune>
+				<geo:nom xml:lang="fr">Thanvillé</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67493">
+				<geo:code_commune>67493</geo:code_commune>
+				<geo:nom xml:lang="fr">Triembach-au-Val</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67499">
+				<geo:code_commune>67499</geo:code_commune>
+				<geo:nom xml:lang="fr">Urbeis</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67501">
+				<geo:code_commune>67501</geo:code_commune>
+				<geo:nom xml:lang="fr">Uttenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67504">
+				<geo:code_commune>67504</geo:code_commune>
+				<geo:nom xml:lang="fr">Valff</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67505">
+				<geo:code_commune>67505</geo:code_commune>
+				<geo:nom xml:lang="fr">La Vancelle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67507">
+				<geo:code_commune>67507</geo:code_commune>
+				<geo:nom xml:lang="fr">Villé</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67526">
+				<geo:code_commune>67526</geo:code_commune>
+				<geo:nom xml:lang="fr">Westhouse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67545">
+				<geo:code_commune>67545</geo:code_commune>
+				<geo:nom xml:lang="fr">Witternheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67547">
+				<geo:code_commune>67547</geo:code_commune>
+				<geo:nom xml:lang="fr">Wittisheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67557">
+				<geo:code_commune>67557</geo:code_commune>
+				<geo:nom xml:lang="fr">Zellwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_676">
+		<geo:code_arrondissement>676</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Strasbourg-Campagne</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_67482"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6705">
+				<geo:code_canton>6705</geo:code_canton>
+				<geo:nom xml:lang="fr">Brumath</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6708">
+				<geo:code_canton>6708</geo:code_canton>
+				<geo:nom xml:lang="fr">Geispolsheim</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6710">
+				<geo:code_canton>6710</geo:code_canton>
+				<geo:nom xml:lang="fr">Hochfelden</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6722">
+				<geo:code_canton>6722</geo:code_canton>
+				<geo:nom xml:lang="fr">Schiltigheim</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6731">
+				<geo:code_canton>6731</geo:code_canton>
+				<geo:nom xml:lang="fr">Truchtersheim</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6742">
+				<geo:code_canton>6742</geo:code_canton>
+				<geo:nom xml:lang="fr">Illkirch-Graffenstaden</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6743">
+				<geo:code_canton>6743</geo:code_canton>
+				<geo:nom xml:lang="fr">Mundolsheim</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6744">
+				<geo:code_canton>6744</geo:code_canton>
+				<geo:nom xml:lang="fr">Bischheim</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67001">
+				<geo:code_commune>67001</geo:code_commune>
+				<geo:nom xml:lang="fr">Achenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67005">
+				<geo:code_commune>67005</geo:code_commune>
+				<geo:nom xml:lang="fr">Alteckendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67033">
+				<geo:code_commune>67033</geo:code_commune>
+				<geo:nom xml:lang="fr">Bernolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67034">
+				<geo:code_commune>67034</geo:code_commune>
+				<geo:nom xml:lang="fr">Berstett</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67038">
+				<geo:code_commune>67038</geo:code_commune>
+				<geo:nom xml:lang="fr">Bietlenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67039">
+				<geo:code_commune>67039</geo:code_commune>
+				<geo:nom xml:lang="fr">Bilwisheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67043">
+				<geo:code_commune>67043</geo:code_commune>
+				<geo:nom xml:lang="fr">Bischheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67049">
+				<geo:code_commune>67049</geo:code_commune>
+				<geo:nom xml:lang="fr">Blaesheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67058">
+				<geo:code_commune>67058</geo:code_commune>
+				<geo:nom xml:lang="fr">Bossendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67065">
+				<geo:code_commune>67065</geo:code_commune>
+				<geo:nom xml:lang="fr">Breuschwickersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67067">
+				<geo:code_commune>67067</geo:code_commune>
+				<geo:nom xml:lang="fr">Brumath</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67097">
+				<geo:code_commune>67097</geo:code_commune>
+				<geo:nom xml:lang="fr">Dingsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67100">
+				<geo:code_commune>67100</geo:code_commune>
+				<geo:nom xml:lang="fr">Donnenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67102">
+				<geo:code_commune>67102</geo:code_commune>
+				<geo:nom xml:lang="fr">Dossenheim-Kochersberg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67107">
+				<geo:code_commune>67107</geo:code_commune>
+				<geo:nom xml:lang="fr">Duntzenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67108">
+				<geo:code_commune>67108</geo:code_commune>
+				<geo:nom xml:lang="fr">Duppigheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67109">
+				<geo:code_commune>67109</geo:code_commune>
+				<geo:nom xml:lang="fr">Durningen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67118">
+				<geo:code_commune>67118</geo:code_commune>
+				<geo:nom xml:lang="fr">Eckbolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67119">
+				<geo:code_commune>67119</geo:code_commune>
+				<geo:nom xml:lang="fr">Eckwersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67124">
+				<geo:code_commune>67124</geo:code_commune>
+				<geo:nom xml:lang="fr">Entzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67131">
+				<geo:code_commune>67131</geo:code_commune>
+				<geo:nom xml:lang="fr">Eschau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67135">
+				<geo:code_commune>67135</geo:code_commune>
+				<geo:nom xml:lang="fr">Ettendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67137">
+				<geo:code_commune>67137</geo:code_commune>
+				<geo:nom xml:lang="fr">Fegersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67138">
+				<geo:code_commune>67138</geo:code_commune>
+				<geo:nom xml:lang="fr">Fessenheim-le-Bas</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67145">
+				<geo:code_commune>67145</geo:code_commune>
+				<geo:nom xml:lang="fr">Friedolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67150">
+				<geo:code_commune>67150</geo:code_commune>
+				<geo:nom xml:lang="fr">Furdenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67151">
+				<geo:code_commune>67151</geo:code_commune>
+				<geo:nom xml:lang="fr">Gambsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67152">
+				<geo:code_commune>67152</geo:code_commune>
+				<geo:nom xml:lang="fr">Geispolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67153">
+				<geo:code_commune>67153</geo:code_commune>
+				<geo:nom xml:lang="fr">Geiswiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67156">
+				<geo:code_commune>67156</geo:code_commune>
+				<geo:nom xml:lang="fr">Geudertheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67158">
+				<geo:code_commune>67158</geo:code_commune>
+				<geo:nom xml:lang="fr">Gingsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67163">
+				<geo:code_commune>67163</geo:code_commune>
+				<geo:nom xml:lang="fr">Gougenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67166">
+				<geo:code_commune>67166</geo:code_commune>
+				<geo:nom xml:lang="fr">Grassendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67169">
+				<geo:code_commune>67169</geo:code_commune>
+				<geo:nom xml:lang="fr">Gries</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67173">
+				<geo:code_commune>67173</geo:code_commune>
+				<geo:nom xml:lang="fr">Griesheim-sur-Souffel</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67181">
+				<geo:code_commune>67181</geo:code_commune>
+				<geo:nom xml:lang="fr">Handschuheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67182">
+				<geo:code_commune>67182</geo:code_commune>
+				<geo:nom xml:lang="fr">Hangenbieten</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67202">
+				<geo:code_commune>67202</geo:code_commune>
+				<geo:nom xml:lang="fr">Hochfelden</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67204">
+				<geo:code_commune>67204</geo:code_commune>
+				<geo:nom xml:lang="fr">Hoenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67205">
+				<geo:code_commune>67205</geo:code_commune>
+				<geo:nom xml:lang="fr">Hoerdt</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67207">
+				<geo:code_commune>67207</geo:code_commune>
+				<geo:nom xml:lang="fr">Hohatzenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67209">
+				<geo:code_commune>67209</geo:code_commune>
+				<geo:nom xml:lang="fr">Hohfrankenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67212">
+				<geo:code_commune>67212</geo:code_commune>
+				<geo:nom xml:lang="fr">Holtzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67214">
+				<geo:code_commune>67214</geo:code_commune>
+				<geo:nom xml:lang="fr">Hurtigheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67218">
+				<geo:code_commune>67218</geo:code_commune>
+				<geo:nom xml:lang="fr">Illkirch-Graffenstaden</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67220">
+				<geo:code_commune>67220</geo:code_commune>
+				<geo:nom xml:lang="fr">Ingenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67225">
+				<geo:code_commune>67225</geo:code_commune>
+				<geo:nom xml:lang="fr">Issenhausen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67226">
+				<geo:code_commune>67226</geo:code_commune>
+				<geo:nom xml:lang="fr">Ittenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67228">
+				<geo:code_commune>67228</geo:code_commune>
+				<geo:nom xml:lang="fr">Neugartheim-Ittlenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67236">
+				<geo:code_commune>67236</geo:code_commune>
+				<geo:nom xml:lang="fr">Kienheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67237">
+				<geo:code_commune>67237</geo:code_commune>
+				<geo:nom xml:lang="fr">Kilstett</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67247">
+				<geo:code_commune>67247</geo:code_commune>
+				<geo:nom xml:lang="fr">Kolbsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67249">
+				<geo:code_commune>67249</geo:code_commune>
+				<geo:nom xml:lang="fr">Krautwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67250">
+				<geo:code_commune>67250</geo:code_commune>
+				<geo:nom xml:lang="fr">Kriegsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67252">
+				<geo:code_commune>67252</geo:code_commune>
+				<geo:nom xml:lang="fr">Kurtzenhouse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67253">
+				<geo:code_commune>67253</geo:code_commune>
+				<geo:nom xml:lang="fr">Kuttolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67256">
+				<geo:code_commune>67256</geo:code_commune>
+				<geo:nom xml:lang="fr">Lampertheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67267">
+				<geo:code_commune>67267</geo:code_commune>
+				<geo:nom xml:lang="fr">Lingolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67268">
+				<geo:code_commune>67268</geo:code_commune>
+				<geo:nom xml:lang="fr">Lipsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67270">
+				<geo:code_commune>67270</geo:code_commune>
+				<geo:nom xml:lang="fr">Lixhausen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67287">
+				<geo:code_commune>67287</geo:code_commune>
+				<geo:nom xml:lang="fr">Melsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67293">
+				<geo:code_commune>67293</geo:code_commune>
+				<geo:nom xml:lang="fr">Minversheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67296">
+				<geo:code_commune>67296</geo:code_commune>
+				<geo:nom xml:lang="fr">Mittelhausbergen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67297">
+				<geo:code_commune>67297</geo:code_commune>
+				<geo:nom xml:lang="fr">Mittelhausen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67298">
+				<geo:code_commune>67298</geo:code_commune>
+				<geo:nom xml:lang="fr">Mittelschaeffolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67301">
+				<geo:code_commune>67301</geo:code_commune>
+				<geo:nom xml:lang="fr">Mommenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67309">
+				<geo:code_commune>67309</geo:code_commune>
+				<geo:nom xml:lang="fr">Mundolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67312">
+				<geo:code_commune>67312</geo:code_commune>
+				<geo:nom xml:lang="fr">Mutzenhouse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67326">
+				<geo:code_commune>67326</geo:code_commune>
+				<geo:nom xml:lang="fr">Niederhausbergen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67343">
+				<geo:code_commune>67343</geo:code_commune>
+				<geo:nom xml:lang="fr">Oberhausbergen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67350">
+				<geo:code_commune>67350</geo:code_commune>
+				<geo:nom xml:lang="fr">Oberschaeffolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67361">
+				<geo:code_commune>67361</geo:code_commune>
+				<geo:nom xml:lang="fr">Olwisheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67363">
+				<geo:code_commune>67363</geo:code_commune>
+				<geo:nom xml:lang="fr">Osthoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67365">
+				<geo:code_commune>67365</geo:code_commune>
+				<geo:nom xml:lang="fr">Ostwald</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67374">
+				<geo:code_commune>67374</geo:code_commune>
+				<geo:nom xml:lang="fr">Pfettisheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67375">
+				<geo:code_commune>67375</geo:code_commune>
+				<geo:nom xml:lang="fr">Pfulgriesheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67378">
+				<geo:code_commune>67378</geo:code_commune>
+				<geo:nom xml:lang="fr">Plobsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67382">
+				<geo:code_commune>67382</geo:code_commune>
+				<geo:nom xml:lang="fr">Quatzenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67389">
+				<geo:code_commune>67389</geo:code_commune>
+				<geo:nom xml:lang="fr">Reichstett</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67402">
+				<geo:code_commune>67402</geo:code_commune>
+				<geo:nom xml:lang="fr">Ringeldorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67403">
+				<geo:code_commune>67403</geo:code_commune>
+				<geo:nom xml:lang="fr">Ringendorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67406">
+				<geo:code_commune>67406</geo:code_commune>
+				<geo:nom xml:lang="fr">Rohr</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67417">
+				<geo:code_commune>67417</geo:code_commune>
+				<geo:nom xml:lang="fr">Rottelsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67423">
+				<geo:code_commune>67423</geo:code_commune>
+				<geo:nom xml:lang="fr">Saessolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67439">
+				<geo:code_commune>67439</geo:code_commune>
+				<geo:nom xml:lang="fr">Schaffhouse-sur-Zorn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67444">
+				<geo:code_commune>67444</geo:code_commune>
+				<geo:nom xml:lang="fr">Scherlenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67447">
+				<geo:code_commune>67447</geo:code_commune>
+				<geo:nom xml:lang="fr">Schiltigheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67452">
+				<geo:code_commune>67452</geo:code_commune>
+				<geo:nom xml:lang="fr">Schnersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67460">
+				<geo:code_commune>67460</geo:code_commune>
+				<geo:nom xml:lang="fr">Schwindratzheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67471">
+				<geo:code_commune>67471</geo:code_commune>
+				<geo:nom xml:lang="fr">Souffelweyersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67485">
+				<geo:code_commune>67485</geo:code_commune>
+				<geo:nom xml:lang="fr">Stutzheim-Offenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67495">
+				<geo:code_commune>67495</geo:code_commune>
+				<geo:nom xml:lang="fr">Truchtersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67506">
+				<geo:code_commune>67506</geo:code_commune>
+				<geo:nom xml:lang="fr">Vendenheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67516">
+				<geo:code_commune>67516</geo:code_commune>
+				<geo:nom xml:lang="fr">Waltenheim-sur-Zorn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67519">
+				<geo:code_commune>67519</geo:code_commune>
+				<geo:nom xml:lang="fr">La Wantzenau</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67529">
+				<geo:code_commune>67529</geo:code_commune>
+				<geo:nom xml:lang="fr">Weyersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67530">
+				<geo:code_commune>67530</geo:code_commune>
+				<geo:nom xml:lang="fr">Wickersheim-Wilshausen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67532">
+				<geo:code_commune>67532</geo:code_commune>
+				<geo:nom xml:lang="fr">Willgottheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67534">
+				<geo:code_commune>67534</geo:code_commune>
+				<geo:nom xml:lang="fr">Wilwisheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67539">
+				<geo:code_commune>67539</geo:code_commune>
+				<geo:nom xml:lang="fr">Wingersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67542">
+				<geo:code_commune>67542</geo:code_commune>
+				<geo:nom xml:lang="fr">Wintzenheim-Kochersberg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67548">
+				<geo:code_commune>67548</geo:code_commune>
+				<geo:nom xml:lang="fr">Wiwersheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67551">
+				<geo:code_commune>67551</geo:code_commune>
+				<geo:nom xml:lang="fr">Wolfisheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67560">
+				<geo:code_commune>67560</geo:code_commune>
+				<geo:nom xml:lang="fr">Zoebersdorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_677">
+		<geo:code_arrondissement>677</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Wissembourg</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_67544"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6711">
+				<geo:code_canton>6711</geo:code_canton>
+				<geo:nom xml:lang="fr">Lauterbourg</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6725">
+				<geo:code_canton>6725</geo:code_canton>
+				<geo:nom xml:lang="fr">Seltz</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6726">
+				<geo:code_canton>6726</geo:code_canton>
+				<geo:nom xml:lang="fr">Soultz-sous-Forêts</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6734">
+				<geo:code_canton>6734</geo:code_canton>
+				<geo:nom xml:lang="fr">Wissembourg</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6735">
+				<geo:code_canton>6735</geo:code_canton>
+				<geo:nom xml:lang="fr">Woerth</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67012">
+				<geo:code_commune>67012</geo:code_commune>
+				<geo:nom xml:lang="fr">Aschbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67025">
+				<geo:code_commune>67025</geo:code_commune>
+				<geo:nom xml:lang="fr">Beinheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67037">
+				<geo:code_commune>67037</geo:code_commune>
+				<geo:nom xml:lang="fr">Biblisheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67069">
+				<geo:code_commune>67069</geo:code_commune>
+				<geo:nom xml:lang="fr">Buhl</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67074">
+				<geo:code_commune>67074</geo:code_commune>
+				<geo:nom xml:lang="fr">Cleebourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67075">
+				<geo:code_commune>67075</geo:code_commune>
+				<geo:nom xml:lang="fr">Climbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67079">
+				<geo:code_commune>67079</geo:code_commune>
+				<geo:nom xml:lang="fr">Croettwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67093">
+				<geo:code_commune>67093</geo:code_commune>
+				<geo:nom xml:lang="fr">Dieffenbach-lès-Woerth</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67104">
+				<geo:code_commune>67104</geo:code_commune>
+				<geo:nom xml:lang="fr">Drachenbronn-Birlenbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67110">
+				<geo:code_commune>67110</geo:code_commune>
+				<geo:nom xml:lang="fr">Durrenbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67113">
+				<geo:code_commune>67113</geo:code_commune>
+				<geo:nom xml:lang="fr">Eberbach-Seltz</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67132">
+				<geo:code_commune>67132</geo:code_commune>
+				<geo:nom xml:lang="fr">Eschbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67141">
+				<geo:code_commune>67141</geo:code_commune>
+				<geo:nom xml:lang="fr">Forstheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67147">
+				<geo:code_commune>67147</geo:code_commune>
+				<geo:nom xml:lang="fr">Froeschwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67160">
+				<geo:code_commune>67160</geo:code_commune>
+				<geo:nom xml:lang="fr">Goersdorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67177">
+				<geo:code_commune>67177</geo:code_commune>
+				<geo:nom xml:lang="fr">Gunstett</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67184">
+				<geo:code_commune>67184</geo:code_commune>
+				<geo:nom xml:lang="fr">Hatten</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67186">
+				<geo:code_commune>67186</geo:code_commune>
+				<geo:nom xml:lang="fr">Hegeney</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67206">
+				<geo:code_commune>67206</geo:code_commune>
+				<geo:nom xml:lang="fr">Hoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67213">
+				<geo:code_commune>67213</geo:code_commune>
+				<geo:nom xml:lang="fr">Hunspach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67221">
+				<geo:code_commune>67221</geo:code_commune>
+				<geo:nom xml:lang="fr">Ingolsheim</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67232">
+				<geo:code_commune>67232</geo:code_commune>
+				<geo:nom xml:lang="fr">Keffenach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67235">
+				<geo:code_commune>67235</geo:code_commune>
+				<geo:nom xml:lang="fr">Kesseldorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67254">
+				<geo:code_commune>67254</geo:code_commune>
+				<geo:nom xml:lang="fr">Kutzenhausen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67257">
+				<geo:code_commune>67257</geo:code_commune>
+				<geo:nom xml:lang="fr">Lampertsloch</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67259">
+				<geo:code_commune>67259</geo:code_commune>
+				<geo:nom xml:lang="fr">Langensoultzbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67260">
+				<geo:code_commune>67260</geo:code_commune>
+				<geo:nom xml:lang="fr">Laubach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67261">
+				<geo:code_commune>67261</geo:code_commune>
+				<geo:nom xml:lang="fr">Lauterbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67263">
+				<geo:code_commune>67263</geo:code_commune>
+				<geo:nom xml:lang="fr">Lembach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67271">
+				<geo:code_commune>67271</geo:code_commune>
+				<geo:nom xml:lang="fr">Lobsann</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67288">
+				<geo:code_commune>67288</geo:code_commune>
+				<geo:nom xml:lang="fr">Memmelshoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67290">
+				<geo:code_commune>67290</geo:code_commune>
+				<geo:nom xml:lang="fr">Merkwiller-Pechelbronn</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67303">
+				<geo:code_commune>67303</geo:code_commune>
+				<geo:nom xml:lang="fr">Morsbronn-les-Bains</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67305">
+				<geo:code_commune>67305</geo:code_commune>
+				<geo:nom xml:lang="fr">Mothern</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67308">
+				<geo:code_commune>67308</geo:code_commune>
+				<geo:nom xml:lang="fr">Munchhausen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67315">
+				<geo:code_commune>67315</geo:code_commune>
+				<geo:nom xml:lang="fr">Neewiller-près-Lauterbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67327">
+				<geo:code_commune>67327</geo:code_commune>
+				<geo:nom xml:lang="fr">Niederlauterbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67330">
+				<geo:code_commune>67330</geo:code_commune>
+				<geo:nom xml:lang="fr">Niederroedern</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67334">
+				<geo:code_commune>67334</geo:code_commune>
+				<geo:nom xml:lang="fr">Niedersteinbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67339">
+				<geo:code_commune>67339</geo:code_commune>
+				<geo:nom xml:lang="fr">Betschdorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67341">
+				<geo:code_commune>67341</geo:code_commune>
+				<geo:nom xml:lang="fr">Oberdorf-Spachbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67344">
+				<geo:code_commune>67344</geo:code_commune>
+				<geo:nom xml:lang="fr">Oberhoffen-lès-Wissembourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67346">
+				<geo:code_commune>67346</geo:code_commune>
+				<geo:nom xml:lang="fr">Oberlauterbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67349">
+				<geo:code_commune>67349</geo:code_commune>
+				<geo:nom xml:lang="fr">Oberroedern</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67351">
+				<geo:code_commune>67351</geo:code_commune>
+				<geo:nom xml:lang="fr">Seebach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67353">
+				<geo:code_commune>67353</geo:code_commune>
+				<geo:nom xml:lang="fr">Obersteinbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67379">
+				<geo:code_commune>67379</geo:code_commune>
+				<geo:nom xml:lang="fr">Preuschdorf</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67394">
+				<geo:code_commune>67394</geo:code_commune>
+				<geo:nom xml:lang="fr">Retschwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67400">
+				<geo:code_commune>67400</geo:code_commune>
+				<geo:nom xml:lang="fr">Riedseltz</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67404">
+				<geo:code_commune>67404</geo:code_commune>
+				<geo:nom xml:lang="fr">Rittershoffen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67416">
+				<geo:code_commune>67416</geo:code_commune>
+				<geo:nom xml:lang="fr">Rott</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67432">
+				<geo:code_commune>67432</geo:code_commune>
+				<geo:nom xml:lang="fr">Salmbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67440">
+				<geo:code_commune>67440</geo:code_commune>
+				<geo:nom xml:lang="fr">Schaffhouse-près-Seltz</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67443">
+				<geo:code_commune>67443</geo:code_commune>
+				<geo:nom xml:lang="fr">Scheibenhard</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67451">
+				<geo:code_commune>67451</geo:code_commune>
+				<geo:nom xml:lang="fr">Schleithal</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67455">
+				<geo:code_commune>67455</geo:code_commune>
+				<geo:nom xml:lang="fr">Schoenenbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67463">
+				<geo:code_commune>67463</geo:code_commune>
+				<geo:nom xml:lang="fr">Seltz</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67466">
+				<geo:code_commune>67466</geo:code_commune>
+				<geo:nom xml:lang="fr">Siegen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67474">
+				<geo:code_commune>67474</geo:code_commune>
+				<geo:nom xml:lang="fr">Soultz-sous-Forêts</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67479">
+				<geo:code_commune>67479</geo:code_commune>
+				<geo:nom xml:lang="fr">Steinseltz</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67484">
+				<geo:code_commune>67484</geo:code_commune>
+				<geo:nom xml:lang="fr">Stundwiller</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67487">
+				<geo:code_commune>67487</geo:code_commune>
+				<geo:nom xml:lang="fr">Surbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67494">
+				<geo:code_commune>67494</geo:code_commune>
+				<geo:nom xml:lang="fr">Trimbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67511">
+				<geo:code_commune>67511</geo:code_commune>
+				<geo:nom xml:lang="fr">Walbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67537">
+				<geo:code_commune>67537</geo:code_commune>
+				<geo:nom xml:lang="fr">Wingen</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67541">
+				<geo:code_commune>67541</geo:code_commune>
+				<geo:nom xml:lang="fr">Wintzenbach</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67544">
+				<geo:code_commune>67544</geo:code_commune>
+				<geo:nom xml:lang="fr">Wissembourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67550">
+				<geo:code_commune>67550</geo:code_commune>
+				<geo:nom xml:lang="fr">Woerth</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_678">
+		<geo:code_arrondissement>678</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Strasbourg-Ville</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_67482"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6727">
+				<geo:code_canton>6727</geo:code_canton>
+				<geo:nom xml:lang="fr">Strasbourg  1er Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6728">
+				<geo:code_canton>6728</geo:code_canton>
+				<geo:nom xml:lang="fr">Strasbourg  2e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6729">
+				<geo:code_canton>6729</geo:code_canton>
+				<geo:nom xml:lang="fr">Strasbourg  3e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6730">
+				<geo:code_canton>6730</geo:code_canton>
+				<geo:nom xml:lang="fr">Strasbourg  4e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6736">
+				<geo:code_canton>6736</geo:code_canton>
+				<geo:nom xml:lang="fr">Strasbourg  5e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6737">
+				<geo:code_canton>6737</geo:code_canton>
+				<geo:nom xml:lang="fr">Strasbourg  6e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6738">
+				<geo:code_canton>6738</geo:code_canton>
+				<geo:nom xml:lang="fr">Strasbourg  7e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6739">
+				<geo:code_canton>6739</geo:code_canton>
+				<geo:nom xml:lang="fr">Strasbourg  8e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6740">
+				<geo:code_canton>6740</geo:code_canton>
+				<geo:nom xml:lang="fr">Strasbourg  9e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_6741">
+				<geo:code_canton>6741</geo:code_canton>
+				<geo:nom xml:lang="fr">Strasbourg 10e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_67482">
+				<geo:code_commune>67482</geo:code_commune>
+				<geo:nom xml:lang="fr">Strasbourg</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+</rdf:RDF>

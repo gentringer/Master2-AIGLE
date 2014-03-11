@@ -1,0 +1,1629 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://rdf.insee.fr/geo/2011/"
+	xmlns:geo="http://rdf.insee.fr/geo/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<rdf:Description rdf:about="http://rdf.insee.fr/geo/2011/arrondissements-2B-2011.rdf">
+		<dc:title xml:lang="fr">Arrondissements du département de la Haute-Corse (2B)</dc:title>
+		<dc:date>2011-02-21</dc:date>
+		<dc:publisher>INSEE</dc:publisher>
+		<dc:format>XML-RDF</dc:format>
+	</rdf:Description>
+
+	<geo:Arrondissement rdf:about="ARR_2B2">
+		<geo:code_arrondissement>2B2</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Bastia</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2B033"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B03">
+				<geo:code_canton>2B03</geo:code_canton>
+				<geo:nom xml:lang="fr">Bastia  1er Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B04">
+				<geo:code_canton>2B04</geo:code_canton>
+				<geo:nom xml:lang="fr">Bastia  2e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B08">
+				<geo:code_canton>2B08</geo:code_canton>
+				<geo:nom xml:lang="fr">Borgo</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B09">
+				<geo:code_canton>2B09</geo:code_canton>
+				<geo:nom xml:lang="fr">Sagro-di-Santa-Giulia</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B42">
+				<geo:code_canton>2B42</geo:code_canton>
+				<geo:nom xml:lang="fr">Capobianco</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B45">
+				<geo:code_canton>2B45</geo:code_canton>
+				<geo:nom xml:lang="fr">San-Martino-di-Lota</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B67">
+				<geo:code_canton>2B67</geo:code_canton>
+				<geo:nom xml:lang="fr">Bastia  3e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B68">
+				<geo:code_canton>2B68</geo:code_canton>
+				<geo:nom xml:lang="fr">Bastia  4e  Canton</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B69">
+				<geo:code_canton>2B69</geo:code_canton>
+				<geo:nom xml:lang="fr">Bastia  5e  (Canton Lupino)</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B71">
+				<geo:code_canton>2B71</geo:code_canton>
+				<geo:nom xml:lang="fr">Bastia  6e  (Canton Furiani-Montésoro)</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B030">
+				<geo:code_commune>2B030</geo:code_commune>
+				<geo:nom xml:lang="fr">Barrettali</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B033">
+				<geo:code_commune>2B033</geo:code_commune>
+				<geo:nom xml:lang="fr">Bastia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B037">
+				<geo:code_commune>2B037</geo:code_commune>
+				<geo:nom xml:lang="fr">Biguglia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B042">
+				<geo:code_commune>2B042</geo:code_commune>
+				<geo:nom xml:lang="fr">Borgo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B043">
+				<geo:code_commune>2B043</geo:code_commune>
+				<geo:nom xml:lang="fr">Brando</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B046">
+				<geo:code_commune>2B046</geo:code_commune>
+				<geo:nom xml:lang="fr">Cagnano</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B058">
+				<geo:code_commune>2B058</geo:code_commune>
+				<geo:nom xml:lang="fr">Canari</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B086">
+				<geo:code_commune>2B086</geo:code_commune>
+				<geo:nom xml:lang="fr">Centuri</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B107">
+				<geo:code_commune>2B107</geo:code_commune>
+				<geo:nom xml:lang="fr">Ersa</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B120">
+				<geo:code_commune>2B120</geo:code_commune>
+				<geo:nom xml:lang="fr">Furiani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B148">
+				<geo:code_commune>2B148</geo:code_commune>
+				<geo:nom xml:lang="fr">Lucciana</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B152">
+				<geo:code_commune>2B152</geo:code_commune>
+				<geo:nom xml:lang="fr">Luri</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B159">
+				<geo:code_commune>2B159</geo:code_commune>
+				<geo:nom xml:lang="fr">Meria</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B170">
+				<geo:code_commune>2B170</geo:code_commune>
+				<geo:nom xml:lang="fr">Morsiglia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B178">
+				<geo:code_commune>2B178</geo:code_commune>
+				<geo:nom xml:lang="fr">Nonza</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B183">
+				<geo:code_commune>2B183</geo:code_commune>
+				<geo:nom xml:lang="fr">Ogliastro</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B184">
+				<geo:code_commune>2B184</geo:code_commune>
+				<geo:nom xml:lang="fr">Olcani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B187">
+				<geo:code_commune>2B187</geo:code_commune>
+				<geo:nom xml:lang="fr">Olmeta-di-Capocorso</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B224">
+				<geo:code_commune>2B224</geo:code_commune>
+				<geo:nom xml:lang="fr">Pietracorbara</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B233">
+				<geo:code_commune>2B233</geo:code_commune>
+				<geo:nom xml:lang="fr">Pino</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B261">
+				<geo:code_commune>2B261</geo:code_commune>
+				<geo:nom xml:lang="fr">Rogliano</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B281">
+				<geo:code_commune>2B281</geo:code_commune>
+				<geo:nom xml:lang="fr">Sisco</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B305">
+				<geo:code_commune>2B305</geo:code_commune>
+				<geo:nom xml:lang="fr">San-Martino-di-Lota</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B309">
+				<geo:code_commune>2B309</geo:code_commune>
+				<geo:nom xml:lang="fr">Santa-Maria-di-Lota</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B327">
+				<geo:code_commune>2B327</geo:code_commune>
+				<geo:nom xml:lang="fr">Tomino</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B350">
+				<geo:code_commune>2B350</geo:code_commune>
+				<geo:nom xml:lang="fr">Vignale</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B353">
+				<geo:code_commune>2B353</geo:code_commune>
+				<geo:nom xml:lang="fr">Ville-di-Pietrabugno</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_2B3">
+		<geo:code_arrondissement>2B3</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Corte</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2B096"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B10">
+				<geo:code_canton>2B10</geo:code_canton>
+				<geo:nom xml:lang="fr">Niolu-Omessa</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B14">
+				<geo:code_canton>2B14</geo:code_canton>
+				<geo:nom xml:lang="fr">Alto-di-Casaconi</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B16">
+				<geo:code_canton>2B16</geo:code_canton>
+				<geo:nom xml:lang="fr">Campoloro-di-Moriani</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B17">
+				<geo:code_canton>2B17</geo:code_canton>
+				<geo:nom xml:lang="fr">Corte</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B19">
+				<geo:code_canton>2B19</geo:code_canton>
+				<geo:nom xml:lang="fr">Ghisoni</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B24">
+				<geo:code_canton>2B24</geo:code_canton>
+				<geo:nom xml:lang="fr">Moïta-Verde</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B25">
+				<geo:code_canton>2B25</geo:code_canton>
+				<geo:nom xml:lang="fr">Castifao-Morosaglia</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B37">
+				<geo:code_canton>2B37</geo:code_canton>
+				<geo:nom xml:lang="fr">Orezza-Alesani</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B39">
+				<geo:code_canton>2B39</geo:code_canton>
+				<geo:nom xml:lang="fr">Fiumalto-d'Ampugnani</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B41">
+				<geo:code_canton>2B41</geo:code_canton>
+				<geo:nom xml:lang="fr">Prunelli-di-Fiumorbo</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B54">
+				<geo:code_canton>2B54</geo:code_canton>
+				<geo:nom xml:lang="fr">Bustanico</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B58">
+				<geo:code_canton>2B58</geo:code_canton>
+				<geo:nom xml:lang="fr">Venaco</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B59">
+				<geo:code_canton>2B59</geo:code_canton>
+				<geo:nom xml:lang="fr">Vescovato</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B60">
+				<geo:code_canton>2B60</geo:code_canton>
+				<geo:nom xml:lang="fr">Vezzani</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B002">
+				<geo:code_commune>2B002</geo:code_commune>
+				<geo:nom xml:lang="fr">Aghione</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B003">
+				<geo:code_commune>2B003</geo:code_commune>
+				<geo:nom xml:lang="fr">Aiti</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B005">
+				<geo:code_commune>2B005</geo:code_commune>
+				<geo:nom xml:lang="fr">Alando</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B007">
+				<geo:code_commune>2B007</geo:code_commune>
+				<geo:nom xml:lang="fr">Albertacce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B009">
+				<geo:code_commune>2B009</geo:code_commune>
+				<geo:nom xml:lang="fr">Aléria</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B012">
+				<geo:code_commune>2B012</geo:code_commune>
+				<geo:nom xml:lang="fr">Altiani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B013">
+				<geo:code_commune>2B013</geo:code_commune>
+				<geo:nom xml:lang="fr">Alzi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B015">
+				<geo:code_commune>2B015</geo:code_commune>
+				<geo:nom xml:lang="fr">Ampriani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B016">
+				<geo:code_commune>2B016</geo:code_commune>
+				<geo:nom xml:lang="fr">Antisanti</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B023">
+				<geo:code_commune>2B023</geo:code_commune>
+				<geo:nom xml:lang="fr">Asco</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B036">
+				<geo:code_commune>2B036</geo:code_commune>
+				<geo:nom xml:lang="fr">Bigorno</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B039">
+				<geo:code_commune>2B039</geo:code_commune>
+				<geo:nom xml:lang="fr">Bisinchi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B045">
+				<geo:code_commune>2B045</geo:code_commune>
+				<geo:nom xml:lang="fr">Bustanico</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B047">
+				<geo:code_commune>2B047</geo:code_commune>
+				<geo:nom xml:lang="fr">Calacuccia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B051">
+				<geo:code_commune>2B051</geo:code_commune>
+				<geo:nom xml:lang="fr">Cambia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B052">
+				<geo:code_commune>2B052</geo:code_commune>
+				<geo:nom xml:lang="fr">Campana</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B053">
+				<geo:code_commune>2B053</geo:code_commune>
+				<geo:nom xml:lang="fr">Campi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B054">
+				<geo:code_commune>2B054</geo:code_commune>
+				<geo:nom xml:lang="fr">Campile</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B055">
+				<geo:code_commune>2B055</geo:code_commune>
+				<geo:nom xml:lang="fr">Campitello</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B057">
+				<geo:code_commune>2B057</geo:code_commune>
+				<geo:nom xml:lang="fr">Canale-di-Verde</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B059">
+				<geo:code_commune>2B059</geo:code_commune>
+				<geo:nom xml:lang="fr">Canavaggia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B063">
+				<geo:code_commune>2B063</geo:code_commune>
+				<geo:nom xml:lang="fr">Carcheto-Brustico</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B067">
+				<geo:code_commune>2B067</geo:code_commune>
+				<geo:nom xml:lang="fr">Carpineto</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B068">
+				<geo:code_commune>2B068</geo:code_commune>
+				<geo:nom xml:lang="fr">Carticasi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B069">
+				<geo:code_commune>2B069</geo:code_commune>
+				<geo:nom xml:lang="fr">Casabianca</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B072">
+				<geo:code_commune>2B072</geo:code_commune>
+				<geo:nom xml:lang="fr">Casalta</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B073">
+				<geo:code_commune>2B073</geo:code_commune>
+				<geo:nom xml:lang="fr">Casamaccioli</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B074">
+				<geo:code_commune>2B074</geo:code_commune>
+				<geo:nom xml:lang="fr">Casanova</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B075">
+				<geo:code_commune>2B075</geo:code_commune>
+				<geo:nom xml:lang="fr">Casevecchie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B077">
+				<geo:code_commune>2B077</geo:code_commune>
+				<geo:nom xml:lang="fr">Castellare-di-Casinca</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B078">
+				<geo:code_commune>2B078</geo:code_commune>
+				<geo:nom xml:lang="fr">Castellare-di-Mercurio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B079">
+				<geo:code_commune>2B079</geo:code_commune>
+				<geo:nom xml:lang="fr">Castello-di-Rostino</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B080">
+				<geo:code_commune>2B080</geo:code_commune>
+				<geo:nom xml:lang="fr">Castifao</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B081">
+				<geo:code_commune>2B081</geo:code_commune>
+				<geo:nom xml:lang="fr">Castiglione</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B082">
+				<geo:code_commune>2B082</geo:code_commune>
+				<geo:nom xml:lang="fr">Castineta</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B083">
+				<geo:code_commune>2B083</geo:code_commune>
+				<geo:nom xml:lang="fr">Castirla</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B087">
+				<geo:code_commune>2B087</geo:code_commune>
+				<geo:nom xml:lang="fr">Cervione</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B088">
+				<geo:code_commune>2B088</geo:code_commune>
+				<geo:nom xml:lang="fr">Chiatra</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B095">
+				<geo:code_commune>2B095</geo:code_commune>
+				<geo:nom xml:lang="fr">Corscia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B096">
+				<geo:code_commune>2B096</geo:code_commune>
+				<geo:nom xml:lang="fr">Corte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B101">
+				<geo:code_commune>2B101</geo:code_commune>
+				<geo:nom xml:lang="fr">Croce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B102">
+				<geo:code_commune>2B102</geo:code_commune>
+				<geo:nom xml:lang="fr">Crocicchia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B105">
+				<geo:code_commune>2B105</geo:code_commune>
+				<geo:nom xml:lang="fr">Erbajolo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B106">
+				<geo:code_commune>2B106</geo:code_commune>
+				<geo:nom xml:lang="fr">Érone</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B110">
+				<geo:code_commune>2B110</geo:code_commune>
+				<geo:nom xml:lang="fr">Favalello</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B111">
+				<geo:code_commune>2B111</geo:code_commune>
+				<geo:nom xml:lang="fr">Felce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B113">
+				<geo:code_commune>2B113</geo:code_commune>
+				<geo:nom xml:lang="fr">Ficaja</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B116">
+				<geo:code_commune>2B116</geo:code_commune>
+				<geo:nom xml:lang="fr">Focicchia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B122">
+				<geo:code_commune>2B122</geo:code_commune>
+				<geo:nom xml:lang="fr">Gavignano</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B123">
+				<geo:code_commune>2B123</geo:code_commune>
+				<geo:nom xml:lang="fr">Ghisonaccia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B124">
+				<geo:code_commune>2B124</geo:code_commune>
+				<geo:nom xml:lang="fr">Ghisoni</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B125">
+				<geo:code_commune>2B125</geo:code_commune>
+				<geo:nom xml:lang="fr">Giocatojo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B126">
+				<geo:code_commune>2B126</geo:code_commune>
+				<geo:nom xml:lang="fr">Giuncaggio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B135">
+				<geo:code_commune>2B135</geo:code_commune>
+				<geo:nom xml:lang="fr">Isolaccio-di-Fiumorbo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B137">
+				<geo:code_commune>2B137</geo:code_commune>
+				<geo:nom xml:lang="fr">Lano</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B140">
+				<geo:code_commune>2B140</geo:code_commune>
+				<geo:nom xml:lang="fr">Lento</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B143">
+				<geo:code_commune>2B143</geo:code_commune>
+				<geo:nom xml:lang="fr">Linguizzetta</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B145">
+				<geo:code_commune>2B145</geo:code_commune>
+				<geo:nom xml:lang="fr">Loreto-di-Casinca</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B147">
+				<geo:code_commune>2B147</geo:code_commune>
+				<geo:nom xml:lang="fr">Lozzi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B149">
+				<geo:code_commune>2B149</geo:code_commune>
+				<geo:nom xml:lang="fr">Lugo-di-Nazza</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B155">
+				<geo:code_commune>2B155</geo:code_commune>
+				<geo:nom xml:lang="fr">Matra</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B157">
+				<geo:code_commune>2B157</geo:code_commune>
+				<geo:nom xml:lang="fr">Mazzola</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B161">
+				<geo:code_commune>2B161</geo:code_commune>
+				<geo:nom xml:lang="fr">Moïta</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B162">
+				<geo:code_commune>2B162</geo:code_commune>
+				<geo:nom xml:lang="fr">Moltifao</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B164">
+				<geo:code_commune>2B164</geo:code_commune>
+				<geo:nom xml:lang="fr">Monacia-d'Orezza</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B166">
+				<geo:code_commune>2B166</geo:code_commune>
+				<geo:nom xml:lang="fr">Monte</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B169">
+				<geo:code_commune>2B169</geo:code_commune>
+				<geo:nom xml:lang="fr">Morosaglia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B171">
+				<geo:code_commune>2B171</geo:code_commune>
+				<geo:nom xml:lang="fr">Muracciole</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B176">
+				<geo:code_commune>2B176</geo:code_commune>
+				<geo:nom xml:lang="fr">Nocario</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B177">
+				<geo:code_commune>2B177</geo:code_commune>
+				<geo:nom xml:lang="fr">Noceta</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B179">
+				<geo:code_commune>2B179</geo:code_commune>
+				<geo:nom xml:lang="fr">Novale</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B192">
+				<geo:code_commune>2B192</geo:code_commune>
+				<geo:nom xml:lang="fr">Olmo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B193">
+				<geo:code_commune>2B193</geo:code_commune>
+				<geo:nom xml:lang="fr">Omessa</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B194">
+				<geo:code_commune>2B194</geo:code_commune>
+				<geo:nom xml:lang="fr">Ortale</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B195">
+				<geo:code_commune>2B195</geo:code_commune>
+				<geo:nom xml:lang="fr">Ortiporio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B201">
+				<geo:code_commune>2B201</geo:code_commune>
+				<geo:nom xml:lang="fr">Pancheraccia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B202">
+				<geo:code_commune>2B202</geo:code_commune>
+				<geo:nom xml:lang="fr">Parata</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B206">
+				<geo:code_commune>2B206</geo:code_commune>
+				<geo:nom xml:lang="fr">Penta-Acquatella</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B207">
+				<geo:code_commune>2B207</geo:code_commune>
+				<geo:nom xml:lang="fr">Penta-di-Casinca</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B208">
+				<geo:code_commune>2B208</geo:code_commune>
+				<geo:nom xml:lang="fr">Perelli</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B210">
+				<geo:code_commune>2B210</geo:code_commune>
+				<geo:nom xml:lang="fr">Pero-Casevecchie</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B213">
+				<geo:code_commune>2B213</geo:code_commune>
+				<geo:nom xml:lang="fr">Pianello</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B214">
+				<geo:code_commune>2B214</geo:code_commune>
+				<geo:nom xml:lang="fr">Piano</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B216">
+				<geo:code_commune>2B216</geo:code_commune>
+				<geo:nom xml:lang="fr">Piazzali</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B217">
+				<geo:code_commune>2B217</geo:code_commune>
+				<geo:nom xml:lang="fr">Piazzole</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B218">
+				<geo:code_commune>2B218</geo:code_commune>
+				<geo:nom xml:lang="fr">Piedicorte-di-Gaggio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B219">
+				<geo:code_commune>2B219</geo:code_commune>
+				<geo:nom xml:lang="fr">Piedicroce</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B220">
+				<geo:code_commune>2B220</geo:code_commune>
+				<geo:nom xml:lang="fr">Piedigriggio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B221">
+				<geo:code_commune>2B221</geo:code_commune>
+				<geo:nom xml:lang="fr">Piedipartino</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B222">
+				<geo:code_commune>2B222</geo:code_commune>
+				<geo:nom xml:lang="fr">Pie-d'Orezza</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B225">
+				<geo:code_commune>2B225</geo:code_commune>
+				<geo:nom xml:lang="fr">Pietra-di-Verde</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B226">
+				<geo:code_commune>2B226</geo:code_commune>
+				<geo:nom xml:lang="fr">Pietraserena</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B227">
+				<geo:code_commune>2B227</geo:code_commune>
+				<geo:nom xml:lang="fr">Pietricaggio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B229">
+				<geo:code_commune>2B229</geo:code_commune>
+				<geo:nom xml:lang="fr">Pietroso</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B234">
+				<geo:code_commune>2B234</geo:code_commune>
+				<geo:nom xml:lang="fr">Piobetta</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B236">
+				<geo:code_commune>2B236</geo:code_commune>
+				<geo:nom xml:lang="fr">Poggio-di-Nazza</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B238">
+				<geo:code_commune>2B238</geo:code_commune>
+				<geo:nom xml:lang="fr">Poggio-di-Venaco</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B241">
+				<geo:code_commune>2B241</geo:code_commune>
+				<geo:nom xml:lang="fr">Poggio-Marinaccio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B242">
+				<geo:code_commune>2B242</geo:code_commune>
+				<geo:nom xml:lang="fr">Poggio-Mezzana</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B243">
+				<geo:code_commune>2B243</geo:code_commune>
+				<geo:nom xml:lang="fr">Polveroso</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B244">
+				<geo:code_commune>2B244</geo:code_commune>
+				<geo:nom xml:lang="fr">Popolasca</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B245">
+				<geo:code_commune>2B245</geo:code_commune>
+				<geo:nom xml:lang="fr">Porri</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B246">
+				<geo:code_commune>2B246</geo:code_commune>
+				<geo:nom xml:lang="fr">La Porta</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B248">
+				<geo:code_commune>2B248</geo:code_commune>
+				<geo:nom xml:lang="fr">Prato-di-Giovellina</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B250">
+				<geo:code_commune>2B250</geo:code_commune>
+				<geo:nom xml:lang="fr">Prunelli-di-Casacconi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B251">
+				<geo:code_commune>2B251</geo:code_commune>
+				<geo:nom xml:lang="fr">Prunelli-di-Fiumorbo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B252">
+				<geo:code_commune>2B252</geo:code_commune>
+				<geo:nom xml:lang="fr">Pruno</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B255">
+				<geo:code_commune>2B255</geo:code_commune>
+				<geo:nom xml:lang="fr">Quercitello</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B256">
+				<geo:code_commune>2B256</geo:code_commune>
+				<geo:nom xml:lang="fr">Rapaggio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B260">
+				<geo:code_commune>2B260</geo:code_commune>
+				<geo:nom xml:lang="fr">Riventosa</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B263">
+				<geo:code_commune>2B263</geo:code_commune>
+				<geo:nom xml:lang="fr">Rospigliani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B264">
+				<geo:code_commune>2B264</geo:code_commune>
+				<geo:nom xml:lang="fr">Rusio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B267">
+				<geo:code_commune>2B267</geo:code_commune>
+				<geo:nom xml:lang="fr">Saliceto</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B273">
+				<geo:code_commune>2B273</geo:code_commune>
+				<geo:nom xml:lang="fr">Scata</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B274">
+				<geo:code_commune>2B274</geo:code_commune>
+				<geo:nom xml:lang="fr">Scolca</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B275">
+				<geo:code_commune>2B275</geo:code_commune>
+				<geo:nom xml:lang="fr">Sermano</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B277">
+				<geo:code_commune>2B277</geo:code_commune>
+				<geo:nom xml:lang="fr">Serra-di-Fiumorbo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B280">
+				<geo:code_commune>2B280</geo:code_commune>
+				<geo:nom xml:lang="fr">Silvareccio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B283">
+				<geo:code_commune>2B283</geo:code_commune>
+				<geo:nom xml:lang="fr">Solaro</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B286">
+				<geo:code_commune>2B286</geo:code_commune>
+				<geo:nom xml:lang="fr">Sorbo-Ocagnano</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B289">
+				<geo:code_commune>2B289</geo:code_commune>
+				<geo:nom xml:lang="fr">Soveria</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B291">
+				<geo:code_commune>2B291</geo:code_commune>
+				<geo:nom xml:lang="fr">Stazzona</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B292">
+				<geo:code_commune>2B292</geo:code_commune>
+				<geo:nom xml:lang="fr">Sant'Andréa-di-Bozio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B293">
+				<geo:code_commune>2B293</geo:code_commune>
+				<geo:nom xml:lang="fr">Sant'Andréa-di-Cotone</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B297">
+				<geo:code_commune>2B297</geo:code_commune>
+				<geo:nom xml:lang="fr">San-Damiano</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B299">
+				<geo:code_commune>2B299</geo:code_commune>
+				<geo:nom xml:lang="fr">San-Gavino-d'Ampugnani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B302">
+				<geo:code_commune>2B302</geo:code_commune>
+				<geo:nom xml:lang="fr">San-Giovanni-di-Moriani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B303">
+				<geo:code_commune>2B303</geo:code_commune>
+				<geo:nom xml:lang="fr">San-Giuliano</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B304">
+				<geo:code_commune>2B304</geo:code_commune>
+				<geo:nom xml:lang="fr">San-Lorenzo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B306">
+				<geo:code_commune>2B306</geo:code_commune>
+				<geo:nom xml:lang="fr">Santa-Lucia-di-Mercurio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B307">
+				<geo:code_commune>2B307</geo:code_commune>
+				<geo:nom xml:lang="fr">Santa-Lucia-di-Moriani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B311">
+				<geo:code_commune>2B311</geo:code_commune>
+				<geo:nom xml:lang="fr">Santa-Maria-Poggio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B313">
+				<geo:code_commune>2B313</geo:code_commune>
+				<geo:nom xml:lang="fr">San-Nicolao</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B315">
+				<geo:code_commune>2B315</geo:code_commune>
+				<geo:nom xml:lang="fr">Santo-Pietro-di-Venaco</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B317">
+				<geo:code_commune>2B317</geo:code_commune>
+				<geo:nom xml:lang="fr">Santa-Reparata-di-Moriani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B318">
+				<geo:code_commune>2B318</geo:code_commune>
+				<geo:nom xml:lang="fr">Taglio-Isolaccio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B319">
+				<geo:code_commune>2B319</geo:code_commune>
+				<geo:nom xml:lang="fr">Talasani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B320">
+				<geo:code_commune>2B320</geo:code_commune>
+				<geo:nom xml:lang="fr">Tallone</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B321">
+				<geo:code_commune>2B321</geo:code_commune>
+				<geo:nom xml:lang="fr">Tarrano</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B328">
+				<geo:code_commune>2B328</geo:code_commune>
+				<geo:nom xml:lang="fr">Tox</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B329">
+				<geo:code_commune>2B329</geo:code_commune>
+				<geo:nom xml:lang="fr">Tralonca</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B334">
+				<geo:code_commune>2B334</geo:code_commune>
+				<geo:nom xml:lang="fr">Valle-d'Alesani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B335">
+				<geo:code_commune>2B335</geo:code_commune>
+				<geo:nom xml:lang="fr">Valle-di-Campoloro</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B337">
+				<geo:code_commune>2B337</geo:code_commune>
+				<geo:nom xml:lang="fr">Valle-di-Rostino</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B338">
+				<geo:code_commune>2B338</geo:code_commune>
+				<geo:nom xml:lang="fr">Valle-d'Orezza</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B340">
+				<geo:code_commune>2B340</geo:code_commune>
+				<geo:nom xml:lang="fr">Velone-Orneto</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B341">
+				<geo:code_commune>2B341</geo:code_commune>
+				<geo:nom xml:lang="fr">Venaco</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B342">
+				<geo:code_commune>2B342</geo:code_commune>
+				<geo:nom xml:lang="fr">Ventiseri</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B343">
+				<geo:code_commune>2B343</geo:code_commune>
+				<geo:nom xml:lang="fr">Venzolasca</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B344">
+				<geo:code_commune>2B344</geo:code_commune>
+				<geo:nom xml:lang="fr">Verdèse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B346">
+				<geo:code_commune>2B346</geo:code_commune>
+				<geo:nom xml:lang="fr">Vescovato</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B347">
+				<geo:code_commune>2B347</geo:code_commune>
+				<geo:nom xml:lang="fr">Vezzani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B354">
+				<geo:code_commune>2B354</geo:code_commune>
+				<geo:nom xml:lang="fr">Vivario</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B355">
+				<geo:code_commune>2B355</geo:code_commune>
+				<geo:nom xml:lang="fr">Volpajola</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B356">
+				<geo:code_commune>2B356</geo:code_commune>
+				<geo:nom xml:lang="fr">Zalana</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B364">
+				<geo:code_commune>2B364</geo:code_commune>
+				<geo:nom xml:lang="fr">Zuani</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B365">
+				<geo:code_commune>2B365</geo:code_commune>
+				<geo:nom xml:lang="fr">San-Gavino-di-Fiumorbo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B366">
+				<geo:code_commune>2B366</geo:code_commune>
+				<geo:nom xml:lang="fr">Chisa</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+	<geo:Arrondissement rdf:about="ARR_2B5">
+		<geo:code_arrondissement>2B5</geo:code_arrondissement>
+		<geo:nom xml:lang="fr">Calvi</geo:nom>
+		<geo:chef-lieu rdf:resource="COM_2B050"/>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B05">
+				<geo:code_canton>2B05</geo:code_canton>
+				<geo:nom xml:lang="fr">Belgodère</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B11">
+				<geo:code_canton>2B11</geo:code_canton>
+				<geo:nom xml:lang="fr">Calenzana</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B12">
+				<geo:code_canton>2B12</geo:code_canton>
+				<geo:nom xml:lang="fr">Calvi</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B20">
+				<geo:code_canton>2B20</geo:code_canton>
+				<geo:nom xml:lang="fr">L'Île-Rousse</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B26">
+				<geo:code_canton>2B26</geo:code_canton>
+				<geo:nom xml:lang="fr">Le Haut-Nebbio</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Canton rdf:about="CAN_2B29">
+				<geo:code_canton>2B29</geo:code_canton>
+				<geo:nom xml:lang="fr">La Conca-d'Oro</geo:nom>
+			</geo:Canton>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B010">
+				<geo:code_commune>2B010</geo:code_commune>
+				<geo:nom xml:lang="fr">Algajola</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B020">
+				<geo:code_commune>2B020</geo:code_commune>
+				<geo:nom xml:lang="fr">Aregno</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B025">
+				<geo:code_commune>2B025</geo:code_commune>
+				<geo:nom xml:lang="fr">Avapessa</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B029">
+				<geo:code_commune>2B029</geo:code_commune>
+				<geo:nom xml:lang="fr">Barbaggio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B034">
+				<geo:code_commune>2B034</geo:code_commune>
+				<geo:nom xml:lang="fr">Belgodère</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B049">
+				<geo:code_commune>2B049</geo:code_commune>
+				<geo:nom xml:lang="fr">Calenzana</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B050">
+				<geo:code_commune>2B050</geo:code_commune>
+				<geo:nom xml:lang="fr">Calvi</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B084">
+				<geo:code_commune>2B084</geo:code_commune>
+				<geo:nom xml:lang="fr">Cateri</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B093">
+				<geo:code_commune>2B093</geo:code_commune>
+				<geo:nom xml:lang="fr">Corbara</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B097">
+				<geo:code_commune>2B097</geo:code_commune>
+				<geo:nom xml:lang="fr">Costa</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B109">
+				<geo:code_commune>2B109</geo:code_commune>
+				<geo:nom xml:lang="fr">Farinole</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B112">
+				<geo:code_commune>2B112</geo:code_commune>
+				<geo:nom xml:lang="fr">Feliceto</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B121">
+				<geo:code_commune>2B121</geo:code_commune>
+				<geo:nom xml:lang="fr">Galéria</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B134">
+				<geo:code_commune>2B134</geo:code_commune>
+				<geo:nom xml:lang="fr">L'Île-Rousse</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B136">
+				<geo:code_commune>2B136</geo:code_commune>
+				<geo:nom xml:lang="fr">Lama</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B138">
+				<geo:code_commune>2B138</geo:code_commune>
+				<geo:nom xml:lang="fr">Lavatoggio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B150">
+				<geo:code_commune>2B150</geo:code_commune>
+				<geo:nom xml:lang="fr">Lumio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B153">
+				<geo:code_commune>2B153</geo:code_commune>
+				<geo:nom xml:lang="fr">Manso</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B156">
+				<geo:code_commune>2B156</geo:code_commune>
+				<geo:nom xml:lang="fr">Mausoléo</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B165">
+				<geo:code_commune>2B165</geo:code_commune>
+				<geo:nom xml:lang="fr">Moncale</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B167">
+				<geo:code_commune>2B167</geo:code_commune>
+				<geo:nom xml:lang="fr">Montegrosso</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B168">
+				<geo:code_commune>2B168</geo:code_commune>
+				<geo:nom xml:lang="fr">Monticello</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B172">
+				<geo:code_commune>2B172</geo:code_commune>
+				<geo:nom xml:lang="fr">Murato</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B173">
+				<geo:code_commune>2B173</geo:code_commune>
+				<geo:nom xml:lang="fr">Muro</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B175">
+				<geo:code_commune>2B175</geo:code_commune>
+				<geo:nom xml:lang="fr">Nessa</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B180">
+				<geo:code_commune>2B180</geo:code_commune>
+				<geo:nom xml:lang="fr">Novella</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B182">
+				<geo:code_commune>2B182</geo:code_commune>
+				<geo:nom xml:lang="fr">Occhiatana</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B185">
+				<geo:code_commune>2B185</geo:code_commune>
+				<geo:nom xml:lang="fr">Oletta</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B188">
+				<geo:code_commune>2B188</geo:code_commune>
+				<geo:nom xml:lang="fr">Olmeta-di-Tuda</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B190">
+				<geo:code_commune>2B190</geo:code_commune>
+				<geo:nom xml:lang="fr">Olmi-Cappella</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B199">
+				<geo:code_commune>2B199</geo:code_commune>
+				<geo:nom xml:lang="fr">Palasca</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B205">
+				<geo:code_commune>2B205</geo:code_commune>
+				<geo:nom xml:lang="fr">Patrimonio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B223">
+				<geo:code_commune>2B223</geo:code_commune>
+				<geo:nom xml:lang="fr">Pietralba</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B230">
+				<geo:code_commune>2B230</geo:code_commune>
+				<geo:nom xml:lang="fr">Piève</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B231">
+				<geo:code_commune>2B231</geo:code_commune>
+				<geo:nom xml:lang="fr">Pigna</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B235">
+				<geo:code_commune>2B235</geo:code_commune>
+				<geo:nom xml:lang="fr">Pioggiola</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B239">
+				<geo:code_commune>2B239</geo:code_commune>
+				<geo:nom xml:lang="fr">Poggio-d'Oletta</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B257">
+				<geo:code_commune>2B257</geo:code_commune>
+				<geo:nom xml:lang="fr">Rapale</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B265">
+				<geo:code_commune>2B265</geo:code_commune>
+				<geo:nom xml:lang="fr">Rutali</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B287">
+				<geo:code_commune>2B287</geo:code_commune>
+				<geo:nom xml:lang="fr">Sorio</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B290">
+				<geo:code_commune>2B290</geo:code_commune>
+				<geo:nom xml:lang="fr">Speloncato</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B296">
+				<geo:code_commune>2B296</geo:code_commune>
+				<geo:nom xml:lang="fr">Sant'Antonino</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B298">
+				<geo:code_commune>2B298</geo:code_commune>
+				<geo:nom xml:lang="fr">Saint-Florent</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B301">
+				<geo:code_commune>2B301</geo:code_commune>
+				<geo:nom xml:lang="fr">San-Gavino-di-Tenda</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B314">
+				<geo:code_commune>2B314</geo:code_commune>
+				<geo:nom xml:lang="fr">Santo-Pietro-di-Tenda</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B316">
+				<geo:code_commune>2B316</geo:code_commune>
+				<geo:nom xml:lang="fr">Santa-Reparata-di-Balagna</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B332">
+				<geo:code_commune>2B332</geo:code_commune>
+				<geo:nom xml:lang="fr">Urtaca</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B333">
+				<geo:code_commune>2B333</geo:code_commune>
+				<geo:nom xml:lang="fr">Vallecalle</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B339">
+				<geo:code_commune>2B339</geo:code_commune>
+				<geo:nom xml:lang="fr">Vallica</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B352">
+				<geo:code_commune>2B352</geo:code_commune>
+				<geo:nom xml:lang="fr">Ville-di-Paraso</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+		<geo:subdivision>
+			<geo:Commune rdf:about="COM_2B361">
+				<geo:code_commune>2B361</geo:code_commune>
+				<geo:nom xml:lang="fr">Zilia</geo:nom>
+			</geo:Commune>
+		</geo:subdivision>
+	</geo:Arrondissement>
+
+</rdf:RDF>
